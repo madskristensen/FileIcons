@@ -10,6 +10,8 @@
 "DefaultIconMoniker"="KnownMonikers.Sound"
 [$RootKey$\ShellFileAssociations\.wav]
 "DefaultIconMoniker"="KnownMonikers.Sound"
+[$RootKey$\ShellFileAssociations\.wma]
+"DefaultIconMoniker"="KnownMonikers.Sound"
 
 ; C++
 [$RootKey$\ShellFileAssociations\.cpp]
@@ -51,6 +53,14 @@
 [$RootKey$\ShellFileAssociations\.fsx]
 "DefaultIconMoniker"="KnownMonikers.FSScript"
 
+; Feed
+[$RootKey$\ShellFileAssociations\.atom]
+"DefaultIconMoniker"="KnownMonikers.RSS"
+[$RootKey$\ShellFileAssociations\.rss]
+"DefaultIconMoniker"="KnownMonikers.RSS"
+[$RootKey$\ShellFileAssociations\.opml]
+"DefaultIconMoniker"="KnownMonikers.RSS"
+
 ; Fonts
 [$RootKey$\ShellFileAssociations\.wof]
 "DefaultIconMoniker"="KnownMonikers.Font"
@@ -59,6 +69,8 @@
 [$RootKey$\ShellFileAssociations\.woff2]
 "DefaultIconMoniker"="KnownMonikers.Font"
 [$RootKey$\ShellFileAssociations\.eot]
+"DefaultIconMoniker"="KnownMonikers.Font"
+[$RootKey$\ShellFileAssociations\.otf]
 "DefaultIconMoniker"="KnownMonikers.Font"
 [$RootKey$\ShellFileAssociations\.ttf]
 "DefaultIconMoniker"="KnownMonikers.Font"
@@ -76,9 +88,23 @@
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.htm]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.dhtml]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.sht]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.shtm]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.shtml]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.rhtml]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.vue]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.xht]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.xhtm]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.xhtml]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
 ; .ignore
@@ -130,14 +156,22 @@
 ; Java
 [$RootKey$\ShellFileAssociations\.java]
 "DefaultIconMoniker"="KnownMonikers.JavaSource"
+[$RootKey$\ShellFileAssociations\.jsp]
+"DefaultIconMoniker"="KnownMonikers.JavaSource"
+[$RootKey$\ShellFileAssociations\.jws]
+"DefaultIconMoniker"="KnownMonikers.JavaSource"
 [$RootKey$\ShellFileAssociations\.jar]
 "DefaultIconMoniker"="KnownMonikers.JARFile"
 
 ; JavaScriptScript
 [$RootKey$\ShellFileAssociations\.js]
 "DefaultIconMoniker"="KnownMonikers.JSScript"
+[$RootKey$\ShellFileAssociations\.jss]
+"DefaultIconMoniker"="KnownMonikers.JSScript"
 [$RootKey$\ShellFileAssociations\.jsx]
 "DefaultIconMoniker"="KnownMonikers.JSXScript"
+[$RootKey$\ShellFileAssociations\.rjs]
+"DefaultIconMoniker"="KnownMonikers.JSScript"
 
 ; JSON
 [$RootKey$\ShellFileAssociations\.json]
@@ -169,12 +203,32 @@
 [$RootKey$\ShellFileAssociations\.md]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 
+; Flash
+[$RootKey$\ShellFileAssociations\.fla]
+"DefaultIconMoniker"="KnownMonikers.Media"
+[$RootKey$\ShellFileAssociations\.flv]
+"DefaultIconMoniker"="KnownMonikers.Media"
+[$RootKey$\ShellFileAssociations\.swf]
+"DefaultIconMoniker"="KnownMonikers.Media"
+
 ; Perl
 [$RootKey$\ShellFileAssociations\.pl]
 "DefaultIconMoniker"="KnownMonikers.TextFile"
 
 ; PHP
 [$RootKey$\ShellFileAssociations\.php]
+"DefaultIconMoniker"="KnownMonikers.PHPFile"
+[$RootKey$\ShellFileAssociations\.php2]
+"DefaultIconMoniker"="KnownMonikers.PHPFile"
+[$RootKey$\ShellFileAssociations\.php3]
+"DefaultIconMoniker"="KnownMonikers.PHPFile"
+[$RootKey$\ShellFileAssociations\.php4]
+"DefaultIconMoniker"="KnownMonikers.PHPFile"
+[$RootKey$\ShellFileAssociations\.php5]
+"DefaultIconMoniker"="KnownMonikers.PHPFile"
+[$RootKey$\ShellFileAssociations\.phtm]
+"DefaultIconMoniker"="KnownMonikers.PHPFile"
+[$RootKey$\ShellFileAssociations\.phtml]
 "DefaultIconMoniker"="KnownMonikers.PHPFile"
 
 ; Python
@@ -199,8 +253,10 @@
 [$RootKey$\ShellFileAssociations\.sh]
 "DefaultIconMoniker"="KnownMonikers.Console"
 
-; Source map
+; Map
 [$RootKey$\ShellFileAssociations\.map]
+"DefaultIconMoniker"="KnownMonikers.SiteMap"
+[$RootKey$\ShellFileAssociations\.sitemap]
 "DefaultIconMoniker"="KnownMonikers.SiteMap"
 
 ; TypeScript
@@ -210,15 +266,27 @@
 "DefaultIconMoniker"="KnownMonikers.TSFileNode"
 
 ; Video
+[$RootKey$\ShellFileAssociations\.asf]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.avi]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.mp4]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.mpeg]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
+[$RootKey$\ShellFileAssociations\.mpg]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+[$RootKey$\ShellFileAssociations\.mov]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+[$RootKey$\ShellFileAssociations\.mts]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.ogg]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
+[$RootKey$\ShellFileAssociations\.rm]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.webm]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+[$RootKey$\ShellFileAssociations\.wmv]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
 
 ; Visual Basic
