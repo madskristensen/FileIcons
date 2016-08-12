@@ -4,10 +4,22 @@
 ; -------------------------------------------------- ;
 
 ; Audio
+[$RootKey$\ShellFileAssociations\.midi]
+"DefaultIconMoniker"="KnownMonikers.Sound"
 [$RootKey$\ShellFileAssociations\.mp3]
 "DefaultIconMoniker"="KnownMonikers.Sound"
 [$RootKey$\ShellFileAssociations\.wav]
 "DefaultIconMoniker"="KnownMonikers.Sound"
+
+; CoffeeScript
+[$RootKey$\ShellFileAssociations\.coffee]
+"DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
+[$RootKey$\ShellFileAssociations\.cson]
+"DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
+[$RootKey$\ShellFileAssociations\.iced]
+"DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
+[$RootKey$\ShellFileAssociations\.litcoffee]
+"DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
 
 ; F#
 [$RootKey$\ShellFileAssociations\.fs]
@@ -35,6 +47,44 @@
 [$RootKey$\ShellFileAssociations\.gitmodules]
 "DefaultIconMoniker"="KnownMonikers.Git"
 
+; .ignore
+[$RootKey$\ShellFileAssociations\.bzrignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.cfignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.chefignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.cvsignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.boringignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.dockerignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.eslintignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.flooignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.jpmignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.jshintignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.hgignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.mtn-ignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.nodemonignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.npmignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.p4ignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.svnignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.babelignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.vscodeignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+
 ; Images
 [$RootKey$\ShellFileAssociations\.svg]
 "DefaultIconMoniker"="KnownMonikers.Image"
@@ -50,10 +100,32 @@
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.npmrc]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.jshintrc]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.babelrc]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.job]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+
+; LiveScript
+[$RootKey$\ShellFileAssociations\.ls]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.livescript]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.lsc]
+"DefaultIconMoniker"="KnownMonikers.Script"
+
+; Manifest
+[$RootKey$\ShellFileAssociations\.appcache]
+"DefaultIconMoniker"="KnownMonikers.ManifestFile"
 
 ; Markdown
 [$RootKey$\ShellFileAssociations\.md]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
+
+; Perl
+[$RootKey$\ShellFileAssociations\.pl]
+"DefaultIconMoniker"="KnownMonikers.TextFile"
 
 ; PHP
 [$RootKey$\ShellFileAssociations\.php]
@@ -66,6 +138,12 @@
 ; Ruby
 [$RootKey$\ShellFileAssociations\.rb]
 "DefaultIconMoniker"="KnownMonikers.RBFileNode"
+
+; Scripts (generic)
+[$RootKey$\ShellFileAssociations\.rtlcssrc]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.sjs]
+"DefaultIconMoniker"="KnownMonikers.Script"
 
 ; ScriptCS
 [$RootKey$\ShellFileAssociations\.csx]
@@ -98,6 +176,10 @@
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.webm]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
+
+; WebVTT
+[$RootKey$\ShellFileAssociations\.vtt]
+"DefaultIconMoniker"="KnownMonikers.ObjectLifetimeView"
 
 ; YAML
 [$RootKey$\ShellFileAssociations\.yml]
