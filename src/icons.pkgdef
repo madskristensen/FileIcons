@@ -1,0 +1,96 @@
+﻿; -------------------------------------------------- ;
+; Find supported icons here:
+; http://glyphlist.azurewebsites.net/knownmonikers/
+; -------------------------------------------------- ;
+
+; Audio
+[$RootKey$\ShellFileAssociations\.mp3]
+"DefaultIconMoniker"="KnownMonikers.Sound"
+[$RootKey$\ShellFileAssociations\.wav]
+"DefaultIconMoniker"="KnownMonikers.Sound"
+
+; F#
+[$RootKey$\ShellFileAssociations\.fs]
+"DefaultIconMoniker"="KnownMonikers.FSFileNode"
+[$RootKey$\ShellFileAssociations\.fsx]
+"DefaultIconMoniker"="KnownMonikers.FSScript"
+
+; Fonts
+[$RootKey$\ShellFileAssociations\.wof]
+"DefaultIconMoniker"="KnownMonikers.Font"
+[$RootKey$\ShellFileAssociations\.woff]
+"DefaultIconMoniker"="KnownMonikers.Font"
+[$RootKey$\ShellFileAssociations\.woff2]
+"DefaultIconMoniker"="KnownMonikers.Font"
+[$RootKey$\ShellFileAssociations\.eot]
+"DefaultIconMoniker"="KnownMonikers.Font"
+[$RootKey$\ShellFileAssociations\.ttf]
+"DefaultIconMoniker"="KnownMonikers.Font"
+
+; GIT
+[$RootKey$\ShellFileAssociations\.gitignore]
+"DefaultIconMoniker"="KnownMonikers.Git"
+[$RootKey$\ShellFileAssociations\.gitattributes]
+"DefaultIconMoniker"="KnownMonikers.Git"
+[$RootKey$\ShellFileAssociations\.gitmodules]
+"DefaultIconMoniker"="KnownMonikers.Git"
+
+; Images
+[$RootKey$\ShellFileAssociations\.svg]
+"DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.webp]
+"DefaultIconMoniker"="KnownMonikers.Image"
+
+; Java
+[$RootKey$\ShellFileAssociations\.java]
+"DefaultIconMoniker"="KnownMonikers.JavaSource"
+
+; Markdown
+[$RootKey$\ShellFileAssociations\.md]
+"DefaultIconMoniker"="KnownMonikers.MarkdownFile"
+
+; PHP
+[$RootKey$\ShellFileAssociations\.php]
+"DefaultIconMoniker"="KnownMonikers.PHPFile"
+
+; Python
+[$RootKey$\ShellFileAssociations\.py]
+"DefaultIconMoniker"="KnownMonikers.PYFileNode"
+
+; Ruby
+[$RootKey$\ShellFileAssociations\.rb]
+"DefaultIconMoniker"="KnownMonikers.RBFileNode"
+
+; ScriptCS
+[$RootKey$\ShellFileAssociations\.csx]
+"DefaultIconMoniker"="KnownMonikers.CSFileNode"
+
+; Shell files
+[$RootKey$\ShellFileAssociations\.bat]
+"DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.cmd]
+"DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.sh]
+"DefaultIconMoniker"="KnownMonikers.Console"
+
+; TFS
+[$RootKey$\ShellFileAssociations\.tfignore]
+"DefaultIconMoniker"="KnownMonikers.TeamFoundationServer"
+
+; Video
+[$RootKey$\ShellFileAssociations\.avi]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+[$RootKey$\ShellFileAssociations\.mp4]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+[$RootKey$\ShellFileAssociations\.mpeg]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+[$RootKey$\ShellFileAssociations\.ogg]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+[$RootKey$\ShellFileAssociations\.webm]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+
+; YAML
+[$RootKey$\ShellFileAssociations\.yml]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.yaml]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
