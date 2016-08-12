@@ -2,8 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/3duxejqo9w72ynpw?svg=true)](https://ci.appveyor.com/project/madskristensen/fileicons)
 
-<!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
+Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/5e1762e8-a88b-417c-8467-6a65d771cc4e)
 or get the [CI build](http://vsixgallery.com/extension/3a7b4930-a5fb-46ec-a9b8-9610c8f953b8/).
 
 ---------------------------------------
