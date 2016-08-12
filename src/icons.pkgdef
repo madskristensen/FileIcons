@@ -18,6 +18,8 @@
 "DefaultIconMoniker"="KnownMonikers.CPPFileNode"
 [$RootKey$\ShellFileAssociations\.h]
 "DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
+[$RootKey$\ShellFileAssociations\.hh]
+"DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
 
 ; C#
 [$RootKey$\ShellFileAssociations\.cs]
@@ -34,6 +36,8 @@
 "DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
 [$RootKey$\ShellFileAssociations\.litcoffee]
 "DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
+[$RootKey$\ShellFileAssociations\.cjsx]
+"DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
 
 ; CSS
 [$RootKey$\ShellFileAssociations\.css]
@@ -46,10 +50,18 @@
 "DefaultIconMoniker"="KnownMonikers.SASSStyleSheet"
 [$RootKey$\ShellFileAssociations\.less]
 "DefaultIconMoniker"="KnownMonikers.LESSStyleSheet"
+[$RootKey$\ShellFileAssociations\.hss]
+"DefaultIconMoniker"="KnownMonikers.StyleSheet"
+[$RootKey$\ShellFileAssociations\.ccss]
+"DefaultIconMoniker"="KnownMonikers.StyleSheet"
+[$RootKey$\ShellFileAssociations\.pcss]
+"DefaultIconMoniker"="KnownMonikers.StyleSheet"
 
 ; F#
 [$RootKey$\ShellFileAssociations\.fs]
 "DefaultIconMoniker"="KnownMonikers.FSFileNode"
+[$RootKey$\ShellFileAssociations\.fsi]
+"DefaultIconMoniker"="KnownMonikers.FSScript"
 [$RootKey$\ShellFileAssociations\.fsx]
 "DefaultIconMoniker"="KnownMonikers.FSScript"
 
@@ -106,6 +118,14 @@
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.xhtml]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.cfm]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.cfml]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.handlebars]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.hbs]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
 ; .ignore
 [$RootKey$\ShellFileAssociations\.bzrignore]
@@ -154,6 +174,10 @@
 "DefaultIconMoniker"="KnownMonikers.Image"
 
 ; Java
+[$RootKey$\ShellFileAssociations\.action]
+"DefaultIconMoniker"="KnownMonikers.JavaSource"
+[$RootKey$\ShellFileAssociations\.do]
+"DefaultIconMoniker"="KnownMonikers.JavaSource"
 [$RootKey$\ShellFileAssociations\.java]
 "DefaultIconMoniker"="KnownMonikers.JavaSource"
 [$RootKey$\ShellFileAssociations\.jsp]
@@ -162,6 +186,8 @@
 "DefaultIconMoniker"="KnownMonikers.JavaSource"
 [$RootKey$\ShellFileAssociations\.jar]
 "DefaultIconMoniker"="KnownMonikers.JARFile"
+[$RootKey$\ShellFileAssociations\.wss]
+"DefaultIconMoniker"="KnownMonikers.JavaSource"
 
 ; JavaScriptScript
 [$RootKey$\ShellFileAssociations\.js]
@@ -172,9 +198,19 @@
 "DefaultIconMoniker"="KnownMonikers.JSXScript"
 [$RootKey$\ShellFileAssociations\.rjs]
 "DefaultIconMoniker"="KnownMonikers.JSScript"
+[$RootKey$\ShellFileAssociations\.es]
+"DefaultIconMoniker"="KnownMonikers.JSScript"
+[$RootKey$\ShellFileAssociations\.es6]
+"DefaultIconMoniker"="KnownMonikers.JSScript"
+[$RootKey$\ShellFileAssociations\.xsjs]
+"DefaultIconMoniker"="KnownMonikers.JSScript"
 
 ; JSON
 [$RootKey$\ShellFileAssociations\.json]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.json5]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.jsonld]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.bowerrc]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
@@ -186,6 +222,12 @@
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.job]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.geojson]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.lock]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.topojson]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 
 ; LiveScript
 [$RootKey$\ShellFileAssociations\.ls]
@@ -195,12 +237,28 @@
 [$RootKey$\ShellFileAssociations\.lsc]
 "DefaultIconMoniker"="KnownMonikers.Script"
 
+; Makefile
+[$RootKey$\ShellFileAssociations\.mak]
+"DefaultIconMoniker"="KnownMonikers.MakeFile"
+[$RootKey$\ShellFileAssociations\.mk]
+"DefaultIconMoniker"="KnownMonikers.MakeFile"
+[$RootKey$\ShellFileAssociations\.mkfile]
+"DefaultIconMoniker"="KnownMonikers.MakeFile"
+[$RootKey$\ShellFileAssociations\.rake]
+"DefaultIconMoniker"="KnownMonikers.MakeFile"
+
 ; Manifest
 [$RootKey$\ShellFileAssociations\.appcache]
 "DefaultIconMoniker"="KnownMonikers.ManifestFile"
 
 ; Markdown
+[$RootKey$\ShellFileAssociations\.markdown]
+"DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 [$RootKey$\ShellFileAssociations\.md]
+"DefaultIconMoniker"="KnownMonikers.MarkdownFile"
+[$RootKey$\ShellFileAssociations\.rmd]
+"DefaultIconMoniker"="KnownMonikers.MarkdownFile"
+[$RootKey$\ShellFileAssociations\.rst]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 
 ; Flash
@@ -212,6 +270,12 @@
 "DefaultIconMoniker"="KnownMonikers.Media"
 
 ; Perl
+[$RootKey$\ShellFileAssociations\.cgi]
+"DefaultIconMoniker"="KnownMonikers.TextFile"
+[$RootKey$\ShellFileAssociations\.fcgi]
+"DefaultIconMoniker"="KnownMonikers.TextFile"
+[$RootKey$\ShellFileAssociations\.perl]
+"DefaultIconMoniker"="KnownMonikers.TextFile"
 [$RootKey$\ShellFileAssociations\.pl]
 "DefaultIconMoniker"="KnownMonikers.TextFile"
 
@@ -226,6 +290,10 @@
 "DefaultIconMoniker"="KnownMonikers.PHPFile"
 [$RootKey$\ShellFileAssociations\.php5]
 "DefaultIconMoniker"="KnownMonikers.PHPFile"
+[$RootKey$\ShellFileAssociations\.phps]
+"DefaultIconMoniker"="KnownMonikers.PHPFile"
+[$RootKey$\ShellFileAssociations\.phpt]
+"DefaultIconMoniker"="KnownMonikers.PHPFile"
 [$RootKey$\ShellFileAssociations\.phtm]
 "DefaultIconMoniker"="KnownMonikers.PHPFile"
 [$RootKey$\ShellFileAssociations\.phtml]
@@ -237,6 +305,10 @@
 
 ; Ruby
 [$RootKey$\ShellFileAssociations\.rb]
+"DefaultIconMoniker"="KnownMonikers.RBFileNode"
+[$RootKey$\ShellFileAssociations\.erb]
+"DefaultIconMoniker"="KnownMonikers.RBFileNode"
+[$RootKey$\ShellFileAssociations\.erb.deface]
 "DefaultIconMoniker"="KnownMonikers.RBFileNode"
 
 ; Scripts (generic)
@@ -251,6 +323,8 @@
 [$RootKey$\ShellFileAssociations\.cmd]
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.sh]
+"DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.zsh]
 "DefaultIconMoniker"="KnownMonikers.Console"
 
 ; Map
@@ -299,8 +373,10 @@
 [$RootKey$\ShellFileAssociations\.vtt]
 "DefaultIconMoniker"="KnownMonikers.ObjectLifetimeView"
 
-; YAML
+; YAML/TOML
 [$RootKey$\ShellFileAssociations\.yml]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.yaml]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.toml]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
