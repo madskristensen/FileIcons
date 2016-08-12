@@ -45,6 +45,12 @@
 [$RootKey$\ShellFileAssociations\.java]
 "DefaultIconMoniker"="KnownMonikers.JavaSource"
 
+; JSON
+[$RootKey$\ShellFileAssociations\.bowerrc]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.npmrc]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+
 ; Markdown
 [$RootKey$\ShellFileAssociations\.md]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
@@ -72,6 +78,10 @@
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.sh]
 "DefaultIconMoniker"="KnownMonikers.Console"
+
+; Source map
+[$RootKey$\ShellFileAssociations\.map]
+"DefaultIconMoniker"="KnownMonikers.SiteMap"
 
 ; TFS
 [$RootKey$\ShellFileAssociations\.tfignore]
