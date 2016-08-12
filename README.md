@@ -17,6 +17,10 @@ Visual Studio doesn't provide icons for.
 
 ![Before and After](art/before-after.png)
 
+Check out the
+[full list of file icons](https://github.com/madskristensen/FileIcons/blob/master/src/icons.pkgdef)
+supported by this extension.
+
 ## Suggest new icons
 If you find any icons missing, please open an issue or send a pull
 request on the [GitHub repo](http://https://github.com/madskristensen/FileIcons).
