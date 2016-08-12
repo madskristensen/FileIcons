@@ -11,6 +11,18 @@
 [$RootKey$\ShellFileAssociations\.wav]
 "DefaultIconMoniker"="KnownMonikers.Sound"
 
+; C++
+[$RootKey$\ShellFileAssociations\.cpp]
+"DefaultIconMoniker"="KnownMonikers.CPPFileNode"
+[$RootKey$\ShellFileAssociations\.h]
+"DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
+
+; C#
+[$RootKey$\ShellFileAssociations\.cs]
+"DefaultIconMoniker"="KnownMonikers.CSFileNode"
+[$RootKey$\ShellFileAssociations\.csx]
+"DefaultIconMoniker"="KnownMonikers.CSFileNode"
+
 ; CoffeeScript
 [$RootKey$\ShellFileAssociations\.coffee]
 "DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
@@ -20,6 +32,18 @@
 "DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
 [$RootKey$\ShellFileAssociations\.litcoffee]
 "DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
+
+; CSS
+[$RootKey$\ShellFileAssociations\.css]
+"DefaultIconMoniker"="KnownMonikers.StyleSheet"
+[$RootKey$\ShellFileAssociations\.styl]
+"DefaultIconMoniker"="KnownMonikers.StyleSheet"
+[$RootKey$\ShellFileAssociations\.scss]
+"DefaultIconMoniker"="KnownMonikers.SASSStyleSheet"
+[$RootKey$\ShellFileAssociations\.sass]
+"DefaultIconMoniker"="KnownMonikers.SASSStyleSheet"
+[$RootKey$\ShellFileAssociations\.less]
+"DefaultIconMoniker"="KnownMonikers.LESSStyleSheet"
 
 ; F#
 [$RootKey$\ShellFileAssociations\.fs]
@@ -46,6 +70,16 @@
 "DefaultIconMoniker"="KnownMonikers.Git"
 [$RootKey$\ShellFileAssociations\.gitmodules]
 "DefaultIconMoniker"="KnownMonikers.Git"
+
+; HTML
+[$RootKey$\ShellFileAssociations\.html]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.htm]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.shtml]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.vue]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
 ; .ignore
 [$RootKey$\ShellFileAssociations\.bzrignore]
@@ -80,6 +114,8 @@
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 [$RootKey$\ShellFileAssociations\.svnignore]
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.tfignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 [$RootKey$\ShellFileAssociations\.babelignore]
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 [$RootKey$\ShellFileAssociations\.vscodeignore]
@@ -94,8 +130,18 @@
 ; Java
 [$RootKey$\ShellFileAssociations\.java]
 "DefaultIconMoniker"="KnownMonikers.JavaSource"
+[$RootKey$\ShellFileAssociations\.jar]
+"DefaultIconMoniker"="KnownMonikers.JARFile"
+
+; JavaScriptScript
+[$RootKey$\ShellFileAssociations\.js]
+"DefaultIconMoniker"="KnownMonikers.JSScript"
+[$RootKey$\ShellFileAssociations\.jsx]
+"DefaultIconMoniker"="KnownMonikers.JSXScript"
 
 ; JSON
+[$RootKey$\ShellFileAssociations\.json]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.bowerrc]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.npmrc]
@@ -145,10 +191,6 @@
 [$RootKey$\ShellFileAssociations\.sjs]
 "DefaultIconMoniker"="KnownMonikers.Script"
 
-; ScriptCS
-[$RootKey$\ShellFileAssociations\.csx]
-"DefaultIconMoniker"="KnownMonikers.CSFileNode"
-
 ; Shell files
 [$RootKey$\ShellFileAssociations\.bat]
 "DefaultIconMoniker"="KnownMonikers.Console"
@@ -161,9 +203,11 @@
 [$RootKey$\ShellFileAssociations\.map]
 "DefaultIconMoniker"="KnownMonikers.SiteMap"
 
-; TFS
-[$RootKey$\ShellFileAssociations\.tfignore]
-"DefaultIconMoniker"="KnownMonikers.TeamFoundationServer"
+; TypeScript
+[$RootKey$\ShellFileAssociations\.ts]
+"DefaultIconMoniker"="KnownMonikers.TSFileNode"
+[$RootKey$\ShellFileAssociations\.tsx]
+"DefaultIconMoniker"="KnownMonikers.TSFileNode"
 
 ; Video
 [$RootKey$\ShellFileAssociations\.avi]
@@ -176,6 +220,12 @@
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.webm]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
+
+; Visual Basic
+[$RootKey$\ShellFileAssociations\.vb]
+"DefaultIconMoniker"="KnownMonikers.VBFileNode"
+[$RootKey$\ShellFileAssociations\.vbs]
+"DefaultIconMoniker"="KnownMonikers.VBFileNode"
 
 ; WebVTT
 [$RootKey$\ShellFileAssociations\.vtt]
