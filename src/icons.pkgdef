@@ -13,6 +13,22 @@
 [$RootKey$\ShellFileAssociations\.wma]
 "DefaultIconMoniker"="KnownMonikers.Sound"
 
+; Binary
+[$RootKey$\ShellFileAssociations\.7z]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.ace]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.cab]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.gz]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.rar]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.tar]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.zip]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+
 ; C++
 [$RootKey$\ShellFileAssociations\.cpp]
 "DefaultIconMoniker"="KnownMonikers.CPPFileNode"
@@ -24,6 +40,8 @@
 ; C#
 [$RootKey$\ShellFileAssociations\.cs]
 "DefaultIconMoniker"="KnownMonikers.CSFileNode"
+[$RootKey$\ShellFileAssociations\.csdef]
+"DefaultIconMoniker"="KnownMonikers.CSSourceFile"
 [$RootKey$\ShellFileAssociations\.csx]
 "DefaultIconMoniker"="KnownMonikers.CSFileNode"
 
@@ -96,9 +114,11 @@
 "DefaultIconMoniker"="KnownMonikers.Git"
 
 ; HTML
-[$RootKey$\ShellFileAssociations\.html]
+[$RootKey$\ShellFileAssociations\.hta]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.htm]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.html]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.dhtml]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
@@ -107,8 +127,6 @@
 [$RootKey$\ShellFileAssociations\.shtm]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.shtml]
-"DefaultIconMoniker"="KnownMonikers.HTMLFile"
-[$RootKey$\ShellFileAssociations\.rhtml]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.vue]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
@@ -168,6 +186,26 @@
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 
 ; Images
+[$RootKey$\ShellFileAssociations\.bmp]
+"DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.gif]
+"DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.ico]
+"DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.icl]
+"DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.jpe]
+"DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.jpg]
+"DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.jpeg]
+"DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.png]
+"DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.tga]
+"DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.tiff]
+"DefaultIconMoniker"="KnownMonikers.Image"
 [$RootKey$\ShellFileAssociations\.svg]
 "DefaultIconMoniker"="KnownMonikers.Image"
 [$RootKey$\ShellFileAssociations\.webp]
@@ -191,6 +229,8 @@
 
 ; JavaScriptScript
 [$RootKey$\ShellFileAssociations\.js]
+"DefaultIconMoniker"="KnownMonikers.JSScript"
+[$RootKey$\ShellFileAssociations\.jse]
 "DefaultIconMoniker"="KnownMonikers.JSScript"
 [$RootKey$\ShellFileAssociations\.jss]
 "DefaultIconMoniker"="KnownMonikers.JSScript"
@@ -250,11 +290,19 @@
 ; Manifest
 [$RootKey$\ShellFileAssociations\.appcache]
 "DefaultIconMoniker"="KnownMonikers.ManifestFile"
+[$RootKey$\ShellFileAssociations\.manifest]
+"DefaultIconMoniker"="KnownMonikers.ManifestFile"
 
 ; Markdown
 [$RootKey$\ShellFileAssociations\.markdown]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 [$RootKey$\ShellFileAssociations\.md]
+"DefaultIconMoniker"="KnownMonikers.MarkdownFile"
+[$RootKey$\ShellFileAssociations\.mdn]
+"DefaultIconMoniker"="KnownMonikers.MarkdownFile"
+[$RootKey$\ShellFileAssociations\.mdown]
+"DefaultIconMoniker"="KnownMonikers.MarkdownFile"
+[$RootKey$\ShellFileAssociations\.mmd]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 [$RootKey$\ShellFileAssociations\.rmd]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
@@ -310,6 +358,8 @@
 "DefaultIconMoniker"="KnownMonikers.RBFileNode"
 [$RootKey$\ShellFileAssociations\.erb.deface]
 "DefaultIconMoniker"="KnownMonikers.RBFileNode"
+[$RootKey$\ShellFileAssociations\.rhtml]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
 ; Scripts (generic)
 [$RootKey$\ShellFileAssociations\.rtlcssrc]
@@ -344,17 +394,23 @@
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.avi]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
+[$RootKey$\ShellFileAssociations\.m4v]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.mp4]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.mpeg]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.mpg]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
+[$RootKey$\ShellFileAssociations\.mkv]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.mov]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.mts]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.ogg]
+"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+[$RootKey$\ShellFileAssociations\.ogv]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
 [$RootKey$\ShellFileAssociations\.rm]
 "DefaultIconMoniker"="KnownMonikers.PlayVideo"
