@@ -45,6 +45,14 @@
 [$RootKey$\ShellFileAssociations\.csx]
 "DefaultIconMoniker"="KnownMonikers.CSFileNode"
 
+; Config
+[$RootKey$\ShellFileAssociations\.config]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.editorconfig]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.htaccess]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+
 ; CoffeeScript
 [$RootKey$\ShellFileAssociations\.coffee]
 "DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
@@ -109,6 +117,8 @@
 [$RootKey$\ShellFileAssociations\.gitignore]
 "DefaultIconMoniker"="KnownMonikers.Git"
 [$RootKey$\ShellFileAssociations\.gitattributes]
+"DefaultIconMoniker"="KnownMonikers.Git"
+[$RootKey$\ShellFileAssociations\.gitkeep]
 "DefaultIconMoniker"="KnownMonikers.Git"
 [$RootKey$\ShellFileAssociations\.gitmodules]
 "DefaultIconMoniker"="KnownMonikers.Git"
@@ -227,7 +237,7 @@
 [$RootKey$\ShellFileAssociations\.wss]
 "DefaultIconMoniker"="KnownMonikers.JavaSource"
 
-; JavaScriptScript
+; JavaScript
 [$RootKey$\ShellFileAssociations\.js]
 "DefaultIconMoniker"="KnownMonikers.JSScript"
 [$RootKey$\ShellFileAssociations\.jse]
