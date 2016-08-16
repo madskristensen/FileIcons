@@ -446,3 +446,7 @@
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.toml]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
+
+; XML
+[$RootKey$\ShellFileAssociations\.runsettings]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
