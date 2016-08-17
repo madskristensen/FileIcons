@@ -23,7 +23,7 @@ supported by this extension.
 
 ## Suggest new icons
 If you find any icons missing, please open an issue or send a pull
-request on the [GitHub repo](http://https://github.com/madskristensen/FileIcons).
+request on the [GitHub repo](http://https://github.com/madskristensen/FileIcons). All known icons and their associated monikers can be found [here](http://glyphlist.azurewebsites.net/knownmonikers/).
 
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)
