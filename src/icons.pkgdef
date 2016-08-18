@@ -401,33 +401,33 @@
 
 ; Video
 [$RootKey$\ShellFileAssociations\.asf]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.avi]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.m4v]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.mp4]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.mpeg]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.mpg]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.mkv]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.mov]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.mts]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.ogg]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.ogv]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.rm]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.webm]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.wmv]
-"DefaultIconMoniker"="KnownMonikers.PlayVideo"
+"DefaultIconMoniker"="KnownMonikers.Media"
 
 ; Visual Basic
 [$RootKey$\ShellFileAssociations\.vb]
