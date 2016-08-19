@@ -450,3 +450,7 @@
 ; XML
 [$RootKey$\ShellFileAssociations\.runsettings]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.tmLanguage]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.tmSnippet]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
