@@ -441,11 +441,11 @@
 
 ; YAML/TOML
 [$RootKey$\ShellFileAssociations\.yml]
-"DefaultIconMoniker"="KnownMonikers.JSONScript"
+"DefaultIconMoniker"="KnownMonikers.Script"
 [$RootKey$\ShellFileAssociations\.yaml]
-"DefaultIconMoniker"="KnownMonikers.JSONScript"
+"DefaultIconMoniker"="KnownMonikers.Script"
 [$RootKey$\ShellFileAssociations\.toml]
-"DefaultIconMoniker"="KnownMonikers.JSONScript"
+"DefaultIconMoniker"="KnownMonikers.Script"
 
 ; XML
 [$RootKey$\ShellFileAssociations\.runsettings]
