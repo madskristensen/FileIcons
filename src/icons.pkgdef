@@ -454,3 +454,5 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.tmSnippet]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.plist]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
