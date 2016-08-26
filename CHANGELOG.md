@@ -1,7 +1,7 @@
 # Road map
 
 - [ ] More file icons
-- [ ] Added .hjson icon
+- [x] .hjson icon
 
 Features that have a checkmark are complete and available for
 download in the
@@ -17,6 +17,7 @@ on the official Visual Studio extension gallery.
 **2016-08-26**
 
 - [x] Button to report missing icons
+- [x] .proj icon
 
 ## 1.0
 
