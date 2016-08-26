@@ -1,6 +1,5 @@
 # Road map
 
-- [x] Button to report missing icons
 - [ ] More file icons
 
 Features that have a checkmark are complete and available for
@@ -11,6 +10,12 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.1
+
+**2016-08-26**
+
+- [x] Button to report missing icons
 
 ## 1.0
 
