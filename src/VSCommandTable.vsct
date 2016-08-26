@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <Extern href="stdidcmd.h"/>
+    <Extern href="vsshlids.h"/>
+    <Include href="KnownImageIds.vsct"/>
+
+    <Commands package="guidVSPackage">
+        <Groups>
+            <Group guid="guidVSPackageCmdSet" id="MyMenuGroup" priority="0x0001">
+                <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_ITEMNODE"/>
+            </Group>
+        </Groups>
+
+        <Buttons>
+            <Button guid="guidVSPackageCmdSet" id="ReportMissingIconId" priority="0x0100" type="Button">
+                <Parent guid="guidVSPackageCmdSet" id="MyMenuGroup" />
+                <Icon guid="ImageCatalogGuid" id="VBBlankFile" />
+                <CommandFlag>DefaultDisabled</CommandFlag>
+                <CommandFlag>DefaultInvisible</CommandFlag>
+                <CommandFlag>DynamicVisibility</CommandFlag>
+                <CommandFlag>TextChanges</CommandFlag>
+                <CommandFlag>IconIsMoniker</CommandFlag>
+                <Strings>
+                    <ButtonText>Suggest new icon for file</ButtonText>
+                </Strings>
+            </Button>
+        </Buttons>
+    </Commands>
+
+    <CommandPlacements>
+        <CommandPlacement guid="guidVSPackageCmdSet" id="MyMenuGroup" priority="0x0001">
+            <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_WEBITEMNODE"/>
+        </CommandPlacement>
+    </CommandPlacements>
+
+    <Symbols>
+        <GuidSymbol name="guidVSPackage" value="{e9e4d55b-0fe1-4986-aea0-bc3e209003d9}" />
+
+        <GuidSymbol name="guidVSPackageCmdSet" value="{8c303f6e-340d-410a-9055-119ed6084795}">
+            <IDSymbol name="MyMenuGroup" value="0x1020" />
+            <IDSymbol name="ReportMissingIconId" value="0x0100" />
+        </GuidSymbol>
+    </Symbols>
+</CommandTable>

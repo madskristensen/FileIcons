@@ -22,8 +22,14 @@ Check out the
 supported by this extension.
 
 ## Suggest new icons
-If you find any icons missing, please open an issue or send a pull
-request on the [GitHub repo](http://https://github.com/madskristensen/FileIcons). All known icons and their associated monikers can be found [here](http://glyphlist.azurewebsites.net/knownmonikers/).
+Though this extension helps to provide missing icons for known file
+types, there are still plenty that are missing. To make it super easy
+to suggest new icons, there is now a button for that.
+
+![Report missing icon](art/context-menu.png)
+
+Clicking that button will open a GitHub issue so an icon can be added
+for that particular file type.
 
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)

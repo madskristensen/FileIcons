@@ -1,5 +1,6 @@
 # Road map
 
+- [x] Button to report missing icons
 - [ ] More file icons
 
 Features that have a checkmark are complete and available for
