@@ -256,6 +256,8 @@
 "DefaultIconMoniker"="KnownMonikers.JSScript"
 
 ; JSON
+[$RootKey$\ShellFileAssociations\.hjson]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.json]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.json5]

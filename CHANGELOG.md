@@ -1,6 +1,7 @@
 # Road map
 
 - [ ] More file icons
+- [ ] Added .hjson icon
 
 Features that have a checkmark are complete and available for
 download in the
