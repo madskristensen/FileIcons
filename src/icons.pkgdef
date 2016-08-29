@@ -52,6 +52,8 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.htaccess]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.licx]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 
 ; CoffeeScript
 [$RootKey$\ShellFileAssociations\.coffee]
@@ -397,6 +399,10 @@
 [$RootKey$\ShellFileAssociations\.sitemap]
 "DefaultIconMoniker"="KnownMonikers.SiteMap"
 
+; Test
+[$RootKey$\ShellFileAssociations\.feature]
+"DefaultIconMoniker"="KnownMonikers.TestPlan"
+
 ; TypeScript
 [$RootKey$\ShellFileAssociations\.ts]
 "DefaultIconMoniker"="KnownMonikers.TSFileNode"
@@ -461,4 +467,6 @@
 [$RootKey$\ShellFileAssociations\.plist]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.proj]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.dtsx]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"

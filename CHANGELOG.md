@@ -3,6 +3,9 @@
 - [ ] More file icons
 - [x] .hjson icon
 - [x] .fsharplint icon
+- [x] .dtsx icon
+- [x] .licx icon
+- [x] .feature icon
 
 Features that have a checkmark are complete and available for
 download in the
