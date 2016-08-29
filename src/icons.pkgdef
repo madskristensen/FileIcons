@@ -90,6 +90,8 @@
 "DefaultIconMoniker"="KnownMonikers.FSScript"
 [$RootKey$\ShellFileAssociations\.fsx]
 "DefaultIconMoniker"="KnownMonikers.FSScript"
+[$RootKey$\ShellFileAssociations\.fsharplint]
+"DefaultIconMoniker"="KnownMonikers.FSWorkerTemplateFile"
 
 ; Feed
 [$RootKey$\ShellFileAssociations\.atom]
