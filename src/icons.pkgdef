@@ -54,6 +54,8 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.licx]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.lslm]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 
 ; CoffeeScript
 [$RootKey$\ShellFileAssociations\.coffee]

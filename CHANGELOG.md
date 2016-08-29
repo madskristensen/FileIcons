@@ -6,6 +6,7 @@
 - [x] .dtsx icon
 - [x] .licx icon
 - [x] .feature icon
+- [x] .lslm icon
 
 Features that have a checkmark are complete and available for
 download in the
