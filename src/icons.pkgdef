@@ -335,6 +335,12 @@
 [$RootKey$\ShellFileAssociations\.swf]
 "DefaultIconMoniker"="KnownMonikers.Media"
 
+; Map
+[$RootKey$\ShellFileAssociations\.map]
+"DefaultIconMoniker"="KnownMonikers.SiteMap"
+[$RootKey$\ShellFileAssociations\.sitemap]
+"DefaultIconMoniker"="KnownMonikers.SiteMap"
+
 ; Perl
 [$RootKey$\ShellFileAssociations\.cgi]
 "DefaultIconMoniker"="KnownMonikers.TextFile"
@@ -365,6 +371,14 @@
 [$RootKey$\ShellFileAssociations\.phtml]
 "DefaultIconMoniker"="KnownMonikers.PHPFile"
 
+; PowerShell
+[$RootKey$\ShellFileAssociations\.ps1]
+"DefaultIconMoniker"="KnownMonikers.PowershellFile"
+[$RootKey$\ShellFileAssociations\.psd1]
+"DefaultIconMoniker"="KnownMonikers.PowershellFile"
+[$RootKey$\ShellFileAssociations\.psm1]
+"DefaultIconMoniker"="KnownMonikers.PowershellFile"
+
 ; Python
 [$RootKey$\ShellFileAssociations\.py]
 "DefaultIconMoniker"="KnownMonikers.PYFileNode"
@@ -394,12 +408,6 @@
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.zsh]
 "DefaultIconMoniker"="KnownMonikers.Console"
-
-; Map
-[$RootKey$\ShellFileAssociations\.map]
-"DefaultIconMoniker"="KnownMonikers.SiteMap"
-[$RootKey$\ShellFileAssociations\.sitemap]
-"DefaultIconMoniker"="KnownMonikers.SiteMap"
 
 ; Test
 [$RootKey$\ShellFileAssociations\.feature]
@@ -472,11 +480,5 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.dtsx]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
-
-; PowerShell
-[$RootKey$\ShellFileAssociations\.ps1]
-"DefaultIconMoniker"="KnownMonikers.PowershellFile"
-[$RootKey$\ShellFileAssociations\.psd1]
-"DefaultIconMoniker"="KnownMonikers.PowershellFile"
-[$RootKey$\ShellFileAssociations\.psm1]
-"DefaultIconMoniker"="KnownMonikers.PowershellFile"
+[$RootKey$\ShellFileAssociations\.vsixlangpack]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"

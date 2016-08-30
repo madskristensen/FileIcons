@@ -82,7 +82,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ReportMissingIcon.cs" />
+    <Compile Include="Commands\ReportMissingIcon.cs" />
     <Compile Include="source.extension.cs">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Compile>
