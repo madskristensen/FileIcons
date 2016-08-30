@@ -1,21 +1,22 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using System.Threading;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 
 namespace FileIcons
 {
-    [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)]
     [Guid(PackageGuids.guidVSPackageString)]
-    [ProvideAutoLoad(UIContextGuids.SolutionHasSingleProject, PackageAutoLoadFlags.BackgroundLoad)]
-    [ProvideAutoLoad(UIContextGuids.SolutionHasMultipleProjects, PackageAutoLoadFlags.BackgroundLoad)]
+    [PackageRegistration(UseManagedResourcesOnly = true)]
+    [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)]
+    [ProvideAutoLoad(UIContextGuids.SolutionHasSingleProject)]
+    [ProvideAutoLoad(UIContextGuids.SolutionHasMultipleProjects)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
-    public sealed class FileIconPackage : Package
+    public sealed class FileIconPackage : AsyncPackage
     {
-        protected override void Initialize()
+        protected override async System.Threading.Tasks.Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {
-            ReportMissingIcon.Initialize(this);
+            await ReportMissingIcon.Initialize(this);
         }
     }
 }

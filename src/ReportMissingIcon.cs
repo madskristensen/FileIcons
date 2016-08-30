@@ -14,36 +14,29 @@ namespace FileIcons
     {
         private const string _urlFormat = "https://github.com/madskristensen/FileIcons/issues/new?title={0}&body={1}";
 
-        private readonly Package _package;
+        private readonly AsyncPackage _package;
         private string[] _shellExtensions;
         private string _ext;
 
-        private ReportMissingIcon(Package package)
+        private ReportMissingIcon(AsyncPackage package, OleMenuCommandService commandService)
         {
             _package = package;
 
-            var commandService = (OleMenuCommandService)ServiceProvider.GetService(typeof(IMenuCommandService));
-            if (commandService != null)
-            {
-                var id = new CommandID(PackageGuids.guidVSPackageCmdSet, PackageIds.ReportMissingIconId);
-                var command = new OleMenuCommand(Execute, id);
-                command.BeforeQueryStatus += MenuItem_BeforeQueryStatus;
-                commandService.AddCommand(command);
-            }
+            var id = new CommandID(PackageGuids.guidVSPackageCmdSet, PackageIds.ReportMissingIconId);
+            var command = new OleMenuCommand(Execute, id);
+            command.BeforeQueryStatus += BeforeQueryStatus;
+            commandService.AddCommand(command);
         }
 
         public static ReportMissingIcon Instance { get; private set; }
 
-        private IServiceProvider ServiceProvider
+        public static async System.Threading.Tasks.Task Initialize(AsyncPackage package)
         {
-            get { return _package; }
+            var commandService = await package.GetServiceAsync(typeof(IMenuCommandService)) as OleMenuCommandService;
+            Instance = new ReportMissingIcon(package, commandService);
         }
 
-        public static void Initialize(Package package)
-        {
-            Instance = new ReportMissingIcon(package);
-        }
-        private void MenuItem_BeforeQueryStatus(object sender, EventArgs e)
+        private void BeforeQueryStatus(object sender, EventArgs e)
         {
             var button = (OleMenuCommand)sender;
             button.Enabled = button.Visible = false;
