@@ -472,3 +472,11 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.dtsx]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
+
+; PowerShell
+[$RootKey$\ShellFileAssociations\.ps1]
+"DefaultIconMoniker"="KnownMonikers.PowershellFile"
+[$RootKey$\ShellFileAssociations\.psd1]
+"DefaultIconMoniker"="KnownMonikers.PowershellFile"
+[$RootKey$\ShellFileAssociations\.psm1]
+"DefaultIconMoniker"="KnownMonikers.PowershellFile"
