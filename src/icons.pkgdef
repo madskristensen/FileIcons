@@ -482,3 +482,5 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.vsixlangpack]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.targets]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"

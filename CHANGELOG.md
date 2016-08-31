@@ -9,6 +9,7 @@
 - [x] .lslm icon
 - [x] PowerShell icons (.ps1, .psm1, .psd1)
 - [x] .vsixlangpack icon
+- [x] .targets icon
 
 Features that have a checkmark are complete and available for
 download in the
