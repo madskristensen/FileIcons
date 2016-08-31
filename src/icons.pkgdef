@@ -105,6 +105,14 @@
 [$RootKey$\ShellFileAssociations\.opml]
 "DefaultIconMoniker"="KnownMonikers.RSS"
 
+; Flash
+[$RootKey$\ShellFileAssociations\.fla]
+"DefaultIconMoniker"="KnownMonikers.Media"
+[$RootKey$\ShellFileAssociations\.flv]
+"DefaultIconMoniker"="KnownMonikers.Media"
+[$RootKey$\ShellFileAssociations\.swf]
+"DefaultIconMoniker"="KnownMonikers.Media"
+
 ; Fonts
 [$RootKey$\ShellFileAssociations\.wof]
 "DefaultIconMoniker"="KnownMonikers.Font"
@@ -327,19 +335,15 @@
 [$RootKey$\ShellFileAssociations\.rst]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 
-; Flash
-[$RootKey$\ShellFileAssociations\.fla]
-"DefaultIconMoniker"="KnownMonikers.Media"
-[$RootKey$\ShellFileAssociations\.flv]
-"DefaultIconMoniker"="KnownMonikers.Media"
-[$RootKey$\ShellFileAssociations\.swf]
-"DefaultIconMoniker"="KnownMonikers.Media"
-
 ; Map
 [$RootKey$\ShellFileAssociations\.map]
 "DefaultIconMoniker"="KnownMonikers.SiteMap"
 [$RootKey$\ShellFileAssociations\.sitemap]
 "DefaultIconMoniker"="KnownMonikers.SiteMap"
+
+; NuGet
+[$RootKey$\ShellFileAssociations\.nuspec]
+"DefaultIconMoniker"="KnownMonikers.NuGet"
 
 ; Perl
 [$RootKey$\ShellFileAssociations\.cgi]

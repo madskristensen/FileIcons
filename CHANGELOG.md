@@ -1,6 +1,5 @@
 # Road map
 
-- [ ] More file icons
 - [x] .hjson icon
 - [x] .fsharplint icon
 - [x] .dtsx icon
@@ -10,6 +9,7 @@
 - [x] PowerShell icons (.ps1, .psm1, .psd1)
 - [x] .vsixlangpack icon
 - [x] .targets icon
+- [x] .nuspec icon
 
 Features that have a checkmark are complete and available for
 download in the
