@@ -2,6 +2,7 @@
 
 - [ ] More icons...
 - [x] .scmp icon
+- [x] .p12, .cer, .pfx icons
 
 Features that have a checkmark are complete and available for
 download in the

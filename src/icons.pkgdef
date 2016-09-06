@@ -45,6 +45,14 @@
 [$RootKey$\ShellFileAssociations\.csx]
 "DefaultIconMoniker"="KnownMonikers.CSFileNode"
 
+; Certificate
+[$RootKey$\ShellFileAssociations\.cer]
+"DefaultIconMoniker"="KnownMonikers.Certificate"
+[$RootKey$\ShellFileAssociations\.p12]
+"DefaultIconMoniker"="KnownMonikers.Certificate"
+[$RootKey$\ShellFileAssociations\.pfx]
+"DefaultIconMoniker"="KnownMonikers.Certificate"
+
 ; Config
 [$RootKey$\ShellFileAssociations\.config]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
