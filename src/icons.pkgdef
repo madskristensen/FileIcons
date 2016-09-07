@@ -77,6 +77,10 @@
 [$RootKey$\ShellFileAssociations\.cjsx]
 "DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
 
+; Crystal reports
+[$RootKey$\ShellFileAssociations\.rpt]
+"DefaultIconMoniker"="KnownMonikers.CrystalReport"
+
 ; CSS
 [$RootKey$\ShellFileAssociations\.css]
 "DefaultIconMoniker"="KnownMonikers.StyleSheet"
