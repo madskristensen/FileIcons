@@ -619,11 +619,11 @@
 
 ; YAML/TOML
 [$RootKey$\ShellFileAssociations\.yml]
-"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.yaml]
-"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.toml]
-"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 
 ; XML
 [$RootKey$\ShellFileAssociations\.runsettings]
