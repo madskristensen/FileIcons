@@ -31,6 +31,11 @@ to suggest new icons, there is now a button for that.
 Clicking that button will open a GitHub issue so an icon can be added
 for that particular file type.
 
+## Credit
+Some icons comes from the brilliant
+[vscode-icons](https://github.com/robertohuertasm/vscode-icons)
+extension for Visual Studio Code.
+
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)
 if you want to contribute to this project.

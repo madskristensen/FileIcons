@@ -1,14 +1,6 @@
 # Road map
 
 - [ ] More icons...
-- [x] .scmp icon
-- [x] .p12, .cer, .pfx icons
-- [x] .rpt icon
-- [x] .wxs icon
-- [x] .tpl and .swig icons
-- [x] .perl icon
-- [x] various linter file icons
-- [x] and many more...
 
 Features that have a checkmark are complete and available for
 download in the
@@ -18,6 +10,22 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.3
+
+- [x] .scmp icon
+- [x] .p12, .cer, .pfx icons
+- [x] .rpt icon
+- [x] .wxs icon
+- [x] .tpl and .swig icons
+- [x] .perl icon
+- [x] various linter file icons
+- [x] .lua icon
+- [x] .clojure icon
+- [x] .d icon
+- [x] .dart icon
+- [x] .editorconfig icon
+- [x] and many more...
 
 ## 1.2
 
