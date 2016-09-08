@@ -4,6 +4,7 @@
 - [x] .scmp icon
 - [x] .p12, .cer, .pfx icons
 - [x] .rpt icon
+- [x] .wxs icon
 
 Features that have a checkmark are complete and available for
 download in the

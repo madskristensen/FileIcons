@@ -502,3 +502,5 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.targets]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.wxs]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
