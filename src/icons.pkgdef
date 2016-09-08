@@ -57,9 +57,9 @@
 [$RootKey$\ShellFileAssociations\.config]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.editorconfig]
-"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:6"
 [$RootKey$\ShellFileAssociations\.htaccess]
-"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:2"
 [$RootKey$\ShellFileAssociations\.licx]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.lslm]
@@ -76,6 +76,14 @@
 "DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
 [$RootKey$\ShellFileAssociations\.cjsx]
 "DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
+
+; Clojure
+[$RootKey$\ShellFileAssociations\.clojure]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:1"
+[$RootKey$\ShellFileAssociations\.clj]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:1"
+[$RootKey$\ShellFileAssociations\.cljs]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:1"
 
 ; Crystal reports
 [$RootKey$\ShellFileAssociations\.rpt]
@@ -99,6 +107,36 @@
 [$RootKey$\ShellFileAssociations\.pcss]
 "DefaultIconMoniker"="KnownMonikers.StyleSheet"
 
+; D
+[$RootKey$\ShellFileAssociations\.d]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:5"
+
+; Dart
+[$RootKey$\ShellFileAssociations\.dart]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:0"
+
+; Elixir
+[$RootKey$\ShellFileAssociations\.ex]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:8"
+[$RootKey$\ShellFileAssociations\.exs]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:8"
+[$RootKey$\ShellFileAssociations\.eex]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:8"
+
+; Elm
+[$RootKey$\ShellFileAssociations\.elm]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:9"
+
+; Erlang
+[$RootKey$\ShellFileAssociations\.erl]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:11"
+[$RootKey$\ShellFileAssociations\.hrl]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:11"
+[$RootKey$\ShellFileAssociations\.emakefile]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:11"
+[$RootKey$\ShellFileAssociations\.emakerfile]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:11"
+
 ; F#
 [$RootKey$\ShellFileAssociations\.fs]
 "DefaultIconMoniker"="KnownMonikers.FSFileNode"
@@ -119,11 +157,13 @@
 
 ; Flash
 [$RootKey$\ShellFileAssociations\.fla]
-"DefaultIconMoniker"="KnownMonikers.Media"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:13"
 [$RootKey$\ShellFileAssociations\.flv]
-"DefaultIconMoniker"="KnownMonikers.Media"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:13"
 [$RootKey$\ShellFileAssociations\.swf]
-"DefaultIconMoniker"="KnownMonikers.Media"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:13"
+[$RootKey$\ShellFileAssociations\.sol]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:13"
 
 ; Fonts
 [$RootKey$\ShellFileAssociations\.wof]
@@ -138,6 +178,12 @@
 "DefaultIconMoniker"="KnownMonikers.Font"
 [$RootKey$\ShellFileAssociations\.ttf]
 "DefaultIconMoniker"="KnownMonikers.Font"
+[$RootKey$\ShellFileAssociations\.pfa]
+"DefaultIconMoniker"="KnownMonikers.Font"
+[$RootKey$\ShellFileAssociations\.pfb]
+"DefaultIconMoniker"="KnownMonikers.Font"
+[$RootKey$\ShellFileAssociations\.sfd]
+"DefaultIconMoniker"="KnownMonikers.Font"
 
 ; GIT
 [$RootKey$\ShellFileAssociations\.gitignore]
@@ -148,6 +194,32 @@
 "DefaultIconMoniker"="KnownMonikers.Git"
 [$RootKey$\ShellFileAssociations\.gitmodules]
 "DefaultIconMoniker"="KnownMonikers.Git"
+
+; Go
+[$RootKey$\ShellFileAssociations\.go]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:14"
+
+; Groovy
+[$RootKey$\ShellFileAssociations\.groovy]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:15"
+
+; Haskell
+[$RootKey$\ShellFileAssociations\.has]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:18"
+[$RootKey$\ShellFileAssociations\.hs]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:18"
+[$RootKey$\ShellFileAssociations\.lhs]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:18"
+[$RootKey$\ShellFileAssociations\.lit]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:18"
+[$RootKey$\ShellFileAssociations\.gf]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:18"
+
+; Jade
+[$RootKey$\ShellFileAssociations\.jade]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:19"
+[$RootKey$\ShellFileAssociations\.pug]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:19"
 
 ; HTML
 [$RootKey$\ShellFileAssociations\.hta]
@@ -164,8 +236,6 @@
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.shtml]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
-[$RootKey$\ShellFileAssociations\.vue]
-"DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.xht]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.xhtm]
@@ -176,14 +246,38 @@
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.cfml]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
+
+; HTML templates
+[$RootKey$\ShellFileAssociations\.ejs]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:7"
 [$RootKey$\ShellFileAssociations\.handlebars]
-"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:17"
 [$RootKey$\ShellFileAssociations\.hbs]
-"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:17"
+[$RootKey$\ShellFileAssociations\.haml]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:16"
+[$RootKey$\ShellFileAssociations\.mustache]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:24"
+[$RootKey$\ShellFileAssociations\.mst]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:24"
+[$RootKey$\ShellFileAssociations\.nunjucks]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:25"
+[$RootKey$\ShellFileAssociations\.njk]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:25"
+[$RootKey$\ShellFileAssociations\.nunjs]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:25"
+[$RootKey$\ShellFileAssociations\.nunj]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:25"
+[$RootKey$\ShellFileAssociations\.njs]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:25"
+[$RootKey$\ShellFileAssociations\.nj]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:25"
 [$RootKey$\ShellFileAssociations\.tpl]
-"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:31"
 [$RootKey$\ShellFileAssociations\.swig]
-"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:31"
+[$RootKey$\ShellFileAssociations\.vue]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:35"
 
 ; .ignore
 [$RootKey$\ShellFileAssociations\.bzrignore]
@@ -250,6 +344,8 @@
 "DefaultIconMoniker"="KnownMonikers.Image"
 [$RootKey$\ShellFileAssociations\.webp]
 "DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.psd]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:27"
 
 ; Java
 [$RootKey$\ShellFileAssociations\.action]
@@ -298,10 +394,6 @@
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.npmrc]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
-[$RootKey$\ShellFileAssociations\.jshintrc]
-"DefaultIconMoniker"="KnownMonikers.JSONScript"
-[$RootKey$\ShellFileAssociations\.babelrc]
-"DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.job]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.geojson]
@@ -310,6 +402,34 @@
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.topojson]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
+
+; Julia
+[$RootKey$\ShellFileAssociations\.jl]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:21"
+
+; Linters
+[$RootKey$\ShellFileAssociations\.babelrc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:3"
+[$RootKey$\ShellFileAssociations\.csslintrc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:4"
+[$RootKey$\ShellFileAssociations\.eslintrc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:12"
+[$RootKey$\ShellFileAssociations\.jade-lintrc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:19"
+[$RootKey$\ShellFileAssociations\.pug-lintrc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:19"
+[$RootKey$\ShellFileAssociations\.jshintrc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:20"
+[$RootKey$\ShellFileAssociations\.stylelintrc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:33"
+
+; Lisp
+[$RootKey$\ShellFileAssociations\.bil]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
+
+; Lua
+[$RootKey$\ShellFileAssociations\.lua]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:23"
 
 ; LiveScript
 [$RootKey$\ShellFileAssociations\.ls]
@@ -362,14 +482,10 @@
 "DefaultIconMoniker"="KnownMonikers.NuGet"
 
 ; Perl
-[$RootKey$\ShellFileAssociations\.cgi]
-"DefaultIconMoniker"="KnownMonikers.TextFile"
-[$RootKey$\ShellFileAssociations\.fcgi]
-"DefaultIconMoniker"="KnownMonikers.TextFile"
 [$RootKey$\ShellFileAssociations\.perl]
-"DefaultIconMoniker"="KnownMonikers.TextFile"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
 [$RootKey$\ShellFileAssociations\.pl]
-"DefaultIconMoniker"="KnownMonikers.TextFile"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
 
 ; PHP
 [$RootKey$\ShellFileAssociations\.php]
@@ -399,19 +515,31 @@
 [$RootKey$\ShellFileAssociations\.psm1]
 "DefaultIconMoniker"="KnownMonikers.PowershellFile"
 
+; Puppet
+[$RootKey$\ShellFileAssociations\.epp]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:28"
+
 ; Python
 [$RootKey$\ShellFileAssociations\.py]
 "DefaultIconMoniker"="KnownMonikers.PYFileNode"
+
+; R
+[$RootKey$\ShellFileAssociations\.r]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:29"
 
 ; Ruby
 [$RootKey$\ShellFileAssociations\.rb]
 "DefaultIconMoniker"="KnownMonikers.RBFileNode"
 [$RootKey$\ShellFileAssociations\.erb]
-"DefaultIconMoniker"="KnownMonikers.RBFileNode"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:10"
 [$RootKey$\ShellFileAssociations\.erb.deface]
-"DefaultIconMoniker"="KnownMonikers.RBFileNode"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:10"
 [$RootKey$\ShellFileAssociations\.rhtml]
-"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:10"
+
+; Rust
+[$RootKey$\ShellFileAssociations\.rs]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:30"
 
 ; Scripts (generic)
 [$RootKey$\ShellFileAssociations\.rtlcssrc]
@@ -428,6 +556,16 @@
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.zsh]
 "DefaultIconMoniker"="KnownMonikers.Console"
+
+; Sqlite
+[$RootKey$\ShellFileAssociations\.sqlite]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
+[$RootKey$\ShellFileAssociations\.db3]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
+
+; Swift
+[$RootKey$\ShellFileAssociations\.swift]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:34"
 
 ; Test
 [$RootKey$\ShellFileAssociations\.feature]
@@ -481,11 +619,11 @@
 
 ; YAML/TOML
 [$RootKey$\ShellFileAssociations\.yml]
-"DefaultIconMoniker"="KnownMonikers.Script"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
 [$RootKey$\ShellFileAssociations\.yaml]
-"DefaultIconMoniker"="KnownMonikers.Script"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
 [$RootKey$\ShellFileAssociations\.toml]
-"DefaultIconMoniker"="KnownMonikers.Script"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
 
 ; XML
 [$RootKey$\ShellFileAssociations\.runsettings]

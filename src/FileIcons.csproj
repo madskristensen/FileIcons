@@ -55,6 +55,43 @@
       <Link>Resources\LICENSE</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Resource Include="Icons\apache.png" />
+    <Resource Include="Icons\clojure.png" />
+    <Resource Include="Icons\dart.png" />
+    <Resource Include="Icons\babel.png" />
+    <Resource Include="Icons\csslint.png" />
+    <Resource Include="Icons\d.png" />
+    <Resource Include="Icons\editorconfig.png" />
+    <Resource Include="Icons\ejs.png" />
+    <Resource Include="Icons\elixir.png" />
+    <Resource Include="Icons\elm.png" />
+    <Resource Include="Icons\erb.png" />
+    <Resource Include="Icons\erlang.png" />
+    <Resource Include="Icons\eslint.png" />
+    <Resource Include="Icons\flash.png" />
+    <Resource Include="Icons\go.png" />
+    <Resource Include="Icons\groovy.png" />
+    <Resource Include="Icons\haml.png" />
+    <Resource Include="Icons\handlebars.png" />
+    <Resource Include="Icons\haskell.png" />
+    <Resource Include="Icons\jade.png" />
+    <Resource Include="Icons\jshint.png" />
+    <Resource Include="Icons\julia.png" />
+    <Resource Include="Icons\lisp.png" />
+    <Resource Include="Icons\lua.png" />
+    <Resource Include="Icons\mustache.png" />
+    <Resource Include="Icons\nunjucks.png" />
+    <Resource Include="Icons\perl.png" />
+    <Resource Include="Icons\photoshop.png" />
+    <Resource Include="Icons\puppet.png" />
+    <Resource Include="Icons\r.png" />
+    <Resource Include="Icons\rust.png" />
+    <Resource Include="Icons\smarty.png" />
+    <Resource Include="Icons\sqlite.png" />
+    <Resource Include="Icons\stylelint.png" />
+    <Resource Include="Icons\swift.png" />
+    <Resource Include="Icons\vue.png" />
+    <Resource Include="Icons\yaml.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>
@@ -63,6 +100,9 @@
       <Generator>VsctGenerator</Generator>
       <LastGenOutput>VSCommandTable.cs</LastGenOutput>
     </VSCTCompile>
+    <Content Include="Icons\Monikers.imagemanifest">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="packages.config" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
