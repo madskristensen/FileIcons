@@ -14,19 +14,9 @@
 "DefaultIconMoniker"="KnownMonikers.Sound"
 
 ; Binary
-[$RootKey$\ShellFileAssociations\.7z]
-"DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.ace]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.cab]
-"DefaultIconMoniker"="KnownMonikers.BinaryFile"
-[$RootKey$\ShellFileAssociations\.gz]
-"DefaultIconMoniker"="KnownMonikers.BinaryFile"
-[$RootKey$\ShellFileAssociations\.rar]
-"DefaultIconMoniker"="KnownMonikers.BinaryFile"
-[$RootKey$\ShellFileAssociations\.tar]
-"DefaultIconMoniker"="KnownMonikers.BinaryFile"
-[$RootKey$\ShellFileAssociations\.zip]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 
 ; C++
@@ -646,3 +636,21 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.wxs]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
+
+; Zip
+[$RootKey$\ShellFileAssociations\.7z]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
+[$RootKey$\ShellFileAssociations\.zip]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
+[$RootKey$\ShellFileAssociations\.gz]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
+[$RootKey$\ShellFileAssociations\.rar]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
+[$RootKey$\ShellFileAssociations\.tar]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
+[$RootKey$\ShellFileAssociations\.bzip2]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
+[$RootKey$\ShellFileAssociations\.xz]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"
+[$RootKey$\ShellFileAssociations\.bz2]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:36"

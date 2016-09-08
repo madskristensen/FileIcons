@@ -41,9 +41,14 @@
     <ID Name="stylelint" Value="33" />
     <ID Name="swift" Value="34" />
     <ID Name="vue" Value="35" />
-    <ID Name="yaml" Value="36" />
+    <ID Name="zip" Value="36" />
   </Symbols>
   <Images>
+    <Image Guid="$(MonikersGuid)" ID="$(zip)">
+      <Source Uri="$(Resources)/zip.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
     <Image Guid="$(MonikersGuid)" ID="$(apache)">
       <Source Uri="$(Resources)/apache.png">
         <Dimensions Width="33" Height="32" />
@@ -222,11 +227,6 @@
     <Image Guid="$(MonikersGuid)" ID="$(vue)">
       <Source Uri="$(Resources)/vue.png">
         <Size Value="50" />
-      </Source>
-    </Image>
-    <Image Guid="$(MonikersGuid)" ID="$(yaml)">
-      <Source Uri="$(Resources)/yaml.png">
-        <Size Value="32" />
       </Source>
     </Image>
   </Images>
