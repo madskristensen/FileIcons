@@ -2,6 +2,7 @@
 
 - [ ] More icons...
 - [x] .zip icons
+- [x] .webmanifest icon
 
 Features that have a checkmark are complete and available for
 download in the
