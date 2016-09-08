@@ -180,6 +180,10 @@
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.hbs]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.tpl]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.swig]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
 ; .ignore
 [$RootKey$\ShellFileAssociations\.bzrignore]
