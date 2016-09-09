@@ -19,7 +19,9 @@
 [$RootKey$\ShellFileAssociations\.cab]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 
-; C++
+; C/C++
+[$RootKey$\ShellFileAssociations\.c]
+"DefaultIconMoniker"="KnownMonikers.CFile"
 [$RootKey$\ShellFileAssociations\.cpp]
 "DefaultIconMoniker"="KnownMonikers.CPPFileNode"
 [$RootKey$\ShellFileAssociations\.h]

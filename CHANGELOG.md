@@ -5,6 +5,7 @@
 - [x] .webmanifest icon
 - [x] .smarty icon
 - [x] .j2 icon
+- [x] .c icon
 
 Features that have a checkmark are complete and available for
 download in the
