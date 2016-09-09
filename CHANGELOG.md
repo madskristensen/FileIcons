@@ -3,6 +3,8 @@
 - [ ] More icons...
 - [x] .zip icons
 - [x] .webmanifest icon
+- [x] .smarty icon
+- [x] .j2 icon
 
 Features that have a checkmark are complete and available for
 download in the

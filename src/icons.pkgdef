@@ -264,10 +264,14 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:25"
 [$RootKey$\ShellFileAssociations\.tpl]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:31"
+[$RootKey$\ShellFileAssociations\.smarty]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:31"
 [$RootKey$\ShellFileAssociations\.swig]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:31"
 [$RootKey$\ShellFileAssociations\.vue]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:35"
+[$RootKey$\ShellFileAssociations\.j2]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
 ; .ignore
 [$RootKey$\ShellFileAssociations\.bzrignore]
