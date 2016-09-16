@@ -32,6 +32,7 @@
     <ID Name="lua" Value="23" />
     <ID Name="mustache" Value="24" />
     <ID Name="nunjucks" Value="25" />
+    <ID Name="pdf" Value="38" />
     <ID Name="perl" Value="26" />
     <ID Name="photoshop" Value="27" />
     <ID Name="puppet" Value="28" />
@@ -177,6 +178,11 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(nunjucks)">
       <Source Uri="$(Resources)/nunjucks.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(pdf)">
+      <Source Uri="$(Resources)/pdf.png">
         <Size Value="32" />
       </Source>
     </Image>

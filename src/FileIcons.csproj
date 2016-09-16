@@ -93,6 +93,7 @@
     <Resource Include="Icons\zip.png" />
     <Resource Include="Icons\apache.png" />
     <Resource Include="Icons\gradle.png" />
+    <Resource Include="Icons\pdf.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>
