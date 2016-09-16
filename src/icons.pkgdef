@@ -191,6 +191,10 @@
 [$RootKey$\ShellFileAssociations\.go]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:14"
 
+; Gradle
+[$RootKey$\ShellFileAssociations\.gradle]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:37"
+
 ; Groovy
 [$RootKey$\ShellFileAssociations\.groovy]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:15"

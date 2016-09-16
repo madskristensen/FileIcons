@@ -91,6 +91,8 @@
     <Resource Include="Icons\swift.png" />
     <Resource Include="Icons\vue.png" />
     <Resource Include="Icons\zip.png" />
+    <Resource Include="Icons\apache.png" />
+    <Resource Include="Icons\gradle.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>

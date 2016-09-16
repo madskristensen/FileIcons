@@ -6,6 +6,7 @@
 - [x] .smarty icon
 - [x] .j2 icon
 - [x] .c icon
+- [x] .gradle icon
 
 Features that have a checkmark are complete and available for
 download in the

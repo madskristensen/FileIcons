@@ -20,6 +20,7 @@
     <ID Name="eslint" Value="12" />
     <ID Name="flash" Value="13" />
     <ID Name="go" Value="14" />
+    <ID Name="gradle" Value="37" />
     <ID Name="groovy" Value="15" />
     <ID Name="haml" Value="16" />
     <ID Name="handlebars" Value="17" />
@@ -44,11 +45,6 @@
     <ID Name="zip" Value="36" />
   </Symbols>
   <Images>
-    <Image Guid="$(MonikersGuid)" ID="$(zip)">
-      <Source Uri="$(Resources)/zip.png">
-        <Size Value="32" />
-      </Source>
-    </Image>
     <Image Guid="$(MonikersGuid)" ID="$(apache)">
       <Source Uri="$(Resources)/apache.png">
         <Dimensions Width="33" Height="32" />
@@ -121,6 +117,11 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(go)">
       <Source Uri="$(Resources)/go.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(gradle)">
+      <Source Uri="$(Resources)/gradle.png">
         <Size Value="32" />
       </Source>
     </Image>
@@ -227,6 +228,11 @@
     <Image Guid="$(MonikersGuid)" ID="$(vue)">
       <Source Uri="$(Resources)/vue.png">
         <Size Value="50" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(zip)">
+      <Source Uri="$(Resources)/zip.png">
+        <Size Value="32" />
       </Source>
     </Image>
   </Images>
