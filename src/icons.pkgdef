@@ -627,6 +627,11 @@
 [$RootKey$\ShellFileAssociations\.toml]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 
+; XAML
+; HTML
+[$RootKey$\ShellFileAssociations\.axml]
+"DefaultIconMoniker"="KnownMonikers.PhoneXAML"
+
 ; XML
 [$RootKey$\ShellFileAssociations\.runsettings]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
