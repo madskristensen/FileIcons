@@ -571,6 +571,12 @@
 [$RootKey$\ShellFileAssociations\.swift]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:34"
 
+; T4
+[$RootKey$\ShellFileAssociations\.tt]
+"DefaultIconMoniker"="KnownMonikers.GenerateFile"
+[$RootKey$\ShellFileAssociations\.ttinclude]
+"DefaultIconMoniker"="KnownMonikers.GenerateFile"
+
 ; Test
 [$RootKey$\ShellFileAssociations\.feature]
 "DefaultIconMoniker"="KnownMonikers.TestPlan"

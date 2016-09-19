@@ -9,6 +9,7 @@
 - [x] .gradle icon
 - [x] .axml icon
 - [x] .pdf icon
+- [x] .tt and .ttinclude icons
 
 Features that have a checkmark are complete and available for
 download in the
