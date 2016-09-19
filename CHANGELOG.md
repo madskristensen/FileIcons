@@ -1,15 +1,6 @@
 # Road map
 
 - [ ] More icons...
-- [x] .zip icons
-- [x] .webmanifest icon
-- [x] .smarty icon
-- [x] .j2 icon
-- [x] .c icon
-- [x] .gradle icon
-- [x] .axml icon
-- [x] .pdf icon
-- [x] .tt and .ttinclude icons
 
 Features that have a checkmark are complete and available for
 download in the
@@ -19,6 +10,18 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.4
+
+- [x] .zip icons
+- [x] .webmanifest icon
+- [x] .smarty icon
+- [x] .j2 icon
+- [x] .c icon
+- [x] .gradle icon
+- [x] .axml icon
+- [x] .pdf icon
+- [x] .tt and .ttinclude icons
 
 ## 1.3
 
