@@ -31,6 +31,9 @@ to suggest new icons, there is now a button for that.
 Clicking that button will open a GitHub issue so an icon can be added
 for that particular file type.
 
+## Language support
+For additional language support in Visual Studio, give [Syntax Highlighting Pack](https://visualstudiogallery.msdn.microsoft.com/d92fd742-bab3-4314-b866-50b871d679ee) a try. It adds over 40 new languages to Visual Studio.
+
 ## Credit
 Some icons comes from the brilliant
 [vscode-icons](https://github.com/robertohuertasm/vscode-icons)

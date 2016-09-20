@@ -1,10 +1,6 @@
 # Road map
 
 - [ ] More icons...
-- [x] C++ QT icons
-- [x] LaTex icons
-- [x] ICalendar icons
-- [x] Matlab icon (.m)
 
 Features that have a checkmark are complete and available for
 download in the
@@ -14,6 +10,13 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.5
+
+- [x] C++ QT icons
+- [x] LaTex icons
+- [x] ICalendar icons
+- [x] Matlab icon (.m)
 
 ## 1.4
 
