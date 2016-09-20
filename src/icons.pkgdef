@@ -289,6 +289,14 @@
 [$RootKey$\ShellFileAssociations\.j2]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
+; ICalendar
+[$RootKey$\ShellFileAssociations\.ics]
+"DefaultIconMoniker"="KnownMonikers.Calendar"
+[$RootKey$\ShellFileAssociations\.ifb]
+"DefaultIconMoniker"="KnownMonikers.Calendar"
+[$RootKey$\ShellFileAssociations\.ical]
+"DefaultIconMoniker"="KnownMonikers.Calendar"
+
 ; .ignore
 [$RootKey$\ShellFileAssociations\.bzrignore]
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
