@@ -28,6 +28,16 @@
 "DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
 [$RootKey$\ShellFileAssociations\.hh]
 "DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
+[$RootKey$\ShellFileAssociations\.pro]
+"DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
+[$RootKey$\ShellFileAssociations\.pri]
+"DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
+[$RootKey$\ShellFileAssociations\.prf]
+"DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
+[$RootKey$\ShellFileAssociations\.qml]
+"DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
+[$RootKey$\ShellFileAssociations\.qrc]
+"DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
 
 ; C#
 [$RootKey$\ShellFileAssociations\.cs]
