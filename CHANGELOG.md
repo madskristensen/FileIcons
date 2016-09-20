@@ -4,6 +4,7 @@
 - [x] C++ QT icons
 - [x] LaTex icons
 - [x] ICalendar icons
+- [x] Matlab icon (.m)
 
 Features that have a checkmark are complete and available for
 download in the

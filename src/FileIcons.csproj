@@ -95,6 +95,7 @@
     <Resource Include="Icons\gradle.png" />
     <Resource Include="Icons\pdf.png" />
     <Resource Include="Icons\latex.png" />
+    <Resource Include="Icons\matlab.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>

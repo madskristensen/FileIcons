@@ -31,6 +31,7 @@
     <ID Name="latex" Value="39" />
     <ID Name="lisp" Value="22" />
     <ID Name="lua" Value="23" />
+    <ID Name="matlab" Value="40" />
     <ID Name="mustache" Value="24" />
     <ID Name="nunjucks" Value="25" />
     <ID Name="pdf" Value="38" />
@@ -174,6 +175,11 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(lua)">
       <Source Uri="$(Resources)/lua.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(matlab)">
+      <Source Uri="$(Resources)/matlab.png">
         <Size Value="32" />
       </Source>
     </Image>
