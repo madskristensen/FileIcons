@@ -28,6 +28,7 @@
     <ID Name="jade" Value="19" />
     <ID Name="jshint" Value="20" />
     <ID Name="julia" Value="21" />
+    <ID Name="latex" Value="39" />
     <ID Name="lisp" Value="22" />
     <ID Name="lua" Value="23" />
     <ID Name="mustache" Value="24" />
@@ -158,6 +159,11 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(julia)">
       <Source Uri="$(Resources)/julia.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(latex)">
+      <Source Uri="$(Resources)/latex.png">
         <Size Value="32" />
       </Source>
     </Image>

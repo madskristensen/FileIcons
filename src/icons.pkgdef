@@ -419,6 +419,20 @@
 [$RootKey$\ShellFileAssociations\.jl]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:21"
 
+; LaTex
+[$RootKey$\ShellFileAssociations\.bib]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:39"
+[$RootKey$\ShellFileAssociations\.tex]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:39"
+[$RootKey$\ShellFileAssociations\.sty]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:39"
+[$RootKey$\ShellFileAssociations\.cls]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:39"
+[$RootKey$\ShellFileAssociations\.bbx]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:39"
+[$RootKey$\ShellFileAssociations\.cbx]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:39"
+
 ; Linters
 [$RootKey$\ShellFileAssociations\.babelrc]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:3"

@@ -2,6 +2,7 @@
 
 - [ ] More icons...
 - [x] C++ QT icons
+- [x] LaTex icons
 
 Features that have a checkmark are complete and available for
 download in the
