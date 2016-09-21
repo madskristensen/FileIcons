@@ -638,6 +638,8 @@
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.zsh]
 "DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.bash]
+"DefaultIconMoniker"="KnownMonikers.Console"
 
 ; SQL
 [$RootKey$\ShellFileAssociations\.sql]

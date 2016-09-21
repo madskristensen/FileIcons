@@ -4,6 +4,7 @@
 - [x] More Perl file type icons
 - [x] More R file type icons
 - [x] More Ruby/Rails file type icons
+- [x] .bash file icon
 
 Features that have a checkmark are complete and available for
 download in the
