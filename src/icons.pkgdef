@@ -648,6 +648,10 @@
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.erbsql]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.ddl]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.dml]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 
 ; Sqlite
 [$RootKey$\ShellFileAssociations\.sqlite]
