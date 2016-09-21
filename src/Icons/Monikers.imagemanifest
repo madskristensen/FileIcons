@@ -34,6 +34,7 @@
     <ID Name="matlab" Value="40" />
     <ID Name="mustache" Value="24" />
     <ID Name="nunjucks" Value="25" />
+    <ID Name="paket" Value="41" />
     <ID Name="pdf" Value="38" />
     <ID Name="perl" Value="26" />
     <ID Name="photoshop" Value="27" />
@@ -190,6 +191,11 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(nunjucks)">
       <Source Uri="$(Resources)/nunjucks.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(paket)">
+      <Source Uri="$(Resources)/paket.png">
         <Size Value="32" />
       </Source>
     </Image>

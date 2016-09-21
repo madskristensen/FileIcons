@@ -525,6 +525,16 @@
 [$RootKey$\ShellFileAssociations\.nuspec]
 "DefaultIconMoniker"="KnownMonikers.NuGet"
 
+; Paket
+[$RootKey$\ShellFileAssociations\.dependencies]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:41"
+[$RootKey$\ShellFileAssociations\.references]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:41"
+[$RootKey$\ShellFileAssociations\.template]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:41"
+[$RootKey$\ShellFileAssociations\.local]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:41"
+
 ; Perl
 [$RootKey$\ShellFileAssociations\.perl]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
