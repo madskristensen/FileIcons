@@ -400,6 +400,8 @@
 "DefaultIconMoniker"="KnownMonikers.JSScript"
 [$RootKey$\ShellFileAssociations\.xsjs]
 "DefaultIconMoniker"="KnownMonikers.JSScript"
+[$RootKey$\ShellFileAssociations\.js.erb]
+"DefaultIconMoniker"="KnownMonikers.JSScript"
 
 ; JSON
 [$RootKey$\ShellFileAssociations\.hjson]
@@ -481,6 +483,8 @@
 [$RootKey$\ShellFileAssociations\.mkfile]
 "DefaultIconMoniker"="KnownMonikers.MakeFile"
 [$RootKey$\ShellFileAssociations\.rake]
+"DefaultIconMoniker"="KnownMonikers.MakeFile"
+[$RootKey$\ShellFileAssociations\.rakefile]
 "DefaultIconMoniker"="KnownMonikers.MakeFile"
 
 ; Manifest
@@ -592,6 +596,22 @@
 ; Ruby
 [$RootKey$\ShellFileAssociations\.rb]
 "DefaultIconMoniker"="KnownMonikers.RBFileNode"
+[$RootKey$\ShellFileAssociations\.rbx]
+"DefaultIconMoniker"="KnownMonikers.RBFileNode"
+[$RootKey$\ShellFileAssociations\.rjx]
+"DefaultIconMoniker"="KnownMonikers.RBFileNode"
+[$RootKey$\ShellFileAssociations\.gemspec]
+"DefaultIconMoniker"="KnownMonikers.RBFileNode"
+[$RootKey$\ShellFileAssociations\.irbrc]
+"DefaultIconMoniker"="KnownMonikers.RBFileNode"
+[$RootKey$\ShellFileAssociations\.capfile]
+"DefaultIconMoniker"="KnownMonikers.RBFileNode"
+[$RootKey$\ShellFileAssociations\.ru]
+"DefaultIconMoniker"="KnownMonikers.RBFileNode"
+[$RootKey$\ShellFileAssociations\.prawn]
+"DefaultIconMoniker"="KnownMonikers.RBFileNode"
+
+; Ruby on Rails
 [$RootKey$\ShellFileAssociations\.erb]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:10"
 [$RootKey$\ShellFileAssociations\.erb.deface]
@@ -618,6 +638,14 @@
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.zsh]
 "DefaultIconMoniker"="KnownMonikers.Console"
+
+; SQL
+[$RootKey$\ShellFileAssociations\.sql]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.sql.erb]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.erbsql]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 
 ; Sqlite
 [$RootKey$\ShellFileAssociations\.sqlite]
