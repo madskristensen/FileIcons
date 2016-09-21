@@ -526,6 +526,24 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
 [$RootKey$\ShellFileAssociations\.pl]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
+[$RootKey$\ShellFileAssociations\.pm]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
+[$RootKey$\ShellFileAssociations\.pod]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
+[$RootKey$\ShellFileAssociations\.t]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
+[$RootKey$\ShellFileAssociations\.psgi]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
+[$RootKey$\ShellFileAssociations\.vcl]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
+[$RootKey$\ShellFileAssociations\.p6]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
+[$RootKey$\ShellFileAssociations\.pl6]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
+[$RootKey$\ShellFileAssociations\.pm6]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
+[$RootKey$\ShellFileAssociations\.nqp]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
 
 ; PHP
 [$RootKey$\ShellFileAssociations\.php]
