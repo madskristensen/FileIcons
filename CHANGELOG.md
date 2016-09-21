@@ -6,6 +6,7 @@
 - [x] More Ruby/Rails file type icons
 - [x] .bash file icon
 - [x] More SQL file type icons
+- [x] .eyaml file icon
 
 Features that have a checkmark are complete and available for
 download in the
