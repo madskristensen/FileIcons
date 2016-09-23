@@ -1,13 +1,6 @@
 # Road map
 
 - [ ] More icons...
-- [x] More Perl file type icons
-- [x] More R file type icons
-- [x] More Ruby/Rails file type icons
-- [x] .bash file icon
-- [x] More SQL file type icons
-- [x] .eyaml file icon
-- [x] Paket file type icons
 
 Features that have a checkmark are complete and available for
 download in the
@@ -17,6 +10,16 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.6
+
+- [x] More Perl file type icons
+- [x] More R file type icons
+- [x] More Ruby/Rails file type icons
+- [x] .bash file icon
+- [x] More SQL file type icons
+- [x] .eyaml file icon
+- [x] Paket file type icons
 
 ## 1.5
 
