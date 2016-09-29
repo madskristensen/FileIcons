@@ -356,6 +356,8 @@
 "DefaultIconMoniker"="KnownMonikers.Image"
 [$RootKey$\ShellFileAssociations\.tga]
 "DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.tif]
+"DefaultIconMoniker"="KnownMonikers.Image"
 [$RootKey$\ShellFileAssociations\.tiff]
 "DefaultIconMoniker"="KnownMonikers.Image"
 [$RootKey$\ShellFileAssociations\.svg]
@@ -662,6 +664,8 @@
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.dml]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.mysql]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 
 ; Sqlite
 [$RootKey$\ShellFileAssociations\.sqlite]
@@ -763,6 +767,8 @@
 [$RootKey$\ShellFileAssociations\.targets]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.wxs]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.xdt]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 
 ; Zip

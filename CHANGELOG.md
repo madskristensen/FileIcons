@@ -1,6 +1,9 @@
 # Road map
 
 - [ ] More icons...
+- [x] .mysql icon
+- [x] .tif icon
+- [x] .xdt icon
 
 Features that have a checkmark are complete and available for
 download in the
