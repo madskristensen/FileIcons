@@ -770,6 +770,8 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.xdt]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.wax]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
 
 ; Zip
 [$RootKey$\ShellFileAssociations\.7z]
