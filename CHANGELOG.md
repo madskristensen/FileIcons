@@ -1,11 +1,6 @@
 # Road map
 
 - [ ] More icons...
-- [x] .mysql icon
-- [x] .tif icon
-- [x] .xdt icon
-- [x] .wax icon
-- [x] A bunch of database file icons
 
 Features that have a checkmark are complete and available for
 download in the
@@ -15,6 +10,14 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.7
+
+- [x] .mysql icon
+- [x] .tif icon
+- [x] .xdt icon
+- [x] .wax icon
+- [x] A bunch of database file icons
 
 ## 1.6
 
