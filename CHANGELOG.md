@@ -2,6 +2,7 @@
 
 - [ ] More icons...
 - [x] .vash icon
+- [x] GSLS file icons
 
 Features that have a checkmark are complete and available for
 download in the

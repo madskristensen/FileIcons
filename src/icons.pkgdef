@@ -38,6 +38,12 @@
 "DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
 [$RootKey$\ShellFileAssociations\.qrc]
 "DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
+[$RootKey$\ShellFileAssociations\.frag]
+"DefaultIconMoniker"="KnownMonikers.CFile"
+[$RootKey$\ShellFileAssociations\.geom]
+"DefaultIconMoniker"="KnownMonikers.CFile"
+[$RootKey$\ShellFileAssociations\.vert]
+"DefaultIconMoniker"="KnownMonikers.CFile"
 
 ; C#
 [$RootKey$\ShellFileAssociations\.cs]
