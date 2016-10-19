@@ -518,6 +518,8 @@
 ; Lock files
 [$RootKey$\ShellFileAssociations\.lock]
 "DefaultIconMoniker"="KnownMonikers.Lock"
+[$RootKey$\ShellFileAssociations\.lock.json]
+"DefaultIconMoniker"="KnownMonikers.Lock"
 
 ; Lua
 [$RootKey$\ShellFileAssociations\.lua]
