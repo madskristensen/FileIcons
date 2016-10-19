@@ -474,8 +474,6 @@
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.geojson]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
-[$RootKey$\ShellFileAssociations\.lock]
-"DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.topojson]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 
@@ -516,6 +514,10 @@
 ; Lisp
 [$RootKey$\ShellFileAssociations\.bil]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
+
+; Lock files
+[$RootKey$\ShellFileAssociations\.lock]
+"DefaultIconMoniker"="KnownMonikers.Lock"
 
 ; Lua
 [$RootKey$\ShellFileAssociations\.lua]
@@ -824,6 +826,10 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.wax]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
+
+; Yarn
+[$RootKey$\ShellFileAssociations\.yarnclean]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:42"
 
 ; Zip
 [$RootKey$\ShellFileAssociations\.7z]

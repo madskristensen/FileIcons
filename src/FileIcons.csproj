@@ -97,6 +97,7 @@
     <Resource Include="Icons\latex.png" />
     <Resource Include="Icons\matlab.png" />
     <Resource Include="Icons\paket.png" />
+    <Resource Include="Icons\yarn.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>

@@ -46,6 +46,7 @@
     <ID Name="stylelint" Value="33" />
     <ID Name="swift" Value="34" />
     <ID Name="vue" Value="35" />
+    <ID Name="yarn" Value="42" />
     <ID Name="zip" Value="36" />
   </Symbols>
   <Images>
@@ -252,6 +253,11 @@
     <Image Guid="$(MonikersGuid)" ID="$(vue)">
       <Source Uri="$(Resources)/vue.png">
         <Size Value="50" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(yarn)">
+      <Source Uri="$(Resources)/yarn.png">
+        <Size Value="32" />
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(zip)">

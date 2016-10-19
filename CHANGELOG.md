@@ -3,6 +3,8 @@
 - [ ] More icons...
 - [x] .vash icon
 - [x] GSLS file icons
+- [x] .yarnclean file icon
+- [x] .lock file icon
 
 Features that have a checkmark are complete and available for
 download in the
