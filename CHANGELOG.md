@@ -17,6 +17,7 @@ on the official Visual Studio extension gallery.
 - [x] GSLS file icons
 - [x] .yarnclean file icon
 - [x] .lock file icon
+- [x] .snippet file icon
 
 ## 1.7
 
