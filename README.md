@@ -15,6 +15,8 @@ See the [change log](CHANGELOG.md) for changes and road map.
 This extensions adds file icons to Solution Explorer for files that
 Visual Studio doesn't provide icons for.
 
+See the [complete list](FileExtenions.txt) of supported file extenions.
+
 ![Before and After](art/before-after.png)
 
 Check out the
