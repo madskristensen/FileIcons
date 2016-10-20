@@ -1,5 +1,5 @@
 
-Write-Host "Updating iconlist.txt..." -ForegroundColor Cyan -NoNewline
+Write-Host "Updating FileExtensions.md..." -ForegroundColor Cyan -NoNewline
 
 $solDir = (Split-Path (Get-Variable MyInvocation).Value.MyCommand.Path)
 $path = $solDir + "\src\icons.pkgdef"
