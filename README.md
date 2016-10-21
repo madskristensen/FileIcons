@@ -15,13 +15,9 @@ See the [change log](CHANGELOG.md) for changes and road map.
 This extensions adds file icons to Solution Explorer for files that
 Visual Studio doesn't provide icons for.
 
-See the [complete list](FileExtenions.md) of supported file extenions.
-
 ![Before and After](art/before-after.png)
 
-Check out the
-[full list of file icons](https://github.com/madskristensen/FileIcons/blob/master/src/icons.pkgdef)
-supported by this extension.
+See the [complete list](FileExtenions.md) of supported file extenions.
 
 ## Suggest new icons
 Though this extension helps to provide missing icons for known file
