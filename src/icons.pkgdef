@@ -548,6 +548,8 @@
 "DefaultIconMoniker"="KnownMonikers.MakeFile"
 [$RootKey$\ShellFileAssociations\.mk]
 "DefaultIconMoniker"="KnownMonikers.MakeFile"
+[$RootKey$\ShellFileAssociations\.makefile]
+"DefaultIconMoniker"="KnownMonikers.MakeFile"
 [$RootKey$\ShellFileAssociations\.mkfile]
 "DefaultIconMoniker"="KnownMonikers.MakeFile"
 [$RootKey$\ShellFileAssociations\.rake]
