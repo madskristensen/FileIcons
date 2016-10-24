@@ -512,6 +512,16 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:33"
 
 ; Lisp
+[$RootKey$\ShellFileAssociations\.lisp]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
+[$RootKey$\ShellFileAssociations\.cl]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
+[$RootKey$\ShellFileAssociations\.l]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
+[$RootKey$\ShellFileAssociations\.mud]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
+[$RootKey$\ShellFileAssociations\.el]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
 [$RootKey$\ShellFileAssociations\.bil]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
 
