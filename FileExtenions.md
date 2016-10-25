@@ -33,6 +33,7 @@
 - .cfml
 - .chefignore
 - .cjsx
+- .cl
 - .clj
 - .cljs
 - .clojure
@@ -63,6 +64,7 @@
 - .editorconfig
 - .eex
 - .ejs
+- .el
 - .elm
 - .emakefile
 - .emakerfile
@@ -152,9 +154,11 @@
 - .jss
 - .jsx
 - .jws
+- .l
 - .less
 - .lhs
 - .licx
+- .lisp
 - .lit
 - .litcoffee
 - .livescript
@@ -168,6 +172,7 @@
 - .m
 - .m4v
 - .mak
+- .makefile
 - .manifest
 - .map
 - .markdown
@@ -189,6 +194,7 @@
 - .mst
 - .mtn-ignore
 - .mts
+- .mud
 - .mustache
 - .myd
 - .mysql
@@ -272,6 +278,8 @@
 - .s
 - .s3db
 - .sass
+- .sbt
+- .scala
 - .scmp
 - .scss
 - .sdf

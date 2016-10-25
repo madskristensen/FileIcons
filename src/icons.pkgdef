@@ -703,6 +703,12 @@
 [$RootKey$\ShellFileAssociations\.rs]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:30"
 
+; Scala
+[$RootKey$\ShellFileAssociations\.scala]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:43"
+[$RootKey$\ShellFileAssociations\.sbt]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:43"
+
 ; Scripts (generic)
 [$RootKey$\ShellFileAssociations\.rtlcssrc]
 "DefaultIconMoniker"="KnownMonikers.Script"
