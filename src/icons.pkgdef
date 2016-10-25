@@ -709,6 +709,14 @@
 [$RootKey$\ShellFileAssociations\.sbt]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:43"
 
+; Scheme
+[$RootKey$\ShellFileAssociations\.scm]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:44"
+[$RootKey$\ShellFileAssociations\.sch]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:44"
+[$RootKey$\ShellFileAssociations\.rkt]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:44"
+
 ; Scripts (generic)
 [$RootKey$\ShellFileAssociations\.rtlcssrc]
 "DefaultIconMoniker"="KnownMonikers.Script"

@@ -265,6 +265,7 @@
 - .rhtml
 - .rjs
 - .rjx
+- .rkt
 - .rm
 - .rmd
 - .rprofile
@@ -280,6 +281,8 @@
 - .sass
 - .sbt
 - .scala
+- .sch
+- .scm
 - .scmp
 - .scss
 - .sdf

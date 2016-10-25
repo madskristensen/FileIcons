@@ -99,6 +99,7 @@
     <Resource Include="Icons\paket.png" />
     <Resource Include="Icons\yarn.png" />
     <Resource Include="Icons\scala.png" />
+    <Resource Include="Icons\scheme.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>

@@ -3,7 +3,8 @@
 - [ ] More icons...
 - [x] Lisp file icons
 - [x] .makefile file icon
-- [x] .scala/.sbt file icon
+- [x] Scala file icons
+- [x] Scheme file icons
 
 Features that have a checkmark are complete and available for
 download in the

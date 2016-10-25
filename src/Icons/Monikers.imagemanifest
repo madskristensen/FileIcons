@@ -42,6 +42,7 @@
     <ID Name="r" Value="29" />
     <ID Name="rust" Value="30" />
     <ID Name="scala" Value="43" />
+    <ID Name="scheme" Value="44" />
     <ID Name="smarty" Value="31" />
     <ID Name="sqlite" Value="32" />
     <ID Name="stylelint" Value="33" />
@@ -233,6 +234,11 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(scala)">
       <Source Uri="$(Resources)/scala.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(scheme)">
+      <Source Uri="$(Resources)/scheme.png">
         <Size Value="32" />
       </Source>
     </Image>
