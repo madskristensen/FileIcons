@@ -584,6 +584,8 @@
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 [$RootKey$\ShellFileAssociations\.rst]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
+[$RootKey$\ShellFileAssociations\.readme]
+"DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 
 ; Map
 [$RootKey$\ShellFileAssociations\.map]

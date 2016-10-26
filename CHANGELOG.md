@@ -6,6 +6,7 @@
 - [x] Scala file icons
 - [x] Scheme file icons
 - [x] .bmml file icon (#33)
+- [x] .readme file icon
 
 Features that have a checkmark are complete and available for
 download in the

@@ -262,6 +262,7 @@
 - .rb
 - .rbx
 - .rdb
+- .readme
 - .references
 - .rhtml
 - .rjs
