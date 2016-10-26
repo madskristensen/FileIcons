@@ -13,6 +13,10 @@
 [$RootKey$\ShellFileAssociations\.wma]
 "DefaultIconMoniker"="KnownMonikers.Sound"
 
+; Balsamiq
+[$RootKey$\ShellFileAssociations\.bmml]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:45"
+
 ; Binary
 [$RootKey$\ShellFileAssociations\.ace]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"

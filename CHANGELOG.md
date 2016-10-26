@@ -5,6 +5,7 @@
 - [x] .makefile file icon
 - [x] Scala file icons
 - [x] Scheme file icons
+- [x] .bmml file icon (#33)
 
 Features that have a checkmark are complete and available for
 download in the

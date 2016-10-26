@@ -100,6 +100,7 @@
     <Resource Include="Icons\yarn.png" />
     <Resource Include="Icons\scala.png" />
     <Resource Include="Icons\scheme.png" />
+    <Resource Include="Icons\balsamiq.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>

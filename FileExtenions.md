@@ -16,6 +16,7 @@
 - .bbx
 - .bib
 - .bil
+- .bmml
 - .bmp
 - .boringignore
 - .bowerrc
