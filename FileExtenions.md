@@ -245,6 +245,7 @@
 - .pri
 - .pro
 - .proj
+- .proto
 - .ps1
 - .psd
 - .psd1
