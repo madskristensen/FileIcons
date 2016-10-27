@@ -1,13 +1,6 @@
 # Road map
 
 - [ ] More icons...
-- [x] Lisp file icons
-- [x] .makefile file icon
-- [x] Scala file icons
-- [x] Scheme file icons
-- [x] .bmml file icon (#33)
-- [x] .readme file icon
-- [x] .proto file icon
 
 Features that have a checkmark are complete and available for
 download in the
@@ -17,6 +10,16 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.9
+
+- [x] Lisp file icons
+- [x] .makefile file icon
+- [x] Scala file icons
+- [x] Scheme file icons
+- [x] .bmml file icon (#33)
+- [x] .readme file icon
+- [x] .proto file icon
 
 ## 1.8
 
