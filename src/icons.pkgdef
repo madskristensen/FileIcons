@@ -663,6 +663,10 @@
 [$RootKey$\ShellFileAssociations\.psm1]
 "DefaultIconMoniker"="KnownMonikers.PowershellFile"
 
+; Protobuf
+[$RootKey$\ShellFileAssociations\.proto]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:46"
+
 ; Puppet
 [$RootKey$\ShellFileAssociations\.epp]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:28"

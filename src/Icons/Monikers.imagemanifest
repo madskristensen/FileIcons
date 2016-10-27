@@ -39,6 +39,7 @@
     <ID Name="pdf" Value="38" />
     <ID Name="perl" Value="26" />
     <ID Name="photoshop" Value="27" />
+    <ID Name="proto" Value="46" />
     <ID Name="puppet" Value="28" />
     <ID Name="r" Value="29" />
     <ID Name="rust" Value="30" />
@@ -220,6 +221,11 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(photoshop)">
       <Source Uri="$(Resources)/photoshop.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(proto)">
+      <Source Uri="$(Resources)/proto.png">
         <Size Value="32" />
       </Source>
     </Image>
