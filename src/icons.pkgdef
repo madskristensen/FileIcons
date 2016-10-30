@@ -171,6 +171,14 @@
 [$RootKey$\ShellFileAssociations\.dbc]
 "DefaultIconMoniker"="KnownMonikers.Database"
 
+; Delphi
+[$RootKey$\ShellFileAssociations\.pas]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:48"
+[$RootKey$\ShellFileAssociations\.dfm]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:48"
+[$RootKey$\ShellFileAssociations\.dpr]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:48"
+
 ; Elixir
 [$RootKey$\ShellFileAssociations\.ex]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:8"
@@ -732,6 +740,16 @@
 "DefaultIconMoniker"="KnownMonikers.Script"
 [$RootKey$\ShellFileAssociations\.sjs]
 "DefaultIconMoniker"="KnownMonikers.Script"
+
+; Semantic Web
+[$RootKey$\ShellFileAssociations\.sparql]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:47"
+[$RootKey$\ShellFileAssociations\.rq]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:47"
+[$RootKey$\ShellFileAssociations\.ttl]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:47"
+[$RootKey$\ShellFileAssociations\.nt]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:47"
 
 ; Shell files
 [$RootKey$\ShellFileAssociations\.bat]

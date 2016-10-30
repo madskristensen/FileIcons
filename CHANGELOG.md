@@ -1,6 +1,8 @@
 # Road map
 
 - [ ] More icons...
+- [x] Semantic web icons
+- [x] Delphi icons
 
 Features that have a checkmark are complete and available for
 download in the

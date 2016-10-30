@@ -102,6 +102,8 @@
     <Resource Include="Icons\scheme.png" />
     <Resource Include="Icons\balsamiq.png" />
     <Resource Include="Icons\proto.png" />
+    <Resource Include="Icons\semanticweb.png" />
+    <Resource Include="Icons\delphi.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>

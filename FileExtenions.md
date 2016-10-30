@@ -206,6 +206,7 @@
 - .npmignore
 - .npmrc
 - .nqp
+- .nt
 - .nunj
 - .nunjs
 - .nunjucks
@@ -273,6 +274,7 @@
 - .rmd
 - .rprofile
 - .rpt
+- .rq
 - .rs
 - .rss
 - .rst
@@ -301,6 +303,7 @@
 - .smarty
 - .snippet
 - .sol
+- .sparql
 - .sql.erb
 - .sql
 - .sqlite
@@ -333,6 +336,7 @@
 - .tt
 - .ttf
 - .ttinclude
+- .ttl
 - .vash
 - .vb
 - .vbs

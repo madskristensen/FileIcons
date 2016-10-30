@@ -12,6 +12,7 @@
     <ID Name="csslint" Value="4" />
     <ID Name="d" Value="5" />
     <ID Name="dart" Value="0" />
+    <ID Name="delphi" Value="48" />
     <ID Name="editorconfig" Value="6" />
     <ID Name="ejs" Value="7" />
     <ID Name="elixir" Value="8" />
@@ -45,6 +46,7 @@
     <ID Name="rust" Value="30" />
     <ID Name="scala" Value="43" />
     <ID Name="scheme" Value="44" />
+    <ID Name="semanticweb" Value="47" />
     <ID Name="smarty" Value="31" />
     <ID Name="sqlite" Value="32" />
     <ID Name="stylelint" Value="33" />
@@ -86,6 +88,11 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(dart)">
       <Source Uri="$(Resources)/dart.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(delphi)">
+      <Source Uri="$(Resources)/delphi.png">
         <Size Value="32" />
       </Source>
     </Image>
@@ -252,6 +259,11 @@
     <Image Guid="$(MonikersGuid)" ID="$(scheme)">
       <Source Uri="$(Resources)/scheme.png">
         <Size Value="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(semanticweb)">
+      <Source Uri="$(Resources)/semanticweb.png">
+        <Dimensions Width="32" Height="33" />
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(smarty)">
