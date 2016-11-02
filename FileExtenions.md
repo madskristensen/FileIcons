@@ -57,10 +57,12 @@
 - .dbc
 - .ddl
 - .dependencies
+- .dfm
 - .dhtml
 - .dml
 - .do
 - .dockerignore
+- .dpr
 - .dtsx
 - .editorconfig
 - .eex
@@ -216,9 +218,11 @@
 - .ogv
 - .opml
 - .otf
+- .p
 - .p12
 - .p4ignore
 - .p6
+- .pas
 - .pcss
 - .pdf
 - .perl
@@ -306,6 +310,7 @@
 - .sparql
 - .sql.erb
 - .sql
+- .sqlce
 - .sqlite
 - .sqlite3
 - .sqlitedb

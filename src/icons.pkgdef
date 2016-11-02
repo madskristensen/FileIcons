@@ -172,6 +172,8 @@
 "DefaultIconMoniker"="KnownMonikers.Database"
 
 ; Delphi
+[$RootKey$\ShellFileAssociations\.p]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:48"
 [$RootKey$\ShellFileAssociations\.pas]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:48"
 [$RootKey$\ShellFileAssociations\.dfm]
@@ -775,6 +777,8 @@
 [$RootKey$\ShellFileAssociations\.dml]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.mysql]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.sqlce]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 
 ; Sqlite
