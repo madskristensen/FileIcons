@@ -897,6 +897,16 @@
 [$RootKey$\ShellFileAssociations\.aip]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 
+; VSSDK
+[$RootKey$\ShellFileAssociations\.vsixmanifest]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.vsct]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.pkgdef]
+"DefaultIconMoniker"="KnownMonikers.ExtensionManifest"
+[$RootKey$\ShellFileAssociations\.imagemanifest]
+"DefaultIconMoniker"="KnownMonikers.ManifestFile"
+
 ; Yarn
 [$RootKey$\ShellFileAssociations\.yarnclean]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:42"

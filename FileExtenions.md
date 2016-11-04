@@ -134,6 +134,7 @@
 - .ics
 - .idx
 - .ifb
+- .imagemanifest
 - .irbrc
 - .j2
 - .jade
@@ -239,6 +240,7 @@
 - .phpt
 - .phtm
 - .phtml
+- .pkgdef
 - .pl
 - .pl6
 - .plist
@@ -352,7 +354,9 @@
 - .vdb3
 - .vert
 - .vscodeignore
+- .vsct
 - .vsixlangpack
+- .vsixmanifest
 - .vtt
 - .vue
 - .wav
