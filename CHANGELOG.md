@@ -4,6 +4,7 @@
 - [x] Semantic web icons
 - [x] Delphi icons
 - [x] .sqlce file icon
+- [x] .pubxml file icon
 
 Features that have a checkmark are complete and available for
 download in the

@@ -256,6 +256,7 @@
 - .psd1
 - .psgi
 - .psm1
+- .pubxml
 - .pug
 - .pug-lintrc
 - .py

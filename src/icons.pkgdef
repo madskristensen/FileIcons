@@ -888,6 +888,8 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.wax]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.pubxml]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
 
 ; Yarn
 [$RootKey$\ShellFileAssociations\.yarnclean]
