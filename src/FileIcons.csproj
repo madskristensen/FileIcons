@@ -104,6 +104,7 @@
     <Resource Include="Icons\proto.png" />
     <Resource Include="Icons\semanticweb.png" />
     <Resource Include="Icons\delphi.png" />
+    <Resource Include="Icons\qt.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>

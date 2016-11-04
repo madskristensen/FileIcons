@@ -343,6 +343,7 @@
 - .ttf
 - .ttinclude
 - .ttl
+- .ui
 - .vash
 - .vb
 - .vbs

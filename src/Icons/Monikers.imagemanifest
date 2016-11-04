@@ -42,6 +42,7 @@
     <ID Name="photoshop" Value="27" />
     <ID Name="proto" Value="46" />
     <ID Name="puppet" Value="28" />
+    <ID Name="qt" Value="49" />
     <ID Name="r" Value="29" />
     <ID Name="rust" Value="30" />
     <ID Name="scala" Value="43" />
@@ -238,6 +239,11 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(puppet)">
       <Source Uri="$(Resources)/puppet.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(qt)">
+      <Source Uri="$(Resources)/qt.png">
         <Size Value="32" />
       </Source>
     </Image>

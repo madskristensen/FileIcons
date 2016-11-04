@@ -685,6 +685,10 @@
 [$RootKey$\ShellFileAssociations\.py]
 "DefaultIconMoniker"="KnownMonikers.PYFileNode"
 
+; Qt
+[$RootKey$\ShellFileAssociations\.ui]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
+
 ; R
 [$RootKey$\ShellFileAssociations\.r]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:29"
