@@ -4,6 +4,7 @@
 - .accdc
 - .ace
 - .action
+- .aip
 - .appcache
 - .asf
 - .atom
