@@ -34,6 +34,8 @@
         <ID Name="haml" Value="16" />
         <ID Name="handlebars" Value="17" />
         <ID Name="haskell" Value="18" />
+        <ID Name="haxe" Value="57" />
+        <ID Name="haxedevelop" Value="58" />
         <ID Name="jade" Value="19" />
         <ID Name="jshint" Value="20" />
         <ID Name="julia" Value="21" />
@@ -206,6 +208,16 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(haskell)">
             <Source Uri="$(Resources)/haskell.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(haxe)">
+            <Source Uri="$(Resources)/haxe.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(haxedevelop)">
+            <Source Uri="$(Resources)/haxedevelop.png">
                 <Size Value="32" />
             </Source>
         </Image>

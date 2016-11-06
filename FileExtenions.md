@@ -39,7 +39,6 @@
 - .cfc
 - .cfignore
 - .cfm
-- .cfm
 - .cfml
 - .chefignore
 - .cjm
@@ -103,6 +102,7 @@
 - .fish
 - .fla
 - .flooignore
+- .flow
 - .flowconfig
 - .flv
 - .fm
@@ -144,6 +144,9 @@
 - .htm
 - .html
 - .htpasswd
+- .hx
+- .hxml
+- .hxproj
 - .ical
 - .iced
 - .icl
@@ -165,7 +168,6 @@
 - .jpg
 - .jpmignore
 - .js.erb
-- .js.flow
 - .js
 - .jse
 - .jshintignore
