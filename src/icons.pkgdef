@@ -3,6 +3,12 @@
 ; http://glyphlist.azurewebsites.net/knownmonikers/
 ; -------------------------------------------------- ;
 
+; Assembly
+[$RootKey$\ShellFileAssociations\.asm]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.s]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+
 ; Audio
 [$RootKey$\ShellFileAssociations\.midi]
 "DefaultIconMoniker"="KnownMonikers.Sound"

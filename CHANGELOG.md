@@ -8,6 +8,7 @@
 - [x] .postcss file icon
 - [x] .pp file icon
 - [x] .pyw file icon
+- [x] Assembly file icons
 
 Features that have a checkmark are complete and available for
 download in the
