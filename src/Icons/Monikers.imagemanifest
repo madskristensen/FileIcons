@@ -52,9 +52,12 @@
         <ID Name="nunjucks" Value="25" />
         <ID Name="ocaml" Value="64" />
         <ID Name="paket" Value="41" />
+        <ID Name="paket" Value="65" />
         <ID Name="pdf" Value="38" />
         <ID Name="perl" Value="26" />
         <ID Name="photoshop" Value="27" />
+        <ID Name="plantuml" Value="67" />
+        <ID Name="poedit" Value="66" />
         <ID Name="proto" Value="46" />
         <ID Name="puppet" Value="28" />
         <ID Name="qt" Value="49" />
@@ -307,6 +310,11 @@
                 <Size Value="32" />
             </Source>
         </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(patch)">
+            <Source Uri="$(Resources)/patch.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
         <Image Guid="$(MonikersGuid)" ID="$(pdf)">
             <Source Uri="$(Resources)/pdf.png">
                 <Size Value="32" />
@@ -319,6 +327,16 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(photoshop)">
             <Source Uri="$(Resources)/photoshop.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(plantuml)">
+            <Source Uri="$(Resources)/plantuml.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(poedit)">
+            <Source Uri="$(Resources)/poedit.png">
                 <Size Value="32" />
             </Source>
         </Image>

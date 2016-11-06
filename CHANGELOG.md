@@ -23,6 +23,8 @@
 - [x] .marko file icon
 - [x] Nim file icons
 - [x] OCaml file icons
+- [x] .patch file icon
+- [x] Plantuml file icons
 
 Features that have a checkmark are complete and available for
 download in the

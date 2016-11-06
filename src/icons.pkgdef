@@ -755,6 +755,10 @@
 [$RootKey$\ShellFileAssociations\.local]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:41"
 
+; Patch
+[$RootKey$\ShellFileAssociations\.patch]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:65"
+
 ; Perl
 [$RootKey$\ShellFileAssociations\.perl]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
@@ -798,6 +802,22 @@
 "DefaultIconMoniker"="KnownMonikers.PHPFile"
 [$RootKey$\ShellFileAssociations\.phtml]
 "DefaultIconMoniker"="KnownMonikers.PHPFile"
+
+; Plantuml
+[$RootKey$\ShellFileAssociations\.pu]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:67"
+[$RootKey$\ShellFileAssociations\.plantuml]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:67"
+[$RootKey$\ShellFileAssociations\.iuml]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:67"
+[$RootKey$\ShellFileAssociations\.puml]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:67"
+
+; Po Edit
+[$RootKey$\ShellFileAssociations\.po]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:66"
+[$RootKey$\ShellFileAssociations\.mo]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:66"
 
 ; PowerShell
 [$RootKey$\ShellFileAssociations\.ps1]
