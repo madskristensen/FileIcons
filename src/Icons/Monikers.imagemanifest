@@ -40,6 +40,7 @@
         <ID Name="jshint" Value="20" />
         <ID Name="julia" Value="21" />
         <ID Name="latex" Value="39" />
+        <ID Name="lime" Value="59" />
         <ID Name="lisp" Value="22" />
         <ID Name="lua" Value="23" />
         <ID Name="matlab" Value="40" />
@@ -238,6 +239,11 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(latex)">
             <Source Uri="$(Resources)/latex.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(lime)">
+            <Source Uri="$(Resources)/lime.png">
                 <Size Value="32" />
             </Source>
         </Image>

@@ -571,6 +571,10 @@
 [$RootKey$\ShellFileAssociations\.cbx]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:39"
 
+; Lime
+[$RootKey$\ShellFileAssociations\.hxp]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:58"
+
 ; Linters
 [$RootKey$\ShellFileAssociations\.babelrc]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:3"

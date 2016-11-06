@@ -17,6 +17,7 @@
 - [x] ColdFusion file icons
 - [x] Flow file icons
 - [x] Haxe file icons
+- [x] Lime file icon
 
 Features that have a checkmark are complete and available for
 download in the
