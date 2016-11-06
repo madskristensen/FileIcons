@@ -50,6 +50,7 @@
         <ID Name="mustache" Value="24" />
         <ID Name="nim" Value="63" />
         <ID Name="nunjucks" Value="25" />
+        <ID Name="ocaml" Value="64" />
         <ID Name="paket" Value="41" />
         <ID Name="pdf" Value="38" />
         <ID Name="perl" Value="26" />
@@ -293,6 +294,11 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(nunjucks)">
             <Source Uri="$(Resources)/nunjucks.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(ocaml)">
+            <Source Uri="$(Resources)/ocaml.png">
                 <Size Value="32" />
             </Source>
         </Image>

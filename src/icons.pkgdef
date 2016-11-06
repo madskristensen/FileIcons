@@ -731,6 +731,20 @@
 [$RootKey$\ShellFileAssociations\.psmdcp]
 "DefaultIconMoniker"="KnownMonikers.NuGet"
 
+; OCaml
+[$RootKey$\ShellFileAssociations\.ml]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:64"
+[$RootKey$\ShellFileAssociations\.mll]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:64"
+[$RootKey$\ShellFileAssociations\.mli]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:64"
+[$RootKey$\ShellFileAssociations\.mly]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:64"
+[$RootKey$\ShellFileAssociations\.merlin]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:64"
+[$RootKey$\ShellFileAssociations\.ocamlmakefile]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:64"
+
 ; Paket
 [$RootKey$\ShellFileAssociations\.dependencies]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:41"

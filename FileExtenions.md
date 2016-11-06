@@ -206,12 +206,14 @@
 - .manifest
 - .map
 - .markdown
+- .marko
 - .mat
 - .md
 - .mde
 - .mdf
 - .mdn
 - .mdown
+- .merlin
 - .mex
 - .mexn
 - .mexrs6
@@ -219,6 +221,10 @@
 - .mk
 - .mkfile
 - .mkv
+- .ml
+- .mli
+- .mll
+- .mly
 - .mmd
 - .mn
 - .mod
@@ -237,6 +243,8 @@
 - .mx3
 - .myd
 - .mysql
+- .nim
+- .nims
 - .nj
 - .njk
 - .njs
@@ -250,6 +258,7 @@
 - .nunjucks
 - .nupkg
 - .nuspec
+- .ocamlmakefile
 - .odb
 - .ogg
 - .ogv
