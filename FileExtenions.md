@@ -36,7 +36,9 @@
 - .cbx
 - .ccss
 - .cer
+- .cfc
 - .cfignore
+- .cfm
 - .cfm
 - .cfml
 - .chefignore
@@ -101,6 +103,7 @@
 - .fish
 - .fla
 - .flooignore
+- .flowconfig
 - .flv
 - .fm
 - .fmp
@@ -162,6 +165,7 @@
 - .jpg
 - .jpmignore
 - .js.erb
+- .js.flow
 - .js
 - .jse
 - .jshintignore
@@ -188,6 +192,7 @@
 - .lsc
 - .lslm
 - .lua
+- .lucee
 - .m
 - .m4v
 - .mak

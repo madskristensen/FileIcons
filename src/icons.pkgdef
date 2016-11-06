@@ -138,6 +138,8 @@
 ; ColdFusion
 [$RootKey$\ShellFileAssociations\.cfm]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:55"
+[$RootKey$\ShellFileAssociations\.cfml]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:55"
 [$RootKey$\ShellFileAssociations\.cfc]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:55"
 [$RootKey$\ShellFileAssociations\.lucee]
@@ -279,6 +281,12 @@
 [$RootKey$\ShellFileAssociations\.sol]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:13"
 
+; Flow
+[$RootKey$\ShellFileAssociations\.flowconfig]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:56"
+[$RootKey$\ShellFileAssociations\.flow]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:56"
+
 ; Fonts
 [$RootKey$\ShellFileAssociations\.wof]
 "DefaultIconMoniker"="KnownMonikers.Font"
@@ -359,10 +367,6 @@
 [$RootKey$\ShellFileAssociations\.xhtm]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.xhtml]
-"DefaultIconMoniker"="KnownMonikers.HTMLFile"
-[$RootKey$\ShellFileAssociations\.cfm]
-"DefaultIconMoniker"="KnownMonikers.HTMLFile"
-[$RootKey$\ShellFileAssociations\.cfml]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
 ; HTML templates

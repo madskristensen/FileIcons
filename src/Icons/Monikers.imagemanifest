@@ -27,6 +27,7 @@
         <ID Name="erlang" Value="11" />
         <ID Name="eslint" Value="12" />
         <ID Name="flash" Value="13" />
+        <ID Name="flow" Value="56" />
         <ID Name="go" Value="14" />
         <ID Name="gradle" Value="37" />
         <ID Name="groovy" Value="15" />
@@ -170,6 +171,11 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(flash)">
             <Source Uri="$(Resources)/flash.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(flow)">
+            <Source Uri="$(Resources)/flow.png">
                 <Size Value="32" />
             </Source>
         </Image>
