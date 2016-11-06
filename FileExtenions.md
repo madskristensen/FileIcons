@@ -159,6 +159,7 @@
 - .ifb
 - .imagemanifest
 - .irbrc
+- .iuml
 - .j2
 - .jade
 - .jade-lintrc
@@ -227,6 +228,7 @@
 - .mly
 - .mmd
 - .mn
+- .mo
 - .mod
 - .mov
 - .mp3
@@ -269,6 +271,7 @@
 - .p4ignore
 - .p6
 - .pas
+- .patch
 - .pcss
 - .pdf
 - .perl
@@ -288,10 +291,12 @@
 - .pkgdef
 - .pl
 - .pl6
+- .plantuml
 - .plist
 - .pm
 - .pm6
 - .png
+- .po
 - .pod
 - .postcss
 - .pp
@@ -299,6 +304,7 @@
 - .prf
 - .pri
 - .pro
+- .procfile
 - .proj
 - .proto
 - .ps1
@@ -307,9 +313,11 @@
 - .psgi
 - .psm1
 - .psmdcp
+- .pu
 - .pubxml
 - .pug
 - .pug-lintrc
+- .puml
 - .py
 - .pyw
 - .qml
@@ -317,6 +325,7 @@
 - .r
 - .rake
 - .rakefile
+- .raml
 - .rar
 - .rb
 - .rbx
@@ -382,6 +391,7 @@
 - .swift
 - .swig
 - .t
+- .tag
 - .tar
 - .targets
 - .template
@@ -403,6 +413,7 @@
 - .ttf
 - .ttinclude
 - .ttl
+- .twig
 - .ui
 - .vash
 - .vb
@@ -410,6 +421,7 @@
 - .vcl
 - .vdb3
 - .vert
+- .volt
 - .vscodeignore
 - .vsct
 - .vsixlangpack

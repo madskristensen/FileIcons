@@ -1,6 +1,7 @@
 # Road map
 
 - [ ] More icons...
+- [x] Optimized extension load perf
 - [x] VS SDK file icons
 - [x] .htpasswd file icon
 - [x] Additional Clojure file icons
@@ -25,6 +26,9 @@
 - [x] OCaml file icons
 - [x] .patch file icon
 - [x] Plantuml file icons
+- [x] .procfile file icon
+- [x] .riot file icons
+- [x] .volt file icon
 
 Features that have a checkmark are complete and available for
 download in the

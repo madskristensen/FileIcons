@@ -52,16 +52,19 @@
         <ID Name="nunjucks" Value="25" />
         <ID Name="ocaml" Value="64" />
         <ID Name="paket" Value="41" />
-        <ID Name="paket" Value="65" />
+        <ID Name="patch" Value="65" />
         <ID Name="pdf" Value="38" />
         <ID Name="perl" Value="26" />
         <ID Name="photoshop" Value="27" />
         <ID Name="plantuml" Value="67" />
         <ID Name="poedit" Value="66" />
+        <ID Name="procfile" Value="68" />
         <ID Name="proto" Value="46" />
         <ID Name="puppet" Value="28" />
         <ID Name="qt" Value="49" />
         <ID Name="r" Value="29" />
+        <ID Name="raml" Value="69" />
+        <ID Name="riot" Value="70" />
         <ID Name="rust" Value="30" />
         <ID Name="scala" Value="43" />
         <ID Name="scheme" Value="44" />
@@ -70,6 +73,8 @@
         <ID Name="sqlite" Value="32" />
         <ID Name="stylelint" Value="33" />
         <ID Name="swift" Value="34" />
+        <ID Name="twig" Value="71" />
+        <ID Name="volt" Value="72" />
         <ID Name="vue" Value="35" />
         <ID Name="yarn" Value="42" />
         <ID Name="zip" Value="36" />
@@ -340,6 +345,11 @@
                 <Size Value="32" />
             </Source>
         </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(procfile)">
+            <Source Uri="$(Resources)/procfile.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
         <Image Guid="$(MonikersGuid)" ID="$(proto)">
             <Source Uri="$(Resources)/proto.png">
                 <Size Value="32" />
@@ -357,6 +367,16 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(r)">
             <Source Uri="$(Resources)/r.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(raml)">
+            <Source Uri="$(Resources)/raml.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(riot)">
+            <Source Uri="$(Resources)/riot.png">
                 <Size Value="32" />
             </Source>
         </Image>
@@ -397,6 +417,16 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(swift)">
             <Source Uri="$(Resources)/swift.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(twig)">
+            <Source Uri="$(Resources)/twig.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(volt)">
+            <Source Uri="$(Resources)/volt.png">
                 <Size Value="32" />
             </Source>
         </Image>
