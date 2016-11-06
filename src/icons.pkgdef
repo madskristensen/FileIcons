@@ -72,6 +72,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:6"
 [$RootKey$\ShellFileAssociations\.htaccess]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:2"
+[$RootKey$\ShellFileAssociations\.htpasswd]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:2"
 [$RootKey$\ShellFileAssociations\.licx]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.lslm]
@@ -92,9 +94,15 @@
 ; Clojure
 [$RootKey$\ShellFileAssociations\.clojure]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:1"
+[$RootKey$\ShellFileAssociations\.cjm]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:1"
 [$RootKey$\ShellFileAssociations\.clj]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:1"
 [$RootKey$\ShellFileAssociations\.cljs]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:1"
+[$RootKey$\ShellFileAssociations\.cljc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:1"
+[$RootKey$\ShellFileAssociations\.edn]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:1"
 
 ; Crystal reports
@@ -117,6 +125,8 @@
 [$RootKey$\ShellFileAssociations\.ccss]
 "DefaultIconMoniker"="KnownMonikers.StyleSheet"
 [$RootKey$\ShellFileAssociations\.pcss]
+"DefaultIconMoniker"="KnownMonikers.StyleSheet"
+[$RootKey$\ShellFileAssociations\.postcss]
 "DefaultIconMoniker"="KnownMonikers.StyleSheet"
 
 ; D
@@ -353,6 +363,8 @@
 [$RootKey$\ShellFileAssociations\.j2]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.vash]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.rt]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
 ; ICalendar
@@ -606,9 +618,41 @@
 ; Matlab
 [$RootKey$\ShellFileAssociations\.m]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.fig]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.mat]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.mex]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.mexn]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.mexrs6]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.mn]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.mum]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.mx]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.mx3]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.rwd]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.slx]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.slddc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.smv]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
+[$RootKey$\ShellFileAssociations\.tikz]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
 
 ; NuGet
 [$RootKey$\ShellFileAssociations\.nuspec]
+"DefaultIconMoniker"="KnownMonikers.NuGet"
+[$RootKey$\ShellFileAssociations\.nupkg]
+"DefaultIconMoniker"="KnownMonikers.NuGet"
+[$RootKey$\ShellFileAssociations\.psmdcp]
 "DefaultIconMoniker"="KnownMonikers.NuGet"
 
 ; Paket
@@ -680,9 +724,13 @@
 ; Puppet
 [$RootKey$\ShellFileAssociations\.epp]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:28"
+[$RootKey$\ShellFileAssociations\.pp]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:28"
 
 ; Python
 [$RootKey$\ShellFileAssociations\.py]
+"DefaultIconMoniker"="KnownMonikers.PYFileNode"
+[$RootKey$\ShellFileAssociations\.pyw]
 "DefaultIconMoniker"="KnownMonikers.PYFileNode"
 
 ; Qt
@@ -767,6 +815,8 @@
 [$RootKey$\ShellFileAssociations\.zsh]
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.bash]
+"DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.fish]
 "DefaultIconMoniker"="KnownMonikers.Console"
 
 ; SQL
@@ -862,6 +912,8 @@
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 
 ; XAML
+[$RootKey$\ShellFileAssociations\.xaml]
+"DefaultIconMoniker"="KnownMonikers.PhoneXAML"
 [$RootKey$\ShellFileAssociations\.axml]
 "DefaultIconMoniker"="KnownMonikers.PhoneXAML"
 
@@ -905,6 +957,10 @@
 [$RootKey$\ShellFileAssociations\.pkgdef]
 "DefaultIconMoniker"="KnownMonikers.ExtensionManifest"
 [$RootKey$\ShellFileAssociations\.imagemanifest]
+"DefaultIconMoniker"="KnownMonikers.ManifestFile"
+[$RootKey$\ShellFileAssociations\.pex]
+"DefaultIconMoniker"="KnownMonikers.ManifestFile"
+[$RootKey$\ShellFileAssociations\.tml]
 "DefaultIconMoniker"="KnownMonikers.ManifestFile"
 
 ; Yarn

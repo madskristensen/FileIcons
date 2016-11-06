@@ -34,9 +34,11 @@
 - .cfm
 - .cfml
 - .chefignore
+- .cjm
 - .cjsx
 - .cl
 - .clj
+- .cljc
 - .cljs
 - .clojure
 - .cls
@@ -66,6 +68,7 @@
 - .dpr
 - .dtsx
 - .editorconfig
+- .edn
 - .eex
 - .ejs
 - .el
@@ -86,6 +89,8 @@
 - .exs
 - .eyaml
 - .feature
+- .fig
+- .fish
 - .fla
 - .flooignore
 - .flv
@@ -127,6 +132,7 @@
 - .htaccess
 - .htm
 - .html
+- .htpasswd
 - .ical
 - .iced
 - .icl
@@ -181,16 +187,21 @@
 - .manifest
 - .map
 - .markdown
+- .mat
 - .md
 - .mde
 - .mdf
 - .mdn
 - .mdown
+- .mex
+- .mexn
+- .mexrs6
 - .midi
 - .mk
 - .mkfile
 - .mkv
 - .mmd
+- .mn
 - .mov
 - .mp3
 - .mp4
@@ -200,7 +211,10 @@
 - .mtn-ignore
 - .mts
 - .mud
+- .mum
 - .mustache
+- .mx
+- .mx3
 - .myd
 - .mysql
 - .nj
@@ -214,6 +228,7 @@
 - .nunj
 - .nunjs
 - .nunjucks
+- .nupkg
 - .nuspec
 - .odb
 - .ogg
@@ -228,6 +243,7 @@
 - .pcss
 - .pdf
 - .perl
+- .pex
 - .pfa
 - .pfb
 - .pfx
@@ -248,6 +264,8 @@
 - .pm6
 - .png
 - .pod
+- .postcss
+- .pp
 - .prawn
 - .prf
 - .pri
@@ -259,10 +277,12 @@
 - .psd1
 - .psgi
 - .psm1
+- .psmdcp
 - .pubxml
 - .pug
 - .pug-lintrc
 - .py
+- .pyw
 - .qml
 - .qrc
 - .r
@@ -286,9 +306,11 @@
 - .rs
 - .rss
 - .rst
+- .rt
 - .rtlcssrc
 - .ru
 - .runsettings
+- .rwd
 - .s
 - .s3db
 - .sass
@@ -308,7 +330,10 @@
 - .sjs
 - .sl2
 - .sl3
+- .slddc
+- .slx
 - .smarty
+- .smv
 - .snippet
 - .sol
 - .sparql
@@ -335,6 +360,8 @@
 - .tga
 - .tif
 - .tiff
+- .tikz
+- .tml
 - .tmLanguage
 - .tmSnippet
 - .toml
@@ -371,6 +398,7 @@
 - .woff2
 - .wss
 - .wxs
+- .xaml
 - .xdt
 - .xht
 - .xhtm

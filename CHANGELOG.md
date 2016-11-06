@@ -2,6 +2,12 @@
 
 - [ ] More icons...
 - [x] VS SDK file icons
+- [x] .htpasswd file icon
+- [x] Additional Clojure file icons
+- [x] Additional Matlab file icons
+- [x] .postcss file icon
+- [x] .pp file icon
+- [x] .pyw file icon
 
 Features that have a checkmark are complete and available for
 download in the
