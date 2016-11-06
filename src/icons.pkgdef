@@ -135,6 +135,14 @@
 [$RootKey$\ShellFileAssociations\.edn]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:1"
 
+; ColdFusion
+[$RootKey$\ShellFileAssociations\.cfm]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:55"
+[$RootKey$\ShellFileAssociations\.cfc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:55"
+[$RootKey$\ShellFileAssociations\.lucee]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:55"
+
 ; Crystal reports
 [$RootKey$\ShellFileAssociations\.rpt]
 "DefaultIconMoniker"="KnownMonikers.CrystalReport"
