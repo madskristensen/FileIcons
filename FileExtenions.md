@@ -97,6 +97,8 @@
 - .ex
 - .exs
 - .eyaml
+- .f
+- .f90
 - .feature
 - .fig
 - .fish
@@ -146,6 +148,7 @@
 - .htpasswd
 - .hx
 - .hxml
+- .hxp
 - .hxproj
 - .ical
 - .iced
@@ -196,6 +199,7 @@
 - .lua
 - .lucee
 - .m
+- .m
 - .m4v
 - .mak
 - .makefile
@@ -217,6 +221,7 @@
 - .mkv
 - .mmd
 - .mn
+- .mod
 - .mov
 - .mp3
 - .mp4

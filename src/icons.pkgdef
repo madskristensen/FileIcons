@@ -307,6 +307,14 @@
 [$RootKey$\ShellFileAssociations\.sfd]
 "DefaultIconMoniker"="KnownMonikers.Font"
 
+; Fortran
+[$RootKey$\ShellFileAssociations\.f]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
+[$RootKey$\ShellFileAssociations\.f90]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
+[$RootKey$\ShellFileAssociations\.mod]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
+
 ; GIT
 [$RootKey$\ShellFileAssociations\.gitignore]
 "DefaultIconMoniker"="KnownMonikers.Git"
@@ -573,7 +581,7 @@
 
 ; Lime
 [$RootKey$\ShellFileAssociations\.hxp]
-"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:58"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:59"
 
 ; Linters
 [$RootKey$\ShellFileAssociations\.babelrc]
@@ -622,6 +630,14 @@
 "DefaultIconMoniker"="KnownMonikers.Script"
 [$RootKey$\ShellFileAssociations\.lsc]
 "DefaultIconMoniker"="KnownMonikers.Script"
+
+; M
+[$RootKey$\ShellFileAssociations\.m]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:60"
+
+; Marko
+[$RootKey$\ShellFileAssociations\.marko]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:62"
 
 ; Makefile
 [$RootKey$\ShellFileAssociations\.mak]

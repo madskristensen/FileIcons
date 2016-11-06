@@ -28,6 +28,7 @@
         <ID Name="eslint" Value="12" />
         <ID Name="flash" Value="13" />
         <ID Name="flow" Value="56" />
+        <ID Name="fortran" Value="61" />
         <ID Name="go" Value="14" />
         <ID Name="gradle" Value="37" />
         <ID Name="groovy" Value="15" />
@@ -43,6 +44,8 @@
         <ID Name="lime" Value="59" />
         <ID Name="lisp" Value="22" />
         <ID Name="lua" Value="23" />
+        <ID Name="m" Value="60" />
+        <ID Name="marko" Value="62" />
         <ID Name="matlab" Value="40" />
         <ID Name="mustache" Value="24" />
         <ID Name="nunjucks" Value="25" />
@@ -182,6 +185,11 @@
                 <Size Value="32" />
             </Source>
         </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(fortran)">
+            <Source Uri="$(Resources)/fortran.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
         <Image Guid="$(MonikersGuid)" ID="$(go)">
             <Source Uri="$(Resources)/go.png">
                 <Size Value="32" />
@@ -254,6 +262,16 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(lua)">
             <Source Uri="$(Resources)/lua.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(m)">
+            <Source Uri="$(Resources)/m.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(marko)">
+            <Source Uri="$(Resources)/marko.png">
                 <Size Value="32" />
             </Source>
         </Image>
