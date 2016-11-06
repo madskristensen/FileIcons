@@ -3,6 +3,22 @@
 ; http://glyphlist.azurewebsites.net/knownmonikers/
 ; -------------------------------------------------- ;
 
+; ActionScript
+[$RootKey$\ShellFileAssociations\.as]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:50"
+
+; Apigee
+[$RootKey$\ShellFileAssociations\.apib]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:52"
+
+; Ansible
+[$RootKey$\ShellFileAssociations\.ansible]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:51"
+
+; AppleScript
+[$RootKey$\ShellFileAssociations\.app]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:53"
+
 ; Assembly
 [$RootKey$\ShellFileAssociations\.asm]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
@@ -70,6 +86,14 @@
 "DefaultIconMoniker"="KnownMonikers.Certificate"
 [$RootKey$\ShellFileAssociations\.pfx]
 "DefaultIconMoniker"="KnownMonikers.Certificate"
+
+; Cobol
+[$RootKey$\ShellFileAssociations\.cbl]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:54"
+[$RootKey$\ShellFileAssociations\.cob]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:54"
+[$RootKey$\ShellFileAssociations\.cpy]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:54"
 
 ; Config
 [$RootKey$\ShellFileAssociations\.config]

@@ -105,6 +105,28 @@
     <Resource Include="Icons\semanticweb.png" />
     <Resource Include="Icons\delphi.png" />
     <Resource Include="Icons\qt.png" />
+    <Resource Include="Icons\actionscript.png" />
+    <Resource Include="Icons\ansible.png" />
+    <Resource Include="Icons\apigee.png" />
+    <Resource Include="Icons\applescript.png" />
+    <Resource Include="Icons\cobol.png" />
+    <Resource Include="Icons\coldfusion.png" />
+    <Resource Include="Icons\flow.png" />
+    <Resource Include="Icons\haxe.png" />
+    <Resource Include="Icons\haxedevelop.png" />
+    <Resource Include="Icons\lime.png" />
+    <Resource Include="Icons\m.png" />
+    <Resource Include="Icons\marko.png" />
+    <Resource Include="Icons\nim.png" />
+    <Resource Include="Icons\ocaml.png" />
+    <Resource Include="Icons\patch.png" />
+    <Resource Include="Icons\plantuml.png" />
+    <Resource Include="Icons\poedit.png" />
+    <Resource Include="Icons\procfile.png" />
+    <Resource Include="Icons\raml.png" />
+    <Resource Include="Icons\riot.png" />
+    <Resource Include="Icons\twig.png" />
+    <Resource Include="Icons\volt.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>

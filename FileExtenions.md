@@ -5,8 +5,13 @@
 - .ace
 - .action
 - .aip
+- .ansible
+- .apib
+- .app
 - .appcache
+- .as
 - .asf
+- .asm
 - .atom
 - .avi
 - .axml
@@ -27,6 +32,7 @@
 - .c
 - .cab
 - .capfile
+- .cbl
 - .cbx
 - .ccss
 - .cer
@@ -43,9 +49,11 @@
 - .clojure
 - .cls
 - .cmd
+- .cob
 - .coffee
 - .config
 - .cpp
+- .cpy
 - .cs
 - .csdef
 - .cson
@@ -311,6 +319,7 @@
 - .ru
 - .runsettings
 - .rwd
+- .s
 - .s
 - .s3db
 - .sass

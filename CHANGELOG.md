@@ -9,6 +9,11 @@
 - [x] .pp file icon
 - [x] .pyw file icon
 - [x] Assembly file icons
+- [x] AppleScript file icons
+- [x] ActionScript file icons
+- [x] Ansible file icons
+- [x] Cobol file icons
+- [x] Apigee file icons
 
 Features that have a checkmark are complete and available for
 download in the

@@ -5,10 +5,15 @@
   <Symbols>
     <String Name="Resources" Value="/FileIcons;Component/Icons" />
     <Guid Name="MonikersGuid" Value="{cb4a8fc6-efe7-424a-b611-23adf22b568e}" />
+    <ID Name="actionscript" Value="50" />
+    <ID Name="ansible" Value="51" />
     <ID Name="apache" Value="2" />
+    <ID Name="apigee" Value="52" />
+    <ID Name="applescript" Value="53" />
     <ID Name="babel" Value="3" />
     <ID Name="balsamiq" Value="45" />
     <ID Name="clojure" Value="1" />
+    <ID Name="cobol" Value="54" />
     <ID Name="csslint" Value="4" />
     <ID Name="d" Value="5" />
     <ID Name="dart" Value="0" />
@@ -57,9 +62,29 @@
     <ID Name="zip" Value="36" />
   </Symbols>
   <Images>
+    <Image Guid="$(MonikersGuid)" ID="$(actionscript)">
+      <Source Uri="$(Resources)/actionscript.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(ansible)">
+      <Source Uri="$(Resources)/ansible.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
     <Image Guid="$(MonikersGuid)" ID="$(apache)">
       <Source Uri="$(Resources)/apache.png">
         <Dimensions Width="33" Height="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(apigee)">
+      <Source Uri="$(Resources)/apigee.png">
+        <Dimensions Width="31" Height="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(applescript)">
+      <Source Uri="$(Resources)/applescript.png">
+        <Size Value="32" />
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(babel)">
@@ -74,6 +99,11 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(clojure)">
       <Source Uri="$(Resources)/clojure.png">
+        <Size Value="32" />
+      </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(cobol)">
+      <Source Uri="$(Resources)/cobol.png">
         <Size Value="32" />
       </Source>
     </Image>
