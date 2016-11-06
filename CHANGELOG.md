@@ -21,6 +21,7 @@
 - [x] .m file icon
 - [x] Fortran file icons
 - [x] .marko file icon
+- [x] Nim file icons
 
 Features that have a checkmark are complete and available for
 download in the
