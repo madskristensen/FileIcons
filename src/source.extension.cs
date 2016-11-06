@@ -11,7 +11,7 @@ namespace FileIcons
         public const string Name = "File Icons";
         public const string Description = @"Adds icons for files that are not recognized by Solution Explorer";
         public const string Language = "en-US";
-        public const string Version = "1.10";
+        public const string Version = "1.11";
         public const string Author = "Mads Kristensen";
         public const string Tags = "icon, file, image";
     }
