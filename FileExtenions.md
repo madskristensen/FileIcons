@@ -1,4 +1,4 @@
-## Supported File Extensions (454)
+## Supported File Extensions (460)
 
 - .7z
 - .accdc
@@ -98,7 +98,11 @@
 - .exs
 - .eyaml
 - .f
+- .f03
+- .f08
+- .f77
 - .f90
+- .f95
 - .feature
 - .fig
 - .fish
@@ -109,9 +113,11 @@
 - .flv
 - .fm
 - .fmp
+- .for
 - .fp3
 - .fp5
 - .fp7
+- .fpp
 - .frag
 - .fs
 - .fsharplint

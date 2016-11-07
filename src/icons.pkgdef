@@ -310,9 +310,21 @@
 ; Fortran
 [$RootKey$\ShellFileAssociations\.f]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
+[$RootKey$\ShellFileAssociations\.f03]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
+[$RootKey$\ShellFileAssociations\.f08]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
+[$RootKey$\ShellFileAssociations\.f77]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
 [$RootKey$\ShellFileAssociations\.f90]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
+[$RootKey$\ShellFileAssociations\.f95]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
 [$RootKey$\ShellFileAssociations\.mod]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
+[$RootKey$\ShellFileAssociations\.fpp]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
+[$RootKey$\ShellFileAssociations\.for]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
 
 ; GIT
