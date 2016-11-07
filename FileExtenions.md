@@ -123,6 +123,7 @@
 - .gf
 - .gif
 - .gitattributes
+- .gitconfig
 - .gitignore
 - .gitkeep
 - .gitmodules
@@ -187,6 +188,7 @@
 - .less
 - .lhs
 - .licx
+- .liquid
 - .lisp
 - .lit
 - .litcoffee

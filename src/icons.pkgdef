@@ -426,8 +426,6 @@
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.rt]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
-[$RootKey$\ShellFileAssociations\.liquid]
-"DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
 ; ICalendar
 [$RootKey$\ShellFileAssociations\.ics]
@@ -896,6 +894,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:10"
 [$RootKey$\ShellFileAssociations\.rhtml]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:10"
+[$RootKey$\ShellFileAssociations\.liquid]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
 ; Rust
 [$RootKey$\ShellFileAssociations\.rs]
