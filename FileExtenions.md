@@ -1,4 +1,4 @@
-## Supported File Extensions (462)
+## Supported File Extensions (464)
 
 - .7z
 - .accdc
@@ -95,6 +95,7 @@
 - .eslintignore
 - .eslintrc
 - .ex
+- .exclude
 - .exs
 - .eyaml
 - .f
@@ -413,6 +414,7 @@
 - .tikz
 - .tml
 - .tmLanguage
+- .tmp
 - .tmSnippet
 - .toml
 - .topojson

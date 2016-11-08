@@ -486,6 +486,8 @@
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 [$RootKey$\ShellFileAssociations\.vscodeignore]
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.exclude]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 
 ; Images
 [$RootKey$\ShellFileAssociations\.bmp]
@@ -998,6 +1000,10 @@
 ; Test
 [$RootKey$\ShellFileAssociations\.feature]
 "DefaultIconMoniker"="KnownMonikers.TestPlan"
+
+; Temp files
+[$RootKey$\ShellFileAssociations\.tmp]
+"DefaultIconMoniker"="KnownMonikers.BrowseDefinition"
 
 ; Twig
 [$RootKey$\ShellFileAssociations\.twig]
