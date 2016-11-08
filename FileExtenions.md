@@ -1,4 +1,4 @@
-## Supported File Extensions (460)
+## Supported File Extensions (462)
 
 - .7z
 - .accdc
@@ -375,9 +375,11 @@
 - .shtml
 - .sitemap
 - .sjs
+- .skim
 - .sl2
 - .sl3
 - .slddc
+- .slim
 - .slx
 - .smarty
 - .smv

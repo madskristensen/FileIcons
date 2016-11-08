@@ -4,6 +4,7 @@
 - [x] .gitconfig file icon
 - [x] .liquid file icon
 - [x] Additional Fortran icons
+- [x] Slim file icons
 
 Features that have a checkmark are complete and available for
 download in the

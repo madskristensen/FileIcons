@@ -957,6 +957,12 @@
 [$RootKey$\ShellFileAssociations\.fish]
 "DefaultIconMoniker"="KnownMonikers.Console"
 
+; Slim
+[$RootKey$\ShellFileAssociations\.slim]
+"DefaultIconMoniker"="KnownMonikers.MarkupTag"
+[$RootKey$\ShellFileAssociations\.skim]
+"DefaultIconMoniker"="KnownMonikers.MarkupTag"
+
 ; SQL
 [$RootKey$\ShellFileAssociations\.sql]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
