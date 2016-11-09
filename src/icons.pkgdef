@@ -62,6 +62,8 @@
 "DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
 [$RootKey$\ShellFileAssociations\.qml]
 "DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
+[$RootKey$\ShellFileAssociations\.qmlproject]
+"DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
 [$RootKey$\ShellFileAssociations\.qrc]
 "DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
 [$RootKey$\ShellFileAssociations\.frag]
@@ -81,6 +83,8 @@
 
 ; Certificate
 [$RootKey$\ShellFileAssociations\.cer]
+"DefaultIconMoniker"="KnownMonikers.Certificate"
+[$RootKey$\ShellFileAssociations\.crt]
 "DefaultIconMoniker"="KnownMonikers.Certificate"
 [$RootKey$\ShellFileAssociations\.p12]
 "DefaultIconMoniker"="KnownMonikers.Certificate"

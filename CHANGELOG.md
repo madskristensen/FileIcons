@@ -7,6 +7,7 @@
 - [x] Slim file icons
 - [x] .exclude file icon
 - [x] .tmp file icon
+- [x] .crt file icon
 
 Features that have a checkmark are complete and available for
 download in the

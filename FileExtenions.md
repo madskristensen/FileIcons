@@ -1,4 +1,4 @@
-## Supported File Extensions (464)
+## Supported File Extensions (466)
 
 - .7z
 - .accdc
@@ -55,6 +55,7 @@
 - .config
 - .cpp
 - .cpy
+- .crt
 - .cs
 - .csdef
 - .cson
@@ -330,6 +331,7 @@
 - .py
 - .pyw
 - .qml
+- .qmlproject
 - .qrc
 - .r
 - .rake
