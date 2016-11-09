@@ -919,7 +919,9 @@
 [$RootKey$\ShellFileAssociations\.rhtml]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:10"
 [$RootKey$\ShellFileAssociations\.liquid]
-"DefaultIconMoniker"="KnownMonikers.HTMLFile"
+"DefaultIconMoniker"="KnownMonikers.MarkupTag"
+[$RootKey$\ShellFileAssociations\.lava]
+"DefaultIconMoniker"="KnownMonikers.MarkupTag"
 
 ; Rust
 [$RootKey$\ShellFileAssociations\.rs]

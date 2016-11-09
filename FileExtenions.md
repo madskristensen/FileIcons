@@ -1,4 +1,4 @@
-## Supported File Extensions (468)
+## Supported File Extensions (469)
 
 - .7z
 - .accdc
@@ -195,6 +195,7 @@
 - .jsx
 - .jws
 - .l
+- .lava
 - .less
 - .lhs
 - .licx
