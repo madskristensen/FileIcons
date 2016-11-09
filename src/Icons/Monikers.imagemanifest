@@ -48,6 +48,7 @@
         <ID Name="marko" Value="62" />
         <ID Name="matlab" Value="40" />
         <ID Name="mustache" Value="24" />
+        <ID Name="neo4j" Value="73" />
         <ID Name="nim" Value="63" />
         <ID Name="nunjucks" Value="25" />
         <ID Name="ocaml" Value="64" />
@@ -292,6 +293,11 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(mustache)">
             <Source Uri="$(Resources)/mustache.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(neo4j)">
+            <Source Uri="$(Resources)/neo4j.png">
                 <Size Value="32" />
             </Source>
         </Image>

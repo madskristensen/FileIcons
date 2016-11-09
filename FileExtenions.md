@@ -1,4 +1,4 @@
-## Supported File Extensions (466)
+## Supported File Extensions (468)
 
 - .7z
 - .accdc
@@ -55,6 +55,7 @@
 - .config
 - .cpp
 - .cpy
+- .cql
 - .crt
 - .cs
 - .csdef
@@ -63,6 +64,7 @@
 - .csslintrc
 - .csx
 - .cvsignore
+- .cyp
 - .d
 - .dart
 - .db

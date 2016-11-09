@@ -173,6 +173,12 @@
 [$RootKey$\ShellFileAssociations\.postcss]
 "DefaultIconMoniker"="KnownMonikers.StyleSheet"
 
+; Cypher Query Language
+[$RootKey$\ShellFileAssociations\.cql]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:73"
+[$RootKey$\ShellFileAssociations\.cyp]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:73"
+
 ; D
 [$RootKey$\ShellFileAssociations\.d]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:5"
