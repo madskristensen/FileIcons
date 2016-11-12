@@ -100,6 +100,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:54"
 
 ; Config
+[$RootKey$\ShellFileAssociations\.cfg]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.config]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.editorconfig]
@@ -908,6 +910,8 @@
 "DefaultIconMoniker"="KnownMonikers.RBFileNode"
 [$RootKey$\ShellFileAssociations\.ru]
 "DefaultIconMoniker"="KnownMonikers.RBFileNode"
+[$RootKey$\ShellFileAssociations\.reek]
+"DefaultIconMoniker"="KnownMonikers.RBFileNode"
 [$RootKey$\ShellFileAssociations\.prawn]
 "DefaultIconMoniker"="KnownMonikers.RBFileNode"
 
@@ -995,6 +999,8 @@
 
 ; Sqlite
 [$RootKey$\ShellFileAssociations\.sqlite]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
+[$RootKey$\ShellFileAssociations\.sqlite3]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
 [$RootKey$\ShellFileAssociations\.db3]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
@@ -1117,6 +1123,8 @@
 [$RootKey$\ShellFileAssociations\.pubxml]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.aip]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.tmx]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 
 ; VSSDK

@@ -1,4 +1,4 @@
-## Supported File Extensions (469)
+## Supported File Extensions (473)
 
 - .7z
 - .accdc
@@ -37,6 +37,7 @@
 - .ccss
 - .cer
 - .cfc
+- .cfg
 - .cfignore
 - .cfm
 - .cfml
@@ -345,6 +346,7 @@
 - .rbx
 - .rdb
 - .readme
+- .reek
 - .references
 - .rhtml
 - .rjs
@@ -397,6 +399,7 @@
 - .sqlce
 - .sqlite
 - .sqlite3
+- .sqlite3
 - .sqlitedb
 - .sty
 - .styl
@@ -421,6 +424,7 @@
 - .tmLanguage
 - .tmp
 - .tmSnippet
+- .tmx
 - .toml
 - .topojson
 - .tpl
