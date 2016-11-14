@@ -29,6 +29,7 @@
         <ID Name="flash" Value="13" />
         <ID Name="flow" Value="56" />
         <ID Name="fortran" Value="61" />
+        <ID Name="foxpro" Value="74" />
         <ID Name="go" Value="14" />
         <ID Name="gradle" Value="37" />
         <ID Name="groovy" Value="15" />
@@ -198,6 +199,11 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(fortran)">
             <Source Uri="$(Resources)/fortran.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(foxpro)">
+            <Source Uri="$(Resources)/foxpro.png">
                 <Size Value="32" />
             </Source>
         </Image>

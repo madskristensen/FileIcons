@@ -339,6 +339,10 @@
 [$RootKey$\ShellFileAssociations\.for]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
 
+; FoxPro
+[$RootKey$\ShellFileAssociations\.prg]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:74"
+
 ; GIT
 [$RootKey$\ShellFileAssociations\.gitignore]
 "DefaultIconMoniker"="KnownMonikers.Git"

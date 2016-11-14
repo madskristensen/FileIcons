@@ -129,6 +129,7 @@
     <Resource Include="Icons\volt.png" />
     <Resource Include="Icons\fortran.png" />
     <Resource Include="Icons\neo4j.png" />
+    <Resource Include="Icons\foxpro.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>

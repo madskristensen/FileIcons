@@ -1,4 +1,4 @@
-## Supported File Extensions (473)
+## Supported File Extensions (474)
 
 - .7z
 - .accdc
@@ -316,6 +316,7 @@
 - .pp
 - .prawn
 - .prf
+- .prg
 - .pri
 - .pro
 - .procfile
