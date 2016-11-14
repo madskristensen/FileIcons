@@ -1,4 +1,4 @@
-## Supported File Extensions (474)
+## Supported File Extensions (475)
 
 - .7z
 - .accdc
@@ -260,6 +260,7 @@
 - .myd
 - .mysql
 - .nim
+- .nimble
 - .nims
 - .nj
 - .njk

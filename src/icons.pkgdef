@@ -754,6 +754,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:63"
 [$RootKey$\ShellFileAssociations\.nims]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:63"
+[$RootKey$\ShellFileAssociations\.nimble]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:63"
 
 ; NuGet
 [$RootKey$\ShellFileAssociations\.nuspec]
