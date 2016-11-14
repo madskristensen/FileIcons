@@ -1,6 +1,18 @@
 # Road map
 
 - [ ] More icons...
+
+Features that have a checkmark are complete and available for
+download in the
+[CI build](http://vsixgallery.com/extension/3a7b4930-a5fb-46ec-a9b8-9610c8f953b8/).
+
+# Change log
+
+These are the changes to each version that has been released
+on the official Visual Studio extension gallery.
+
+## 1.12
+
 - [x] .gitconfig file icon
 - [x] .liquid file icon
 - [x] Additional Fortran icons
@@ -15,15 +27,6 @@
 - [x] .reek file icon
 - [x] .sqlite3 file icon
 - [x] .prg file icon
-
-Features that have a checkmark are complete and available for
-download in the
-[CI build](http://vsixgallery.com/extension/3a7b4930-a5fb-46ec-a9b8-9610c8f953b8/).
-
-# Change log
-
-These are the changes to each version that has been released
-on the official Visual Studio extension gallery.
 
 ## 1.11
 
