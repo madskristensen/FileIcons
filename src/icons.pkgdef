@@ -1029,6 +1029,12 @@
 [$RootKey$\ShellFileAssociations\.tmp]
 "DefaultIconMoniker"="KnownMonikers.BrowseDefinition"
 
+; Terraform
+[$RootKey$\ShellFileAssociations\.tf]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:75"
+[$RootKey$\ShellFileAssociations\.tfvars]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:75"
+
 ; Twig
 [$RootKey$\ShellFileAssociations\.twig]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:71"

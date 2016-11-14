@@ -75,6 +75,7 @@
         <ID Name="sqlite" Value="32" />
         <ID Name="stylelint" Value="33" />
         <ID Name="swift" Value="34" />
+        <ID Name="terraform" Value="75" />
         <ID Name="twig" Value="71" />
         <ID Name="volt" Value="72" />
         <ID Name="vue" Value="35" />
@@ -429,6 +430,11 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(swift)">
             <Source Uri="$(Resources)/swift.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(terraform)">
+            <Source Uri="$(Resources)/terraform.png">
                 <Size Value="32" />
             </Source>
         </Image>

@@ -2,6 +2,7 @@
 
 - [ ] More icons...
 - [x] .nimble file icon
+- [x] Terraform file icons
 
 Features that have a checkmark are complete and available for
 download in the

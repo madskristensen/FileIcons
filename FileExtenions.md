@@ -1,4 +1,4 @@
-## Supported File Extensions (475)
+## Supported File Extensions (477)
 
 - .7z
 - .accdc
@@ -417,7 +417,9 @@
 - .targets
 - .template
 - .tex
+- .tf
 - .tfignore
+- .tfvars
 - .tga
 - .tif
 - .tiff
