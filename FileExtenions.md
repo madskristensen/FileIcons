@@ -1,4 +1,4 @@
-## Supported File Extensions (480)
+## Supported File Extensions (485)
 
 - .7z
 - .accdc
@@ -473,6 +473,11 @@
 - .xht
 - .xhtm
 - .xhtml
+- .xq
+- .xql
+- .xqm
+- .xquery
+- .xqy
 - .xsjs
 - .xz
 - .yaml

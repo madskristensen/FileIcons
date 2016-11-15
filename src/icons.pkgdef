@@ -1149,6 +1149,18 @@
 [$RootKey$\ShellFileAssociations\.tmx]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 
+; XQuery
+[$RootKey$\ShellFileAssociations\.xq]
+"DefaultIconMoniker"="KnownMonikers.XPath"
+[$RootKey$\ShellFileAssociations\.xql]
+"DefaultIconMoniker"="KnownMonikers.XPath"
+[$RootKey$\ShellFileAssociations\.xqm]
+"DefaultIconMoniker"="KnownMonikers.XPath"
+[$RootKey$\ShellFileAssociations\.xqy]
+"DefaultIconMoniker"="KnownMonikers.XPath"
+[$RootKey$\ShellFileAssociations\.xquery]
+"DefaultIconMoniker"="KnownMonikers.XPath"
+
 ; VSSDK
 [$RootKey$\ShellFileAssociations\.vsixmanifest]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"

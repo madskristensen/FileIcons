@@ -5,6 +5,7 @@
 - [x] Terraform file icons
 - [x] Antlr file icons
 - [x] .dxview file icon (#39)
+- [x] XQuery file icons
 
 Features that have a checkmark are complete and available for
 download in the
