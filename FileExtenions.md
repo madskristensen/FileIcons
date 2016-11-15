@@ -1,4 +1,4 @@
-## Supported File Extensions (479)
+## Supported File Extensions (480)
 
 - .7z
 - .accdc
@@ -80,6 +80,7 @@
 - .dockerignore
 - .dpr
 - .dtsx
+- .dxview
 - .editorconfig
 - .edn
 - .eex

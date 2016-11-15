@@ -4,6 +4,7 @@
 - [x] .nimble file icon
 - [x] Terraform file icons
 - [x] Antlr file icons
+- [x] .dxview file icon (#39)
 
 Features that have a checkmark are complete and available for
 download in the

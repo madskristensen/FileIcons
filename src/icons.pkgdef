@@ -249,6 +249,10 @@
 [$RootKey$\ShellFileAssociations\.dpr]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:48"
 
+; DevExpress
+[$RootKey$\ShellFileAssociations\.dxview]
+"DefaultIconMoniker"="KnownMonikers.PageLayout"
+
 ; Elixir
 [$RootKey$\ShellFileAssociations\.ex]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:8"
