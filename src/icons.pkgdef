@@ -15,6 +15,12 @@
 [$RootKey$\ShellFileAssociations\.ansible]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:51"
 
+; Antlr
+[$RootKey$\ShellFileAssociations\.g]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+[$RootKey$\ShellFileAssociations\.g4]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
 ; AppleScript
 [$RootKey$\ShellFileAssociations\.app]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:53"

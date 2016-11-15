@@ -1,4 +1,4 @@
-## Supported File Extensions (477)
+## Supported File Extensions (479)
 
 - .7z
 - .accdc
@@ -128,6 +128,8 @@
 - .fsharplint
 - .fsi
 - .fsx
+- .g
+- .g4
 - .gemspec
 - .geojson
 - .geom
