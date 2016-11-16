@@ -1,4 +1,4 @@
-## Supported File Extensions (485)
+## Supported File Extensions (486)
 
 - .7z
 - .accdc
@@ -12,6 +12,7 @@
 - .as
 - .asf
 - .asm
+- .atg
 - .atom
 - .avi
 - .axml

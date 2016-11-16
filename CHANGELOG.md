@@ -6,6 +6,7 @@
 - [x] Antlr file icons
 - [x] .dxview file icon (#39)
 - [x] XQuery file icons
+- [x] .atg file icon
 
 Features that have a checkmark are complete and available for
 download in the
