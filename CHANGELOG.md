@@ -1,12 +1,6 @@
 # Road map
 
 - [ ] More icons...
-- [x] .nimble file icon
-- [x] Terraform file icons
-- [x] Antlr file icons
-- [x] .dxview file icon (#39)
-- [x] XQuery file icons
-- [x] .atg file icon
 
 Features that have a checkmark are complete and available for
 download in the
@@ -16,6 +10,15 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.13
+
+- [x] .nimble file icon
+- [x] Terraform file icons
+- [x] Antlr file icons
+- [x] .dxview file icon (#39)
+- [x] XQuery file icons
+- [x] .atg file icon
 
 ## 1.12
 
