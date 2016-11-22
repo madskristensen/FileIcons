@@ -1,4 +1,4 @@
-## Supported File Extensions (486)
+## Supported File Extensions (489)
 
 - .7z
 - .accdc
@@ -90,6 +90,7 @@
 - .elm
 - .emakefile
 - .emakerfile
+- .env
 - .eot
 - .epp
 - .erb.deface
@@ -174,6 +175,7 @@
 - .idx
 - .ifb
 - .imagemanifest
+- .ini
 - .irbrc
 - .iuml
 - .j2
@@ -416,6 +418,7 @@
 - .swift
 - .swig
 - .t
+- .t4
 - .tag
 - .tar
 - .targets

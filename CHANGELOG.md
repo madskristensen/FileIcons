@@ -2,6 +2,7 @@
 
 - [ ] More icons...
 - [x] .tf file icon
+- [x] .ini and .env file icons
 
 Features that have a checkmark are complete and available for
 download in the
