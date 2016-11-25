@@ -4,6 +4,7 @@
 - [x] .tf file icon
 - [x] .ini and .env file icons
 - [x] .postcssrc file icon
+- [x] .bdcm and .diagram file icons
 
 Features that have a checkmark are complete and available for
 download in the

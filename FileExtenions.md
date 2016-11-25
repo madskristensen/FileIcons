@@ -1,4 +1,4 @@
-## Supported File Extensions (490)
+## Supported File Extensions (492)
 
 - .7z
 - .accdc
@@ -21,6 +21,7 @@
 - .bash
 - .bat
 - .bbx
+- .bdcm
 - .bib
 - .bil
 - .bmml
@@ -76,6 +77,7 @@
 - .dependencies
 - .dfm
 - .dhtml
+- .diagram
 - .dml
 - .do
 - .dockerignore
