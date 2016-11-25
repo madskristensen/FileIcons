@@ -1,4 +1,4 @@
-## Supported File Extensions (489)
+## Supported File Extensions (490)
 
 - .7z
 - .accdc
@@ -320,6 +320,7 @@
 - .po
 - .pod
 - .postcss
+- .postcssrc
 - .pp
 - .prawn
 - .prf
