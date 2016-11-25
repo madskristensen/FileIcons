@@ -1,4 +1,4 @@
-## Supported File Extensions (492)
+## Supported File Extensions (493)
 
 - .7z
 - .accdc
@@ -425,6 +425,7 @@
 - .tag
 - .tar
 - .targets
+- .tcl
 - .template
 - .tex
 - .tf

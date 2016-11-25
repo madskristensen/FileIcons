@@ -131,6 +131,7 @@
     <Resource Include="Icons\neo4j.png" />
     <Resource Include="Icons\foxpro.png" />
     <Resource Include="Icons\terraform.png" />
+    <Resource Include="Icons\tcl.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>
