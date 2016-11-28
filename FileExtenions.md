@@ -1,4 +1,4 @@
-## Supported File Extensions (493)
+## Supported File Extensions (495)
 
 - .7z
 - .accdc
@@ -55,6 +55,7 @@
 - .cmd
 - .cob
 - .coffee
+- .conf
 - .config
 - .cpp
 - .cpy
@@ -450,6 +451,7 @@
 - .ttinclude
 - .ttl
 - .twig
+- .types
 - .ui
 - .vash
 - .vb
