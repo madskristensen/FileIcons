@@ -1,4 +1,4 @@
-## Supported File Extensions (495)
+## Supported File Extensions (496)
 
 - .7z
 - .accdc
@@ -178,6 +178,7 @@
 - .idx
 - .ifb
 - .imagemanifest
+- .inc
 - .ini
 - .irbrc
 - .iuml

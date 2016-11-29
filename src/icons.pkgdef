@@ -27,9 +27,11 @@
 
 ; Assembly
 [$RootKey$\ShellFileAssociations\.asm]
-"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 [$RootKey$\ShellFileAssociations\.s]
-"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+[$RootKey$\ShellFileAssociations\.inc]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; Audio
 [$RootKey$\ShellFileAssociations\.midi]
