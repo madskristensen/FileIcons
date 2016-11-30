@@ -1,14 +1,6 @@
 # Road map
 
 - [ ] More icons...
-- [x] .tf file icon
-- [x] .ini and .env file icons
-- [x] .postcssrc file icon
-- [x] .bdcm and .diagram file icons
-- [x] .tcl file icon
-- [x] .conf and .types file icons
-- [x] .DotSettings file icon
-- [x] .tick file icon
 
 Features that have a checkmark are complete and available for
 download in the
@@ -18,6 +10,18 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 2.1
+
+- [x] .tf file icon
+- [x] .ini and .env file icons
+- [x] .postcssrc file icon
+- [x] .bdcm and .diagram file icons
+- [x] .tcl file icon
+- [x] .conf and .types file icons
+- [x] .DotSettings file icon
+- [x] .tick file icon
+- [x] Updated version to follow Syntax Highlighting Pack
 
 ## 1.13
 
