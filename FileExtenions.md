@@ -1,4 +1,4 @@
-## Supported File Extensions (496)
+## Supported File Extensions (497)
 
 - .7z
 - .accdc
@@ -82,6 +82,7 @@
 - .dml
 - .do
 - .dockerignore
+- .dotsettings
 - .dpr
 - .dtsx
 - .dxview

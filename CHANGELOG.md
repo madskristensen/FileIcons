@@ -7,6 +7,7 @@
 - [x] .bdcm and .diagram file icons
 - [x] .tcl file icon
 - [x] .conf and .types file icons
+- [x] .DotSettings file icon
 
 Features that have a checkmark are complete and available for
 download in the
