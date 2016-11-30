@@ -1075,6 +1075,10 @@
 [$RootKey$\ShellFileAssociations\.tfvars]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:75"
 
+; Kapacitor Tick
+[$RootKey$\ShellFileAssociations\.tick]
+"DefaultIconMoniker"="KnownMonikers.Time"
+
 ; Twig
 [$RootKey$\ShellFileAssociations\.twig]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:71"

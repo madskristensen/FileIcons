@@ -1,4 +1,4 @@
-## Supported File Extensions (497)
+## Supported File Extensions (498)
 
 - .7z
 - .accdc
@@ -435,6 +435,7 @@
 - .tfignore
 - .tfvars
 - .tga
+- .tick
 - .tif
 - .tiff
 - .tikz
