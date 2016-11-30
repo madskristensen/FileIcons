@@ -38,6 +38,7 @@
         <ID Name="haskell" Value="18" />
         <ID Name="haxe" Value="57" />
         <ID Name="haxedevelop" Value="58" />
+        <ID Name="idris" Value="77" />
         <ID Name="jade" Value="19" />
         <ID Name="jshint" Value="20" />
         <ID Name="julia" Value="21" />
@@ -246,6 +247,11 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(haxedevelop)">
             <Source Uri="$(Resources)/haxedevelop.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(idris)">
+            <Source Uri="$(Resources)/idris.png">
                 <Size Value="32" />
             </Source>
         </Image>

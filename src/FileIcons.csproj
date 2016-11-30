@@ -132,6 +132,7 @@
     <Resource Include="Icons\foxpro.png" />
     <Resource Include="Icons\terraform.png" />
     <Resource Include="Icons\tcl.png" />
+    <Resource Include="Icons\idris.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>
