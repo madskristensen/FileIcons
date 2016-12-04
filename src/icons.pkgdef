@@ -1218,6 +1218,8 @@
 ; Yarn
 [$RootKey$\ShellFileAssociations\.yarnclean]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:42"
+[$RootKey$\ShellFileAssociations\.yarnrc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:42"
 
 ; Zip
 [$RootKey$\ShellFileAssociations\.7z]
