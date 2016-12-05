@@ -86,6 +86,8 @@
 "DefaultIconMoniker"="KnownMonikers.CFile"
 [$RootKey$\ShellFileAssociations\.vert]
 "DefaultIconMoniker"="KnownMonikers.CFile"
+[$RootKey$\ShellFileAssociations\.glsl]
+"DefaultIconMoniker"="KnownMonikers.CFile"
 
 ; C#
 [$RootKey$\ShellFileAssociations\.cs]

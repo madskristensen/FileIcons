@@ -1,4 +1,4 @@
-## Supported File Extensions (501)
+## Supported File Extensions (502)
 
 - .7z
 - .accdc
@@ -147,6 +147,7 @@
 - .gitignore
 - .gitkeep
 - .gitmodules
+- .glsl
 - .go
 - .gradle
 - .groovy
