@@ -454,6 +454,8 @@
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.xhtml]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.spark]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
 ; HTML templates
 [$RootKey$\ShellFileAssociations\.ejs]

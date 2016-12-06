@@ -1,4 +1,4 @@
-## Supported File Extensions (502)
+## Supported File Extensions (503)
 
 - .7z
 - .accdc
@@ -410,6 +410,7 @@
 - .smv
 - .snippet
 - .sol
+- .spark
 - .sparql
 - .sql.erb
 - .sql
