@@ -4,6 +4,7 @@
 - [x] Idris file icons
 - [x] .glsl file icon
 - [x] .spark file icon
+- [x] .properties file icon
 
 Features that have a checkmark are complete and available for
 download in the

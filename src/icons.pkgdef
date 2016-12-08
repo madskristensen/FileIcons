@@ -144,6 +144,8 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.dotsettings]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.properties]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 
 ; CoffeeScript
 [$RootKey$\ShellFileAssociations\.coffee]

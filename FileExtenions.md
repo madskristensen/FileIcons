@@ -1,4 +1,4 @@
-## Supported File Extensions (503)
+## Supported File Extensions (504)
 
 - .7z
 - .accdc
@@ -337,6 +337,7 @@
 - .pro
 - .procfile
 - .proj
+- .properties
 - .proto
 - .ps1
 - .psd
