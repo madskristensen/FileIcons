@@ -1,4 +1,4 @@
-## Supported File Extensions (505)
+## Supported File Extensions (514)
 
 - .7z
 - .accdc
@@ -45,6 +45,7 @@
 - .cfm
 - .cfml
 - .chefignore
+- .chm
 - .cjm
 - .cjsx
 - .cl
@@ -154,16 +155,22 @@
 - .groovy
 - .gz
 - .h
+- .h1s
 - .haml
 - .handlebars
 - .has
 - .hbs
 - .hgignore
 - .hh
+- .hhc
+- .hhk
+- .hhp
 - .hjson
+- .hlp
 - .hrl
 - .hs
 - .hss
+- .hsx
 - .hta
 - .htaccess
 - .htm
@@ -264,6 +271,7 @@
 - .mp4
 - .mpeg
 - .mpg
+- .mshc
 - .mst
 - .mtn-ignore
 - .mts
@@ -274,6 +282,7 @@
 - .mx3
 - .myd
 - .mysql
+- .ndoc
 - .nim
 - .nimble
 - .nims

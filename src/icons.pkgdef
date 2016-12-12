@@ -419,12 +419,6 @@
 [$RootKey$\ShellFileAssociations\.gf]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:18"
 
-; Jade
-[$RootKey$\ShellFileAssociations\.jade]
-"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:19"
-[$RootKey$\ShellFileAssociations\.pug]
-"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:19"
-
 ; Haxe
 [$RootKey$\ShellFileAssociations\.hx]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:57"
@@ -433,11 +427,25 @@
 [$RootKey$\ShellFileAssociations\.hxproj]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:58"
 
-; Idris
-[$RootKey$\ShellFileAssociations\.idr]
-"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:77"
-[$RootKey$\ShellFileAssociations\.ipkg]
-"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:77"
+; Help files
+[$RootKey$\ShellFileAssociations\.ndoc]
+"DefaultIconMoniker"="KnownMonikers.HelpIndexFile"
+[$RootKey$\ShellFileAssociations\.chm]
+"DefaultIconMoniker"="KnownMonikers.CompiledHelpFile"
+[$RootKey$\ShellFileAssociations\.hsx]
+"DefaultIconMoniker"="KnownMonikers.CompiledHelpFile"
+[$RootKey$\ShellFileAssociations\.h1s]
+"DefaultIconMoniker"="KnownMonikers.CompiledHelpFile"
+[$RootKey$\ShellFileAssociations\.mshc]
+"DefaultIconMoniker"="KnownMonikers.CompiledHelpFile"
+[$RootKey$\ShellFileAssociations\.hlp]
+"DefaultIconMoniker"="KnownMonikers.CompiledHelpFile"
+[$RootKey$\ShellFileAssociations\.hhp]
+"DefaultIconMoniker"="KnownMonikers.HelpApplication"
+[$RootKey$\ShellFileAssociations\.hhc]
+"DefaultIconMoniker"="KnownMonikers.HelpTableOfContents"
+[$RootKey$\ShellFileAssociations\.hhk]
+"DefaultIconMoniker"="KnownMonikers.HelpIndexFile"
 
 ; HTML
 [$RootKey$\ShellFileAssociations\.hta]
@@ -503,6 +511,7 @@
 [$RootKey$\ShellFileAssociations\.rt]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
+
 ; ICalendar
 [$RootKey$\ShellFileAssociations\.ics]
 "DefaultIconMoniker"="KnownMonikers.Calendar"
@@ -510,6 +519,12 @@
 "DefaultIconMoniker"="KnownMonikers.Calendar"
 [$RootKey$\ShellFileAssociations\.ical]
 "DefaultIconMoniker"="KnownMonikers.Calendar"
+
+; Idris
+[$RootKey$\ShellFileAssociations\.idr]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:77"
+[$RootKey$\ShellFileAssociations\.ipkg]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:77"
 
 ; .ignore
 [$RootKey$\ShellFileAssociations\.bzrignore]
@@ -584,6 +599,12 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:27"
 [$RootKey$\ShellFileAssociations\.pdf]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:38"
+
+; Jade
+[$RootKey$\ShellFileAssociations\.jade]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:19"
+[$RootKey$\ShellFileAssociations\.pug]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:19"
 
 ; Java
 [$RootKey$\ShellFileAssociations\.action]

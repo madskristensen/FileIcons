@@ -6,6 +6,7 @@
 - [x] .spark file icon
 - [x] .properties file icon
 - [x] .asp file icon
+- [x] Help file icons
 
 Features that have a checkmark are complete and available for
 download in the
