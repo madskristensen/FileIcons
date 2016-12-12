@@ -7,10 +7,6 @@
 [$RootKey$\ShellFileAssociations\.as]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:50"
 
-; Apigee
-[$RootKey$\ShellFileAssociations\.apib]
-"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:52"
-
 ; Ansible
 [$RootKey$\ShellFileAssociations\.ansible]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:51"
@@ -20,6 +16,16 @@
 "DefaultIconMoniker"="KnownMonikers.CompilableFile"
 [$RootKey$\ShellFileAssociations\.g4]
 "DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
+; Apache
+[$RootKey$\ShellFileAssociations\.htaccess]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:2"
+[$RootKey$\ShellFileAssociations\.thrift]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:2"
+
+; Apigee
+[$RootKey$\ShellFileAssociations\.apib]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:52"
 
 ; AppleScript
 [$RootKey$\ShellFileAssociations\.app]
@@ -130,8 +136,6 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.editorconfig]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:6"
-[$RootKey$\ShellFileAssociations\.htaccess]
-"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:2"
 [$RootKey$\ShellFileAssociations\.htpasswd]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:2"
 [$RootKey$\ShellFileAssociations\.licx]

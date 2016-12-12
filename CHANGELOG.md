@@ -7,6 +7,7 @@
 - [x] .properties file icon
 - [x] .asp file icon
 - [x] Help file icons
+- [x] .thift file icon
 
 Features that have a checkmark are complete and available for
 download in the
