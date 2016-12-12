@@ -1,4 +1,4 @@
-## Supported File Extensions (504)
+## Supported File Extensions (505)
 
 - .7z
 - .accdc
@@ -12,6 +12,7 @@
 - .as
 - .asf
 - .asm
+- .asp
 - .atg
 - .atom
 - .avi
