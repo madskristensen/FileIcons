@@ -69,6 +69,10 @@
 [$RootKey$\ShellFileAssociations\.cab]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 
+; Bond
+[$RootKey$\ShellFileAssociations\.bond]
+"DefaultIconMoniker"="KnownMonikers.Schema"
+
 ; C/C++
 [$RootKey$\ShellFileAssociations\.c]
 "DefaultIconMoniker"="KnownMonikers.CFile"
