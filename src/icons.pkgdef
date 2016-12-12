@@ -571,6 +571,8 @@
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 [$RootKey$\ShellFileAssociations\.exclude]
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.yarnignore]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 
 ; Images
 [$RootKey$\ShellFileAssociations\.bmp]
