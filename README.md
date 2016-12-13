@@ -17,7 +17,7 @@ Visual Studio doesn't provide icons for.
 
 ![Before and After](art/before-after.png)
 
-See the [complete list](FileExtenions.md) of supported file extenions.
+See the [complete list](FileExtensions.md) of supported file extenions.
 
 ## Suggest new icons
 Though this extension helps to provide missing icons for known file
