@@ -1,6 +1,8 @@
 # Road map
 
 - [ ] More icons...
+- [x] .bond file icon
+- [x] .tsl file icon
 - [x] .yarnignore file icon
 
 Features that have a checkmark are complete and available for

@@ -69,10 +69,6 @@
 [$RootKey$\ShellFileAssociations\.cab]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 
-; Bond
-[$RootKey$\ShellFileAssociations\.bond]
-"DefaultIconMoniker"="KnownMonikers.Schema"
-
 ; C/C++
 [$RootKey$\ShellFileAssociations\.c]
 "DefaultIconMoniker"="KnownMonikers.CFile"
@@ -1023,6 +1019,12 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:43"
 [$RootKey$\ShellFileAssociations\.sbt]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:43"
+
+; Schema files
+[$RootKey$\ShellFileAssociations\.bond]
+"DefaultIconMoniker"="KnownMonikers.Schema"
+[$RootKey$\ShellFileAssociations\.tsl]
+"DefaultIconMoniker"="KnownMonikers.Schema"
 
 ; Scheme
 [$RootKey$\ShellFileAssociations\.scm]

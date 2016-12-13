@@ -1,4 +1,4 @@
-## Supported File Extensions (516)
+## Supported File Extensions (518)
 
 - .7z
 - .accdc
@@ -465,6 +465,7 @@
 - .topojson
 - .tpl
 - .ts
+- .tsl
 - .tsx
 - .tt
 - .ttf
