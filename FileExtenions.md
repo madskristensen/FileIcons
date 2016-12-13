@@ -512,6 +512,7 @@
 - .xz
 - .yaml
 - .yarnclean
+- .yarnignore
 - .yarnrc
 - .yml
 - .zip

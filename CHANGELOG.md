@@ -1,7 +1,7 @@
 # Road map
 
 - [ ] More icons...
-- [x] .bond file icon
+- [x] .yarnignore file icon
 
 Features that have a checkmark are complete and available for
 download in the
@@ -21,6 +21,7 @@ on the official Visual Studio extension gallery.
 - [x] .asp file icon
 - [x] Help file icons
 - [x] .thift file icon
+- [x] .yarnrc file icon
 
 ## 2.1
 
