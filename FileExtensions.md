@@ -1,4 +1,4 @@
-## Supported File Extensions (518)
+## Supported File Extensions (519)
 
 - .7z
 - .accdc
@@ -514,6 +514,7 @@
 - .yaml
 - .yarnclean
 - .yarnignore
+- .yarn-integrity
 - .yarnrc
 - .yml
 - .zip

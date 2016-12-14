@@ -4,6 +4,7 @@
 - [x] .bond file icon
 - [x] .tsl file icon
 - [x] .yarnignore file icon
+- [x] .yarn-integrity file icon
 
 Features that have a checkmark are complete and available for
 download in the
