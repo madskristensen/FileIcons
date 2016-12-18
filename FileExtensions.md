@@ -1,4 +1,4 @@
-## Supported File Extensions (519)
+## Supported File Extensions (520)
 
 - .7z
 - .accdc
@@ -74,6 +74,7 @@
 - .cyp
 - .d
 - .dart
+- .dat
 - .db
 - .db3
 - .dbc

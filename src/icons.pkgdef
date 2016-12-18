@@ -68,6 +68,8 @@
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.cab]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.dat]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
 
 ; C/C++
 [$RootKey$\ShellFileAssociations\.c]
