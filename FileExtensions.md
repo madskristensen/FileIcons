@@ -1,4 +1,4 @@
-## Supported File Extensions (520)
+## Supported File Extensions (521)
 
 - .7z
 - .accdc
@@ -219,6 +219,7 @@
 - .jss
 - .jsx
 - .jws
+- .kit
 - .l
 - .lava
 - .less

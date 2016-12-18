@@ -476,6 +476,8 @@
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.spark]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.kit]
+"DefaultIconMoniker"="KnownMonikers.HTMLFile"
 
 ; HTML templates
 [$RootKey$\ShellFileAssociations\.ejs]
