@@ -7,6 +7,7 @@
 - [x] .yarn-integrity file icon
 - [x] .dat file icon
 - [x] .kit file icon
+- [x] .bmpr file icon
 
 Features that have a checkmark are complete and available for
 download in the

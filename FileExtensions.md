@@ -1,4 +1,4 @@
-## Supported File Extensions (521)
+## Supported File Extensions (522)
 
 - .7z
 - .accdc
@@ -27,6 +27,7 @@
 - .bil
 - .bmml
 - .bmp
+- .bmpr
 - .bond
 - .boringignore
 - .bowerrc
