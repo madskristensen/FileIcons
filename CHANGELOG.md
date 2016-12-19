@@ -1,13 +1,6 @@
 # Road map
 
 - [ ] More icons...
-- [x] .bond file icon
-- [x] .tsl file icon
-- [x] .yarnignore file icon
-- [x] .yarn-integrity file icon
-- [x] .dat file icon
-- [x] .kit file icon
-- [x] .bmpr file icon
 
 Features that have a checkmark are complete and available for
 download in the
@@ -17,6 +10,16 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 2.3
+
+- [x] .bond file icon
+- [x] .tsl file icon
+- [x] .yarnignore file icon
+- [x] .yarn-integrity file icon
+- [x] .dat file icon
+- [x] .kit file icon
+- [x] .bmpr file icon
 
 ## 2.2
 
