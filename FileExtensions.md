@@ -1,4 +1,4 @@
-## Supported File Extensions (522)
+## Supported File Extensions (524)
 
 - .7z
 - .accdc
@@ -434,6 +434,7 @@
 - .sqlite3
 - .sqlite3
 - .sqlitedb
+- .storyboard
 - .sty
 - .styl
 - .stylelintrc
@@ -507,6 +508,7 @@
 - .xht
 - .xhtm
 - .xhtml
+- .xib
 - .xq
 - .xql
 - .xqm

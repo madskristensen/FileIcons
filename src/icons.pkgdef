@@ -1198,6 +1198,12 @@
 [$RootKey$\ShellFileAssociations\.eyaml]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 
+; Xamarin
+[$RootKey$\ShellFileAssociations\.xib]
+"DefaultIconMoniker"="KnownMonikers.InterfaceFile"
+[$RootKey$\ShellFileAssociations\.storyboard]
+"DefaultIconMoniker"="KnownMonikers.Timeline"
+
 ; XAML
 [$RootKey$\ShellFileAssociations\.xaml]
 "DefaultIconMoniker"="KnownMonikers.PhoneXAML"
