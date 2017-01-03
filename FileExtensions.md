@@ -1,4 +1,4 @@
-## Supported File Extensions (524)
+## Supported File Extensions (525)
 
 - .7z
 - .accdc
@@ -79,6 +79,7 @@
 - .db
 - .db3
 - .dbc
+- .dcmp
 - .ddl
 - .dependencies
 - .dfm

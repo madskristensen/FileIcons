@@ -2,6 +2,7 @@
 
 - [ ] More icons...
 - [x] .storyboard and .xib file icons (#60)
+- [x] .dcmp file icon (#59)
 
 Features that have a checkmark are complete and available for
 download in the

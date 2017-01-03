@@ -276,6 +276,22 @@
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.dbc]
 "DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.sql]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.sql.erb]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.erbsql]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.ddl]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.dml]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.mysql]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.sqlce]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.dcmp]
+"DefaultIconMoniker"="KnownMonikers.DataCompare"
 
 ; Delphi
 [$RootKey$\ShellFileAssociations\.p]
@@ -1076,21 +1092,6 @@
 [$RootKey$\ShellFileAssociations\.skim]
 "DefaultIconMoniker"="KnownMonikers.MarkupTag"
 
-; SQL
-[$RootKey$\ShellFileAssociations\.sql]
-"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
-[$RootKey$\ShellFileAssociations\.sql.erb]
-"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
-[$RootKey$\ShellFileAssociations\.erbsql]
-"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
-[$RootKey$\ShellFileAssociations\.ddl]
-"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
-[$RootKey$\ShellFileAssociations\.dml]
-"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
-[$RootKey$\ShellFileAssociations\.mysql]
-"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
-[$RootKey$\ShellFileAssociations\.sqlce]
-"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 
 ; Sqlite
 [$RootKey$\ShellFileAssociations\.sqlite]
