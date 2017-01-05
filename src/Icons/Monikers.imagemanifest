@@ -73,6 +73,7 @@
         <ID Name="scheme" Value="44" />
         <ID Name="semanticweb" Value="47" />
         <ID Name="smarty" Value="31" />
+        <ID Name="solidity" Value="78" />
         <ID Name="sqlite" Value="32" />
         <ID Name="stylelint" Value="33" />
         <ID Name="swift" Value="34" />
@@ -425,6 +426,11 @@
                 <Size Value="32" />
             </Source>
         </Image>
+      <Image Guid="$(MonikersGuid)" ID="$(solidity)">
+        <Source Uri="$(Resources)/solidity.png">
+          <Size Value="32" />
+        </Source>
+      </Image>
         <Image Guid="$(MonikersGuid)" ID="$(sqlite)">
             <Source Uri="$(Resources)/sqlite.png">
                 <Size Value="32" />

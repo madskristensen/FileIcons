@@ -133,6 +133,7 @@
     <Resource Include="Icons\terraform.png" />
     <Resource Include="Icons\tcl.png" />
     <Resource Include="Icons\idris.png" />
+    <Resource Include="Icons\solidity.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>
