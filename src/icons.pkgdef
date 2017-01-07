@@ -1177,6 +1177,14 @@
 [$RootKey$\ShellFileAssociations\.wmv]
 "DefaultIconMoniker"="KnownMonikers.Media"
 
+; VHDL
+[$RootKey$\ShellFileAssociations\.vhd]
+"DefaultIconMoniker"="KnownMonikers.FileSystemDriverFile"
+[$RootKey$\ShellFileAssociations\.vhdl]
+"DefaultIconMoniker"="KnownMonikers.FileSystemDriverFile"
+[$RootKey$\ShellFileAssociations\.vho]
+"DefaultIconMoniker"="KnownMonikers.FileSystemDriverFile"
+
 ; Visual Basic
 [$RootKey$\ShellFileAssociations\.vb]
 "DefaultIconMoniker"="KnownMonikers.VBFileNode"

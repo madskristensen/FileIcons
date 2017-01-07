@@ -4,6 +4,7 @@
 - [x] .storyboard and .xib file icons (#60)
 - [x] .dcmp file icon (#59)
 - [x] .sol file icon
+- [x] VHDL file icons
 
 Features that have a checkmark are complete and available for
 download in the

@@ -1,4 +1,4 @@
-## Supported File Extensions (525)
+## Supported File Extensions (528)
 
 - .7z
 - .accdc
@@ -485,6 +485,9 @@
 - .vcl
 - .vdb3
 - .vert
+- .vhd
+- .vhdl
+- .vho
 - .volt
 - .vscodeignore
 - .vsct
