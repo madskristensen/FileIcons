@@ -111,6 +111,10 @@
 [$RootKey$\ShellFileAssociations\.csx]
 "DefaultIconMoniker"="KnownMonikers.CSFileNode"
 
+; Cake
+[$RootKey$\ShellFileAssociations\.cake]
+"DefaultIconMoniker"="KnownMonikers.MakeFile"
+
 ; Certificate
 [$RootKey$\ShellFileAssociations\.cer]
 "DefaultIconMoniker"="KnownMonikers.Certificate"

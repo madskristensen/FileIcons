@@ -1,4 +1,4 @@
-## Supported File Extensions (528)
+## Supported File Extensions (529)
 
 - .7z
 - .accdc
@@ -36,6 +36,7 @@
 - .bzrignore
 - .c
 - .cab
+- .cake
 - .capfile
 - .cbl
 - .cbx
