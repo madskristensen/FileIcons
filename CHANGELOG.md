@@ -1,12 +1,7 @@
 # Road map
 
 - [ ] More icons...
-- [x] .storyboard and .xib file icons (#60)
-- [x] .dcmp file icon (#59)
-- [x] .sol file icon
-- [x] VHDL file icons
-- [x] .cake file icon
-- [x] TTCN-3 file icons
+- [x] .loadtest file icon
 
 Features that have a checkmark are complete and available for
 download in the
@@ -16,6 +11,15 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 2.4
+
+- [x] .storyboard and .xib file icons (#60)
+- [x] .dcmp file icon (#59)
+- [x] .sol file icon
+- [x] VHDL file icons
+- [x] .cake file icon
+- [x] TTCN-3 file icons
 
 ## 2.3
 
