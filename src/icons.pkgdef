@@ -1126,6 +1126,14 @@
 ; Test
 [$RootKey$\ShellFileAssociations\.feature]
 "DefaultIconMoniker"="KnownMonikers.TestPlan"
+[$RootKey$\ShellFileAssociations\.ttcn]
+"DefaultIconMoniker"="KnownMonikers.Test"
+[$RootKey$\ShellFileAssociations\.ttcn3]
+"DefaultIconMoniker"="KnownMonikers.Test"
+[$RootKey$\ShellFileAssociations\.asn]
+"DefaultIconMoniker"="KnownMonikers.ServerTest"
+[$RootKey$\ShellFileAssociations\.par]
+"DefaultIconMoniker"="KnownMonikers.CodeTest"
 
 ; Temp files
 [$RootKey$\ShellFileAssociations\.tmp]

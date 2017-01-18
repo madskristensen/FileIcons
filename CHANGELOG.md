@@ -6,6 +6,7 @@
 - [x] .sol file icon
 - [x] VHDL file icons
 - [x] .cake file icon
+- [x] TTCN-3 file icons
 
 Features that have a checkmark are complete and available for
 download in the

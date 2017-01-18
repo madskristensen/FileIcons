@@ -1,4 +1,4 @@
-## Supported File Extensions (529)
+## Supported File Extensions (533)
 
 - .7z
 - .accdc
@@ -12,6 +12,7 @@
 - .as
 - .asf
 - .asm
+- .asn
 - .asp
 - .atg
 - .atom
@@ -315,6 +316,7 @@
 - .p12
 - .p4ignore
 - .p6
+- .par
 - .pas
 - .patch
 - .pcss
@@ -474,6 +476,8 @@
 - .tsl
 - .tsx
 - .tt
+- .ttcn
+- .ttcn3
 - .ttf
 - .ttinclude
 - .ttl
