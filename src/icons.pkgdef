@@ -955,6 +955,8 @@
 ; Po Edit
 [$RootKey$\ShellFileAssociations\.po]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:66"
+[$RootKey$\ShellFileAssociations\.potx]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:66"
 [$RootKey$\ShellFileAssociations\.mo]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:66"
 
