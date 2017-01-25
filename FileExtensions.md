@@ -1,4 +1,4 @@
-## Supported File Extensions (535)
+## Supported File Extensions (536)
 
 - .7z
 - .accdc
@@ -513,6 +513,7 @@
 - .woff
 - .woff2
 - .wss
+- .wxi
 - .wxs
 - .xaml
 - .xdt
