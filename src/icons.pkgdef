@@ -296,6 +296,8 @@
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.dcmp]
 "DefaultIconMoniker"="KnownMonikers.DataCompare"
+[$RootKey$\ShellFileAssociations\.edml]
+"DefaultIconMoniker"="KnownMonikers.EntityDatabase"
 
 ; Delphi
 [$RootKey$\ShellFileAssociations\.p]
