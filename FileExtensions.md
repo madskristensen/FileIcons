@@ -1,4 +1,4 @@
-## Supported File Extensions (536)
+## Supported File Extensions (537)
 
 - .7z
 - .accdc
@@ -58,6 +58,7 @@
 - .cljs
 - .clojure
 - .cls
+- .cmake
 - .cmd
 - .cob
 - .coffee

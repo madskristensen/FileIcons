@@ -777,6 +777,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:62"
 
 ; Makefile
+[$RootKey$\ShellFileAssociations\.cmake]
+"DefaultIconMoniker"="KnownMonikers.MakeFile"
 [$RootKey$\ShellFileAssociations\.mak]
 "DefaultIconMoniker"="KnownMonikers.MakeFile"
 [$RootKey$\ShellFileAssociations\.mk]
