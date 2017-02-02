@@ -1,7 +1,8 @@
-## Supported File Extensions (539)
+## Supported File Extensions (541)
 
 - .7z
 - .accdc
+- .accdd
 - .ace
 - .action
 - .aip
@@ -256,6 +257,7 @@
 - .marko
 - .mat
 - .md
+- .mdb
 - .mde
 - .mdf
 - .mdn

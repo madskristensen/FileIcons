@@ -276,6 +276,10 @@
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.accdc]
 "DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.accdd]
+"DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.mdb]
+"DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.vdb3]
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.rdb]
