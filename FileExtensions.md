@@ -1,4 +1,4 @@
-## Supported File Extensions (537)
+## Supported File Extensions (539)
 
 - .7z
 - .accdc
@@ -96,6 +96,7 @@
 - .dtsx
 - .dxview
 - .editorconfig
+- .edml
 - .edn
 - .eex
 - .ejs
@@ -384,6 +385,7 @@
 - .rb
 - .rbx
 - .rdb
+- .rdl
 - .readme
 - .reek
 - .references

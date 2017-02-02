@@ -199,9 +199,11 @@
 [$RootKey$\ShellFileAssociations\.lucee]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:55"
 
-; Crystal reports
+; Reports
 [$RootKey$\ShellFileAssociations\.rpt]
 "DefaultIconMoniker"="KnownMonikers.CrystalReport"
+[$RootKey$\ShellFileAssociations\.rdl]
+"DefaultIconMoniker"="KnownMonikers.Report"
 
 ; CSS
 [$RootKey$\ShellFileAssociations\.css]
