@@ -1,14 +1,6 @@
 # Road map
 
 - [ ] More icons...
-- [x] .loadtest file icon
-- [x] .potx file icon
-- [x] .wxi file icon
-- [x] .cmake file icon
-- [x] .edml file icon
-- [x] .rdl file icon
-- [x] .mdb and .accdb file icons
-- [x] .tcsh, .csh, .rc, .pre, .post file icons
 
 Features that have a checkmark are complete and available for
 download in the
@@ -18,6 +10,17 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 2.5
+
+- [x] .loadtest file icon
+- [x] .potx file icon
+- [x] .wxi file icon
+- [x] .cmake file icon
+- [x] .edml file icon
+- [x] .rdl file icon
+- [x] .mdb and .accdb file icons
+- [x] .tcsh, .csh, .rc, .pre, .post file icons
 
 ## 2.4
 
