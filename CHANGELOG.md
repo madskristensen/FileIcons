@@ -8,6 +8,7 @@
 - [x] .edml file icon
 - [x] .rdl file icon
 - [x] .mdb and .accdb file icons
+- [x] .tcsh, .csh, .rc, .pre, .post file icons
 
 Features that have a checkmark are complete and available for
 download in the

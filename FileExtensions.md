@@ -1,4 +1,4 @@
-## Supported File Extensions (541)
+## Supported File Extensions (546)
 
 - .7z
 - .accdc
@@ -71,6 +71,7 @@
 - .crt
 - .cs
 - .csdef
+- .csh
 - .cson
 - .css
 - .csslintrc
@@ -350,11 +351,13 @@
 - .png
 - .po
 - .pod
+- .post
 - .postcss
 - .postcssrc
 - .potx
 - .pp
 - .prawn
+- .pre
 - .prf
 - .prg
 - .pri
@@ -386,6 +389,7 @@
 - .rar
 - .rb
 - .rbx
+- .rc
 - .rdb
 - .rdl
 - .readme
@@ -460,6 +464,7 @@
 - .tar
 - .targets
 - .tcl
+- .tcsh
 - .template
 - .tex
 - .tf

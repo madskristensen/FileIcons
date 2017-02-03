@@ -1103,6 +1103,16 @@
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.fish]
 "DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.tcsh]
+"DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.csh]
+"DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.rc]
+"DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.pre]
+"DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.post]
+"DefaultIconMoniker"="KnownMonikers.Console"
 
 ; Slim
 [$RootKey$\ShellFileAssociations\.slim]
