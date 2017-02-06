@@ -1,4 +1,4 @@
-## Supported File Extensions (546)
+## Supported File Extensions (548)
 
 - .7z
 - .accdc
@@ -242,6 +242,8 @@
 - .local
 - .lock.json
 - .lock
+- .log
+- .log4net
 - .ls
 - .lsc
 - .lslm

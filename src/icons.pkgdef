@@ -764,6 +764,12 @@
 [$RootKey$\ShellFileAssociations\.lock.json]
 "DefaultIconMoniker"="KnownMonikers.Lock"
 
+; Log files
+[$RootKey$\ShellFileAssociations\.log]
+"DefaultIconMoniker"="KnownMonikers.Log"
+[$RootKey$\ShellFileAssociations\.log4net]
+"DefaultIconMoniker"="KnownMonikers.Log"
+
 ; Lua
 [$RootKey$\ShellFileAssociations\.lua]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:23"
