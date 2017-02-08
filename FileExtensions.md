@@ -1,4 +1,4 @@
-## Supported File Extensions (548)
+## Supported File Extensions (553)
 
 - .7z
 - .accdc
@@ -10,6 +10,7 @@
 - .apib
 - .app
 - .appcache
+- .appfile
 - .as
 - .asf
 - .asm
@@ -170,6 +171,7 @@
 - .handlebars
 - .has
 - .hbs
+- .hcl
 - .hgignore
 - .hh
 - .hhc
@@ -305,6 +307,7 @@
 - .njk
 - .njs
 - .nodemonignore
+- .nomad
 - .npmignore
 - .npmrc
 - .nqp
@@ -470,7 +473,9 @@
 - .template
 - .tex
 - .tf
+- .tf
 - .tfignore
+- .tfvars
 - .tfvars
 - .tga
 - .thrift

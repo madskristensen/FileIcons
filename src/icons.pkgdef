@@ -465,6 +465,18 @@
 [$RootKey$\ShellFileAssociations\.hxproj]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:58"
 
+; HCL
+[$RootKey$\ShellFileAssociations\.hcl]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.tf]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.tfvars]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.nomad]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.appfile]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+
 ; Help files
 [$RootKey$\ShellFileAssociations\.ndoc]
 "DefaultIconMoniker"="KnownMonikers.HelpIndexFile"

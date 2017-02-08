@@ -2,6 +2,7 @@
 
 - [ ] More icons...
 - [x] .log and .log4net file icons
+- [x] HCL file icons
 
 Features that have a checkmark are complete and available for
 download in the
