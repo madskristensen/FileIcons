@@ -1,4 +1,4 @@
-## Supported File Extensions (553)
+## Supported File Extensions (554)
 
 - .7z
 - .accdc
@@ -128,6 +128,7 @@
 - .f77
 - .f90
 - .f95
+- .favdoc
 - .feature
 - .fig
 - .fish

@@ -351,6 +351,10 @@
 [$RootKey$\ShellFileAssociations\.fsharplint]
 "DefaultIconMoniker"="KnownMonikers.FSWorkerTemplateFile"
 
+; Favorites
+[$RootKey$\ShellFileAssociations\.favdoc]
+"DefaultIconMoniker"="KnownMonikers.Favorite"
+
 ; Feed
 [$RootKey$\ShellFileAssociations\.atom]
 "DefaultIconMoniker"="KnownMonikers.RSS"
