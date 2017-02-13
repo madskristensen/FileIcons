@@ -954,6 +954,10 @@
 [$RootKey$\ShellFileAssociations\.nqp]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
 
+; Store apps
+[$RootKey$\ShellFileAssociations\.xap]
+"DefaultIconMoniker"="KnownMonikers.Phone"
+
 ; PHP
 [$RootKey$\ShellFileAssociations\.php]
 "DefaultIconMoniker"="KnownMonikers.PHPFile"

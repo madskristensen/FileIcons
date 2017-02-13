@@ -1,4 +1,4 @@
-## Supported File Extensions (554)
+## Supported File Extensions (555)
 
 - .7z
 - .accdc
@@ -534,6 +534,7 @@
 - .wxi
 - .wxs
 - .xaml
+- .xap
 - .xdt
 - .xht
 - .xhtm
