@@ -1,4 +1,4 @@
-## Supported File Extensions (555)
+## Supported File Extensions (556)
 
 - .7z
 - .accdc
@@ -516,6 +516,7 @@
 - .volt
 - .vscodeignore
 - .vsct
+- .vsdx
 - .vsixlangpack
 - .vsixmanifest
 - .vtt
