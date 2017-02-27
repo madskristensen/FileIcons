@@ -6,6 +6,7 @@
 - [x] .favdoc file icon
 - [x] .xap file icon
 - [x] .vsdx file icon
+- [x] Google GN file icons
 
 Features that have a checkmark are complete and available for
 download in the

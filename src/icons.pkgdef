@@ -821,6 +821,10 @@
 "DefaultIconMoniker"="KnownMonikers.MakeFile"
 [$RootKey$\ShellFileAssociations\.rakefile]
 "DefaultIconMoniker"="KnownMonikers.MakeFile"
+[$RootKey$\ShellFileAssociations\.gn]
+"DefaultIconMoniker"="KnownMonikers.MakeFile"
+[$RootKey$\ShellFileAssociations\.gni]
+"DefaultIconMoniker"="KnownMonikers.MakeFile"
 
 ; Manifest
 [$RootKey$\ShellFileAssociations\.appcache]
