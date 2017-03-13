@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="3a7b4930-a5fb-46ec-a9b8-9610c8f953b8" Version="2.5" Language="en-US" Publisher="Mads Kristensen" />
-    <DisplayName>File Icons</DisplayName>
-    <Description xml:space="preserve">Adds icons for files that are not recognized by Solution Explorer</Description>
-    <MoreInfo>http://github.com/madskristensen/FileIcons</MoreInfo>
-    <License>Resources/LICENSE</License>
-    <ReleaseNotes>https://github.com/madskristensen/FileIcons/blob/master/CHANGELOG.md</ReleaseNotes>
-    <Icon>Resources\Icon.png</Icon>
-    <PreviewImage>Resources\Preview.png</PreviewImage>
-    <Tags>icon, file, image</Tags>
-  </Metadata>
-  <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="14.0" />
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="15.0" />
-  </Installation>
-  <Prerequisites>
-    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
-  </Prerequisites>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="icons.pkgdef" />
-    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-  </Assets>
+    <Metadata>
+        <Identity Id="3a7b4930-a5fb-46ec-a9b8-9610c8f953b8" Version="2.6" Language="en-US" Publisher="Mads Kristensen" />
+        <DisplayName>File Icons</DisplayName>
+        <Description xml:space="preserve">Adds icons for files that are not recognized by Solution Explorer</Description>
+        <MoreInfo>http://github.com/madskristensen/FileIcons</MoreInfo>
+        <License>Resources/LICENSE</License>
+        <ReleaseNotes>https://github.com/madskristensen/FileIcons/blob/master/CHANGELOG.md</ReleaseNotes>
+        <Icon>Resources\Icon.png</Icon>
+        <PreviewImage>Resources\Preview.png</PreviewImage>
+        <Tags>icon, file, image</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="14.0" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="15.0" />
+    </Installation>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="icons.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
 </PackageManifest>

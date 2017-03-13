@@ -1,12 +1,6 @@
 # Road map
 
 - [ ] More icons...
-- [x] .log and .log4net file icons
-- [x] HCL file icons
-- [x] .favdoc file icon
-- [x] .xap file icon
-- [x] .vsdx file icon
-- [x] Google GN file icons
 
 Features that have a checkmark are complete and available for
 download in the
@@ -16,6 +10,15 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 2.6
+
+- [x] .log and .log4net file icons
+- [x] HCL file icons
+- [x] .favdoc file icon
+- [x] .xap file icon
+- [x] .vsdx file icon
+- [x] Google GN file icons
 
 ## 2.5
 
