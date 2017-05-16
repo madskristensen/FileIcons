@@ -3,6 +3,12 @@
 ; http://glyphlist.azurewebsites.net/knownmonikers/
 ; -------------------------------------------------- ;
 
+; 3D/Gaming
+[$RootKey$\ShellFileAssociations\.xnb]
+"DefaultIconMoniker"="KnownMonikers.XNA"
+[$RootKey$\ShellFileAssociations\.hlsl]
+"DefaultIconMoniker"="KnownMonikers.DirectXThreeD"
+
 ; ActionScript
 [$RootKey$\ShellFileAssociations\.as]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:50"
@@ -72,8 +78,6 @@
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.dat]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
-[$RootKey$\ShellFileAssociations\.xnb]
-"DefaultIconMoniker"="KnownMonikers.XNA"
 
 ; C/C++
 [$RootKey$\ShellFileAssociations\.c]

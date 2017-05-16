@@ -20,6 +20,7 @@
 - [x] .uproject file icon
 - [x] .sqx file icon
 - [x] .xnb file icon
+- [x] .hlsl file icon
 
 Features that have a checkmark are complete and available for
 download in the
