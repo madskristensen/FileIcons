@@ -1194,6 +1194,10 @@
 [$RootKey$\ShellFileAssociations\.db3]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
 
+; Static analysis
+[$RootKey$\ShellFileAssociations\.stylecop]
+"DefaultIconMoniker"="KnownMonikers.RunQuery"
+
 ; Swig
 [$RootKey$\ShellFileAssociations\.i]
 "DefaultIconMoniker"="KnownMonikers.InterfaceSnippet"
