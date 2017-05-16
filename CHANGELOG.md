@@ -3,6 +3,7 @@
 - [ ] More icons...
 - [x] .ngdoc file icon
 - [x] .usql file icon
+- [x] .msbuild file icon
 
 Features that have a checkmark are complete and available for
 download in the

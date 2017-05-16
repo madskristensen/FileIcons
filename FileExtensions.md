@@ -1,4 +1,4 @@
-## Supported File Extensions (559)
+## Supported File Extensions (561)
 
 - .7z
 - .accdc
@@ -291,6 +291,7 @@
 - .mp4
 - .mpeg
 - .mpg
+- .msbuild
 - .mshc
 - .mst
 - .mtn-ignore
@@ -507,6 +508,7 @@
 - .twig
 - .types
 - .ui
+- .usql
 - .vash
 - .vb
 - .vbs
