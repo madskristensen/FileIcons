@@ -1,4 +1,4 @@
-## Supported File Extensions (573)
+## Supported File Extensions (577)
 
 - .7z
 - .accdc
@@ -470,9 +470,11 @@
 - .sqlite3
 - .sqlite3
 - .sqlitedb
+- .sqx
 - .storyboard
 - .sty
 - .styl
+- .stylecop
 - .stylelintrc
 - .svg
 - .svnignore
@@ -519,6 +521,7 @@
 - .twig
 - .types
 - .ui
+- .uproject
 - .usql
 - .vash
 - .vb
@@ -557,6 +560,7 @@
 - .xhtm
 - .xhtml
 - .xib
+- .xnb
 - .xq
 - .xql
 - .xqm

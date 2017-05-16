@@ -72,6 +72,8 @@
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.dat]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.xnb]
+"DefaultIconMoniker"="KnownMonikers.XNA"
 
 ; C/C++
 [$RootKey$\ShellFileAssociations\.c]
