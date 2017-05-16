@@ -22,6 +22,7 @@
 - [x] .xnb file icon
 - [x] .hlsl file icon
 - [x] .refactorlog file icon
+- [x] .mdj file icon
 
 Features that have a checkmark are complete and available for
 download in the

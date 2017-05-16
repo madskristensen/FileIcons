@@ -65,12 +65,6 @@
 [$RootKey$\ShellFileAssociations\.bmpr]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:45"
 
-; BDCM
-[$RootKey$\ShellFileAssociations\.bdcm]
-"DefaultIconMoniker"="KnownMonikers.Class"
-[$RootKey$\ShellFileAssociations\.diagram]
-"DefaultIconMoniker"="KnownMonikers.Diagram"
-
 ; Binary
 [$RootKey$\ShellFileAssociations\.ace]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
@@ -338,6 +332,14 @@
 ; DevExpress
 [$RootKey$\ShellFileAssociations\.dxview]
 "DefaultIconMoniker"="KnownMonikers.PageLayout"
+
+; Diagrams
+[$RootKey$\ShellFileAssociations\.bdcm]
+"DefaultIconMoniker"="KnownMonikers.Class"
+[$RootKey$\ShellFileAssociations\.diagram]
+"DefaultIconMoniker"="KnownMonikers.Diagram"
+[$RootKey$\ShellFileAssociations\.mdj]
+"DefaultIconMoniker"="KnownMonikers.UMLModel"
 
 ; Elixir
 [$RootKey$\ShellFileAssociations\.ex]
