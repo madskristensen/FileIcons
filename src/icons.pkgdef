@@ -1173,6 +1173,8 @@
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.post]
 "DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.msc]
+"DefaultIconMoniker"="KnownMonikers.WriteToConsole"
 
 ; Slim
 [$RootKey$\ShellFileAssociations\.slim]
