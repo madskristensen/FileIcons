@@ -1034,6 +1034,10 @@
 [$RootKey$\ShellFileAssociations\.procfile]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:68"
 
+; Print
+[$RootKey$\ShellFileAssociations\.zpl]
+"DefaultIconMoniker"="KnownMonikers.PrintDocument"
+
 ; Protocol Buffers
 [$RootKey$\ShellFileAssociations\.proto]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:46"
