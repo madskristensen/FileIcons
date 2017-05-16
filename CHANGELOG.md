@@ -24,6 +24,7 @@
 - [x] .refactorlog file icon
 - [x] .mdj file icon
 - [x] .fbs file icon
+- [x] .shfbproj file icon
 
 Features that have a checkmark are complete and available for
 download in the

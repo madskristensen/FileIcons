@@ -528,6 +528,8 @@
 "DefaultIconMoniker"="KnownMonikers.HelpTableOfContents"
 [$RootKey$\ShellFileAssociations\.hhk]
 "DefaultIconMoniker"="KnownMonikers.HelpIndexFile"
+[$RootKey$\ShellFileAssociations\.shfbproj]
+"DefaultIconMoniker"="KnownMonikers.HelpApplication"
 
 ; HTML
 [$RootKey$\ShellFileAssociations\.hta]

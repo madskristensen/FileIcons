@@ -1,4 +1,4 @@
-## Supported File Extensions (577)
+## Supported File Extensions (582)
 
 - .7z
 - .accdc
@@ -131,6 +131,7 @@
 - .f90
 - .f95
 - .favdoc
+- .fbs
 - .feature
 - .fig
 - .fish
@@ -185,6 +186,7 @@
 - .hhp
 - .hjson
 - .hlp
+- .hlsl
 - .hpp
 - .hrl
 - .hs
@@ -277,6 +279,7 @@
 - .mdb
 - .mde
 - .mdf
+- .mdj
 - .mdn
 - .mdown
 - .merlin
@@ -415,6 +418,7 @@
 - .rdl
 - .readme
 - .reek
+- .refactorlog
 - .references
 - .rhtml
 - .rjs
@@ -446,6 +450,7 @@
 - .sdf
 - .sfd
 - .sh
+- .shfbproj
 - .sht
 - .shtm
 - .shtml
