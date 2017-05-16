@@ -13,6 +13,7 @@
 - [x] .zpl file icon
 - [x] .linq file icon
 - [x] .msc file icon
+- [x] .jscsrc file icon
 
 Features that have a checkmark are complete and available for
 download in the

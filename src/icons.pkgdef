@@ -739,6 +739,8 @@
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.bootstraprc]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.jscsrc]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 
 ; Julia
 [$RootKey$\ShellFileAssociations\.jl]
