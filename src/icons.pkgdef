@@ -1141,6 +1141,8 @@
 "DefaultIconMoniker"="KnownMonikers.Schema"
 [$RootKey$\ShellFileAssociations\.tsl]
 "DefaultIconMoniker"="KnownMonikers.Schema"
+[$RootKey$\ShellFileAssociations\.fbs]
+"DefaultIconMoniker"="KnownMonikers.Schema"
 
 ; Scheme
 [$RootKey$\ShellFileAssociations\.scm]
