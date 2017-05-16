@@ -1,4 +1,4 @@
-## Supported File Extensions (561)
+## Supported File Extensions (565)
 
 - .7z
 - .accdc
@@ -85,6 +85,7 @@
 - .db
 - .db3
 - .dbc
+- .dbml
 - .dcmp
 - .ddl
 - .dependencies
@@ -167,6 +168,7 @@
 - .go
 - .gradle
 - .groovy
+- .gyp
 - .gz
 - .h
 - .h1s
@@ -182,6 +184,7 @@
 - .hhp
 - .hjson
 - .hlp
+- .hpp
 - .hrl
 - .hs
 - .hss
@@ -237,6 +240,7 @@
 - .lava
 - .less
 - .lhs
+- .licenseheader
 - .licx
 - .liquid
 - .lisp
