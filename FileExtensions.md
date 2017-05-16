@@ -1,4 +1,4 @@
-## Supported File Extensions (582)
+## Supported File Extensions (585)
 
 - .7z
 - .accdc
@@ -78,6 +78,7 @@
 - .css
 - .csslintrc
 - .csx
+- .cu
 - .cvsignore
 - .cyp
 - .d
@@ -130,6 +131,7 @@
 - .f77
 - .f90
 - .f95
+- .fakes
 - .favdoc
 - .fbs
 - .feature
@@ -526,6 +528,7 @@
 - .twig
 - .types
 - .ui
+- .uplugin
 - .uproject
 - .usql
 - .vash
