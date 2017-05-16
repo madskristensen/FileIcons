@@ -484,6 +484,8 @@
 ; Help files
 [$RootKey$\ShellFileAssociations\.ndoc]
 "DefaultIconMoniker"="KnownMonikers.HelpIndexFile"
+[$RootKey$\ShellFileAssociations\.ngdoc]
+"DefaultIconMoniker"="KnownMonikers.HelpIndexFile"
 [$RootKey$\ShellFileAssociations\.chm]
 "DefaultIconMoniker"="KnownMonikers.CompiledHelpFile"
 [$RootKey$\ShellFileAssociations\.hsx]

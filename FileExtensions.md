@@ -1,4 +1,4 @@
-## Supported File Extensions (558)
+## Supported File Extensions (559)
 
 - .7z
 - .accdc
@@ -303,6 +303,7 @@
 - .myd
 - .mysql
 - .ndoc
+- .ngdoc
 - .nim
 - .nimble
 - .nims
