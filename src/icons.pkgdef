@@ -1186,7 +1186,6 @@
 [$RootKey$\ShellFileAssociations\.skim]
 "DefaultIconMoniker"="KnownMonikers.MarkupTag"
 
-
 ; Sqlite
 [$RootKey$\ShellFileAssociations\.sqlite]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
@@ -1194,6 +1193,10 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
 [$RootKey$\ShellFileAssociations\.db3]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
+
+; Swig
+[$RootKey$\ShellFileAssociations\.i]
+"DefaultIconMoniker"="KnownMonikers.InterfaceSnippet"
 
 ; Swift
 [$RootKey$\ShellFileAssociations\.swift]

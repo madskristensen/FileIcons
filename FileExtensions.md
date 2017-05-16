@@ -1,4 +1,4 @@
-## Supported File Extensions (569)
+## Supported File Extensions (573)
 
 - .7z
 - .accdc
@@ -199,6 +199,7 @@
 - .hxml
 - .hxp
 - .hxproj
+- .i
 - .ical
 - .iced
 - .icl
@@ -226,6 +227,7 @@
 - .jpmignore
 - .js.erb
 - .js
+- .jscsrc
 - .jse
 - .jshintignore
 - .jshintrc
@@ -299,6 +301,7 @@
 - .mpeg
 - .mpg
 - .msbuild
+- .msc
 - .mshc
 - .mst
 - .mtn-ignore
@@ -394,6 +397,7 @@
 - .pug
 - .pug-lintrc
 - .puml
+- .pvk
 - .py
 - .pyw
 - .qml
