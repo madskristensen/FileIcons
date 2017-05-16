@@ -1249,6 +1249,8 @@
 "DefaultIconMoniker"="KnownMonikers.CodeTest"
 [$RootKey$\ShellFileAssociations\.loadtest]
 "DefaultIconMoniker"="KnownMonikers.LoadTest"
+[$RootKey$\ShellFileAssociations\.fakes]
+"DefaultIconMoniker"="KnownMonikers.CodeTest"
 
 ; Temp files
 [$RootKey$\ShellFileAssociations\.tmp]
