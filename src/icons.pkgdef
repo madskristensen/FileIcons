@@ -762,6 +762,10 @@
 [$RootKey$\ShellFileAssociations\.hxp]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:59"
 
+; LINQ
+[$RootKey$\ShellFileAssociations\.linq]
+"DefaultIconMoniker"="KnownMonikers.LinqToSQLFile"
+
 ; Linters
 [$RootKey$\ShellFileAssociations\.babelrc]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:3"

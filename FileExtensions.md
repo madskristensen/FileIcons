@@ -1,4 +1,4 @@
-## Supported File Extensions (565)
+## Supported File Extensions (569)
 
 - .7z
 - .accdc
@@ -32,6 +32,7 @@
 - .bmp
 - .bmpr
 - .bond
+- .bootstraprc
 - .boringignore
 - .bowerrc
 - .bz2
@@ -238,10 +239,12 @@
 - .kit
 - .l
 - .lava
+- .layout
 - .less
 - .lhs
 - .licenseheader
 - .licx
+- .linq
 - .liquid
 - .lisp
 - .lit
@@ -564,4 +567,5 @@
 - .yarnrc
 - .yml
 - .zip
+- .zpl
 - .zsh
