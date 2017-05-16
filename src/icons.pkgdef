@@ -306,6 +306,8 @@
 "DefaultIconMoniker"="KnownMonikers.EntityDatabase"
 [$RootKey$\ShellFileAssociations\.usql]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.dbml]
+"DefaultIconMoniker"="KnownMonikers.DatabaseFile"
 
 ; Delphi
 [$RootKey$\ShellFileAssociations\.p]
