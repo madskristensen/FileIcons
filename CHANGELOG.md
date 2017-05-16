@@ -17,6 +17,7 @@
 - [x] .pvk file icon
 - [x] .i file icon
 - [x] .stylecop file icon
+- [x] .uproject file icon
 
 Features that have a checkmark are complete and available for
 download in the

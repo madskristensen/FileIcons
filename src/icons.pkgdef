@@ -1367,6 +1367,8 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.tmx]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.uproject]
+"DefaultIconMoniker"="KnownMonikers.SharedProject"
 
 ; XQuery
 [$RootKey$\ShellFileAssociations\.xq]
