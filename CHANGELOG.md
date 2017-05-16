@@ -27,6 +27,7 @@
 - [x] .shfbproj file icon
 - [x] .uplugin file icon
 - [x] .fakes file icon
+- [x] .cu file icon
 
 Features that have a checkmark are complete and available for
 download in the
