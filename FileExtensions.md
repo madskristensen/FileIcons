@@ -1,4 +1,4 @@
-## Supported File Extensions (591)
+## Supported File Extensions (592)
 
 - .7z
 - .accdc
@@ -260,6 +260,7 @@
 - .lit
 - .litcoffee
 - .livescript
+- .ll
 - .loadtest
 - .local
 - .lock.json

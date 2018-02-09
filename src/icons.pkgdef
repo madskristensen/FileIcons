@@ -48,6 +48,8 @@
 "DefaultIconMoniker"="KnownMonikers.CompilableFile"
 [$RootKey$\ShellFileAssociations\.inc]
 "DefaultIconMoniker"="KnownMonikers.CompilableFile"
+[$RootKey$\ShellFileAssociations\.ll]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; Audio
 [$RootKey$\ShellFileAssociations\.midi]
