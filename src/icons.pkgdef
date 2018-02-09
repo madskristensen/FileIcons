@@ -1391,6 +1391,8 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.pubxml]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.azurepubxml]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.aip]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.tmx]
