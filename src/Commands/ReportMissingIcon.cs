@@ -63,7 +63,7 @@ namespace FileIcons
         private void Execute(object sender, EventArgs e)
         {
             string title = Uri.EscapeUriString($"Missing icon for {_ext} files");
-            string body = Uri.EscapeUriString("Optionally, please give more details as to what the file type is used for.");
+            string body = Uri.EscapeUriString("Please describe what the file type is. It makes it much easier to find an appropriate icon.");
             string url = string.Format(_urlFormat, title, body);
 
             System.Diagnostics.Process.Start(url);
