@@ -1,4 +1,4 @@
-## Supported File Extensions (593)
+## Supported File Extensions (594)
 
 - .7z
 - .accdc
@@ -311,6 +311,7 @@
 - .mp4
 - .mpeg
 - .mpg
+- .mrt
 - .msbuild
 - .msc
 - .mshc

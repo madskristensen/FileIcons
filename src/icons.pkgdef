@@ -218,6 +218,8 @@
 "DefaultIconMoniker"="KnownMonikers.CrystalReport"
 [$RootKey$\ShellFileAssociations\.rdl]
 "DefaultIconMoniker"="KnownMonikers.Report"
+[$RootKey$\ShellFileAssociations\.mrt]
+"DefaultIconMoniker"="KnownMonikers.Report"
 
 ; CSS
 [$RootKey$\ShellFileAssociations\.css]
