@@ -172,6 +172,8 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.uplugin]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.bundle]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 
 ; CoffeeScript
 [$RootKey$\ShellFileAssociations\.coffee]
