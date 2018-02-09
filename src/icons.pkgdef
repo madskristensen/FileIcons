@@ -326,6 +326,8 @@
 "DefaultIconMoniker"="KnownMonikers.PageLayout"
 [$RootKey$\ShellFileAssociations\.sqx]
 "DefaultIconMoniker"="KnownMonikers.IntellisenseDatabase"
+[$RootKey$\ShellFileAssociations\.mmdb]
+"DefaultIconMoniker"="KnownMonikers.Database"
 
 ; Delphi
 [$RootKey$\ShellFileAssociations\.p]

@@ -1,4 +1,4 @@
-## Supported File Extensions (592)
+## Supported File Extensions (593)
 
 - .7z
 - .accdc
@@ -302,6 +302,7 @@
 - .mll
 - .mly
 - .mmd
+- .mmdb
 - .mn
 - .mo
 - .mod
