@@ -1,4 +1,4 @@
-## Supported File Extensions (588)
+## Supported File Extensions (591)
 
 - .7z
 - .accdc
@@ -20,6 +20,7 @@
 - .atom
 - .avi
 - .axml
+- .azurepubxml
 - .babelignore
 - .babelrc
 - .bash
@@ -172,6 +173,7 @@
 - .gni
 - .go
 - .gradle
+- .graphql
 - .groovy
 - .gyp
 - .gz
@@ -571,6 +573,7 @@
 - .xhtm
 - .xhtml
 - .xib
+- .xlf
 - .xnb
 - .xq
 - .xql

@@ -765,6 +765,8 @@
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.jscsrc]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.graphql]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 
 ; Julia
 [$RootKey$\ShellFileAssociations\.jl]
@@ -1399,6 +1401,8 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.uproject]
 "DefaultIconMoniker"="KnownMonikers.SharedProject"
+[$RootKey$\ShellFileAssociations\.xlf]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
 
 ; XQuery
 [$RootKey$\ShellFileAssociations\.xq]
