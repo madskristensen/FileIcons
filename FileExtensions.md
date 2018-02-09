@@ -1,4 +1,4 @@
-## Supported File Extensions (586)
+## Supported File Extensions (588)
 
 - .7z
 - .accdc
@@ -35,6 +35,7 @@
 - .bootstraprc
 - .boringignore
 - .bowerrc
+- .bundle
 - .bz2
 - .bzip2
 - .bzrignore
@@ -529,6 +530,7 @@
 - .twig
 - .types
 - .ui
+- .uml
 - .uplugin
 - .uproject
 - .usql
