@@ -1,4 +1,4 @@
-## Supported File Extensions (594)
+## Supported File Extensions (595)
 
 - .7z
 - .accdc
@@ -495,6 +495,7 @@
 - .swf
 - .swift
 - .swig
+- .swz
 - .t
 - .t4
 - .tag
