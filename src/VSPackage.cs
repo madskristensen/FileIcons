@@ -14,9 +14,9 @@ namespace FileIcons
     [ProvideAutoLoad(LoadContext, PackageAutoLoadFlags.BackgroundLoad)]
     [ProvideUIContextRule(LoadContext,
         name: "Auto load",
-        expression: "FullyLoaded & (SingleProject | MultipleProjects)",
-        termNames: new[] { "FullyLoaded", "SingleProject", "MultipleProjects" },
-        termValues: new[] { ui.SolutionExistsAndFullyLoaded_string, ui.SolutionHasSingleProject_string, ui.SolutionHasMultipleProjects_string })]
+        expression: "HasDot & (SingleProject | MultipleProjects)",
+        termNames: new[] { "HasDot", "SingleProject", "MultipleProjects" },
+        termValues: new[] { "HierSingleSelectionName:\\.(.+)$", ui.SolutionHasSingleProject_string, ui.SolutionHasMultipleProjects_string })]
 
     public sealed class FileIconPackage : AsyncPackage
     {
