@@ -5,6 +5,8 @@ using Microsoft.VisualStudio.Shell;
 using task = System.Threading.Tasks.Task;
 using ui = Microsoft.VisualStudio.VSConstants.UICONTEXT;
 
+[assembly: ProvideCodeBase(AssemblyName = "FileIcons")]
+
 namespace FileIcons
 {
     [Guid(PackageGuids.guidVSPackageString)]
