@@ -1,4 +1,4 @@
-## Supported File Extensions (585)
+## Supported File Extensions (586)
 
 - .7z
 - .accdc
@@ -235,6 +235,7 @@
 - .jse
 - .jshintignore
 - .jshintrc
+- .jshtml
 - .json
 - .json5
 - .jsonld

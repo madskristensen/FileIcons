@@ -8,16 +8,15 @@ using ui = Microsoft.VisualStudio.VSConstants.UICONTEXT;
 namespace FileIcons
 {
     [Guid(PackageGuids.guidVSPackageString)]
-    [PackageRegistration(UseManagedResourcesOnly = true)]
+    [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
-    [ProvideAutoLoad(LoadContext)]
+    [ProvideAutoLoad(LoadContext, PackageAutoLoadFlags.BackgroundLoad)]
     [ProvideUIContextRule(LoadContext,
         name: "Auto load",
         expression: "FullyLoaded & (SingleProject | MultipleProjects)",
         termNames: new[] { "FullyLoaded", "SingleProject", "MultipleProjects" },
-        termValues: new[] { ui.SolutionExistsAndFullyLoaded_string, ui.SolutionHasSingleProject_string, ui.SolutionHasMultipleProjects_string },
-        delay: 500)]
+        termValues: new[] { ui.SolutionExistsAndFullyLoaded_string, ui.SolutionHasSingleProject_string, ui.SolutionHasMultipleProjects_string })]
 
     public sealed class FileIconPackage : AsyncPackage
     {
@@ -25,6 +24,8 @@ namespace FileIcons
 
         protected override async task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {
+            await JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
+
             await ReportMissingIcon.Initialize(this);
         }
     }
