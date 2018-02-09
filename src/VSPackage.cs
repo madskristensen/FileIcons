@@ -5,6 +5,8 @@ using Microsoft.VisualStudio.Shell;
 using task = System.Threading.Tasks.Task;
 using ui = Microsoft.VisualStudio.VSConstants.UICONTEXT;
 
+[assembly: ProvideCodeBase(AssemblyName = "FileIcons")]
+
 namespace FileIcons
 {
     [Guid(PackageGuids.guidVSPackageString)]
@@ -14,9 +16,9 @@ namespace FileIcons
     [ProvideAutoLoad(LoadContext, PackageAutoLoadFlags.BackgroundLoad)]
     [ProvideUIContextRule(LoadContext,
         name: "Auto load",
-        expression: "HasDot & (SingleProject | MultipleProjects)",
-        termNames: new[] { "HasDot", "SingleProject", "MultipleProjects" },
-        termValues: new[] { "HierSingleSelectionName:\\.(.+)$", ui.SolutionHasSingleProject_string, ui.SolutionHasMultipleProjects_string })]
+        expression: "HasDot & FullyLoaded & (SingleProject | MultipleProjects)",
+        termNames: new[] { "HasDot", "FullyLoaded", "SingleProject", "MultipleProjects" },
+        termValues: new[] { "HierSingleSelectionName:\\.(.+)$", ui.SolutionExistsAndFullyLoaded_string, ui.SolutionHasSingleProject_string, ui.SolutionHasMultipleProjects_string })]
 
     public sealed class FileIconPackage : AsyncPackage
     {
