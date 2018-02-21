@@ -1,4 +1,4 @@
-## Supported File Extensions (611)
+## Supported File Extensions (612)
 
 - .7z
 - .accdc
@@ -555,6 +555,7 @@
 - .uplugin
 - .uproject
 - .usql
+- .vars
 - .vash
 - .vb
 - .vbs

@@ -1281,6 +1281,8 @@
 ; T4
 [$RootKey$\ShellFileAssociations\.t4]
 "DefaultIconMoniker"="KnownMonikers.GenerateFile"
+[$RootKey$\ShellFileAssociations\.vars]
+"DefaultIconMoniker"="KnownMonikers.GenerateFile"
 [$RootKey$\ShellFileAssociations\.tt]
 "DefaultIconMoniker"="KnownMonikers.GenerateFile"
 [$RootKey$\ShellFileAssociations\.ttinclude]
