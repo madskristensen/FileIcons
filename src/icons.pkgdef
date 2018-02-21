@@ -80,6 +80,8 @@
 "DefaultIconMoniker"="KnownMonikers.CFile"
 [$RootKey$\ShellFileAssociations\.cpp]
 "DefaultIconMoniker"="KnownMonikers.CPPFileNode"
+[$RootKey$\ShellFileAssociations\.cuh]
+"DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
 [$RootKey$\ShellFileAssociations\.h]
 "DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
 [$RootKey$\ShellFileAssociations\.hpp]

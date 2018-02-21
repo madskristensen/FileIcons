@@ -1,4 +1,4 @@
-## Supported File Extensions (597)
+## Supported File Extensions (600)
 
 - .7z
 - .accdc
@@ -122,6 +122,9 @@
 - .es
 - .es6
 - .eslintignore
+- .eslintrc.json
+- .eslintrc.yaml
+- .eslintrc.yml
 - .eslintrc
 - .ex
 - .exclude
