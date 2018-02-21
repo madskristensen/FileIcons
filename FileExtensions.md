@@ -1,4 +1,4 @@
-## Supported File Extensions (612)
+## Supported File Extensions (613)
 
 - .7z
 - .accdc
@@ -77,6 +77,7 @@
 - .cpp
 - .cpy
 - .cql
+- .crl
 - .crt
 - .cs
 - .csdef

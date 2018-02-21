@@ -134,6 +134,8 @@
 "DefaultIconMoniker"="KnownMonikers.Certificate"
 [$RootKey$\ShellFileAssociations\.pfx]
 "DefaultIconMoniker"="KnownMonikers.Certificate"
+[$RootKey$\ShellFileAssociations\.crl]
+"DefaultIconMoniker"="KnownMonikers.Certificate"
 [$RootKey$\ShellFileAssociations\.pvk]
 "DefaultIconMoniker"="KnownMonikers.SigningKey"
 [$RootKey$\ShellFileAssociations\.keystore]
