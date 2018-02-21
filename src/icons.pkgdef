@@ -1260,6 +1260,10 @@
 [$RootKey$\ShellFileAssociations\.skim]
 "DefaultIconMoniker"="KnownMonikers.MarkupTag"
 
+; Spell check
+[$RootKey$\ShellFileAssociations\.vsspell]
+"DefaultIconMoniker"="KnownMonikers.SpellCheck"
+
 ; Sqlite
 [$RootKey$\ShellFileAssociations\.sqlite]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"

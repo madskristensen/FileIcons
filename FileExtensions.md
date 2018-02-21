@@ -1,4 +1,4 @@
-## Supported File Extensions (613)
+## Supported File Extensions (614)
 
 - .7z
 - .accdc
@@ -572,6 +572,7 @@
 - .vsdx
 - .vsixlangpack
 - .vsixmanifest
+- .vsspell
 - .vtt
 - .vue
 - .wav
