@@ -1,4 +1,4 @@
-## Supported File Extensions (605)
+## Supported File Extensions (606)
 
 - .7z
 - .accdc
@@ -280,6 +280,7 @@
 - .m
 - .m
 - .m4v
+- .mailmap
 - .mak
 - .makefile
 - .manifest
