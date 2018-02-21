@@ -1319,6 +1319,8 @@
 "DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.mts]
 "DefaultIconMoniker"="KnownMonikers.Media"
+[$RootKey$\ShellFileAssociations\.nut]
+"DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.ogg]
 "DefaultIconMoniker"="KnownMonikers.Media"
 [$RootKey$\ShellFileAssociations\.ogv]

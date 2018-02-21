@@ -1,4 +1,4 @@
-## Supported File Extensions (600)
+## Supported File Extensions (599)
 
 - .7z
 - .accdc
@@ -81,6 +81,7 @@
 - .csslintrc
 - .csx
 - .cu
+- .cuh
 - .cvsignore
 - .cyp
 - .d
@@ -122,9 +123,6 @@
 - .es
 - .es6
 - .eslintignore
-- .eslintrc.json
-- .eslintrc.yaml
-- .eslintrc.yml
 - .eslintrc
 - .ex
 - .exclude
@@ -347,6 +345,7 @@
 - .nunjucks
 - .nupkg
 - .nuspec
+- .nut
 - .ocamlmakefile
 - .odb
 - .ogg
