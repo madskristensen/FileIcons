@@ -336,6 +336,8 @@
 "DefaultIconMoniker"="KnownMonikers.IntellisenseDatabase"
 [$RootKey$\ShellFileAssociations\.mmdb]
 "DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.bim]
+"DefaultIconMoniker"="KnownMonikers.BDCModelResource"
 
 ; Delphi
 [$RootKey$\ShellFileAssociations\.p]

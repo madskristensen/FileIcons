@@ -1,4 +1,4 @@
-## Supported File Extensions (601)
+## Supported File Extensions (602)
 
 - .7z
 - .accdc
@@ -29,6 +29,7 @@
 - .bdcm
 - .bib
 - .bil
+- .bim
 - .bmml
 - .bmp
 - .bmpr
