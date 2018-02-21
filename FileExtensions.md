@@ -1,4 +1,4 @@
-## Supported File Extensions (607)
+## Supported File Extensions (608)
 
 - .7z
 - .accdc
@@ -225,6 +225,7 @@
 - .ini
 - .ipkg
 - .irbrc
+- .isl
 - .iuml
 - .j2
 - .jade

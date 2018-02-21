@@ -728,6 +728,10 @@
 [$RootKey$\ShellFileAssociations\.pdf]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:38"
 
+; Inno setup
+[$RootKey$\ShellFileAssociations\.isl]
+"DefaultIconMoniker"="KnownMonikers.InstallerClass"
+
 ; Jade
 [$RootKey$\ShellFileAssociations\.jade]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:19"
