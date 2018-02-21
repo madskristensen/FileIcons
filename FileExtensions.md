@@ -1,4 +1,4 @@
-## Supported File Extensions (608)
+## Supported File Extensions (609)
 
 - .7z
 - .accdc
@@ -252,6 +252,7 @@
 - .jss
 - .jsx
 - .jws
+- .keystore
 - .kit
 - .l
 - .lava

@@ -136,6 +136,8 @@
 "DefaultIconMoniker"="KnownMonikers.Certificate"
 [$RootKey$\ShellFileAssociations\.pvk]
 "DefaultIconMoniker"="KnownMonikers.SigningKey"
+[$RootKey$\ShellFileAssociations\.keystore]
+"DefaultIconMoniker"="KnownMonikers.SigningKey"
 
 ; Cobol
 [$RootKey$\ShellFileAssociations\.cbl]
