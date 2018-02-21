@@ -1,4 +1,4 @@
-## Supported File Extensions (602)
+## Supported File Extensions (604)
 
 - .7z
 - .accdc
@@ -12,6 +12,7 @@
 - .appcache
 - .appfile
 - .as
+- .asaql
 - .asf
 - .asm
 - .asn
@@ -577,6 +578,7 @@
 - .wss
 - .wxi
 - .wxs
+- .xafml
 - .xaml
 - .xap
 - .xdt

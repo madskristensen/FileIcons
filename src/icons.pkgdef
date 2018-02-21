@@ -338,6 +338,8 @@
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.bim]
 "DefaultIconMoniker"="KnownMonikers.BDCModelResource"
+[$RootKey$\ShellFileAssociations\.asaql]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 
 ; Delphi
 [$RootKey$\ShellFileAssociations\.p]
