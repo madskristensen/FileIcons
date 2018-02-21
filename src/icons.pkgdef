@@ -130,6 +130,8 @@
 "DefaultIconMoniker"="KnownMonikers.Certificate"
 [$RootKey$\ShellFileAssociations\.p12]
 "DefaultIconMoniker"="KnownMonikers.Certificate"
+[$RootKey$\ShellFileAssociations\.pem]
+"DefaultIconMoniker"="KnownMonikers.Certificate"
 [$RootKey$\ShellFileAssociations\.pfx]
 "DefaultIconMoniker"="KnownMonikers.Certificate"
 [$RootKey$\ShellFileAssociations\.pvk]

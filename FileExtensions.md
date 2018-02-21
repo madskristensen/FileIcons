@@ -1,4 +1,4 @@
-## Supported File Extensions (600)
+## Supported File Extensions (601)
 
 - .7z
 - .accdc
@@ -362,6 +362,7 @@
 - .patch
 - .pcss
 - .pdf
+- .pem
 - .perl
 - .pex
 - .pfa
