@@ -368,6 +368,8 @@
 "DefaultIconMoniker"="KnownMonikers.UMLModel"
 [$RootKey$\ShellFileAssociations\.xafml]
 "DefaultIconMoniker"="KnownMonikers.UMLModel"
+[$RootKey$\ShellFileAssociations\.cd]
+"DefaultIconMoniker"="KnownMonikers.Class"
 
 ; Elixir
 [$RootKey$\ShellFileAssociations\.ex]

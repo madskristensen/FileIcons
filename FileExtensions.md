@@ -1,4 +1,4 @@
-## Supported File Extensions (604)
+## Supported File Extensions (605)
 
 - .7z
 - .accdc
@@ -50,6 +50,7 @@
 - .cbl
 - .cbx
 - .ccss
+- .cd
 - .cer
 - .cfc
 - .cfg
