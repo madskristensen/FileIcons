@@ -328,6 +328,8 @@
 "DefaultIconMoniker"="KnownMonikers.DataCompare"
 [$RootKey$\ShellFileAssociations\.edml]
 "DefaultIconMoniker"="KnownMonikers.EntityDatabase"
+[$RootKey$\ShellFileAssociations\.csdl]
+"DefaultIconMoniker"="KnownMonikers.EntityDatabase"
 [$RootKey$\ShellFileAssociations\.usql]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.dbml]

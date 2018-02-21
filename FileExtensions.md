@@ -1,4 +1,4 @@
-## Supported File Extensions (609)
+## Supported File Extensions (610)
 
 - .7z
 - .accdc
@@ -79,6 +79,7 @@
 - .crt
 - .cs
 - .csdef
+- .csdl
 - .csh
 - .cson
 - .css
