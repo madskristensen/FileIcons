@@ -1,4 +1,4 @@
-## Supported File Extensions (595)
+## Supported File Extensions (597)
 
 - .7z
 - .accdc
@@ -420,6 +420,7 @@
 - .rakefile
 - .raml
 - .rar
+- .razortemplate
 - .rb
 - .rbx
 - .rc
@@ -429,6 +430,7 @@
 - .reek
 - .refactorlog
 - .references
+- .repx
 - .rhtml
 - .rjs
 - .rjx

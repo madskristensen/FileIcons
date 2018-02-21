@@ -616,6 +616,8 @@
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.rt]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
+[$RootKey$\ShellFileAssociations\.razortemplate]
+"DefaultIconMoniker"="KnownMonikers.ASPRazorFile"
 
 
 ; ICalendar
