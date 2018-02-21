@@ -1,4 +1,4 @@
-## Supported File Extensions (599)
+## Supported File Extensions (600)
 
 - .7z
 - .accdc
@@ -36,6 +36,7 @@
 - .bootstraprc
 - .boringignore
 - .bowerrc
+- .bpmn
 - .bundle
 - .bz2
 - .bzip2
