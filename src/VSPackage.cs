@@ -11,8 +11,8 @@ namespace FileIcons
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
-    [ProvideAutoLoad(LoadContext, PackageAutoLoadFlags.BackgroundLoad)]
-    [ProvideUIContextRule(LoadContext,
+    [ProvideAutoLoad(_loadContext, PackageAutoLoadFlags.BackgroundLoad)]
+    [ProvideUIContextRule(_loadContext,
         name: "Auto load",
         expression: "HasDot & FullyLoaded & (SingleProject | MultipleProjects)",
         termNames: new[] { "HasDot", "FullyLoaded", "SingleProject", "MultipleProjects" },
@@ -20,7 +20,7 @@ namespace FileIcons
 
     public sealed class FileIconPackage : AsyncPackage
     {
-        private const string LoadContext = "1501ac94-e5fa-4e6b-b780-0959421d99a3";
+        private const string _loadContext = "1501ac94-e5fa-4e6b-b780-0959421d99a3";
 
         protected override async task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {

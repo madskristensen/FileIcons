@@ -1,4 +1,4 @@
-## Supported File Extensions (606)
+## Supported File Extensions (607)
 
 - .7z
 - .accdc
@@ -438,6 +438,7 @@
 - .reek
 - .refactorlog
 - .references
+- .refresh
 - .repx
 - .rhtml
 - .rjs

@@ -1134,6 +1134,10 @@
 [$RootKey$\ShellFileAssociations\.raml]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:69"
 
+; Refresh
+[$RootKey$\ShellFileAssociations\.refresh]
+"DefaultIconMoniker"="KnownMonikers.GoToReference"
+
 ; Riot
 [$RootKey$\ShellFileAssociations\.tag]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:70"
