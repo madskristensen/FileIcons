@@ -1,10 +1,11 @@
-## Supported File Extensions (610)
+## Supported File Extensions (611)
 
 - .7z
 - .accdc
 - .accdd
 - .ace
 - .action
+- .afdesign
 - .aip
 - .ansible
 - .apib

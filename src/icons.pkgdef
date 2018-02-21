@@ -731,6 +731,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:27"
 [$RootKey$\ShellFileAssociations\.pdf]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:38"
+[$RootKey$\ShellFileAssociations\.afdesign]
+"DefaultIconMoniker"="KnownMonikers.ImageIcon"
 
 ; Inno setup
 [$RootKey$\ShellFileAssociations\.isl]
