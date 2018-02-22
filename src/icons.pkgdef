@@ -22,6 +22,12 @@
 "DefaultIconMoniker"="KnownMonikers.CompilableFile"
 [$RootKey$\ShellFileAssociations\.g4]
 "DefaultIconMoniker"="KnownMonikers.CompilableFile"
+[$RootKey$\ShellFileAssociations\.y]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+[$RootKey$\ShellFileAssociations\.bnf]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+[$RootKey$\ShellFileAssociations\.ebnf]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; Apache
 [$RootKey$\ShellFileAssociations\.htaccess]

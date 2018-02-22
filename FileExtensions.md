@@ -1,4 +1,4 @@
-## Supported File Extensions (614)
+## Supported File Extensions (617)
 
 - .7z
 - .accdc
@@ -35,6 +35,7 @@
 - .bmml
 - .bmp
 - .bmpr
+- .bnf
 - .bond
 - .bootstraprc
 - .boringignore
@@ -111,6 +112,7 @@
 - .dpr
 - .dtsx
 - .dxview
+- .ebnf
 - .editorconfig
 - .edml
 - .edn
@@ -605,6 +607,7 @@
 - .xqy
 - .xsjs
 - .xz
+- .y
 - .yaml
 - .yarnclean
 - .yarnignore
