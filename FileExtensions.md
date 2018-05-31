@@ -307,6 +307,7 @@
 - .mexn
 - .mexrs6
 - .midi
+- .mjs
 - .mk
 - .mkfile
 - .mkv

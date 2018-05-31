@@ -787,6 +787,8 @@
 "DefaultIconMoniker"="KnownMonikers.JSScript"
 [$RootKey$\ShellFileAssociations\.js.erb]
 "DefaultIconMoniker"="KnownMonikers.JSScript"
+[$RootKey$\ShellFileAssociations\.mjs]
+"DefaultIconMoniker"="KnownMonikers.JSScript"
 
 ; JSON
 [$RootKey$\ShellFileAssociations\.hjson]
