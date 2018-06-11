@@ -897,6 +897,8 @@
 "DefaultIconMoniker"="KnownMonikers.Log"
 [$RootKey$\ShellFileAssociations\.refactorlog]
 "DefaultIconMoniker"="KnownMonikers.Log"
+[$RootKey$\ShellFileAssociations\.nlog]
+"DefaultIconMoniker"="KnownMonikers.Log"
 
 ; Lua
 [$RootKey$\ShellFileAssociations\.lua]

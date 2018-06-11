@@ -1,4 +1,4 @@
-## Supported File Extensions (622)
+## Supported File Extensions (624)
 
 - .7z
 - .accdc
@@ -349,6 +349,7 @@
 - .nj
 - .njk
 - .njs
+- .nlog
 - .nodemonignore
 - .nomad
 - .npmignore
@@ -374,6 +375,7 @@
 - .par
 - .pas
 - .patch
+- .pbix
 - .pcss
 - .pdf
 - .pdn
