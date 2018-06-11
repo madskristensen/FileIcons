@@ -387,6 +387,10 @@
 [$RootKey$\ShellFileAssociations\.cd]
 "DefaultIconMoniker"="KnownMonikers.Class"
 
+; Diff
+[$RootKey$\ShellFileAssociations\.diff]
+"DefaultIconMoniker"="KnownMonikers.ContractArrow"
+
 ; Elixir
 [$RootKey$\ShellFileAssociations\.ex]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:8"

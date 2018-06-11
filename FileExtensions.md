@@ -1,4 +1,4 @@
-## Supported File Extensions (621)
+## Supported File Extensions (622)
 
 - .7z
 - .accdc
@@ -106,6 +106,7 @@
 - .dfm
 - .dhtml
 - .diagram
+- .diff
 - .dml
 - .do
 - .dockerignore
