@@ -1,4 +1,4 @@
-## Supported File Extensions (624)
+## Supported File Extensions (625)
 
 - .7z
 - .accdc
@@ -426,6 +426,7 @@
 - .psm1
 - .psmdcp
 - .pu
+- .publishsettings
 - .pubxml
 - .pug
 - .pug-lintrc
