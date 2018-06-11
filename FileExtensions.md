@@ -1,4 +1,4 @@
-## Supported File Extensions (618)
+## Supported File Extensions (620)
 
 - .7z
 - .accdc
@@ -64,6 +64,7 @@
 - .cjm
 - .cjsx
 - .cl
+- .clh
 - .clj
 - .cljc
 - .cljs
@@ -374,6 +375,7 @@
 - .patch
 - .pcss
 - .pdf
+- .pdn
 - .pem
 - .perl
 - .pex
