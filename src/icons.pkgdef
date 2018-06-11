@@ -386,6 +386,8 @@
 "DefaultIconMoniker"="KnownMonikers.UMLModel"
 [$RootKey$\ShellFileAssociations\.cd]
 "DefaultIconMoniker"="KnownMonikers.Class"
+[$RootKey$\ShellFileAssociations\.cd]
+"DefaultIconMoniker"="KnownMonikers.Diagram"
 
 ; Diff
 [$RootKey$\ShellFileAssociations\.diff]
