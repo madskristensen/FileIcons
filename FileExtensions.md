@@ -1,4 +1,4 @@
-## Supported File Extensions (626)
+## Supported File Extensions (627)
 
 - .7z
 - .accdc
@@ -511,6 +511,7 @@
 - .sqlite3
 - .sqlitedb
 - .sqx
+- .ssdl
 - .storyboard
 - .sty
 - .styl
