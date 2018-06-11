@@ -344,6 +344,8 @@
 "DefaultIconMoniker"="KnownMonikers.EntityDatabase"
 [$RootKey$\ShellFileAssociations\.ssdl]
 "DefaultIconMoniker"="KnownMonikers.BDCModelResource"
+[$RootKey$\ShellFileAssociations\.msl]
+"DefaultIconMoniker"="KnownMonikers.BDCModelResource"
 [$RootKey$\ShellFileAssociations\.usql]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.dbml]

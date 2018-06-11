@@ -1,4 +1,4 @@
-## Supported File Extensions (627)
+## Supported File Extensions (628)
 
 - .7z
 - .accdc
@@ -332,6 +332,7 @@
 - .msbuild
 - .msc
 - .mshc
+- .msl
 - .mst
 - .mtn-ignore
 - .mts
