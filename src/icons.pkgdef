@@ -1116,6 +1116,10 @@
 [$RootKey$\ShellFileAssociations\.mo]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:66"
 
+; Power BI
+[$RootKey$\ShellFileAssociations\.pbix]
+"DefaultIconMoniker"="KnownMonikers.LineChart"
+
 ; PowerShell
 [$RootKey$\ShellFileAssociations\.ps1]
 "DefaultIconMoniker"="KnownMonikers.PowershellFile"
