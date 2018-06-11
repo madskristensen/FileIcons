@@ -94,6 +94,8 @@
 "DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
 [$RootKey$\ShellFileAssociations\.hh]
 "DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
+[$RootKey$\ShellFileAssociations\.clh]
+"DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
 [$RootKey$\ShellFileAssociations\.pro]
 "DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
 [$RootKey$\ShellFileAssociations\.pri]

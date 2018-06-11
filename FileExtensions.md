@@ -1,4 +1,4 @@
-## Supported File Extensions (617)
+## Supported File Extensions (618)
 
 - .7z
 - .accdc
