@@ -26,7 +26,7 @@ namespace FileIcons
         {
             await JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
 
-            await ReportMissingIcon.Initialize(this);
+            await ReportMissingIcon.InitializeAsync(this);
         }
     }
 }

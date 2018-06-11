@@ -30,7 +30,7 @@ namespace FileIcons
 
         public static ReportMissingIcon Instance { get; private set; }
 
-        public static async System.Threading.Tasks.Task Initialize(AsyncPackage package)
+        public static async System.Threading.Tasks.Task InitializeAsync(AsyncPackage package)
         {
             var commandService = await package.GetServiceAsync(typeof(IMenuCommandService)) as OleMenuCommandService;
             Instance = new ReportMissingIcon(package, commandService);
@@ -38,14 +38,15 @@ namespace FileIcons
 
         private void BeforeQueryStatus(object sender, EventArgs e)
         {
+            ThreadHelper.ThrowIfNotOnUIThread();
+
             var button = (OleMenuCommand)sender;
             button.Enabled = button.Visible = false;
 
             try
             {
-                var item = GetSelectedItem() as ProjectItem;
 
-                if (item == null || item.FileCount == 0)
+                if (!(GetSelectedItem() is ProjectItem item) || item.FileCount == 0)
                     return;
 
                 _ext = Path.GetExtension(item.FileNames[1]);
@@ -77,7 +78,7 @@ namespace FileIcons
 
             if (_shellExtensions == null)
             {
-                using (var key = _package.ApplicationRegistryRoot.OpenSubKey("ShellFileAssociations"))
+                using (Microsoft.Win32.RegistryKey key = _package.ApplicationRegistryRoot.OpenSubKey("ShellFileAssociations"))
                 {
                     _shellExtensions = key.GetSubKeyNames();
                 }
@@ -88,25 +89,20 @@ namespace FileIcons
 
         public static object GetSelectedItem()
         {
-            IntPtr hierarchyPointer, selectionContainerPointer;
-            object selectedObject = null;
-            IVsMultiItemSelect multiItemSelect;
-            uint itemId;
+            ThreadHelper.ThrowIfNotOnUIThread();
 
+            object selectedObject = null;
             var monitorSelection = (IVsMonitorSelection)Package.GetGlobalService(typeof(SVsShellMonitorSelection));
 
             try
             {
-                monitorSelection.GetCurrentSelection(out hierarchyPointer,
-                                                 out itemId,
-                                                 out multiItemSelect,
-                                                 out selectionContainerPointer);
+                monitorSelection.GetCurrentSelection(out IntPtr hierarchyPointer,
+                                                 out uint itemId,
+                                                 out IVsMultiItemSelect multiItemSelect,
+                                                 out IntPtr selectionContainerPointer);
 
-                IVsHierarchy selectedHierarchy = Marshal.GetTypedObjectForIUnknown(
-                                                     hierarchyPointer,
-                                                     typeof(IVsHierarchy)) as IVsHierarchy;
 
-                if (selectedHierarchy != null)
+                if (Marshal.GetTypedObjectForIUnknown(hierarchyPointer, typeof(IVsHierarchy)) is IVsHierarchy selectedHierarchy)
                 {
                     ErrorHandler.ThrowOnFailure(selectedHierarchy.GetProperty(itemId, (int)__VSHPROPID.VSHPROPID_ExtObject, out selectedObject));
                 }
