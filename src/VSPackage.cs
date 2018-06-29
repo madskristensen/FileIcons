@@ -11,6 +11,7 @@ namespace FileIcons
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
+    [ProvideBindingPath()]
     [ProvideAutoLoad(_loadContext, PackageAutoLoadFlags.BackgroundLoad)]
     [ProvideUIContextRule(_loadContext,
         name: "Auto load",
