@@ -1,4 +1,4 @@
-## Supported File Extensions (646)
+## Supported File Extensions (647)
 
 - .7z
 - .accdc
@@ -452,6 +452,7 @@
 - .qml
 - .qmlproject
 - .qrc
+- .qs
 - .r
 - .rake
 - .rakefile
