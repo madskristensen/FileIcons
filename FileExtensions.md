@@ -1,4 +1,4 @@
-## Supported File Extensions (642)
+## Supported File Extensions (643)
 
 - .7z
 - .accdc
@@ -318,6 +318,7 @@
 - .mex
 - .mexn
 - .mexrs6
+- .mgcb
 - .midi
 - .mjs
 - .mk
