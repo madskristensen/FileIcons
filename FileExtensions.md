@@ -1,4 +1,4 @@
-## Supported File Extensions (637)
+## Supported File Extensions (638)
 
 - .7z
 - .accdc
@@ -602,6 +602,7 @@
 - .webm
 - .webmanifest
 - .webp
+- .webtest
 - .wma
 - .wmv
 - .wof

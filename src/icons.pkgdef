@@ -1363,6 +1363,8 @@
 "DefaultIconMoniker"="KnownMonikers.LoadTest"
 [$RootKey$\ShellFileAssociations\.fakes]
 "DefaultIconMoniker"="KnownMonikers.CodeTest"
+[$RootKey$\ShellFileAssociations\.webtest]
+"DefaultIconMoniker"="KnownMonikers.WebTest"
 
 ; Temp files
 [$RootKey$\ShellFileAssociations\.tmp]
