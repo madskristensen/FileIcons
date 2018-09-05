@@ -1,4 +1,4 @@
-## Supported File Extensions (643)
+## Supported File Extensions (646)
 
 - .7z
 - .accdc
@@ -285,6 +285,7 @@
 - .litcoffee
 - .livescript
 - .ll
+- .lnk
 - .loadtest
 - .local
 - .lock.json
@@ -375,6 +376,7 @@
 - .nupkg
 - .nuspec
 - .nut
+- .obj
 - .ocamlmakefile
 - .odb
 - .ogg
@@ -626,6 +628,7 @@
 - .xib
 - .xlf
 - .xnb
+- .xpo
 - .xq
 - .xql
 - .xqm

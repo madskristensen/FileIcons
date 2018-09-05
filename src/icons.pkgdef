@@ -3,6 +3,10 @@
 ; http://glyphlist.azurewebsites.net/knownmonikers/
 ; -------------------------------------------------- ;
 
+[$RootKey$\ShellFileAssociations\.lnk]
+"DefaultIconMoniker"="KnownMonikers.ScriptLink"
+
+
 ; 3D/Gaming
 [$RootKey$\ShellFileAssociations\.xnb]
 "DefaultIconMoniker"="KnownMonikers.XNA"
@@ -18,6 +22,8 @@
 "DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.mgcb]
 "DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.obj]
+"DefaultIconMoniker"="KnownMonikers.ModelThreeD"
 
 ; ActionScript
 [$RootKey$\ShellFileAssociations\.as]
@@ -376,6 +382,8 @@
 "DefaultIconMoniker"="KnownMonikers.BDCModelResource"
 [$RootKey$\ShellFileAssociations\.asaql]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.xpo]
+"DefaultIconMoniker"="KnownMonikers.DatabaseScript"
 
 ; Delphi
 [$RootKey$\ShellFileAssociations\.p]
