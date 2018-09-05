@@ -434,6 +434,10 @@
 "DefaultIconMoniker"="KnownMonikers.FSScript"
 [$RootKey$\ShellFileAssociations\.fsx]
 "DefaultIconMoniker"="KnownMonikers.FSScript"
+[$RootKey$\ShellFileAssociations\.fsy]
+"DefaultIconMoniker"="KnownMonikers.FSScript"
+[$RootKey$\ShellFileAssociations\.fsl]
+"DefaultIconMoniker"="KnownMonikers.FSScript"
 [$RootKey$\ShellFileAssociations\.fsharplint]
 "DefaultIconMoniker"="KnownMonikers.FSWorkerTemplateFile"
 
