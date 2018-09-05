@@ -24,6 +24,8 @@
 "DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.obj]
 "DefaultIconMoniker"="KnownMonikers.ModelThreeD"
+[$RootKey$\ShellFileAssociations\.uplugin]
+"DefaultIconMoniker"="KnownMonikers.QueryExtender"
 
 ; ActionScript
 [$RootKey$\ShellFileAssociations\.as]
@@ -834,6 +836,8 @@
 [$RootKey$\ShellFileAssociations\.js.erb]
 "DefaultIconMoniker"="KnownMonikers.JSScript"
 [$RootKey$\ShellFileAssociations\.mjs]
+"DefaultIconMoniker"="KnownMonikers.JSScript"
+[$RootKey$\ShellFileAssociations\.etcjs]
 "DefaultIconMoniker"="KnownMonikers.JSScript"
 
 ; JSON

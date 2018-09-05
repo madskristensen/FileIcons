@@ -1,4 +1,4 @@
-## Supported File Extensions (649)
+## Supported File Extensions (651)
 
 - .7z
 - .accdc
@@ -138,6 +138,7 @@
 - .es6
 - .eslintignore
 - .eslintrc
+- .etcjs
 - .ex
 - .exclude
 - .exs
@@ -584,6 +585,7 @@
 - .types
 - .ui
 - .uml
+- .uplugin
 - .uplugin
 - .uproject
 - .usql
