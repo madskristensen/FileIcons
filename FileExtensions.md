@@ -1,4 +1,4 @@
-## Supported File Extensions (633)
+## Supported File Extensions (634)
 
 - .7z
 - .accdc
@@ -361,6 +361,7 @@
 - .npmignore
 - .npmrc
 - .nqp
+- .nswag
 - .nt
 - .nunj
 - .nunjs
