@@ -184,6 +184,8 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.ini]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.ldif]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.env]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.conf]

@@ -1,4 +1,4 @@
-## Supported File Extensions (638)
+## Supported File Extensions (639)
 
 - .7z
 - .accdc
@@ -271,6 +271,7 @@
 - .lava
 - .layout
 - .ldf
+- .ldif
 - .less
 - .lhs
 - .lic
