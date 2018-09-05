@@ -1480,9 +1480,9 @@
 
 ; XAML
 [$RootKey$\ShellFileAssociations\.xaml]
-"DefaultIconMoniker"="KnownMonikers.PhoneXAML"
+"DefaultIconMoniker"="KnownMonikers.WPFFile"
 [$RootKey$\ShellFileAssociations\.axml]
-"DefaultIconMoniker"="KnownMonikers.PhoneXAML"
+"DefaultIconMoniker"="KnownMonikers.WPFFile"
 
 ; XML
 [$RootKey$\ShellFileAssociations\.runsettings]
