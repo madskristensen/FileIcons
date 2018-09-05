@@ -913,6 +913,8 @@
 "DefaultIconMoniker"="KnownMonikers.Log"
 [$RootKey$\ShellFileAssociations\.nlog]
 "DefaultIconMoniker"="KnownMonikers.Log"
+[$RootKey$\ShellFileAssociations\.ldf]
+"DefaultIconMoniker"="KnownMonikers.Log"
 
 ; Lua
 [$RootKey$\ShellFileAssociations\.lua]
