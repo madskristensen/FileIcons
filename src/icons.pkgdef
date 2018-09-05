@@ -1344,9 +1344,11 @@
 [$RootKey$\ShellFileAssociations\.stylecop]
 "DefaultIconMoniker"="KnownMonikers.RunQuery"
 
-; Swagger/OpenAPI
+; Swagger/OpenAPI/General APIs
 [$RootKey$\ShellFileAssociations\.nswag]
 "DefaultIconMoniker"="KnownMonikers.ConnectedServices"
+[$RootKey$\ShellFileAssociations\.edi]
+"DefaultIconMoniker"="KnownMonikers.NetworkNDISDriver"
 
 ; Swig
 [$RootKey$\ShellFileAssociations\.i]

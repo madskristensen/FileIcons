@@ -1,4 +1,4 @@
-## Supported File Extensions (647)
+## Supported File Extensions (648)
 
 - .7z
 - .accdc
@@ -117,6 +117,7 @@
 - .dtsx
 - .dxview
 - .ebnf
+- .edi
 - .editorconfig
 - .edml
 - .edn
