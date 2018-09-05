@@ -1389,6 +1389,8 @@
 "DefaultIconMoniker"="KnownMonikers.CodeTest"
 [$RootKey$\ShellFileAssociations\.webtest]
 "DefaultIconMoniker"="KnownMonikers.WebTest"
+[$RootKey$\ShellFileAssociations\.ncrunchproject]
+"DefaultIconMoniker"="KnownMonikers.Test"
 
 ; Temp files
 [$RootKey$\ShellFileAssociations\.tmp]

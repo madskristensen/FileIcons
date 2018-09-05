@@ -1,4 +1,4 @@
-## Supported File Extensions (648)
+## Supported File Extensions (649)
 
 - .7z
 - .accdc
@@ -355,6 +355,7 @@
 - .mx3
 - .myd
 - .mysql
+- .ncrunchproject
 - .ndoc
 - .ngdoc
 - .nim
