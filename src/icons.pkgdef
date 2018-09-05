@@ -240,6 +240,8 @@
 "DefaultIconMoniker"="KnownMonikers.Report"
 [$RootKey$\ShellFileAssociations\.repx]
 "DefaultIconMoniker"="KnownMonikers.Report"
+[$RootKey$\ShellFileAssociations\.igr]
+"DefaultIconMoniker"="KnownMonikers.Report"
 
 ; CSS
 [$RootKey$\ShellFileAssociations\.css]

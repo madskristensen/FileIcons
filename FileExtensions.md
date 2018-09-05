@@ -1,4 +1,4 @@
-## Supported File Extensions (628)
+## Supported File Extensions (629)
 
 - .7z
 - .accdc
@@ -228,6 +228,7 @@
 - .idr
 - .idx
 - .ifb
+- .igr
 - .imagemanifest
 - .inc
 - .ini
