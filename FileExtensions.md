@@ -1,4 +1,4 @@
-## Supported File Extensions (639)
+## Supported File Extensions (641)
 
 - .7z
 - .accdc
@@ -167,6 +167,7 @@
 - .fpp
 - .frag
 - .fs
+- .fsh
 - .fsharplint
 - .fsi
 - .fsl
@@ -593,6 +594,7 @@
 - .vscodeignore
 - .vsct
 - .vsdx
+- .vsh
 - .vsixlangpack
 - .vsixmanifest
 - .vsspell
