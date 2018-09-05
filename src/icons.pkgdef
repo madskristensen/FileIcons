@@ -1309,6 +1309,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
 [$RootKey$\ShellFileAssociations\.db3]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
+[$RootKey$\ShellFileAssociations\.sqlite3-journal]
+"DefaultIconMoniker"="KnownMonikers.DatabaseFile"
 
 ; Static analysis
 [$RootKey$\ShellFileAssociations\.stylecop]

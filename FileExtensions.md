@@ -1,4 +1,4 @@
-## Supported File Extensions (632)
+## Supported File Extensions (633)
 
 - .7z
 - .accdc
@@ -514,6 +514,7 @@
 - .sqlite
 - .sqlite3
 - .sqlite3
+- .sqlite3-journal
 - .sqlitedb
 - .sqx
 - .ssdl
