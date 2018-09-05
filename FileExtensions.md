@@ -1,4 +1,4 @@
-## Supported File Extensions (641)
+## Supported File Extensions (642)
 
 - .7z
 - .accdc
@@ -496,6 +496,7 @@
 - .sdf
 - .sfd
 - .sh
+- .shader
 - .shfbproj
 - .sht
 - .shtm

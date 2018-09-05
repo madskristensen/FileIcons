@@ -14,6 +14,8 @@
 "DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.vsh]
 "DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.shader]
+"DefaultIconMoniker"="KnownMonikers.Shader"
 
 ; ActionScript
 [$RootKey$\ShellFileAssociations\.as]
