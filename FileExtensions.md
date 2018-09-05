@@ -1,4 +1,4 @@
-## Supported File Extensions (629)
+## Supported File Extensions (630)
 
 - .7z
 - .accdc
@@ -268,6 +268,7 @@
 - .layout
 - .less
 - .lhs
+- .lic
 - .licenseheader
 - .licx
 - .linq

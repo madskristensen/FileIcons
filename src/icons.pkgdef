@@ -172,6 +172,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:6"
 [$RootKey$\ShellFileAssociations\.htpasswd]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:2"
+[$RootKey$\ShellFileAssociations\.lic]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.licx]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.licenseheader]
