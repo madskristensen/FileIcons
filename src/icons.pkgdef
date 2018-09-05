@@ -8,6 +8,8 @@
 "DefaultIconMoniker"="KnownMonikers.XNA"
 [$RootKey$\ShellFileAssociations\.hlsl]
 "DefaultIconMoniker"="KnownMonikers.DirectXThreeD"
+[$RootKey$\ShellFileAssociations\.fx]
+"DefaultIconMoniker"="KnownMonikers.Shader"
 
 ; ActionScript
 [$RootKey$\ShellFileAssociations\.as]

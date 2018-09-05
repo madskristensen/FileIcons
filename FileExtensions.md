@@ -1,4 +1,4 @@
-## Supported File Extensions (636)
+## Supported File Extensions (637)
 
 - .7z
 - .accdc
@@ -172,6 +172,7 @@
 - .fsl
 - .fsx
 - .fsy
+- .fx
 - .g
 - .g4
 - .gemspec
