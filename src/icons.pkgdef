@@ -769,6 +769,8 @@
 ; Inno setup
 [$RootKey$\ShellFileAssociations\.isl]
 "DefaultIconMoniker"="KnownMonikers.InstallerClass"
+[$RootKey$\ShellFileAssociations\.delta]
+"DefaultIconMoniker"="KnownMonikers.PatchPackage"
 
 ; Jade
 [$RootKey$\ShellFileAssociations\.jade]

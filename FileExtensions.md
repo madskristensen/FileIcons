@@ -1,4 +1,4 @@
-## Supported File Extensions (635)
+## Supported File Extensions (636)
 
 - .7z
 - .accdc
@@ -103,6 +103,7 @@
 - .dbml
 - .dcmp
 - .ddl
+- .delta
 - .dependencies
 - .dfm
 - .dhtml
