@@ -45,7 +45,6 @@ namespace FileIcons
 
             try
             {
-
                 if (!(GetSelectedItem() is ProjectItem item) || item.FileCount == 0)
                     return;
 
