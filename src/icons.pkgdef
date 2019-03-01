@@ -216,6 +216,8 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.bundle]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.codeclonesettings]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 
 ; CoffeeScript
 [$RootKey$\ShellFileAssociations\.coffee]
