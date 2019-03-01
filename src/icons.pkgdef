@@ -934,6 +934,10 @@
 [$RootKey$\ShellFileAssociations\.bil]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
 
+; Loalization
+[$RootKey$\ShellFileAssociations\.locstrings]
+"DefaultIconMoniker"="KnownMonikers.Localize"
+
 ; Lock files
 [$RootKey$\ShellFileAssociations\.lock]
 "DefaultIconMoniker"="KnownMonikers.Lock"
