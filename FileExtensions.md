@@ -1,4 +1,4 @@
-## Supported File Extensions (651)
+## Supported File Extensions (654)
 
 - .7z
 - .accdc
@@ -74,6 +74,7 @@
 - .cmake
 - .cmd
 - .cob
+- .codeclonesettings
 - .coffee
 - .conf
 - .config
@@ -239,6 +240,7 @@
 - .imagemanifest
 - .inc
 - .ini
+- .ino
 - .ipkg
 - .irbrc
 - .isl
@@ -305,6 +307,7 @@
 - .mailmap
 - .mak
 - .makefile
+- .man
 - .manifest
 - .map
 - .markdown

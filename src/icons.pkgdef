@@ -61,6 +61,10 @@
 [$RootKey$\ShellFileAssociations\.app]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:53"
 
+; Arduino
+[$RootKey$\ShellFileAssociations\.ino]
+"DefaultIconMoniker"="KnownMonikers.Motherboard"
+
 ; ASP
 [$RootKey$\ShellFileAssociations\.asp]
 "DefaultIconMoniker"="KnownMonikers.ASPFile"
