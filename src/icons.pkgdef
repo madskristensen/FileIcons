@@ -823,6 +823,8 @@
 "DefaultIconMoniker"="KnownMonikers.JavaSource"
 [$RootKey$\ShellFileAssociations\.jar]
 "DefaultIconMoniker"="KnownMonikers.JARFile"
+[$RootKey$\ShellFileAssociations\.aar]
+"DefaultIconMoniker"="KnownMonikers.JARFile"
 [$RootKey$\ShellFileAssociations\.wss]
 "DefaultIconMoniker"="KnownMonikers.JavaSource"
 

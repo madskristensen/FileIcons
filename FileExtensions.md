@@ -1,6 +1,7 @@
-## Supported File Extensions (654)
+## Supported File Extensions (658)
 
 - .7z
+- .aar
 - .accdc
 - .accdd
 - .ace
@@ -294,6 +295,7 @@
 - .local
 - .lock.json
 - .lock
+- .locstrings
 - .log
 - .log4net
 - .ls
@@ -430,6 +432,7 @@
 - .postcssrc
 - .potx
 - .pp
+- .pq
 - .prawn
 - .pre
 - .prf
@@ -596,6 +599,7 @@
 - .vash
 - .vb
 - .vbs
+- .vcf
 - .vcl
 - .vdb3
 - .vert
