@@ -376,6 +376,8 @@
 "DefaultIconMoniker"="KnownMonikers.EntityDatabase"
 [$RootKey$\ShellFileAssociations\.csdl]
 "DefaultIconMoniker"="KnownMonikers.EntityDatabase"
+[$RootKey$\ShellFileAssociations\.efmodel]
+"DefaultIconMoniker"="KnownMonikers.UMLModel"
 [$RootKey$\ShellFileAssociations\.ssdl]
 "DefaultIconMoniker"="KnownMonikers.BDCModelResource"
 [$RootKey$\ShellFileAssociations\.msl]

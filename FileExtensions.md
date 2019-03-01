@@ -1,4 +1,4 @@
-## Supported File Extensions (658)
+## Supported File Extensions (660)
 
 - .7z
 - .aar
@@ -124,6 +124,7 @@
 - .edml
 - .edn
 - .eex
+- .efmodel
 - .ejs
 - .el
 - .elm
@@ -266,6 +267,7 @@
 - .jshtml
 - .json
 - .json5
+- .jsonc
 - .jsonld
 - .jsp
 - .jss
