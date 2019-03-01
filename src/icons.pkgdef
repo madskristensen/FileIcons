@@ -879,6 +879,8 @@
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.graphql]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.jsonc]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 
 ; Julia
 [$RootKey$\ShellFileAssociations\.jl]
