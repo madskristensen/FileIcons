@@ -224,6 +224,10 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 
 ; CoffeeScript
+[$RootKey$\ShellFileAssociations\.vcf]
+"DefaultIconMoniker"="KnownMonikers.ContactCard"
+
+; CoffeeScript
 [$RootKey$\ShellFileAssociations\.coffee]
 "DefaultIconMoniker"="KnownMonikers.JSCoffeeScript"
 [$RootKey$\ShellFileAssociations\.cson]
