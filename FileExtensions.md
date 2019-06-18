@@ -1,4 +1,4 @@
-## Supported File Extensions (663)
+## Supported File Extensions (665)
 
 - .7z
 - .aar
@@ -197,6 +197,7 @@
 - .gn
 - .gni
 - .go
+- .gold
 - .gradle
 - .graphql
 - .groovy
@@ -530,6 +531,7 @@
 - .smarty
 - .smv
 - .snippet
+- .so
 - .sol
 - .spark
 - .sparql

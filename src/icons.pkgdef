@@ -1569,6 +1569,8 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.uproject]
 "DefaultIconMoniker"="KnownMonikers.SharedProject"
+[$RootKey$\ShellFileAssociations\.so]
+"DefaultIconMoniker"="KnownMonikers.SharedProject"
 [$RootKey$\ShellFileAssociations\.xlf]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.man]
