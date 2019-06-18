@@ -1377,6 +1377,8 @@
 ; Swagger/OpenAPI/General APIs
 [$RootKey$\ShellFileAssociations\.nswag]
 "DefaultIconMoniker"="KnownMonikers.ConnectedServices"
+[$RootKey$\ShellFileAssociations\.bdcr]
+"DefaultIconMoniker"="KnownMonikers.Services"
 [$RootKey$\ShellFileAssociations\.edi]
 "DefaultIconMoniker"="KnownMonikers.NetworkNDISDriver"
 
@@ -1421,6 +1423,8 @@
 "DefaultIconMoniker"="KnownMonikers.WebTest"
 [$RootKey$\ShellFileAssociations\.ncrunchproject]
 "DefaultIconMoniker"="KnownMonikers.Test"
+[$RootKey$\ShellFileAssociations\.gold]
+"DefaultIconMoniker"="KnownMonikers.RecommendedTest"
 
 ; Temp files
 [$RootKey$\ShellFileAssociations\.tmp]

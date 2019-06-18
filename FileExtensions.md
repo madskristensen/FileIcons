@@ -1,4 +1,4 @@
-## Supported File Extensions (662)
+## Supported File Extensions (663)
 
 - .7z
 - .aar
@@ -31,6 +31,7 @@
 - .bat
 - .bbx
 - .bdcm
+- .bdcr
 - .bib
 - .bil
 - .bim
