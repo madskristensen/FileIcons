@@ -1,4 +1,4 @@
-## Supported File Extensions (666)
+## Supported File Extensions (667)
 
 - .7z
 - .aar
@@ -322,6 +322,7 @@
 - .markdown
 - .marko
 - .mat
+- .mc
 - .md
 - .mdb
 - .mde

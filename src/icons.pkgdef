@@ -1438,6 +1438,10 @@
 [$RootKey$\ShellFileAssociations\.tfvars]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:75"
 
+; Text
+[$RootKey$\ShellFileAssociations\.mc]
+"DefaultIconMoniker"="KnownMonikers.TextFile"
+
 ; Kapacitor Tick
 [$RootKey$\ShellFileAssociations\.tick]
 "DefaultIconMoniker"="KnownMonikers.Time"
