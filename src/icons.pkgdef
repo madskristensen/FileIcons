@@ -200,6 +200,8 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.licenseheader]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.licenses]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.lslm]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.ini]

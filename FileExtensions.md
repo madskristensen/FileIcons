@@ -1,4 +1,4 @@
-## Supported File Extensions (660)
+## Supported File Extensions (661)
 
 - .7z
 - .aar
@@ -284,6 +284,7 @@
 - .lhs
 - .lic
 - .licenseheader
+- .licenses
 - .licx
 - .linq
 - .liquid
