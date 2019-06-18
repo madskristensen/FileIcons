@@ -1,4 +1,4 @@
-## Supported File Extensions (665)
+## Supported File Extensions (666)
 
 - .7z
 - .aar
@@ -105,6 +105,7 @@
 - .db3
 - .dbc
 - .dbml
+- .dbs
 - .dcmp
 - .ddl
 - .delta

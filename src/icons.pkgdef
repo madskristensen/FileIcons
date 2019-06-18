@@ -400,6 +400,8 @@
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.xpo]
 "DefaultIconMoniker"="KnownMonikers.DatabaseScript"
+[$RootKey$\ShellFileAssociations\.dbs]
+"DefaultIconMoniker"="KnownMonikers.DatabaseSchema"
 
 ; Delphi
 [$RootKey$\ShellFileAssociations\.p]
