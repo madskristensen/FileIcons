@@ -1,4 +1,4 @@
-## Supported File Extensions (661)
+## Supported File Extensions (662)
 
 - .7z
 - .aar
@@ -7,6 +7,7 @@
 - .ace
 - .action
 - .afdesign
+- .ai
 - .aip
 - .ansible
 - .apib

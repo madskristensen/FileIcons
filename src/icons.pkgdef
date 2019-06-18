@@ -795,6 +795,8 @@
 "DefaultIconMoniker"="KnownMonikers.Image"
 [$RootKey$\ShellFileAssociations\.pdn]
 "DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.ai]
+"DefaultIconMoniker"="KnownMonikers.Image"
 [$RootKey$\ShellFileAssociations\.psd]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:27"
 [$RootKey$\ShellFileAssociations\.pdf]
