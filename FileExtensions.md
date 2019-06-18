@@ -1,4 +1,4 @@
-## Supported File Extensions (667)
+## Supported File Extensions (668)
 
 - .7z
 - .aar
@@ -250,6 +250,7 @@
 - .ipkg
 - .irbrc
 - .isl
+- .issuetracker
 - .iuml
 - .j2
 - .jade

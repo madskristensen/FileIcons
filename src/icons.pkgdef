@@ -566,6 +566,8 @@
 "DefaultIconMoniker"="KnownMonikers.Git"
 [$RootKey$\ShellFileAssociations\.gitconfig]
 "DefaultIconMoniker"="KnownMonikers.Git"
+[$RootKey$\ShellFileAssociations\.issuetracker]
+"DefaultIconMoniker"="KnownMonikers.WorkItem"
 
 ; Go
 [$RootKey$\ShellFileAssociations\.go]
