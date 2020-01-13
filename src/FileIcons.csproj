@@ -93,6 +93,9 @@
     <Resource Include="Icons\pdf.png" />
     <Resource Include="Icons\latex.png" />
     <Resource Include="Icons\matlab.png" />
+    <Resource Include="Icons\mq5.png" />
+    <Resource Include="Icons\mq4.png" />
+    <Resource Include="Icons\mqh.png" />
     <Resource Include="Icons\paket.png" />
     <Resource Include="Icons\yarn.png" />
     <Resource Include="Icons\scala.png" />

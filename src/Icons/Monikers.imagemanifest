@@ -49,6 +49,9 @@
         <ID Name="m" Value="60" />
         <ID Name="marko" Value="62" />
         <ID Name="matlab" Value="40" />
+        <ID Name="mq4" Value="78" />
+        <ID Name="mq5" Value="79" />
+        <ID Name="mqh" Value="80" />
         <ID Name="mustache" Value="24" />
         <ID Name="neo4j" Value="73" />
         <ID Name="nim" Value="63" />
@@ -291,6 +294,23 @@
                 <Size Value="32" />
             </Source>
         </Image>
+
+      <Image Guid="$(MonikersGuid)" ID="$(mq4)">
+        <Source Uri="$(Resources)/mq4.png">
+          <Size Value="32" />
+        </Source>
+      </Image>
+      <Image Guid="$(MonikersGuid)" ID="$(mq5)">
+        <Source Uri="$(Resources)/mq5.png">
+          <Size Value="32" />
+        </Source>
+      </Image>
+      <Image Guid="$(MonikersGuid)" ID="$(mqh)">
+        <Source Uri="$(Resources)/mqh.png">
+          <Size Value="32" />
+        </Source>
+      </Image>
+      
         <Image Guid="$(MonikersGuid)" ID="$(m)">
             <Source Uri="$(Resources)/m.png">
                 <Size Value="32" />

@@ -355,6 +355,9 @@
 - .mp4
 - .mpeg
 - .mpg
+- .mq4
+- .mq5
+- .mqh
 - .mrt
 - .msbuild
 - .msc
