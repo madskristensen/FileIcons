@@ -11,6 +11,12 @@ download in the
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
 
+## 2.8
+
+- [x] .mq4 file icon
+- [x] .mq5 file icon
+- [x] .mqh file icon
+
 ## 2.7
 
 - [x] .ngdoc file icon

@@ -974,6 +974,18 @@
 [$RootKey$\ShellFileAssociations\.lua]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:23"
 
+; mq4
+[$RootKey$\ShellFileAssociations\.mq4]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:78"
+
+; mq5
+[$RootKey$\ShellFileAssociations\.mq5]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:79"
+
+; mqh
+[$RootKey$\ShellFileAssociations\.mqh]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:80"
+
 ; LiveScript
 [$RootKey$\ShellFileAssociations\.ls]
 "DefaultIconMoniker"="KnownMonikers.Script"

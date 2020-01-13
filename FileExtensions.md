@@ -1,4 +1,4 @@
-## Supported File Extensions (668)
+## Supported File Extensions (671)
 
 - .7z
 - .aar
@@ -355,6 +355,9 @@
 - .mp4
 - .mpeg
 - .mpg
+- .mq4
+- .mq5
+- .mqh
 - .mrt
 - .msbuild
 - .msc
