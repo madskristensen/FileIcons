@@ -700,8 +700,6 @@
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
 [$RootKey$\ShellFileAssociations\.jshtml]
 "DefaultIconMoniker"="KnownMonikers.HTMLFile"
-[$RootKey$\ShellFileAssociations\.cshtml]
-"DefaultIconMoniker"="KnownMonikers.HTMLEndTag"
 
 ; HTML templates
 [$RootKey$\ShellFileAssociations\.ejs]
