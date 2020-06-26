@@ -1,4 +1,4 @@
-## Supported File Extensions (692)
+## Supported File Extensions (693)
 
 - .7z
 - .aar
@@ -92,6 +92,7 @@
 - .csdef
 - .csdl
 - .csh
+- .cshtml
 - .cson
 - .css
 - .csslintrc
