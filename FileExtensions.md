@@ -1,4 +1,4 @@
-## Supported File Extensions (686)
+## Supported File Extensions (692)
 
 - .7z
 - .aar
@@ -113,6 +113,7 @@
 - .delta
 - .dependencies
 - .dfm
+- .dgml
 - .dhtml
 - .diagram
 - .diff
@@ -178,6 +179,7 @@
 - .fp7
 - .fpp
 - .frag
+- .frx
 - .fs
 - .fsh
 - .fsharplint
@@ -292,6 +294,7 @@
 - .ldf
 - .ldif
 - .less
+- .lfsconfig
 - .lhs
 - .lic
 - .licenseheader
@@ -403,6 +406,7 @@
 - .nupkg
 - .nuspec
 - .nut
+- .nvmrc
 - .obj
 - .ocamlmakefile
 - .odb
@@ -561,6 +565,7 @@
 - .sqlitedb
 - .sqx
 - .ssdl
+- .ssmssln
 - .ssmssqlproj
 - .stop
 - .storyboard
@@ -582,6 +587,7 @@
 - .tcl
 - .tcshcsh
 - .template
+- .ter
 - .tex
 - .tf
 - .tf

@@ -232,6 +232,8 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.codeclonesettings]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.nvmrc]
+"DefaultIconMoniker"="KnownMonikers.NodejsProject"
 
 ; CoffeeScript
 [$RootKey$\ShellFileAssociations\.vcf]
@@ -286,6 +288,8 @@
 "DefaultIconMoniker"="KnownMonikers.Report"
 [$RootKey$\ShellFileAssociations\.rds]
 "DefaultIconMoniker"="KnownMonikers.SharedDataSource"
+[$RootKey$\ShellFileAssociations\.frx]
+"DefaultIconMoniker"="KnownMonikers.Report"
 
 ; CSS
 [$RootKey$\ShellFileAssociations\.css]
@@ -420,6 +424,10 @@
 "DefaultIconMoniker"="KnownMonikers.DatabaseMobileConnection"
 [$RootKey$\ShellFileAssociations\.ssmssqlproj]
 "DefaultIconMoniker"="KnownMonikers.CPPATLDatabase"
+[$RootKey$\ShellFileAssociations\.ssmssln]
+"DefaultIconMoniker"="KnownMonikers.DatabaseApplication"
+[$RootKey$\ShellFileAssociations\.ter]
+"DefaultIconMoniker"="KnownMonikers.DatabaseSchema"
 
 ; Delphi
 [$RootKey$\ShellFileAssociations\.p]
@@ -451,6 +459,8 @@
 [$RootKey$\ShellFileAssociations\.cd]
 "DefaultIconMoniker"="KnownMonikers.Class"
 [$RootKey$\ShellFileAssociations\.cd]
+"DefaultIconMoniker"="KnownMonikers.Diagram"
+[$RootKey$\ShellFileAssociations\.dgml]
 "DefaultIconMoniker"="KnownMonikers.Diagram"
 
 ; Diff
@@ -588,6 +598,8 @@
 "DefaultIconMoniker"="KnownMonikers.Git"
 [$RootKey$\ShellFileAssociations\.issuetracker]
 "DefaultIconMoniker"="KnownMonikers.WorkItem"
+[$RootKey$\ShellFileAssociations\.lfsconfig]
+"DefaultIconMoniker"="KnownMonikers.GitNoColor"
 
 ; Go
 [$RootKey$\ShellFileAssociations\.go]
