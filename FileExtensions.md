@@ -1,4 +1,4 @@
-## Supported File Extensions (671)
+## Supported File Extensions (686)
 
 - .7z
 - .aar
@@ -27,6 +27,7 @@
 - .azurepubxml
 - .babelignore
 - .babelrc
+- .bacpac
 - .bash
 - .bat
 - .bbx
@@ -81,6 +82,7 @@
 - .coffee
 - .conf
 - .config
+- .conmgr
 - .cpp
 - .cpy
 - .cql
@@ -158,6 +160,7 @@
 - .fakes
 - .favdoc
 - .fbs
+- .fdb
 - .feature
 - .fig
 - .fish
@@ -168,6 +171,7 @@
 - .flv
 - .fm
 - .fmp
+- .fnt
 - .for
 - .fp3
 - .fp5
@@ -216,6 +220,7 @@
 - .hhc
 - .hhk
 - .hhp
+- .hint
 - .hjson
 - .hlp
 - .hlsl
@@ -250,6 +255,7 @@
 - .ipkg
 - .irbrc
 - .isl
+- .ispc
 - .issuetracker
 - .iuml
 - .j2
@@ -345,6 +351,7 @@
 - .mli
 - .mll
 - .mly
+- .mm
 - .mmd
 - .mmdb
 - .mn
@@ -407,6 +414,7 @@
 - .p12
 - .p4ignore
 - .p6
+- .p7b
 - .par
 - .pas
 - .patch
@@ -433,6 +441,7 @@
 - .pl
 - .pl6
 - .plantuml
+- .playlist
 - .plist
 - .pm
 - .pm6
@@ -485,6 +494,7 @@
 - .rc
 - .rdb
 - .rdl
+- .rds
 - .readme
 - .reek
 - .refactorlog
@@ -551,6 +561,8 @@
 - .sqlitedb
 - .sqx
 - .ssdl
+- .ssmssqlproj
+- .stop
 - .storyboard
 - .sty
 - .styl
@@ -568,7 +580,7 @@
 - .tar
 - .targets
 - .tcl
-- .tcsh
+- .tcshcsh
 - .template
 - .tex
 - .tf
@@ -585,6 +597,7 @@
 - .tml
 - .tmLanguage
 - .tmp
+- .tmpl
 - .tmSnippet
 - .tmx
 - .toml
@@ -635,6 +648,7 @@
 - .webmanifest
 - .webp
 - .webtest
+- .wfdef
 - .wma
 - .wmv
 - .wof
@@ -647,6 +661,7 @@
 - .xaml
 - .xap
 - .xdt
+- .xdtpx
 - .xht
 - .xhtm
 - .xhtml
