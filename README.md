@@ -39,7 +39,7 @@ extension for Visual Studio Code.
 
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)
-if you want to contribute to this project.
+if you want to contribute to this project..
 
 For cloning and building this project yourself, make sure
 to install the
