@@ -3,8 +3,6 @@ using System.ComponentModel.Design;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
-using EnvDTE;
-using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 
@@ -45,14 +43,15 @@ namespace FileIcons
 
             try
             {
-                if (!(GetSelectedItem() is ProjectItem item) || item.FileCount == 0)
-                    return;
+                var filePath = GetSelectedFilePath();
+                if (!string.IsNullOrEmpty(filePath))
+                {
+                    _ext = Path.GetExtension(filePath);
+                    var isIconMissing = IsIconMissing(_ext);
 
-                _ext = Path.GetExtension(item.FileNames[1]);
-                bool isIconMissing = IsIconMissing(_ext);
-
-                button.Text = $"Report missing icon for {_ext} files...";
-                button.Enabled = button.Visible = isIconMissing;
+                    button.Text = $"Report missing icon for {_ext} files...";
+                    button.Enabled = button.Visible = isIconMissing;
+                }
             }
             catch (Exception ex)
             {
@@ -62,9 +61,9 @@ namespace FileIcons
 
         private void Execute(object sender, EventArgs e)
         {
-            string title = Uri.EscapeUriString($"Missing icon for {_ext} files");
-            string body = Uri.EscapeUriString("Please describe what the file type is. It makes it much easier to find an appropriate icon.");
-            string url = string.Format(_urlFormat, title, body);
+            var title = Uri.EscapeUriString($"Missing icon for {_ext} files");
+            var body = Uri.EscapeUriString("Please describe what the file type is. It makes it much easier to find an appropriate icon.");
+            var url = string.Format(_urlFormat, title, body);
 
             System.Diagnostics.Process.Start(url);
         }
@@ -73,7 +72,9 @@ namespace FileIcons
         {
             // Icons can't be associated with extensionless files
             if (string.IsNullOrWhiteSpace(fileExtension))
+            {
                 return false;
+            }
 
             if (_shellExtensions == null)
             {
@@ -86,35 +87,39 @@ namespace FileIcons
             return !_shellExtensions.Contains(fileExtension, StringComparer.OrdinalIgnoreCase);
         }
 
-        public static object GetSelectedItem()
+        public static string GetSelectedFilePath()
         {
             ThreadHelper.ThrowIfNotOnUIThread();
 
-            object selectedObject = null;
             var monitorSelection = (IVsMonitorSelection)Package.GetGlobalService(typeof(SVsShellMonitorSelection));
+            IntPtr hierarchyPointer = IntPtr.Zero;
+            IntPtr selectionContainerPointer = IntPtr.Zero;
 
             try
             {
-                monitorSelection.GetCurrentSelection(out IntPtr hierarchyPointer,
-                                                 out uint itemId,
+                monitorSelection.GetCurrentSelection(out hierarchyPointer,
+                                                 out var itemId,
                                                  out IVsMultiItemSelect multiItemSelect,
-                                                 out IntPtr selectionContainerPointer);
+                                                 out selectionContainerPointer);
 
 
                 if (Marshal.GetTypedObjectForIUnknown(hierarchyPointer, typeof(IVsHierarchy)) is IVsHierarchy selectedHierarchy)
                 {
-                    ErrorHandler.ThrowOnFailure(selectedHierarchy.GetProperty(itemId, (int)__VSHPROPID.VSHPROPID_ExtObject, out selectedObject));
+                    selectedHierarchy.GetCanonicalName(itemId, out var document);
+                    return document;
                 }
-
-                Marshal.Release(hierarchyPointer);
-                Marshal.Release(selectionContainerPointer);
             }
             catch (Exception ex)
             {
                 System.Diagnostics.Debug.Write(ex);
             }
+            finally
+            {
+                Marshal.Release(hierarchyPointer);
+                Marshal.Release(selectionContainerPointer);
+            }
 
-            return selectedObject;
+            return null;
         }
     }
 }
