@@ -12,6 +12,12 @@
 "DefaultIconMoniker"="KnownMonikers.XNA"
 [$RootKey$\ShellFileAssociations\.hlsl]
 "DefaultIconMoniker"="KnownMonikers.DirectXThreeD"
+[$RootKey$\ShellFileAssociations\.hlsli]
+"DefaultIconMoniker"="KnownMonikers.DirectXThreeD"
+[$RootKey$\ShellFileAssociations\.usf]
+"DefaultIconMoniker"="KnownMonikers.DirectXThreeD"
+[$RootKey$\ShellFileAssociations\.ush]
+"DefaultIconMoniker"="KnownMonikers.DirectXThreeD"
 [$RootKey$\ShellFileAssociations\.fx]
 "DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.fsh]
