@@ -15,6 +15,7 @@
         <ID Name="clojure" Value="1" />
         <ID Name="cobol" Value="54" />
         <ID Name="coldfusion" Value="55" />
+        <ID Name="csharpier" Value="81" />
         <ID Name="csslint" Value="4" />
         <ID Name="d" Value="5" />
         <ID Name="dart" Value="0" />
@@ -136,6 +137,11 @@
         </Image>
         <Image Guid="$(MonikersGuid)" ID="$(coldfusion)">
             <Source Uri="$(Resources)/coldfusion.png">
+                <Size Value="32" />
+            </Source>
+        </Image>
+        <Image Guid="$(MonikersGuid)" ID="$(csharpier)">
+            <Source Uri="$(Resources)/csharpier.png">
                 <Size Value="32" />
             </Source>
         </Image>
