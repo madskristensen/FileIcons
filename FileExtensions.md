@@ -1,4 +1,4 @@
-## Supported File Extensions (692)
+## Supported File Extensions (693)
 
 - .7z
 - .aar
@@ -340,6 +340,7 @@
 - .mdj
 - .mdn
 - .mdown
+- .mdpuml
 - .merlin
 - .mex
 - .mexn
