@@ -134,6 +134,7 @@
     <Resource Include="Icons\tcl.png" />
     <Resource Include="Icons\idris.png" />
     <Resource Include="Icons\solidity.png" />
+    <Resource Include="Icons\csharpier.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>

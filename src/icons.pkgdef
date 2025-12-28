@@ -157,6 +157,12 @@
 [$RootKey$\ShellFileAssociations\.csx]
 "DefaultIconMoniker"="KnownMonikers.CSFileNode"
 
+; CSharpier
+[$RootKey$\ShellFileAssociations\.csharpierrc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:81"
+[$RootKey$\ShellFileAssociations\.csharpierignore]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:81"
+
 ; Cake
 [$RootKey$\ShellFileAssociations\.cake]
 "DefaultIconMoniker"="KnownMonikers.MakeFile"
