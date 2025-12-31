@@ -9,6 +9,6 @@ $list = ([regex]'\\([^\\\]]+)]').Matches($content) `
 		| Sort-Object `
 		| foreach {"- " + $_.groups[1].value}
 
-"## Supported File Extensions (" + $list.Length + ")`n`n" + ($list -join "`r`n") | Set-Content ($solDir + "\FileExtensions.md")
+"## Supported File Extensions (" + $list.Length + ")`r`n`r`n" + ($list -join "`r`n") | Set-Content ($solDir + "\FileExtensions.md")
 
 Write-Host "OK" -ForegroundColor Green
