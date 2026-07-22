@@ -12,11 +12,11 @@ namespace FileIcons
     {
         private const string _urlFormat = "https://github.com/madskristensen/FileIcons/issues/new?title={0}&body={1}";
 
-        private readonly AsyncPackage _package;
+        private readonly Package _package;
         private string[] _shellExtensions;
         private string _ext;
 
-        private ReportMissingIcon(AsyncPackage package, OleMenuCommandService commandService)
+        private ReportMissingIcon(Package package, OleMenuCommandService commandService)
         {
             _package = package;
 
@@ -28,9 +28,10 @@ namespace FileIcons
 
         public static ReportMissingIcon Instance { get; private set; }
 
-        public static async System.Threading.Tasks.Task InitializeAsync(AsyncPackage package)
+        public static async System.Threading.Tasks.Task InitializeAsync(Package package)
         {
-            var commandService = await package.GetServiceAsync(typeof(IMenuCommandService)) as OleMenuCommandService;
+            await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync();
+            var commandService = ((IServiceProvider)package).GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
             Instance = new ReportMissingIcon(package, commandService);
         }
 
