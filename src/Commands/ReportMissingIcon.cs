@@ -31,7 +31,7 @@ namespace FileIcons
         public static async System.Threading.Tasks.Task InitializeAsync(Package package)
         {
             await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync();
-            var commandService = package.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
+            var commandService = ((IServiceProvider)package).GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
             Instance = new ReportMissingIcon(package, commandService);
         }
 
