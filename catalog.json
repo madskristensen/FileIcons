@@ -13,31 +13,34 @@
     {
       "name": "clojure",
       "id": 1,
-      "file": "clojure.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "clojure.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_clojure.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "apache",
       "id": 2,
-      "file": "apache.png",
-      "provenance": "legacy-unverified",
-      "width": 33,
-      "height": 32
+      "file": "apache.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_apache.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "babel",
       "id": 3,
-      "file": "babel.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "babel.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_babel.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "csslint",
       "id": 4,
-      "file": "csslint.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "csslint.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_csslint.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "d",
@@ -49,17 +52,18 @@
     {
       "name": "editorconfig",
       "id": 6,
-      "file": "editorconfig.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "editorconfig.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_editorconfig.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "ejs",
       "id": 7,
-      "file": "ejs.png",
-      "provenance": "legacy-unverified",
-      "width": 31,
-      "height": 32
+      "file": "ejs.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_ejs.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "elixir",
@@ -71,9 +75,10 @@
     {
       "name": "elm",
       "id": 9,
-      "file": "elm.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "elm.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_elm.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "erb",
@@ -86,16 +91,18 @@
     {
       "name": "erlang",
       "id": 11,
-      "file": "erlang.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "erlang.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_erlang.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "eslint",
       "id": 12,
-      "file": "eslint.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "eslint.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_eslint.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "flash",
@@ -107,37 +114,42 @@
     {
       "name": "go",
       "id": 14,
-      "file": "go.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "go.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_go.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "groovy",
       "id": 15,
-      "file": "groovy.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "groovy.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_groovy.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "haml",
       "id": 16,
-      "file": "haml.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "haml.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_haml.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "handlebars",
       "id": 17,
-      "file": "handlebars.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "handlebars.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_handlebars.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "haskell",
       "id": 18,
-      "file": "haskell.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "haskell.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_haskell.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "jade",
@@ -149,58 +161,66 @@
     {
       "name": "jshint",
       "id": 20,
-      "file": "jshint.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "jshint.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_jshint.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "julia",
       "id": 21,
-      "file": "julia.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "julia.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_julia.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "lisp",
       "id": 22,
-      "file": "lisp.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "lisp.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_lisp.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "lua",
       "id": 23,
-      "file": "lua.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "lua.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_lua.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "mustache",
       "id": 24,
-      "file": "mustache.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "mustache.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_mustache.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "nunjucks",
       "id": 25,
-      "file": "nunjucks.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "nunjucks.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_nunjucks.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "perl",
       "id": 26,
-      "file": "perl.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "perl.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_perl.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "photoshop",
       "id": 27,
-      "file": "photoshop.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "photoshop.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_photoshop.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "puppet",
@@ -241,9 +261,10 @@
     {
       "name": "stylelint",
       "id": 33,
-      "file": "stylelint.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "stylelint.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_stylelint.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "swift",
@@ -270,9 +291,10 @@
     {
       "name": "gradle",
       "id": 37,
-      "file": "gradle.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "gradle.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_gradle.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "pdf",
@@ -305,9 +327,10 @@
     {
       "name": "yarn",
       "id": 42,
-      "file": "yarn.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "yarn.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_yarn.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "scala",
@@ -355,16 +378,18 @@
     {
       "name": "actionscript",
       "id": 50,
-      "file": "actionscript.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "actionscript.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_actionscript.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "ansible",
       "id": 51,
-      "file": "ansible.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "ansible.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_ansible.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "apigee",
@@ -377,16 +402,18 @@
     {
       "name": "applescript",
       "id": 53,
-      "file": "applescript.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "applescript.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_applescript.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "cobol",
       "id": 54,
-      "file": "cobol.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "cobol.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_cobol.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "coldfusion",
@@ -405,23 +432,26 @@
     {
       "name": "haxe",
       "id": 57,
-      "file": "haxe.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "haxe.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_haxe.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "lime",
       "id": 59,
-      "file": "lime.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "lime.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_lime.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "fortran",
       "id": 61,
-      "file": "fortran.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "fortran.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_fortran.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "marko",
@@ -433,9 +463,10 @@
     {
       "name": "nim",
       "id": 63,
-      "file": "nim.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "nim.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_nim.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "ocaml",
@@ -447,9 +478,10 @@
     {
       "name": "patch",
       "id": 65,
-      "file": "patch.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "patch.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_patch.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "poedit",
@@ -476,23 +508,26 @@
     {
       "name": "raml",
       "id": 69,
-      "file": "raml.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "raml.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_raml.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "riot",
       "id": 70,
-      "file": "riot.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "riot.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_riot.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "twig",
       "id": 71,
-      "file": "twig.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "twig.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_twig.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "volt",
@@ -505,9 +540,10 @@
     {
       "name": "neo4j",
       "id": 73,
-      "file": "neo4j.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "neo4j.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_neo4j.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "foxpro",
@@ -527,16 +563,18 @@
     {
       "name": "tcl",
       "id": 76,
-      "file": "tcl.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "tcl.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_tcl.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "idris",
       "id": 77,
-      "file": "idris.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "idris.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_idris.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "mq4",
@@ -569,9 +607,10 @@
     {
       "name": "solidity",
       "id": 82,
-      "file": "solidity.png",
-      "provenance": "legacy-unverified",
-      "size": 32
+      "file": "solidity.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_solidity.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     },
     {
       "name": "avalonia",

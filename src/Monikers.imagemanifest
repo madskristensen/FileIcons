@@ -99,24 +99,16 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(clojure)">
-      <Source Uri="$(Resources)/clojure.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/clojure.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(apache)">
-      <Source Uri="$(Resources)/apache.png">
-        <Dimensions Width="33" Height="32" />
-      </Source>
+      <Source Uri="$(Resources)/apache.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(babel)">
-      <Source Uri="$(Resources)/babel.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/babel.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(csslint)">
-      <Source Uri="$(Resources)/csslint.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/csslint.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(d)">
       <Source Uri="$(Resources)/d.png">
@@ -124,14 +116,10 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(editorconfig)">
-      <Source Uri="$(Resources)/editorconfig.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/editorconfig.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(ejs)">
-      <Source Uri="$(Resources)/ejs.png">
-        <Dimensions Width="31" Height="32" />
-      </Source>
+      <Source Uri="$(Resources)/ejs.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(elixir)">
       <Source Uri="$(Resources)/elixir.png">
@@ -139,22 +127,16 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(elm)">
-      <Source Uri="$(Resources)/elm.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/elm.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(erb)">
       <Source Uri="$(Resources)/erb.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(erlang)">
-      <Source Uri="$(Resources)/erlang.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/erlang.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(eslint)">
-      <Source Uri="$(Resources)/eslint.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/eslint.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(flash)">
       <Source Uri="$(Resources)/flash.png">
@@ -162,29 +144,19 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(go)">
-      <Source Uri="$(Resources)/go.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/go.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(groovy)">
-      <Source Uri="$(Resources)/groovy.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/groovy.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(haml)">
-      <Source Uri="$(Resources)/haml.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/haml.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(handlebars)">
-      <Source Uri="$(Resources)/handlebars.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/handlebars.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(haskell)">
-      <Source Uri="$(Resources)/haskell.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/haskell.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(jade)">
       <Source Uri="$(Resources)/jade.png">
@@ -192,44 +164,28 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(jshint)">
-      <Source Uri="$(Resources)/jshint.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/jshint.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(julia)">
-      <Source Uri="$(Resources)/julia.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/julia.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(lisp)">
-      <Source Uri="$(Resources)/lisp.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/lisp.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(lua)">
-      <Source Uri="$(Resources)/lua.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/lua.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(mustache)">
-      <Source Uri="$(Resources)/mustache.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/mustache.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(nunjucks)">
-      <Source Uri="$(Resources)/nunjucks.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/nunjucks.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(perl)">
-      <Source Uri="$(Resources)/perl.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/perl.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(photoshop)">
-      <Source Uri="$(Resources)/photoshop.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/photoshop.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(puppet)">
       <Source Uri="$(Resources)/puppet.xaml" />
@@ -255,9 +211,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(stylelint)">
-      <Source Uri="$(Resources)/stylelint.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/stylelint.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(swift)">
       <Source Uri="$(Resources)/swift.png">
@@ -273,9 +227,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(gradle)">
-      <Source Uri="$(Resources)/gradle.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/gradle.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(pdf)">
       <Source Uri="$(Resources)/pdf.png">
@@ -298,9 +250,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(yarn)">
-      <Source Uri="$(Resources)/yarn.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/yarn.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(scala)">
       <Source Uri="$(Resources)/scala.png">
@@ -333,14 +283,10 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(actionscript)">
-      <Source Uri="$(Resources)/actionscript.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/actionscript.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(ansible)">
-      <Source Uri="$(Resources)/ansible.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/ansible.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(apigee)">
       <Source Uri="$(Resources)/apigee.png">
@@ -348,14 +294,10 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(applescript)">
-      <Source Uri="$(Resources)/applescript.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/applescript.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(cobol)">
-      <Source Uri="$(Resources)/cobol.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/cobol.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(coldfusion)">
       <Source Uri="$(Resources)/coldfusion.png">
@@ -368,19 +310,13 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(haxe)">
-      <Source Uri="$(Resources)/haxe.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/haxe.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(lime)">
-      <Source Uri="$(Resources)/lime.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/lime.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(fortran)">
-      <Source Uri="$(Resources)/fortran.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/fortran.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(marko)">
       <Source Uri="$(Resources)/marko.png">
@@ -388,9 +324,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(nim)">
-      <Source Uri="$(Resources)/nim.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/nim.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(ocaml)">
       <Source Uri="$(Resources)/ocaml.png">
@@ -398,9 +332,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(patch)">
-      <Source Uri="$(Resources)/patch.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/patch.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(poedit)">
       <Source Uri="$(Resources)/poedit.png">
@@ -416,27 +348,19 @@
       <Source Uri="$(Resources)/procfile.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(raml)">
-      <Source Uri="$(Resources)/raml.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/raml.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(riot)">
-      <Source Uri="$(Resources)/riot.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/riot.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(twig)">
-      <Source Uri="$(Resources)/twig.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/twig.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(volt)">
       <Source Uri="$(Resources)/volt.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(neo4j)">
-      <Source Uri="$(Resources)/neo4j.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/neo4j.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(foxpro)">
       <Source Uri="$(Resources)/foxpro.png">
@@ -447,14 +371,10 @@
       <Source Uri="$(Resources)/terraform.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(tcl)">
-      <Source Uri="$(Resources)/tcl.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/tcl.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(idris)">
-      <Source Uri="$(Resources)/idris.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/idris.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(mq4)">
       <Source Uri="$(Resources)/mq4.png">
@@ -477,9 +397,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(solidity)">
-      <Source Uri="$(Resources)/solidity.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/solidity.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(avalonia)">
       <Source Uri="$(Resources)/avalonia.xaml" />
