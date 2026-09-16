@@ -412,9 +412,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(procfile)">
-      <Source Uri="$(Resources)/procfile.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/procfile.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(raml)">
       <Source Uri="$(Resources)/raml.png">
