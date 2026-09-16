@@ -31,6 +31,8 @@
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 [$RootKey$\ShellFileAssociations\.nodemonignore]
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+[$RootKey$\ShellFileAssociations\.nojekyll]
+"DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 [$RootKey$\ShellFileAssociations\.npmignore]
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 [$RootKey$\ShellFileAssociations\.p4ignore]
@@ -43,6 +45,10 @@
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 [$RootKey$\ShellFileAssociations\.yarnignore]
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
+
+; 3D
+[$RootKey$\ShellFileAssociations\.ply]
+"DefaultIconMoniker"="KnownMonikers.ModelThreeD"
 
 ; 3D/Gaming
 [$RootKey$\ShellFileAssociations\.fsh]
@@ -1017,6 +1023,8 @@
 "DefaultIconMoniker"="KnownMonikers.MachineLearningModel"
 [$RootKey$\ShellFileAssociations\.ipynb]
 "DefaultIconMoniker"="KnownMonikers.EditNotebook"
+[$RootKey$\ShellFileAssociations\.mlnet]
+"DefaultIconMoniker"="KnownMonikers.MachineLearningModel"
 
 ; Makefile
 [$RootKey$\ShellFileAssociations\.cmake]
@@ -1348,6 +1356,10 @@
 [$RootKey$\ShellFileAssociations\.rs]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:30"
 
+; SAP
+[$RootKey$\ShellFileAssociations\.bo]
+"DefaultIconMoniker"="KnownMonikers.CloudFile"
+
 ; Scala
 [$RootKey$\ShellFileAssociations\.sbt]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:43"
@@ -1565,6 +1577,8 @@
 "DefaultIconMoniker"="KnownMonikers.Media"
 
 ; Visual Basic
+[$RootKey$\ShellFileAssociations\.myapp]
+"DefaultIconMoniker"="KnownMonikers.VBApplication"
 [$RootKey$\ShellFileAssociations\.vbs]
 "DefaultIconMoniker"="KnownMonikers.VBFileNode"
 

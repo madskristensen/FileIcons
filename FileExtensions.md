@@ -1,4 +1,4 @@
-## Supported File Extensions (683)
+## Supported File Extensions (688)
 
 - .7z
 - .aar
@@ -44,6 +44,7 @@
 - .bmml
 - .bmpr
 - .bnf
+- .bo
 - .bond
 - .bootstraprc
 - .boringignore
@@ -350,6 +351,7 @@
 - .ml
 - .mli
 - .mll
+- .mlnet
 - .mly
 - .mm
 - .mmd
@@ -374,6 +376,7 @@
 - .mustache
 - .mx
 - .mx3
+- .myapp
 - .myd
 - .mysql
 - .ncrunchproject
@@ -388,6 +391,7 @@
 - .njs
 - .nlog
 - .nodemonignore
+- .nojekyll
 - .nomad
 - .npcproj
 - .npmignore
@@ -443,6 +447,7 @@
 - .plantuml
 - .playlist
 - .plist
+- .ply
 - .pm
 - .pm6
 - .po

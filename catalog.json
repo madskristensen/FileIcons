@@ -690,6 +690,11 @@
   ],
   "associations": [
     {
+      "extension": ".ply",
+      "category": "3D",
+      "moniker": "KnownMonikers.ModelThreeD"
+    },
+    {
       "extension": ".babelignore",
       "category": ".ignore",
       "moniker": "KnownMonikers.DocumentExclude"
@@ -761,6 +766,11 @@
     },
     {
       "extension": ".nodemonignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".nojekyll",
       "category": ".ignore",
       "moniker": "KnownMonikers.DocumentExclude"
     },
@@ -2795,6 +2805,11 @@
       "moniker": "KnownMonikers.EditNotebook"
     },
     {
+      "extension": ".mlnet",
+      "category": "Machine Learning",
+      "moniker": "KnownMonikers.MachineLearningModel"
+    },
+    {
       "extension": ".cmake",
       "category": "Makefile",
       "moniker": "KnownMonikers.MakeFile"
@@ -3435,6 +3450,11 @@
       "image": "rust"
     },
     {
+      "extension": ".bo",
+      "category": "SAP",
+      "moniker": "KnownMonikers.CloudFile"
+    },
+    {
       "extension": ".sbt",
       "category": "Scala",
       "image": "scala"
@@ -3828,6 +3848,11 @@
       "extension": ".rm",
       "category": "Video",
       "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".myapp",
+      "category": "Visual Basic",
+      "moniker": "KnownMonikers.VBApplication"
     },
     {
       "extension": ".vbs",
