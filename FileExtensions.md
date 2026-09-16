@@ -1,4 +1,4 @@
-## Supported File Extensions (694)
+## Supported File Extensions (687)
 
 - .7z
 - .aar
@@ -56,7 +56,6 @@
 - .cbl
 - .cbx
 - .ccss
-- .cd
 - .cd
 - .cer
 - .cfc
@@ -141,8 +140,8 @@
 - .env
 - .eot
 - .epp
-- .erb.deface
 - .erb
+- .erb.deface
 - .erbsql
 - .erl
 - .es
@@ -273,8 +272,8 @@
 - .jpeg
 - .jpg
 - .jpmignore
-- .js.erb
 - .js
+- .js.erb
 - .jscsrc
 - .jse
 - .jshintignore
@@ -312,8 +311,8 @@
 - .lnk
 - .loadtest
 - .local
-- .lock.json
 - .lock
+- .lock.json
 - .locstrings
 - .log
 - .log4net
@@ -322,7 +321,6 @@
 - .lslm
 - .lua
 - .lucee
-- .m
 - .m
 - .m4v
 - .mailmap
@@ -525,7 +523,6 @@
 - .runsettings
 - .rwd
 - .s
-- .s
 - .s3db
 - .sass
 - .sbt
@@ -557,11 +554,10 @@
 - .sol
 - .spark
 - .sparql
-- .sql.erb
 - .sql
+- .sql.erb
 - .sqlce
 - .sqlite
-- .sqlite3
 - .sqlite3
 - .sqlite3-journal
 - .sqlitedb
@@ -592,9 +588,7 @@
 - .ter
 - .tex
 - .tf
-- .tf
 - .tfignore
-- .tfvars
 - .tfvars
 - .tga
 - .thrift
@@ -603,10 +597,10 @@
 - .tiff
 - .tikz
 - .tml
-- .tmLanguage
+- .tmlanguage
 - .tmp
 - .tmpl
-- .tmSnippet
+- .tmsnippet
 - .tmx
 - .toml
 - .topojson
@@ -625,7 +619,6 @@
 - .types
 - .ui
 - .uml
-- .uplugin
 - .uplugin
 - .uproject
 - .usql
@@ -686,9 +679,9 @@
 - .xz
 - .y
 - .yaml
+- .yarn-integrity
 - .yarnclean
 - .yarnignore
-- .yarn-integrity
 - .yarnrc
 - .yml
 - .zip

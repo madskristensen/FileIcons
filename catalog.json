@@ -1,0 +1,4028 @@
+{
+  "schemaVersion": 1,
+  "customMonikerGuid": "cb4a8fc6-efe7-424a-b611-23adf22b568e",
+  "customImages": [
+    {
+      "name": "dart",
+      "id": 0,
+      "file": "dart.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "clojure",
+      "id": 1,
+      "file": "clojure.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "apache",
+      "id": 2,
+      "file": "apache.png",
+      "provenance": "legacy-unverified",
+      "width": 33,
+      "height": 32
+    },
+    {
+      "name": "babel",
+      "id": 3,
+      "file": "babel.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "csslint",
+      "id": 4,
+      "file": "csslint.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "d",
+      "id": 5,
+      "file": "d.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "editorconfig",
+      "id": 6,
+      "file": "editorconfig.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "ejs",
+      "id": 7,
+      "file": "ejs.png",
+      "provenance": "legacy-unverified",
+      "width": 31,
+      "height": 32
+    },
+    {
+      "name": "elixir",
+      "id": 8,
+      "file": "elixir.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "elm",
+      "id": 9,
+      "file": "elm.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "erb",
+      "id": 10,
+      "file": "erb.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "erlang",
+      "id": 11,
+      "file": "erlang.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "eslint",
+      "id": 12,
+      "file": "eslint.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "flash",
+      "id": 13,
+      "file": "flash.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "go",
+      "id": 14,
+      "file": "go.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "groovy",
+      "id": 15,
+      "file": "groovy.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "haml",
+      "id": 16,
+      "file": "haml.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "handlebars",
+      "id": 17,
+      "file": "handlebars.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "haskell",
+      "id": 18,
+      "file": "haskell.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "jade",
+      "id": 19,
+      "file": "jade.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "jshint",
+      "id": 20,
+      "file": "jshint.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "julia",
+      "id": 21,
+      "file": "julia.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "lisp",
+      "id": 22,
+      "file": "lisp.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "lua",
+      "id": 23,
+      "file": "lua.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "mustache",
+      "id": 24,
+      "file": "mustache.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "nunjucks",
+      "id": 25,
+      "file": "nunjucks.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "perl",
+      "id": 26,
+      "file": "perl.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "photoshop",
+      "id": 27,
+      "file": "photoshop.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "puppet",
+      "id": 28,
+      "file": "puppet.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "r",
+      "id": 29,
+      "file": "r.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "rust",
+      "id": 30,
+      "file": "rust.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "smarty",
+      "id": 31,
+      "file": "smarty.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "sqlite",
+      "id": 32,
+      "file": "sqlite.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "stylelint",
+      "id": 33,
+      "file": "stylelint.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "swift",
+      "id": 34,
+      "file": "swift.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "vue",
+      "id": 35,
+      "file": "vue.png",
+      "provenance": "legacy-unverified",
+      "size": 50
+    },
+    {
+      "name": "zip",
+      "id": 36,
+      "file": "zip.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "gradle",
+      "id": 37,
+      "file": "gradle.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "pdf",
+      "id": 38,
+      "file": "pdf.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "latex",
+      "id": 39,
+      "file": "latex.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "matlab",
+      "id": 40,
+      "file": "matlab.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "paket",
+      "id": 41,
+      "file": "paket.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "yarn",
+      "id": 42,
+      "file": "yarn.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "scala",
+      "id": 43,
+      "file": "scala.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "scheme",
+      "id": 44,
+      "file": "scheme.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "balsamiq",
+      "id": 45,
+      "file": "balsamiq.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "proto",
+      "id": 46,
+      "file": "proto.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "semanticweb",
+      "id": 47,
+      "file": "semanticweb.png",
+      "provenance": "legacy-unverified",
+      "width": 32,
+      "height": 33
+    },
+    {
+      "name": "delphi",
+      "id": 48,
+      "file": "delphi.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "qt",
+      "id": 49,
+      "file": "qt.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "actionscript",
+      "id": 50,
+      "file": "actionscript.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "ansible",
+      "id": 51,
+      "file": "ansible.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "apigee",
+      "id": 52,
+      "file": "apigee.png",
+      "provenance": "legacy-unverified",
+      "width": 31,
+      "height": 32
+    },
+    {
+      "name": "applescript",
+      "id": 53,
+      "file": "applescript.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "cobol",
+      "id": 54,
+      "file": "cobol.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "coldfusion",
+      "id": 55,
+      "file": "coldfusion.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "flow",
+      "id": 56,
+      "file": "flow.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "haxe",
+      "id": 57,
+      "file": "haxe.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "haxedevelop",
+      "id": 58,
+      "file": "haxedevelop.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "lime",
+      "id": 59,
+      "file": "lime.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "m",
+      "id": 60,
+      "file": "m.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "fortran",
+      "id": 61,
+      "file": "fortran.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "marko",
+      "id": 62,
+      "file": "marko.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "nim",
+      "id": 63,
+      "file": "nim.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "ocaml",
+      "id": 64,
+      "file": "ocaml.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "patch",
+      "id": 65,
+      "file": "patch.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "poedit",
+      "id": 66,
+      "file": "poedit.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "plantuml",
+      "id": 67,
+      "file": "plantuml.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "procfile",
+      "id": 68,
+      "file": "procfile.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "raml",
+      "id": 69,
+      "file": "raml.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "riot",
+      "id": 70,
+      "file": "riot.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "twig",
+      "id": 71,
+      "file": "twig.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "volt",
+      "id": 72,
+      "file": "volt.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "neo4j",
+      "id": 73,
+      "file": "neo4j.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "foxpro",
+      "id": 74,
+      "file": "foxpro.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "terraform",
+      "id": 75,
+      "file": "terraform.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "tcl",
+      "id": 76,
+      "file": "tcl.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "idris",
+      "id": 77,
+      "file": "idris.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "mq4",
+      "id": 78,
+      "file": "mq4.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "mq5",
+      "id": 79,
+      "file": "mq5.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "mqh",
+      "id": 80,
+      "file": "mqh.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "csharpier",
+      "id": 81,
+      "file": "csharpier.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    },
+    {
+      "name": "solidity",
+      "id": 82,
+      "file": "solidity.png",
+      "provenance": "legacy-unverified",
+      "size": 32
+    }
+  ],
+  "associations": [
+    {
+      "extension": ".babelignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".boringignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".bzrignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".cfignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".chefignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".cvsignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".dockerignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".eslintignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".exclude",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".flooignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".hgignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".jpmignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".jshintignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".mtn-ignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".nodemonignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".npmignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".p4ignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".svnignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".tfignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".vscodeignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".yarnignore",
+      "category": ".ignore",
+      "moniker": "KnownMonikers.DocumentExclude"
+    },
+    {
+      "extension": ".fsh",
+      "category": "3D/Gaming",
+      "moniker": "KnownMonikers.Shader"
+    },
+    {
+      "extension": ".fx",
+      "category": "3D/Gaming",
+      "moniker": "KnownMonikers.Shader"
+    },
+    {
+      "extension": ".hlsl",
+      "category": "3D/Gaming",
+      "moniker": "KnownMonikers.DirectXThreeD"
+    },
+    {
+      "extension": ".mgcb",
+      "category": "3D/Gaming",
+      "moniker": "KnownMonikers.Shader"
+    },
+    {
+      "extension": ".obj",
+      "category": "3D/Gaming",
+      "moniker": "KnownMonikers.ModelThreeD"
+    },
+    {
+      "extension": ".shader",
+      "category": "3D/Gaming",
+      "moniker": "KnownMonikers.Shader"
+    },
+    {
+      "extension": ".vsh",
+      "category": "3D/Gaming",
+      "moniker": "KnownMonikers.Shader"
+    },
+    {
+      "extension": ".xnb",
+      "category": "3D/Gaming",
+      "moniker": "KnownMonikers.XNA"
+    },
+    {
+      "extension": ".as",
+      "category": "ActionScript",
+      "image": "actionscript"
+    },
+    {
+      "extension": ".ansible",
+      "category": "Ansible",
+      "image": "ansible"
+    },
+    {
+      "extension": ".bnf",
+      "category": "Antlr",
+      "moniker": "KnownMonikers.CompilableFile"
+    },
+    {
+      "extension": ".ebnf",
+      "category": "Antlr",
+      "moniker": "KnownMonikers.CompilableFile"
+    },
+    {
+      "extension": ".g",
+      "category": "Antlr",
+      "moniker": "KnownMonikers.CompilableFile"
+    },
+    {
+      "extension": ".g4",
+      "category": "Antlr",
+      "moniker": "KnownMonikers.CompilableFile"
+    },
+    {
+      "extension": ".y",
+      "category": "Antlr",
+      "moniker": "KnownMonikers.CompilableFile"
+    },
+    {
+      "extension": ".htaccess",
+      "category": "Apache",
+      "image": "apache"
+    },
+    {
+      "extension": ".thrift",
+      "category": "Apache",
+      "image": "apache"
+    },
+    {
+      "extension": ".apib",
+      "category": "Apigee",
+      "image": "apigee"
+    },
+    {
+      "extension": ".app",
+      "category": "AppleScript",
+      "image": "applescript"
+    },
+    {
+      "extension": ".ino",
+      "category": "Arduino",
+      "moniker": "KnownMonikers.Motherboard"
+    },
+    {
+      "extension": ".asp",
+      "category": "ASP",
+      "moniker": "KnownMonikers.ASPFile"
+    },
+    {
+      "extension": ".asm",
+      "category": "Assembly",
+      "moniker": "KnownMonikers.CompilableFile"
+    },
+    {
+      "extension": ".inc",
+      "category": "Assembly",
+      "moniker": "KnownMonikers.CompilableFile"
+    },
+    {
+      "extension": ".ll",
+      "category": "Assembly",
+      "moniker": "KnownMonikers.CompilableFile"
+    },
+    {
+      "extension": ".midi",
+      "category": "Audio",
+      "moniker": "KnownMonikers.Sound"
+    },
+    {
+      "extension": ".mp3",
+      "category": "Audio",
+      "moniker": "KnownMonikers.Sound"
+    },
+    {
+      "extension": ".wav",
+      "category": "Audio",
+      "moniker": "KnownMonikers.Sound"
+    },
+    {
+      "extension": ".wma",
+      "category": "Audio",
+      "moniker": "KnownMonikers.Sound"
+    },
+    {
+      "extension": ".bmml",
+      "category": "Balsamiq",
+      "image": "balsamiq"
+    },
+    {
+      "extension": ".bmpr",
+      "category": "Balsamiq",
+      "image": "balsamiq"
+    },
+    {
+      "extension": ".ace",
+      "category": "Binary",
+      "moniker": "KnownMonikers.BinaryFile"
+    },
+    {
+      "extension": ".cab",
+      "category": "Binary",
+      "moniker": "KnownMonikers.BinaryFile"
+    },
+    {
+      "extension": ".dat",
+      "category": "Binary",
+      "moniker": "KnownMonikers.BinaryFile"
+    },
+    {
+      "extension": ".c",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CFile"
+    },
+    {
+      "extension": ".clh",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPHeaderFile"
+    },
+    {
+      "extension": ".cpp",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPFileNode"
+    },
+    {
+      "extension": ".cu",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPSourceFile"
+    },
+    {
+      "extension": ".cuh",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPHeaderFile"
+    },
+    {
+      "extension": ".frag",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CFile"
+    },
+    {
+      "extension": ".geom",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CFile"
+    },
+    {
+      "extension": ".glsl",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CFile"
+    },
+    {
+      "extension": ".h",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPHeaderFile"
+    },
+    {
+      "extension": ".hh",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPHeaderFile"
+    },
+    {
+      "extension": ".hint",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.Lightswitch"
+    },
+    {
+      "extension": ".hpp",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPHeaderFile"
+    },
+    {
+      "extension": ".ispc",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPFileNode"
+    },
+    {
+      "extension": ".prf",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPMakeFileApplication"
+    },
+    {
+      "extension": ".pri",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPMakeFileApplication"
+    },
+    {
+      "extension": ".pro",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPMakeFileApplication"
+    },
+    {
+      "extension": ".qml",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPMakeFileApplication"
+    },
+    {
+      "extension": ".qmlproject",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPMakeFileApplication"
+    },
+    {
+      "extension": ".qrc",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPMakeFileApplication"
+    },
+    {
+      "extension": ".stop",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.Lightswitch"
+    },
+    {
+      "extension": ".tpp",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPFile"
+    },
+    {
+      "extension": ".vert",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CFile"
+    },
+    {
+      "extension": ".cs",
+      "category": "C#",
+      "moniker": "KnownMonikers.CSFileNode"
+    },
+    {
+      "extension": ".csdef",
+      "category": "C#",
+      "moniker": "KnownMonikers.CSSourceFile"
+    },
+    {
+      "extension": ".csx",
+      "category": "C#",
+      "moniker": "KnownMonikers.CSFileNode"
+    },
+    {
+      "extension": ".cake",
+      "category": "Cake",
+      "moniker": "KnownMonikers.MakeFile"
+    },
+    {
+      "extension": ".cer",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.Certificate"
+    },
+    {
+      "extension": ".crl",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.Certificate"
+    },
+    {
+      "extension": ".crt",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.Certificate"
+    },
+    {
+      "extension": ".keystore",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.SigningKey"
+    },
+    {
+      "extension": ".p12",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.Certificate"
+    },
+    {
+      "extension": ".p7b",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.Certificate"
+    },
+    {
+      "extension": ".pem",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.Certificate"
+    },
+    {
+      "extension": ".pfx",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.Certificate"
+    },
+    {
+      "extension": ".pvk",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.SigningKey"
+    },
+    {
+      "extension": ".cjm",
+      "category": "Clojure",
+      "image": "clojure"
+    },
+    {
+      "extension": ".clj",
+      "category": "Clojure",
+      "image": "clojure"
+    },
+    {
+      "extension": ".cljc",
+      "category": "Clojure",
+      "image": "clojure"
+    },
+    {
+      "extension": ".cljs",
+      "category": "Clojure",
+      "image": "clojure"
+    },
+    {
+      "extension": ".clojure",
+      "category": "Clojure",
+      "image": "clojure"
+    },
+    {
+      "extension": ".edn",
+      "category": "Clojure",
+      "image": "clojure"
+    },
+    {
+      "extension": ".cbl",
+      "category": "Cobol",
+      "image": "cobol"
+    },
+    {
+      "extension": ".cob",
+      "category": "Cobol",
+      "image": "cobol"
+    },
+    {
+      "extension": ".cpy",
+      "category": "Cobol",
+      "image": "cobol"
+    },
+    {
+      "extension": ".atg",
+      "category": "Coco/R",
+      "moniker": "KnownMonikers.CompilableFile"
+    },
+    {
+      "extension": ".cjsx",
+      "category": "CoffeeScript",
+      "moniker": "KnownMonikers.JSCoffeeScript"
+    },
+    {
+      "extension": ".coffee",
+      "category": "CoffeeScript",
+      "moniker": "KnownMonikers.JSCoffeeScript"
+    },
+    {
+      "extension": ".cson",
+      "category": "CoffeeScript",
+      "moniker": "KnownMonikers.JSCoffeeScript"
+    },
+    {
+      "extension": ".iced",
+      "category": "CoffeeScript",
+      "moniker": "KnownMonikers.JSCoffeeScript"
+    },
+    {
+      "extension": ".litcoffee",
+      "category": "CoffeeScript",
+      "moniker": "KnownMonikers.JSCoffeeScript"
+    },
+    {
+      "extension": ".vcf",
+      "category": "CoffeeScript",
+      "moniker": "KnownMonikers.ContactCard"
+    },
+    {
+      "extension": ".cfc",
+      "category": "ColdFusion",
+      "image": "coldfusion"
+    },
+    {
+      "extension": ".cfm",
+      "category": "ColdFusion",
+      "image": "coldfusion"
+    },
+    {
+      "extension": ".cfml",
+      "category": "ColdFusion",
+      "image": "coldfusion"
+    },
+    {
+      "extension": ".lucee",
+      "category": "ColdFusion",
+      "image": "coldfusion"
+    },
+    {
+      "extension": ".bundle",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".cfg",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".codeclonesettings",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".conf",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".config",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".dotsettings",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".editorconfig",
+      "category": "Config",
+      "image": "editorconfig"
+    },
+    {
+      "extension": ".env",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".htpasswd",
+      "category": "Config",
+      "image": "apache"
+    },
+    {
+      "extension": ".ini",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".ldif",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".lic",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".licenseheader",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".licenses",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".licx",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".lslm",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".nvmrc",
+      "category": "Config",
+      "moniker": "KnownMonikers.NodejsProject"
+    },
+    {
+      "extension": ".properties",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".types",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".uplugin",
+      "category": "Config",
+      "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".csharpierignore",
+      "category": "CSharpier",
+      "image": "csharpier"
+    },
+    {
+      "extension": ".csharpierrc",
+      "category": "CSharpier",
+      "image": "csharpier"
+    },
+    {
+      "extension": ".ccss",
+      "category": "CSS",
+      "moniker": "KnownMonikers.StyleSheet"
+    },
+    {
+      "extension": ".css",
+      "category": "CSS",
+      "moniker": "KnownMonikers.StyleSheet"
+    },
+    {
+      "extension": ".hss",
+      "category": "CSS",
+      "moniker": "KnownMonikers.StyleSheet"
+    },
+    {
+      "extension": ".less",
+      "category": "CSS",
+      "moniker": "KnownMonikers.LESSStyleSheet"
+    },
+    {
+      "extension": ".pcss",
+      "category": "CSS",
+      "moniker": "KnownMonikers.StyleSheet"
+    },
+    {
+      "extension": ".postcss",
+      "category": "CSS",
+      "moniker": "KnownMonikers.StyleSheet"
+    },
+    {
+      "extension": ".sass",
+      "category": "CSS",
+      "moniker": "KnownMonikers.SASSStyleSheet"
+    },
+    {
+      "extension": ".scss",
+      "category": "CSS",
+      "moniker": "KnownMonikers.SASSStyleSheet"
+    },
+    {
+      "extension": ".styl",
+      "category": "CSS",
+      "moniker": "KnownMonikers.StyleSheet"
+    },
+    {
+      "extension": ".cql",
+      "category": "Cypher Query Language",
+      "image": "neo4j"
+    },
+    {
+      "extension": ".cyp",
+      "category": "Cypher Query Language",
+      "image": "neo4j"
+    },
+    {
+      "extension": ".d",
+      "category": "D",
+      "image": "d"
+    },
+    {
+      "extension": ".dart",
+      "category": "Dart",
+      "image": "dart"
+    },
+    {
+      "extension": ".accdc",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".accdd",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".asaql",
+      "category": "Databases",
+      "moniker": "KnownMonikers.SQLQueryUnchecked"
+    },
+    {
+      "extension": ".bacpac",
+      "category": "Databases",
+      "moniker": "KnownMonikers.DatabaseFile"
+    },
+    {
+      "extension": ".bim",
+      "category": "Databases",
+      "moniker": "KnownMonikers.BDCModelResource"
+    },
+    {
+      "extension": ".conmgr",
+      "category": "Databases",
+      "moniker": "KnownMonikers.DatabaseMobileConnection"
+    },
+    {
+      "extension": ".csdl",
+      "category": "Databases",
+      "moniker": "KnownMonikers.EntityDatabase"
+    },
+    {
+      "extension": ".db",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".dbc",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".dbml",
+      "category": "Databases",
+      "moniker": "KnownMonikers.DatabaseFile"
+    },
+    {
+      "extension": ".dbs",
+      "category": "Databases",
+      "moniker": "KnownMonikers.DatabaseSchema"
+    },
+    {
+      "extension": ".dcmp",
+      "category": "Databases",
+      "moniker": "KnownMonikers.DataCompare"
+    },
+    {
+      "extension": ".ddl",
+      "category": "Databases",
+      "moniker": "KnownMonikers.SQLQueryUnchecked"
+    },
+    {
+      "extension": ".dml",
+      "category": "Databases",
+      "moniker": "KnownMonikers.SQLQueryUnchecked"
+    },
+    {
+      "extension": ".edml",
+      "category": "Databases",
+      "moniker": "KnownMonikers.EntityDatabase"
+    },
+    {
+      "extension": ".efmodel",
+      "category": "Databases",
+      "moniker": "KnownMonikers.UMLModel"
+    },
+    {
+      "extension": ".erbsql",
+      "category": "Databases",
+      "moniker": "KnownMonikers.SQLQueryUnchecked"
+    },
+    {
+      "extension": ".fdb",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".fm",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".fmp",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".fp3",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".fp5",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".fp7",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".idx",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".layout",
+      "category": "Databases",
+      "moniker": "KnownMonikers.PageLayout"
+    },
+    {
+      "extension": ".mdb",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".mde",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".mdf",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".mmdb",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".msl",
+      "category": "Databases",
+      "moniker": "KnownMonikers.BDCModelResource"
+    },
+    {
+      "extension": ".myd",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".mysql",
+      "category": "Databases",
+      "moniker": "KnownMonikers.SQLQueryUnchecked"
+    },
+    {
+      "extension": ".odb",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".rdb",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".s3db",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".sdf",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".sl2",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".sl3",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".sql",
+      "category": "Databases",
+      "moniker": "KnownMonikers.SQLQueryUnchecked"
+    },
+    {
+      "extension": ".sql.erb",
+      "category": "Databases",
+      "moniker": "KnownMonikers.SQLQueryUnchecked"
+    },
+    {
+      "extension": ".sqlce",
+      "category": "Databases",
+      "moniker": "KnownMonikers.SQLQueryUnchecked"
+    },
+    {
+      "extension": ".sqlitedb",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".sqx",
+      "category": "Databases",
+      "moniker": "KnownMonikers.IntellisenseDatabase"
+    },
+    {
+      "extension": ".ssdl",
+      "category": "Databases",
+      "moniker": "KnownMonikers.BDCModelResource"
+    },
+    {
+      "extension": ".ssmssln",
+      "category": "Databases",
+      "moniker": "KnownMonikers.DatabaseApplication"
+    },
+    {
+      "extension": ".ssmssqlproj",
+      "category": "Databases",
+      "moniker": "KnownMonikers.CPPATLDatabase"
+    },
+    {
+      "extension": ".ter",
+      "category": "Databases",
+      "moniker": "KnownMonikers.DatabaseSchema"
+    },
+    {
+      "extension": ".usql",
+      "category": "Databases",
+      "moniker": "KnownMonikers.SQLQueryUnchecked"
+    },
+    {
+      "extension": ".vdb3",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".xpo",
+      "category": "Databases",
+      "moniker": "KnownMonikers.DatabaseScript"
+    },
+    {
+      "extension": ".dfm",
+      "category": "Delphi",
+      "image": "delphi"
+    },
+    {
+      "extension": ".dpr",
+      "category": "Delphi",
+      "image": "delphi"
+    },
+    {
+      "extension": ".p",
+      "category": "Delphi",
+      "image": "delphi"
+    },
+    {
+      "extension": ".pas",
+      "category": "Delphi",
+      "image": "delphi"
+    },
+    {
+      "extension": ".dxview",
+      "category": "DevExpress",
+      "moniker": "KnownMonikers.PageLayout"
+    },
+    {
+      "extension": ".bdcm",
+      "category": "Diagrams",
+      "moniker": "KnownMonikers.Class"
+    },
+    {
+      "extension": ".bpmn",
+      "category": "Diagrams",
+      "moniker": "KnownMonikers.UMLModel"
+    },
+    {
+      "extension": ".cd",
+      "category": "Diagrams",
+      "moniker": "KnownMonikers.Diagram"
+    },
+    {
+      "extension": ".dgml",
+      "category": "Diagrams",
+      "moniker": "KnownMonikers.Diagram"
+    },
+    {
+      "extension": ".diagram",
+      "category": "Diagrams",
+      "moniker": "KnownMonikers.Diagram"
+    },
+    {
+      "extension": ".mdj",
+      "category": "Diagrams",
+      "moniker": "KnownMonikers.UMLModel"
+    },
+    {
+      "extension": ".uml",
+      "category": "Diagrams",
+      "moniker": "KnownMonikers.UMLModel"
+    },
+    {
+      "extension": ".xafml",
+      "category": "Diagrams",
+      "moniker": "KnownMonikers.UMLModel"
+    },
+    {
+      "extension": ".diff",
+      "category": "Diff",
+      "moniker": "KnownMonikers.ContractArrow"
+    },
+    {
+      "extension": ".eex",
+      "category": "Elixir",
+      "image": "elixir"
+    },
+    {
+      "extension": ".ex",
+      "category": "Elixir",
+      "image": "elixir"
+    },
+    {
+      "extension": ".exs",
+      "category": "Elixir",
+      "image": "elixir"
+    },
+    {
+      "extension": ".elm",
+      "category": "Elm",
+      "image": "elm"
+    },
+    {
+      "extension": ".mailmap",
+      "category": "Email",
+      "moniker": "KnownMonikers.EmailAddressViewer"
+    },
+    {
+      "extension": ".emakefile",
+      "category": "Erlang",
+      "image": "erlang"
+    },
+    {
+      "extension": ".emakerfile",
+      "category": "Erlang",
+      "image": "erlang"
+    },
+    {
+      "extension": ".erl",
+      "category": "Erlang",
+      "image": "erlang"
+    },
+    {
+      "extension": ".hrl",
+      "category": "Erlang",
+      "image": "erlang"
+    },
+    {
+      "extension": ".fs",
+      "category": "F#",
+      "moniker": "KnownMonikers.FSFileNode"
+    },
+    {
+      "extension": ".fsharplint",
+      "category": "F#",
+      "moniker": "KnownMonikers.FSWorkerTemplateFile"
+    },
+    {
+      "extension": ".fsi",
+      "category": "F#",
+      "moniker": "KnownMonikers.FSScript"
+    },
+    {
+      "extension": ".fsl",
+      "category": "F#",
+      "moniker": "KnownMonikers.FSScript"
+    },
+    {
+      "extension": ".fsx",
+      "category": "F#",
+      "moniker": "KnownMonikers.FSScript"
+    },
+    {
+      "extension": ".fsy",
+      "category": "F#",
+      "moniker": "KnownMonikers.FSScript"
+    },
+    {
+      "extension": ".favdoc",
+      "category": "Favorites",
+      "moniker": "KnownMonikers.Favorite"
+    },
+    {
+      "extension": ".atom",
+      "category": "Feed",
+      "moniker": "KnownMonikers.RSS"
+    },
+    {
+      "extension": ".opml",
+      "category": "Feed",
+      "moniker": "KnownMonikers.RSS"
+    },
+    {
+      "extension": ".rss",
+      "category": "Feed",
+      "moniker": "KnownMonikers.RSS"
+    },
+    {
+      "extension": ".fla",
+      "category": "Flash",
+      "image": "flash"
+    },
+    {
+      "extension": ".flv",
+      "category": "Flash",
+      "image": "flash"
+    },
+    {
+      "extension": ".swf",
+      "category": "Flash",
+      "image": "flash"
+    },
+    {
+      "extension": ".swz",
+      "category": "Flash",
+      "image": "flash"
+    },
+    {
+      "extension": ".flow",
+      "category": "Flow",
+      "image": "flow"
+    },
+    {
+      "extension": ".flowconfig",
+      "category": "Flow",
+      "image": "flow"
+    },
+    {
+      "extension": ".eot",
+      "category": "Fonts",
+      "moniker": "KnownMonikers.Font"
+    },
+    {
+      "extension": ".fnt",
+      "category": "Fonts",
+      "moniker": "KnownMonikers.Font"
+    },
+    {
+      "extension": ".otf",
+      "category": "Fonts",
+      "moniker": "KnownMonikers.Font"
+    },
+    {
+      "extension": ".pfa",
+      "category": "Fonts",
+      "moniker": "KnownMonikers.Font"
+    },
+    {
+      "extension": ".pfb",
+      "category": "Fonts",
+      "moniker": "KnownMonikers.Font"
+    },
+    {
+      "extension": ".sfd",
+      "category": "Fonts",
+      "moniker": "KnownMonikers.Font"
+    },
+    {
+      "extension": ".ttf",
+      "category": "Fonts",
+      "moniker": "KnownMonikers.Font"
+    },
+    {
+      "extension": ".wof",
+      "category": "Fonts",
+      "moniker": "KnownMonikers.Font"
+    },
+    {
+      "extension": ".woff",
+      "category": "Fonts",
+      "moniker": "KnownMonikers.Font"
+    },
+    {
+      "extension": ".woff2",
+      "category": "Fonts",
+      "moniker": "KnownMonikers.Font"
+    },
+    {
+      "extension": ".f",
+      "category": "Fortran",
+      "image": "fortran"
+    },
+    {
+      "extension": ".f03",
+      "category": "Fortran",
+      "image": "fortran"
+    },
+    {
+      "extension": ".f08",
+      "category": "Fortran",
+      "image": "fortran"
+    },
+    {
+      "extension": ".f77",
+      "category": "Fortran",
+      "image": "fortran"
+    },
+    {
+      "extension": ".f90",
+      "category": "Fortran",
+      "image": "fortran"
+    },
+    {
+      "extension": ".f95",
+      "category": "Fortran",
+      "image": "fortran"
+    },
+    {
+      "extension": ".for",
+      "category": "Fortran",
+      "image": "fortran"
+    },
+    {
+      "extension": ".fpp",
+      "category": "Fortran",
+      "image": "fortran"
+    },
+    {
+      "extension": ".mod",
+      "category": "Fortran",
+      "image": "fortran"
+    },
+    {
+      "extension": ".prg",
+      "category": "FoxPro",
+      "image": "foxpro"
+    },
+    {
+      "extension": ".gitattributes",
+      "category": "GIT",
+      "moniker": "KnownMonikers.Git"
+    },
+    {
+      "extension": ".gitconfig",
+      "category": "GIT",
+      "moniker": "KnownMonikers.Git"
+    },
+    {
+      "extension": ".gitignore",
+      "category": "GIT",
+      "moniker": "KnownMonikers.Git"
+    },
+    {
+      "extension": ".gitkeep",
+      "category": "GIT",
+      "moniker": "KnownMonikers.Git"
+    },
+    {
+      "extension": ".gitmodules",
+      "category": "GIT",
+      "moniker": "KnownMonikers.Git"
+    },
+    {
+      "extension": ".issuetracker",
+      "category": "GIT",
+      "moniker": "KnownMonikers.WorkItem"
+    },
+    {
+      "extension": ".lfsconfig",
+      "category": "GIT",
+      "moniker": "KnownMonikers.GitNoColor"
+    },
+    {
+      "extension": ".go",
+      "category": "Go",
+      "image": "go"
+    },
+    {
+      "extension": ".gradle",
+      "category": "Gradle",
+      "image": "gradle"
+    },
+    {
+      "extension": ".groovy",
+      "category": "Groovy",
+      "image": "groovy"
+    },
+    {
+      "extension": ".gyp",
+      "category": "GYP",
+      "moniker": "KnownMonikers.MakeFile"
+    },
+    {
+      "extension": ".gf",
+      "category": "Haskell",
+      "image": "haskell"
+    },
+    {
+      "extension": ".has",
+      "category": "Haskell",
+      "image": "haskell"
+    },
+    {
+      "extension": ".hs",
+      "category": "Haskell",
+      "image": "haskell"
+    },
+    {
+      "extension": ".lhs",
+      "category": "Haskell",
+      "image": "haskell"
+    },
+    {
+      "extension": ".lit",
+      "category": "Haskell",
+      "image": "haskell"
+    },
+    {
+      "extension": ".hx",
+      "category": "Haxe",
+      "image": "haxe"
+    },
+    {
+      "extension": ".hxml",
+      "category": "Haxe",
+      "image": "haxe"
+    },
+    {
+      "extension": ".hxproj",
+      "category": "Haxe",
+      "image": "haxe"
+    },
+    {
+      "extension": ".appfile",
+      "category": "HCL",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".hcl",
+      "category": "HCL",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".nomad",
+      "category": "HCL",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".chm",
+      "category": "Help files",
+      "moniker": "KnownMonikers.CompiledHelpFile"
+    },
+    {
+      "extension": ".h1s",
+      "category": "Help files",
+      "moniker": "KnownMonikers.CompiledHelpFile"
+    },
+    {
+      "extension": ".hhc",
+      "category": "Help files",
+      "moniker": "KnownMonikers.HelpTableOfContents"
+    },
+    {
+      "extension": ".hhk",
+      "category": "Help files",
+      "moniker": "KnownMonikers.HelpIndexFile"
+    },
+    {
+      "extension": ".hhp",
+      "category": "Help files",
+      "moniker": "KnownMonikers.HelpApplication"
+    },
+    {
+      "extension": ".hlp",
+      "category": "Help files",
+      "moniker": "KnownMonikers.CompiledHelpFile"
+    },
+    {
+      "extension": ".hsx",
+      "category": "Help files",
+      "moniker": "KnownMonikers.CompiledHelpFile"
+    },
+    {
+      "extension": ".mshc",
+      "category": "Help files",
+      "moniker": "KnownMonikers.CompiledHelpFile"
+    },
+    {
+      "extension": ".ndoc",
+      "category": "Help files",
+      "moniker": "KnownMonikers.HelpIndexFile"
+    },
+    {
+      "extension": ".ngdoc",
+      "category": "Help files",
+      "moniker": "KnownMonikers.HelpIndexFile"
+    },
+    {
+      "extension": ".shfbproj",
+      "category": "Help files",
+      "moniker": "KnownMonikers.HelpApplication"
+    },
+    {
+      "extension": ".dhtml",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".hta",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".htm",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".html",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".jshtml",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".kit",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".sht",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".shtm",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".shtml",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".spark",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".xht",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".xhtm",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".xhtml",
+      "category": "HTML",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".ejs",
+      "category": "HTML templates",
+      "image": "ejs"
+    },
+    {
+      "extension": ".haml",
+      "category": "HTML templates",
+      "image": "haml"
+    },
+    {
+      "extension": ".handlebars",
+      "category": "HTML templates",
+      "image": "handlebars"
+    },
+    {
+      "extension": ".hbs",
+      "category": "HTML templates",
+      "image": "handlebars"
+    },
+    {
+      "extension": ".j2",
+      "category": "HTML templates",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".mst",
+      "category": "HTML templates",
+      "image": "mustache"
+    },
+    {
+      "extension": ".mustache",
+      "category": "HTML templates",
+      "image": "mustache"
+    },
+    {
+      "extension": ".nj",
+      "category": "HTML templates",
+      "image": "nunjucks"
+    },
+    {
+      "extension": ".njk",
+      "category": "HTML templates",
+      "image": "nunjucks"
+    },
+    {
+      "extension": ".njs",
+      "category": "HTML templates",
+      "image": "nunjucks"
+    },
+    {
+      "extension": ".nunj",
+      "category": "HTML templates",
+      "image": "nunjucks"
+    },
+    {
+      "extension": ".nunjs",
+      "category": "HTML templates",
+      "image": "nunjucks"
+    },
+    {
+      "extension": ".nunjucks",
+      "category": "HTML templates",
+      "image": "nunjucks"
+    },
+    {
+      "extension": ".razortemplate",
+      "category": "HTML templates",
+      "moniker": "KnownMonikers.ASPRazorFile"
+    },
+    {
+      "extension": ".rt",
+      "category": "HTML templates",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".smarty",
+      "category": "HTML templates",
+      "image": "smarty"
+    },
+    {
+      "extension": ".swig",
+      "category": "HTML templates",
+      "image": "smarty"
+    },
+    {
+      "extension": ".tpl",
+      "category": "HTML templates",
+      "image": "smarty"
+    },
+    {
+      "extension": ".vash",
+      "category": "HTML templates",
+      "moniker": "KnownMonikers.HTMLFile"
+    },
+    {
+      "extension": ".vue",
+      "category": "HTML templates",
+      "image": "vue"
+    },
+    {
+      "extension": ".lnk",
+      "category": "http://glyphlist.azurewebsites.net/knownmonikers/",
+      "moniker": "KnownMonikers.ScriptLink"
+    },
+    {
+      "extension": ".ical",
+      "category": "ICalendar",
+      "moniker": "KnownMonikers.Calendar"
+    },
+    {
+      "extension": ".ics",
+      "category": "ICalendar",
+      "moniker": "KnownMonikers.Calendar"
+    },
+    {
+      "extension": ".ifb",
+      "category": "ICalendar",
+      "moniker": "KnownMonikers.Calendar"
+    },
+    {
+      "extension": ".idr",
+      "category": "Idris",
+      "image": "idris"
+    },
+    {
+      "extension": ".ipkg",
+      "category": "Idris",
+      "image": "idris"
+    },
+    {
+      "extension": ".afdesign",
+      "category": "Images",
+      "moniker": "KnownMonikers.ImageIcon"
+    },
+    {
+      "extension": ".ai",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".bmp",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".gif",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".icl",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".ico",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".jpe",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".jpeg",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".jpg",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".pdf",
+      "category": "Images",
+      "image": "pdf"
+    },
+    {
+      "extension": ".pdn",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".png",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".psd",
+      "category": "Images",
+      "image": "photoshop"
+    },
+    {
+      "extension": ".svg",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".tga",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".tif",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".tiff",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".webp",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".delta",
+      "category": "Inno setup",
+      "moniker": "KnownMonikers.PatchPackage"
+    },
+    {
+      "extension": ".isl",
+      "category": "Inno setup",
+      "moniker": "KnownMonikers.InstallerClass"
+    },
+    {
+      "extension": ".jade",
+      "category": "Jade",
+      "image": "jade"
+    },
+    {
+      "extension": ".pug",
+      "category": "Jade",
+      "image": "jade"
+    },
+    {
+      "extension": ".aar",
+      "category": "Java",
+      "moniker": "KnownMonikers.JARFile"
+    },
+    {
+      "extension": ".action",
+      "category": "Java",
+      "moniker": "KnownMonikers.JavaSource"
+    },
+    {
+      "extension": ".do",
+      "category": "Java",
+      "moniker": "KnownMonikers.JavaSource"
+    },
+    {
+      "extension": ".jar",
+      "category": "Java",
+      "moniker": "KnownMonikers.JARFile"
+    },
+    {
+      "extension": ".java",
+      "category": "Java",
+      "moniker": "KnownMonikers.JavaSource"
+    },
+    {
+      "extension": ".jsp",
+      "category": "Java",
+      "moniker": "KnownMonikers.JavaSource"
+    },
+    {
+      "extension": ".jws",
+      "category": "Java",
+      "moniker": "KnownMonikers.JavaSource"
+    },
+    {
+      "extension": ".wss",
+      "category": "Java",
+      "moniker": "KnownMonikers.JavaSource"
+    },
+    {
+      "extension": ".es",
+      "category": "JavaScript",
+      "moniker": "KnownMonikers.JSScript"
+    },
+    {
+      "extension": ".es6",
+      "category": "JavaScript",
+      "moniker": "KnownMonikers.JSScript"
+    },
+    {
+      "extension": ".etcjs",
+      "category": "JavaScript",
+      "moniker": "KnownMonikers.JSScript"
+    },
+    {
+      "extension": ".js",
+      "category": "JavaScript",
+      "moniker": "KnownMonikers.JSScript"
+    },
+    {
+      "extension": ".js.erb",
+      "category": "JavaScript",
+      "moniker": "KnownMonikers.JSScript"
+    },
+    {
+      "extension": ".jse",
+      "category": "JavaScript",
+      "moniker": "KnownMonikers.JSScript"
+    },
+    {
+      "extension": ".jss",
+      "category": "JavaScript",
+      "moniker": "KnownMonikers.JSScript"
+    },
+    {
+      "extension": ".jsx",
+      "category": "JavaScript",
+      "moniker": "KnownMonikers.JSXScript"
+    },
+    {
+      "extension": ".mjs",
+      "category": "JavaScript",
+      "moniker": "KnownMonikers.JSScript"
+    },
+    {
+      "extension": ".rjs",
+      "category": "JavaScript",
+      "moniker": "KnownMonikers.JSScript"
+    },
+    {
+      "extension": ".xsjs",
+      "category": "JavaScript",
+      "moniker": "KnownMonikers.JSScript"
+    },
+    {
+      "extension": ".bootstraprc",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".bowerrc",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".geojson",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".graphql",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".hjson",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".job",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".jscsrc",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".json",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".json5",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".jsonc",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".jsonld",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".npmrc",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".postcssrc",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".topojson",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".jl",
+      "category": "Julia",
+      "image": "julia"
+    },
+    {
+      "extension": ".tick",
+      "category": "Kapacitor Tick",
+      "moniker": "KnownMonikers.Time"
+    },
+    {
+      "extension": ".bbx",
+      "category": "LaTex",
+      "image": "latex"
+    },
+    {
+      "extension": ".bib",
+      "category": "LaTex",
+      "image": "latex"
+    },
+    {
+      "extension": ".cbx",
+      "category": "LaTex",
+      "image": "latex"
+    },
+    {
+      "extension": ".cls",
+      "category": "LaTex",
+      "image": "latex"
+    },
+    {
+      "extension": ".sty",
+      "category": "LaTex",
+      "image": "latex"
+    },
+    {
+      "extension": ".tex",
+      "category": "LaTex",
+      "image": "latex"
+    },
+    {
+      "extension": ".hxp",
+      "category": "Lime",
+      "image": "lime"
+    },
+    {
+      "extension": ".linq",
+      "category": "LINQ",
+      "moniker": "KnownMonikers.LinqToSQLFile"
+    },
+    {
+      "extension": ".babelrc",
+      "category": "Linters",
+      "image": "babel"
+    },
+    {
+      "extension": ".csslintrc",
+      "category": "Linters",
+      "image": "csslint"
+    },
+    {
+      "extension": ".eslintrc",
+      "category": "Linters",
+      "image": "eslint"
+    },
+    {
+      "extension": ".jade-lintrc",
+      "category": "Linters",
+      "image": "jade"
+    },
+    {
+      "extension": ".jshintrc",
+      "category": "Linters",
+      "image": "jshint"
+    },
+    {
+      "extension": ".pug-lintrc",
+      "category": "Linters",
+      "image": "jade"
+    },
+    {
+      "extension": ".stylelintrc",
+      "category": "Linters",
+      "image": "stylelint"
+    },
+    {
+      "extension": ".bil",
+      "category": "Lisp",
+      "image": "lisp"
+    },
+    {
+      "extension": ".cl",
+      "category": "Lisp",
+      "image": "lisp"
+    },
+    {
+      "extension": ".el",
+      "category": "Lisp",
+      "image": "lisp"
+    },
+    {
+      "extension": ".l",
+      "category": "Lisp",
+      "image": "lisp"
+    },
+    {
+      "extension": ".lisp",
+      "category": "Lisp",
+      "image": "lisp"
+    },
+    {
+      "extension": ".mud",
+      "category": "Lisp",
+      "image": "lisp"
+    },
+    {
+      "extension": ".livescript",
+      "category": "LiveScript",
+      "moniker": "KnownMonikers.Script"
+    },
+    {
+      "extension": ".ls",
+      "category": "LiveScript",
+      "moniker": "KnownMonikers.Script"
+    },
+    {
+      "extension": ".lsc",
+      "category": "LiveScript",
+      "moniker": "KnownMonikers.Script"
+    },
+    {
+      "extension": ".locstrings",
+      "category": "Loalization",
+      "moniker": "KnownMonikers.Localize"
+    },
+    {
+      "extension": ".lock",
+      "category": "Lock files",
+      "moniker": "KnownMonikers.Lock"
+    },
+    {
+      "extension": ".lock.json",
+      "category": "Lock files",
+      "moniker": "KnownMonikers.Lock"
+    },
+    {
+      "extension": ".ldf",
+      "category": "Log files",
+      "moniker": "KnownMonikers.Log"
+    },
+    {
+      "extension": ".log",
+      "category": "Log files",
+      "moniker": "KnownMonikers.Log"
+    },
+    {
+      "extension": ".log4net",
+      "category": "Log files",
+      "moniker": "KnownMonikers.Log"
+    },
+    {
+      "extension": ".nlog",
+      "category": "Log files",
+      "moniker": "KnownMonikers.Log"
+    },
+    {
+      "extension": ".refactorlog",
+      "category": "Log files",
+      "moniker": "KnownMonikers.Log"
+    },
+    {
+      "extension": ".lua",
+      "category": "Lua",
+      "image": "lua"
+    },
+    {
+      "extension": ".cmake",
+      "category": "Makefile",
+      "moniker": "KnownMonikers.MakeFile"
+    },
+    {
+      "extension": ".gn",
+      "category": "Makefile",
+      "moniker": "KnownMonikers.MakeFile"
+    },
+    {
+      "extension": ".gni",
+      "category": "Makefile",
+      "moniker": "KnownMonikers.MakeFile"
+    },
+    {
+      "extension": ".mak",
+      "category": "Makefile",
+      "moniker": "KnownMonikers.MakeFile"
+    },
+    {
+      "extension": ".makefile",
+      "category": "Makefile",
+      "moniker": "KnownMonikers.MakeFile"
+    },
+    {
+      "extension": ".mk",
+      "category": "Makefile",
+      "moniker": "KnownMonikers.MakeFile"
+    },
+    {
+      "extension": ".mkfile",
+      "category": "Makefile",
+      "moniker": "KnownMonikers.MakeFile"
+    },
+    {
+      "extension": ".rake",
+      "category": "Makefile",
+      "moniker": "KnownMonikers.MakeFile"
+    },
+    {
+      "extension": ".rakefile",
+      "category": "Makefile",
+      "moniker": "KnownMonikers.MakeFile"
+    },
+    {
+      "extension": ".appcache",
+      "category": "Manifest",
+      "moniker": "KnownMonikers.ManifestFile"
+    },
+    {
+      "extension": ".manifest",
+      "category": "Manifest",
+      "moniker": "KnownMonikers.ManifestFile"
+    },
+    {
+      "extension": ".webmanifest",
+      "category": "Manifest",
+      "moniker": "KnownMonikers.ManifestFile"
+    },
+    {
+      "extension": ".map",
+      "category": "Map",
+      "moniker": "KnownMonikers.SiteMap"
+    },
+    {
+      "extension": ".mm",
+      "category": "Map",
+      "moniker": "KnownMonikers.SiteMap"
+    },
+    {
+      "extension": ".sitemap",
+      "category": "Map",
+      "moniker": "KnownMonikers.SiteMap"
+    },
+    {
+      "extension": ".markdown",
+      "category": "Markdown",
+      "moniker": "KnownMonikers.MarkdownFile"
+    },
+    {
+      "extension": ".md",
+      "category": "Markdown",
+      "moniker": "KnownMonikers.MarkdownFile"
+    },
+    {
+      "extension": ".mdn",
+      "category": "Markdown",
+      "moniker": "KnownMonikers.MarkdownFile"
+    },
+    {
+      "extension": ".mdown",
+      "category": "Markdown",
+      "moniker": "KnownMonikers.MarkdownFile"
+    },
+    {
+      "extension": ".mmd",
+      "category": "Markdown",
+      "moniker": "KnownMonikers.MarkdownFile"
+    },
+    {
+      "extension": ".readme",
+      "category": "Markdown",
+      "moniker": "KnownMonikers.MarkdownFile"
+    },
+    {
+      "extension": ".rmd",
+      "category": "Markdown",
+      "moniker": "KnownMonikers.MarkdownFile"
+    },
+    {
+      "extension": ".rst",
+      "category": "Markdown",
+      "moniker": "KnownMonikers.MarkdownFile"
+    },
+    {
+      "extension": ".marko",
+      "category": "Marko",
+      "image": "marko"
+    },
+    {
+      "extension": ".fig",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".m",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".mat",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".mex",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".mexn",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".mexrs6",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".mn",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".mum",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".mx",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".mx3",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".rwd",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".slddc",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".slx",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".smv",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".tikz",
+      "category": "Matlab",
+      "image": "matlab"
+    },
+    {
+      "extension": ".mq4",
+      "category": "mq4",
+      "image": "mq4"
+    },
+    {
+      "extension": ".mq5",
+      "category": "mq5",
+      "image": "mq5"
+    },
+    {
+      "extension": ".mqh",
+      "category": "mqh",
+      "image": "mqh"
+    },
+    {
+      "extension": ".nim",
+      "category": "Nim",
+      "image": "nim"
+    },
+    {
+      "extension": ".nimble",
+      "category": "Nim",
+      "image": "nim"
+    },
+    {
+      "extension": ".nims",
+      "category": "Nim",
+      "image": "nim"
+    },
+    {
+      "extension": ".nupkg",
+      "category": "NuGet",
+      "moniker": "KnownMonikers.NuGet"
+    },
+    {
+      "extension": ".nuspec",
+      "category": "NuGet",
+      "moniker": "KnownMonikers.NuGet"
+    },
+    {
+      "extension": ".psmdcp",
+      "category": "NuGet",
+      "moniker": "KnownMonikers.NuGet"
+    },
+    {
+      "extension": ".merlin",
+      "category": "OCaml",
+      "image": "ocaml"
+    },
+    {
+      "extension": ".ml",
+      "category": "OCaml",
+      "image": "ocaml"
+    },
+    {
+      "extension": ".mli",
+      "category": "OCaml",
+      "image": "ocaml"
+    },
+    {
+      "extension": ".mll",
+      "category": "OCaml",
+      "image": "ocaml"
+    },
+    {
+      "extension": ".mly",
+      "category": "OCaml",
+      "image": "ocaml"
+    },
+    {
+      "extension": ".ocamlmakefile",
+      "category": "OCaml",
+      "image": "ocaml"
+    },
+    {
+      "extension": ".pq",
+      "category": "Office",
+      "moniker": "KnownMonikers.QueryView"
+    },
+    {
+      "extension": ".vsdx",
+      "category": "Office",
+      "moniker": "KnownMonikers.OfficeVisio2013"
+    },
+    {
+      "extension": ".xdtpx",
+      "category": "Office",
+      "moniker": "KnownMonikers.OfficeWord2013"
+    },
+    {
+      "extension": ".dependencies",
+      "category": "Paket",
+      "image": "paket"
+    },
+    {
+      "extension": ".local",
+      "category": "Paket",
+      "image": "paket"
+    },
+    {
+      "extension": ".references",
+      "category": "Paket",
+      "image": "paket"
+    },
+    {
+      "extension": ".template",
+      "category": "Paket",
+      "image": "paket"
+    },
+    {
+      "extension": ".patch",
+      "category": "Patch",
+      "image": "patch"
+    },
+    {
+      "extension": ".nqp",
+      "category": "Perl",
+      "image": "perl"
+    },
+    {
+      "extension": ".p6",
+      "category": "Perl",
+      "image": "perl"
+    },
+    {
+      "extension": ".perl",
+      "category": "Perl",
+      "image": "perl"
+    },
+    {
+      "extension": ".pl",
+      "category": "Perl",
+      "image": "perl"
+    },
+    {
+      "extension": ".pl6",
+      "category": "Perl",
+      "image": "perl"
+    },
+    {
+      "extension": ".pm",
+      "category": "Perl",
+      "image": "perl"
+    },
+    {
+      "extension": ".pm6",
+      "category": "Perl",
+      "image": "perl"
+    },
+    {
+      "extension": ".pod",
+      "category": "Perl",
+      "image": "perl"
+    },
+    {
+      "extension": ".psgi",
+      "category": "Perl",
+      "image": "perl"
+    },
+    {
+      "extension": ".t",
+      "category": "Perl",
+      "image": "perl"
+    },
+    {
+      "extension": ".vcl",
+      "category": "Perl",
+      "image": "perl"
+    },
+    {
+      "extension": ".php",
+      "category": "PHP",
+      "moniker": "KnownMonikers.PHPFile"
+    },
+    {
+      "extension": ".php2",
+      "category": "PHP",
+      "moniker": "KnownMonikers.PHPFile"
+    },
+    {
+      "extension": ".php3",
+      "category": "PHP",
+      "moniker": "KnownMonikers.PHPFile"
+    },
+    {
+      "extension": ".php4",
+      "category": "PHP",
+      "moniker": "KnownMonikers.PHPFile"
+    },
+    {
+      "extension": ".php5",
+      "category": "PHP",
+      "moniker": "KnownMonikers.PHPFile"
+    },
+    {
+      "extension": ".phps",
+      "category": "PHP",
+      "moniker": "KnownMonikers.PHPFile"
+    },
+    {
+      "extension": ".phpt",
+      "category": "PHP",
+      "moniker": "KnownMonikers.PHPFile"
+    },
+    {
+      "extension": ".phtm",
+      "category": "PHP",
+      "moniker": "KnownMonikers.PHPFile"
+    },
+    {
+      "extension": ".phtml",
+      "category": "PHP",
+      "moniker": "KnownMonikers.PHPFile"
+    },
+    {
+      "extension": ".iuml",
+      "category": "Plantuml",
+      "image": "plantuml"
+    },
+    {
+      "extension": ".plantuml",
+      "category": "Plantuml",
+      "image": "plantuml"
+    },
+    {
+      "extension": ".pu",
+      "category": "Plantuml",
+      "image": "plantuml"
+    },
+    {
+      "extension": ".puml",
+      "category": "Plantuml",
+      "image": "plantuml"
+    },
+    {
+      "extension": ".mo",
+      "category": "Po Edit",
+      "image": "poedit"
+    },
+    {
+      "extension": ".po",
+      "category": "Po Edit",
+      "image": "poedit"
+    },
+    {
+      "extension": ".potx",
+      "category": "Po Edit",
+      "image": "poedit"
+    },
+    {
+      "extension": ".pbix",
+      "category": "Power BI",
+      "moniker": "KnownMonikers.LineChart"
+    },
+    {
+      "extension": ".ps1",
+      "category": "PowerShell",
+      "moniker": "KnownMonikers.PowershellFile"
+    },
+    {
+      "extension": ".psd1",
+      "category": "PowerShell",
+      "moniker": "KnownMonikers.PowershellFile"
+    },
+    {
+      "extension": ".psm1",
+      "category": "PowerShell",
+      "moniker": "KnownMonikers.PowershellFile"
+    },
+    {
+      "extension": ".zpl",
+      "category": "Print",
+      "moniker": "KnownMonikers.PrintDocument"
+    },
+    {
+      "extension": ".procfile",
+      "category": "Procfile",
+      "image": "procfile"
+    },
+    {
+      "extension": ".proto",
+      "category": "Protocol Buffers",
+      "image": "proto"
+    },
+    {
+      "extension": ".epp",
+      "category": "Puppet",
+      "image": "puppet"
+    },
+    {
+      "extension": ".pp",
+      "category": "Puppet",
+      "image": "puppet"
+    },
+    {
+      "extension": ".py",
+      "category": "Python",
+      "moniker": "KnownMonikers.PYFileNode"
+    },
+    {
+      "extension": ".pyw",
+      "category": "Python",
+      "moniker": "KnownMonikers.PYFileNode"
+    },
+    {
+      "extension": ".qs",
+      "category": "Q#",
+      "moniker": "KnownMonikers.CubeDimension"
+    },
+    {
+      "extension": ".ui",
+      "category": "Qt",
+      "image": "qt"
+    },
+    {
+      "extension": ".r",
+      "category": "R",
+      "image": "r"
+    },
+    {
+      "extension": ".rprofile",
+      "category": "R",
+      "image": "r"
+    },
+    {
+      "extension": ".s",
+      "category": "R",
+      "image": "r"
+    },
+    {
+      "extension": ".raml",
+      "category": "Raml",
+      "image": "raml"
+    },
+    {
+      "extension": ".refresh",
+      "category": "Refresh",
+      "moniker": "KnownMonikers.GoToReference"
+    },
+    {
+      "extension": ".frx",
+      "category": "Reports",
+      "moniker": "KnownMonikers.Report"
+    },
+    {
+      "extension": ".igr",
+      "category": "Reports",
+      "moniker": "KnownMonikers.Report"
+    },
+    {
+      "extension": ".mrt",
+      "category": "Reports",
+      "moniker": "KnownMonikers.Report"
+    },
+    {
+      "extension": ".rdl",
+      "category": "Reports",
+      "moniker": "KnownMonikers.Report"
+    },
+    {
+      "extension": ".rds",
+      "category": "Reports",
+      "moniker": "KnownMonikers.SharedDataSource"
+    },
+    {
+      "extension": ".repx",
+      "category": "Reports",
+      "moniker": "KnownMonikers.Report"
+    },
+    {
+      "extension": ".rpt",
+      "category": "Reports",
+      "moniker": "KnownMonikers.CrystalReport"
+    },
+    {
+      "extension": ".tag",
+      "category": "Riot",
+      "image": "riot"
+    },
+    {
+      "extension": ".capfile",
+      "category": "Ruby",
+      "moniker": "KnownMonikers.RBFileNode"
+    },
+    {
+      "extension": ".gemspec",
+      "category": "Ruby",
+      "moniker": "KnownMonikers.RBFileNode"
+    },
+    {
+      "extension": ".irbrc",
+      "category": "Ruby",
+      "moniker": "KnownMonikers.RBFileNode"
+    },
+    {
+      "extension": ".prawn",
+      "category": "Ruby",
+      "moniker": "KnownMonikers.RBFileNode"
+    },
+    {
+      "extension": ".rb",
+      "category": "Ruby",
+      "moniker": "KnownMonikers.RBFileNode"
+    },
+    {
+      "extension": ".rbx",
+      "category": "Ruby",
+      "moniker": "KnownMonikers.RBFileNode"
+    },
+    {
+      "extension": ".reek",
+      "category": "Ruby",
+      "moniker": "KnownMonikers.RBFileNode"
+    },
+    {
+      "extension": ".rjx",
+      "category": "Ruby",
+      "moniker": "KnownMonikers.RBFileNode"
+    },
+    {
+      "extension": ".ru",
+      "category": "Ruby",
+      "moniker": "KnownMonikers.RBFileNode"
+    },
+    {
+      "extension": ".erb",
+      "category": "Ruby on Rails",
+      "image": "erb"
+    },
+    {
+      "extension": ".erb.deface",
+      "category": "Ruby on Rails",
+      "image": "erb"
+    },
+    {
+      "extension": ".lava",
+      "category": "Ruby on Rails",
+      "moniker": "KnownMonikers.MarkupTag"
+    },
+    {
+      "extension": ".liquid",
+      "category": "Ruby on Rails",
+      "moniker": "KnownMonikers.MarkupTag"
+    },
+    {
+      "extension": ".rhtml",
+      "category": "Ruby on Rails",
+      "image": "erb"
+    },
+    {
+      "extension": ".rs",
+      "category": "Rust",
+      "image": "rust"
+    },
+    {
+      "extension": ".sbt",
+      "category": "Scala",
+      "image": "scala"
+    },
+    {
+      "extension": ".scala",
+      "category": "Scala",
+      "image": "scala"
+    },
+    {
+      "extension": ".bond",
+      "category": "Schema files",
+      "moniker": "KnownMonikers.Schema"
+    },
+    {
+      "extension": ".fbs",
+      "category": "Schema files",
+      "moniker": "KnownMonikers.Schema"
+    },
+    {
+      "extension": ".tsl",
+      "category": "Schema files",
+      "moniker": "KnownMonikers.Schema"
+    },
+    {
+      "extension": ".rkt",
+      "category": "Scheme",
+      "image": "scheme"
+    },
+    {
+      "extension": ".sch",
+      "category": "Scheme",
+      "image": "scheme"
+    },
+    {
+      "extension": ".scm",
+      "category": "Scheme",
+      "image": "scheme"
+    },
+    {
+      "extension": ".rtlcssrc",
+      "category": "Scripts (generic)",
+      "moniker": "KnownMonikers.Script"
+    },
+    {
+      "extension": ".sjs",
+      "category": "Scripts (generic)",
+      "moniker": "KnownMonikers.Script"
+    },
+    {
+      "extension": ".nt",
+      "category": "Semantic Web",
+      "image": "semanticweb"
+    },
+    {
+      "extension": ".rq",
+      "category": "Semantic Web",
+      "image": "semanticweb"
+    },
+    {
+      "extension": ".sparql",
+      "category": "Semantic Web",
+      "image": "semanticweb"
+    },
+    {
+      "extension": ".ttl",
+      "category": "Semantic Web",
+      "image": "semanticweb"
+    },
+    {
+      "extension": ".bash",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.Console"
+    },
+    {
+      "extension": ".bat",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.Console"
+    },
+    {
+      "extension": ".cmd",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.Console"
+    },
+    {
+      "extension": ".csh",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.Console"
+    },
+    {
+      "extension": ".fish",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.Console"
+    },
+    {
+      "extension": ".msc",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.WriteToConsole"
+    },
+    {
+      "extension": ".post",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.Console"
+    },
+    {
+      "extension": ".pre",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.Console"
+    },
+    {
+      "extension": ".rc",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.Console"
+    },
+    {
+      "extension": ".sh",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.Console"
+    },
+    {
+      "extension": ".tcshcsh",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.Console"
+    },
+    {
+      "extension": ".zsh",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.Console"
+    },
+    {
+      "extension": ".skim",
+      "category": "Slim",
+      "moniker": "KnownMonikers.MarkupTag"
+    },
+    {
+      "extension": ".slim",
+      "category": "Slim",
+      "moniker": "KnownMonikers.MarkupTag"
+    },
+    {
+      "extension": ".sol",
+      "category": "Solidity",
+      "image": "solidity"
+    },
+    {
+      "extension": ".vsspell",
+      "category": "Spell check",
+      "moniker": "KnownMonikers.SpellCheck"
+    },
+    {
+      "extension": ".db3",
+      "category": "Sqlite",
+      "image": "sqlite"
+    },
+    {
+      "extension": ".sqlite",
+      "category": "Sqlite",
+      "image": "sqlite"
+    },
+    {
+      "extension": ".sqlite3",
+      "category": "Sqlite",
+      "image": "sqlite"
+    },
+    {
+      "extension": ".sqlite3-journal",
+      "category": "Sqlite",
+      "moniker": "KnownMonikers.DatabaseFile"
+    },
+    {
+      "extension": ".stylecop",
+      "category": "Static analysis",
+      "moniker": "KnownMonikers.RunQuery"
+    },
+    {
+      "extension": ".xap",
+      "category": "Store apps",
+      "moniker": "KnownMonikers.Phone"
+    },
+    {
+      "extension": ".bdcr",
+      "category": "Swagger/OpenAPI/General APIs",
+      "moniker": "KnownMonikers.Services"
+    },
+    {
+      "extension": ".edi",
+      "category": "Swagger/OpenAPI/General APIs",
+      "moniker": "KnownMonikers.NetworkNDISDriver"
+    },
+    {
+      "extension": ".nswag",
+      "category": "Swagger/OpenAPI/General APIs",
+      "moniker": "KnownMonikers.ConnectedServices"
+    },
+    {
+      "extension": ".swift",
+      "category": "Swift",
+      "image": "swift"
+    },
+    {
+      "extension": ".i",
+      "category": "Swig",
+      "moniker": "KnownMonikers.InterfaceSnippet"
+    },
+    {
+      "extension": ".t4",
+      "category": "T4",
+      "moniker": "KnownMonikers.GenerateFile"
+    },
+    {
+      "extension": ".tmpl",
+      "category": "T4",
+      "moniker": "KnownMonikers.GenerateFile"
+    },
+    {
+      "extension": ".tt",
+      "category": "T4",
+      "moniker": "KnownMonikers.GenerateFile"
+    },
+    {
+      "extension": ".ttinclude",
+      "category": "T4",
+      "moniker": "KnownMonikers.GenerateFile"
+    },
+    {
+      "extension": ".vars",
+      "category": "T4",
+      "moniker": "KnownMonikers.GenerateFile"
+    },
+    {
+      "extension": ".tcl",
+      "category": "TCL",
+      "image": "tcl"
+    },
+    {
+      "extension": ".tmp",
+      "category": "Temp files",
+      "moniker": "KnownMonikers.BrowseDefinition"
+    },
+    {
+      "extension": ".tf",
+      "category": "Terraform",
+      "image": "terraform"
+    },
+    {
+      "extension": ".tfvars",
+      "category": "Terraform",
+      "image": "terraform"
+    },
+    {
+      "extension": ".asn",
+      "category": "Test",
+      "moniker": "KnownMonikers.ServerTest"
+    },
+    {
+      "extension": ".fakes",
+      "category": "Test",
+      "moniker": "KnownMonikers.CodeTest"
+    },
+    {
+      "extension": ".feature",
+      "category": "Test",
+      "moniker": "KnownMonikers.TestPlan"
+    },
+    {
+      "extension": ".gold",
+      "category": "Test",
+      "moniker": "KnownMonikers.RecommendedTest"
+    },
+    {
+      "extension": ".loadtest",
+      "category": "Test",
+      "moniker": "KnownMonikers.LoadTest"
+    },
+    {
+      "extension": ".ncrunchproject",
+      "category": "Test",
+      "moniker": "KnownMonikers.Test"
+    },
+    {
+      "extension": ".par",
+      "category": "Test",
+      "moniker": "KnownMonikers.CodeTest"
+    },
+    {
+      "extension": ".playlist",
+      "category": "Test",
+      "moniker": "KnownMonikers.RunTestDialog"
+    },
+    {
+      "extension": ".ttcn",
+      "category": "Test",
+      "moniker": "KnownMonikers.Test"
+    },
+    {
+      "extension": ".ttcn3",
+      "category": "Test",
+      "moniker": "KnownMonikers.Test"
+    },
+    {
+      "extension": ".webtest",
+      "category": "Test",
+      "moniker": "KnownMonikers.WebTest"
+    },
+    {
+      "extension": ".mc",
+      "category": "Text",
+      "moniker": "KnownMonikers.TextFile"
+    },
+    {
+      "extension": ".twig",
+      "category": "Twig",
+      "image": "twig"
+    },
+    {
+      "extension": ".ts",
+      "category": "TypeScript",
+      "moniker": "KnownMonikers.TSFileNode"
+    },
+    {
+      "extension": ".tsx",
+      "category": "TypeScript",
+      "moniker": "KnownMonikers.TSFileNode"
+    },
+    {
+      "extension": ".vhd",
+      "category": "VHDL",
+      "moniker": "KnownMonikers.FileSystemDriverFile"
+    },
+    {
+      "extension": ".vhdl",
+      "category": "VHDL",
+      "moniker": "KnownMonikers.FileSystemDriverFile"
+    },
+    {
+      "extension": ".vho",
+      "category": "VHDL",
+      "moniker": "KnownMonikers.FileSystemDriverFile"
+    },
+    {
+      "extension": ".asf",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".avi",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".m4v",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".mkv",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".mov",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".mp4",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".mpeg",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".mpg",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".mts",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".nut",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".ogg",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".ogv",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".rm",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".webm",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".wmv",
+      "category": "Video",
+      "moniker": "KnownMonikers.Media"
+    },
+    {
+      "extension": ".vb",
+      "category": "Visual Basic",
+      "moniker": "KnownMonikers.VBFileNode"
+    },
+    {
+      "extension": ".vbs",
+      "category": "Visual Basic",
+      "moniker": "KnownMonikers.VBFileNode"
+    },
+    {
+      "extension": ".volt",
+      "category": "Volt",
+      "image": "volt"
+    },
+    {
+      "extension": ".imagemanifest",
+      "category": "VSSDK",
+      "moniker": "KnownMonikers.ManifestFile"
+    },
+    {
+      "extension": ".pex",
+      "category": "VSSDK",
+      "moniker": "KnownMonikers.ManifestFile"
+    },
+    {
+      "extension": ".pkgdef",
+      "category": "VSSDK",
+      "moniker": "KnownMonikers.ExtensionManifest"
+    },
+    {
+      "extension": ".tml",
+      "category": "VSSDK",
+      "moniker": "KnownMonikers.ManifestFile"
+    },
+    {
+      "extension": ".vsct",
+      "category": "VSSDK",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".vsixmanifest",
+      "category": "VSSDK",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".vtt",
+      "category": "WebVTT",
+      "moniker": "KnownMonikers.ObjectLifetimeView"
+    },
+    {
+      "extension": ".storyboard",
+      "category": "Xamarin",
+      "moniker": "KnownMonikers.Timeline"
+    },
+    {
+      "extension": ".xib",
+      "category": "Xamarin",
+      "moniker": "KnownMonikers.InterfaceFile"
+    },
+    {
+      "extension": ".axml",
+      "category": "XAML",
+      "moniker": "KnownMonikers.WPFFile"
+    },
+    {
+      "extension": ".xaml",
+      "category": "XAML",
+      "moniker": "KnownMonikers.WPFFile"
+    },
+    {
+      "extension": ".aip",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".azurepubxml",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".dtsx",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".man",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".msbuild",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".plist",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".proj",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".publishsettings",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".pubxml",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".runsettings",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".scmp",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".snippet",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".so",
+      "category": "XML",
+      "moniker": "KnownMonikers.SharedProject"
+    },
+    {
+      "extension": ".targets",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".tmlanguage",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".tmsnippet",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".tmx",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".uproject",
+      "category": "XML",
+      "moniker": "KnownMonikers.SharedProject"
+    },
+    {
+      "extension": ".vsixlangpack",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".wax",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".wfdef",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".wxi",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".wxs",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".xdt",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".xlf",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".xq",
+      "category": "XQuery",
+      "moniker": "KnownMonikers.XPath"
+    },
+    {
+      "extension": ".xql",
+      "category": "XQuery",
+      "moniker": "KnownMonikers.XPath"
+    },
+    {
+      "extension": ".xqm",
+      "category": "XQuery",
+      "moniker": "KnownMonikers.XPath"
+    },
+    {
+      "extension": ".xquery",
+      "category": "XQuery",
+      "moniker": "KnownMonikers.XPath"
+    },
+    {
+      "extension": ".xqy",
+      "category": "XQuery",
+      "moniker": "KnownMonikers.XPath"
+    },
+    {
+      "extension": ".eyaml",
+      "category": "YAML/TOML",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".toml",
+      "category": "YAML/TOML",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".yaml",
+      "category": "YAML/TOML",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".yml",
+      "category": "YAML/TOML",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".yarn-integrity",
+      "category": "Yarn",
+      "image": "yarn"
+    },
+    {
+      "extension": ".yarnclean",
+      "category": "Yarn",
+      "image": "yarn"
+    },
+    {
+      "extension": ".yarnrc",
+      "category": "Yarn",
+      "image": "yarn"
+    },
+    {
+      "extension": ".7z",
+      "category": "Zip",
+      "image": "zip"
+    },
+    {
+      "extension": ".bz2",
+      "category": "Zip",
+      "image": "zip"
+    },
+    {
+      "extension": ".bzip2",
+      "category": "Zip",
+      "image": "zip"
+    },
+    {
+      "extension": ".gz",
+      "category": "Zip",
+      "image": "zip"
+    },
+    {
+      "extension": ".rar",
+      "category": "Zip",
+      "image": "zip"
+    },
+    {
+      "extension": ".tar",
+      "category": "Zip",
+      "image": "zip"
+    },
+    {
+      "extension": ".xz",
+      "category": "Zip",
+      "image": "zip"
+    },
+    {
+      "extension": ".zip",
+      "category": "Zip",
+      "image": "zip"
+    }
+  ]
+}

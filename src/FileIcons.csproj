@@ -84,8 +84,8 @@
     </PackageReference>
   </ItemGroup>
 
-  <PropertyGroup>
-    <PostBuildEvent>powershell -NoProfile -ExecutionPolicy RemoteSigned -file "$(MSBuildProjectDirectory)\..\CreateIconList.ps1"</PostBuildEvent>
-  </PropertyGroup>
+  <Target Name="ValidateIconCatalog" BeforeTargets="BeforeBuild">
+    <Exec Command="pwsh -NoProfile -File &quot;$(MSBuildProjectDirectory)\..\tools\Generate-Catalog.ps1&quot; -Check" />
+  </Target>
 
 </Project>
