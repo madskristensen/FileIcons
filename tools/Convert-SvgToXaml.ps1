@@ -76,6 +76,51 @@ function Escape-Xml {
     return [System.Security.SecurityElement]::Escape($Value)
 }
 
+function Get-TransformLines {
+    param(
+        [string]$Transform,
+        [string]$ElementName
+    )
+
+    $lines = [System.Collections.Generic.List[string]]::new()
+    $remaining = $Transform.Trim()
+    while ($remaining) {
+        if ($remaining -notmatch "^(translate|rotate)\s*\(([^)]*)\)\s*(.*)$") {
+            throw "$ElementName uses unsupported transform='$Transform'."
+        }
+
+        $operation = $Matches[1]
+        $values = @($Matches[2] -split "[,\s]+" | Where-Object { $_ })
+        $remaining = $Matches[3].Trim()
+        switch ($operation) {
+            "translate" {
+                if ($values.Count -lt 1 -or $values.Count -gt 2) {
+                    throw "$ElementName uses invalid translate transform='$Transform'."
+                }
+                $x = Format-Number (Convert-Number $values[0])
+                $y = if ($values.Count -eq 2) { Format-Number (Convert-Number $values[1]) } else { "0" }
+                $lines.Add("<TranslateTransform X=`"$x`" Y=`"$y`" />")
+            }
+            "rotate" {
+                if ($values.Count -notin 1, 3) {
+                    throw "$ElementName uses invalid rotate transform='$Transform'."
+                }
+                $angle = Format-Number (Convert-Number $values[0])
+                if ($values.Count -eq 3) {
+                    $centerX = Format-Number (Convert-Number $values[1])
+                    $centerY = Format-Number (Convert-Number $values[2])
+                    $lines.Add("<RotateTransform Angle=`"$angle`" CenterX=`"$centerX`" CenterY=`"$centerY`" />")
+                }
+                else {
+                    $lines.Add("<RotateTransform Angle=`"$angle`" />")
+                }
+            }
+        }
+    }
+
+    return ,$lines
+}
+
 function Get-ShapeAttributes {
     param(
         [hashtable]$Style,
@@ -148,7 +193,7 @@ function Convert-Element {
         [System.Collections.Generic.List[string]]$Lines
     )
 
-    if ($Element.HasAttribute("transform")) {
+    if ($Element.HasAttribute("transform") -and $Element.LocalName -ne "ellipse") {
         throw "$($Element.LocalName) uses transform='$($Element.GetAttribute("transform"))', which is not supported."
     }
 
@@ -234,6 +279,40 @@ function Convert-Element {
             $attributes.Add("Canvas.Left=`"$(Format-Number ($cx - $radius))`"")
             $attributes.Add("Canvas.Top=`"$(Format-Number ($cy - $radius))`"")
             $Lines.Add("    <Ellipse $($attributes -join " ") />")
+            return
+        }
+        "ellipse" {
+            foreach ($required in "cx", "cy", "rx", "ry") {
+                if (-not $Element.HasAttribute($required)) {
+                    throw "ellipse is missing its $required attribute."
+                }
+            }
+
+            $cx = Convert-Number $Element.GetAttribute("cx")
+            $cy = Convert-Number $Element.GetAttribute("cy")
+            $radiusX = Convert-Number $Element.GetAttribute("rx")
+            $radiusY = Convert-Number $Element.GetAttribute("ry")
+            $attributes = Get-ShapeAttributes $style "ellipse"
+            $attributes.Insert(0, "Height=`"$(Format-Number (2 * $radiusY))`"")
+            $attributes.Insert(0, "Width=`"$(Format-Number (2 * $radiusX))`"")
+            $attributes.Add("Canvas.Left=`"$(Format-Number ($cx - $radiusX))`"")
+            $attributes.Add("Canvas.Top=`"$(Format-Number ($cy - $radiusY))`"")
+
+            if (-not $Element.HasAttribute("transform")) {
+                $Lines.Add("    <Ellipse $($attributes -join " ") />")
+                return
+            }
+
+            $transformLines = Get-TransformLines $Element.GetAttribute("transform") "ellipse"
+            $Lines.Add("    <Ellipse $($attributes -join " ")>")
+            $Lines.Add("      <Ellipse.RenderTransform>")
+            $Lines.Add("        <TransformGroup>")
+            foreach ($transformLine in $transformLines) {
+                $Lines.Add("          $transformLine")
+            }
+            $Lines.Add("        </TransformGroup>")
+            $Lines.Add("      </Ellipse.RenderTransform>")
+            $Lines.Add("    </Ellipse>")
             return
         }
         default {
