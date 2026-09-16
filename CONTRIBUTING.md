@@ -24,7 +24,7 @@ Only add custom artwork when the Visual Studio Image Catalog has no suitable ima
 
 Logos can also be protected by trademarks even when their source repository has an open-source license. Use official artwork without altering the brand, and do not add an asset when redistribution rights are unclear.
 
-For SVG artwork, preserve the SVG `viewBox` and translate paths into WPF geometry inside a XAML drawing. Flatten CSS classes and transforms first. SVG filters, scripts, text, external resources, masks, and unsupported paint servers must not be copied into the XAML. Do not add raster dimensions to XAML catalog entries; this lets the Visual Studio image service scale the vector source. Validate the result in Image Library Viewer under light, dark, high-contrast, and multiple-DPI settings.
+For SVG artwork, preserve the SVG `viewBox` and translate paths into WPF geometry inside XAML with a renderable `Viewbox` or `Canvas` root. A standalone `DrawingImage` can be loaded by WPF but is not rendered by the Visual Studio image service. Flatten CSS classes and transforms first. SVG filters, scripts, text, external resources, masks, and unsupported paint servers must not be copied into the XAML. Do not add raster dimensions to XAML catalog entries; this lets the Visual Studio image service scale the vector source. Validate the result in Image Library Viewer under light, dark, high-contrast, and multiple-DPI settings.
 
 Use PNG only when the source cannot be represented faithfully as WPF geometry or when the authoritative artwork is raster-only.
 

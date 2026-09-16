@@ -1,6 +1,9 @@
-<DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-  <DrawingImage.Drawing>
-    <DrawingGroup>
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Width="16" Height="16">
+  <Rectangle Width="100" Height="100">
+    <Rectangle.Fill>
+      <DrawingBrush Stretch="Uniform">
+        <DrawingBrush.Drawing>
+          <DrawingGroup>
       <GeometryDrawing Brush="#E10098" Geometry="F0 M50,6.90308 L87.323,28.4515 L87.323,71.5484 L50,93.0968 L12.677,71.5484 L12.677,28.4515 Z M16.8647,30.8693 L16.8647,62.5251 L44.2795,15.0414 Z M50,13.5086 L18.3975,68.2457 L81.6025,68.2457 Z M77.4148,72.4334 L22.5852,72.4334 L50,88.2613 Z M83.1353,62.5251 L55.7205,15.0414 L83.1353,30.8693 Z" />
       <GeometryDrawing Brush="#E10098">
         <GeometryDrawing.Geometry>
@@ -14,6 +17,9 @@
           </GeometryGroup>
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-    </DrawingGroup>
-  </DrawingImage.Drawing>
-</DrawingImage>
+          </DrawingGroup>
+        </DrawingBrush.Drawing>
+      </DrawingBrush>
+    </Rectangle.Fill>
+  </Rectangle>
+</Viewbox>

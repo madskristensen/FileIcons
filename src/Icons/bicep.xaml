@@ -1,6 +1,9 @@
-<DrawingImage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-  <DrawingImage.Drawing>
-    <DrawingGroup>
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Width="16" Height="16">
+  <Rectangle Width="128" Height="128">
+    <Rectangle.Fill>
+      <DrawingBrush Stretch="Uniform">
+        <DrawingBrush.Drawing>
+          <DrawingGroup>
       <GeometryDrawing Geometry="M64,0 L8.8,32 L8.8,96 L64,128 L119.2,96 L119.2,32 Z">
         <GeometryDrawing.Brush>
           <LinearGradientBrush MappingMode="Absolute" StartPoint="64,128" EndPoint="64,0">
@@ -50,6 +53,9 @@
       <GeometryDrawing Brush="#FFFFFF" Geometry="M82.5,29.5 L81,28.1 L73.7,36.2 L65.7,38.8 L60,33.6 L61.7,25.4 L69,17.3 L67.4,16 L64.6,16.2 L58.3,23.2 C58.1,23.5 57.9,23.8 57.8,24.1 L55.7,33.9 C55.6,34.6 55.8,35.3 56.3,35.8 L63.8,42.5 C64.2,42.8 64.6,43 65.1,43 C65.3,43 65.5,43 65.7,42.9 L75.3,39.8 C75.6,39.7 75.9,39.5 76.2,39.2 L82.5,32.2 Z">
         <GeometryDrawing.Pen><Pen Brush="#FFFFFF" Thickness="1" /></GeometryDrawing.Pen>
       </GeometryDrawing>
-    </DrawingGroup>
-  </DrawingImage.Drawing>
-</DrawingImage>
+          </DrawingGroup>
+        </DrawingBrush.Drawing>
+      </DrawingBrush>
+    </Rectangle.Fill>
+  </Rectangle>
+</Viewbox>

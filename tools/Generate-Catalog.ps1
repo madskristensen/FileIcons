@@ -233,10 +233,14 @@ foreach ($image in $catalog.customImages) {
         }
 
         try {
-            $null = [xml](Get-Content $imagePath -Raw)
+            $xaml = [xml](Get-Content $imagePath -Raw)
         }
         catch {
             throw "XAML image '$($image.name)' is not well-formed XML: $($_.Exception.Message)"
+        }
+
+        if ($xaml.DocumentElement.LocalName -notin "Viewbox", "Canvas") {
+            throw "XAML image '$($image.name)' must have a renderable Viewbox or Canvas root for the Visual Studio image service."
         }
     }
 
