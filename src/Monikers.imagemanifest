@@ -231,9 +231,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(puppet)">
-      <Source Uri="$(Resources)/puppet.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/puppet.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(r)">
       <Source Uri="$(Resources)/r.png">
