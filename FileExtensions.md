@@ -1,4 +1,4 @@
-## Supported File Extensions (687)
+## Supported File Extensions (632)
 
 - .7z
 - .aar
@@ -22,7 +22,6 @@
 - .asp
 - .atg
 - .atom
-- .avi
 - .axml
 - .azurepubxml
 - .babelignore
@@ -37,7 +36,6 @@
 - .bil
 - .bim
 - .bmml
-- .bmp
 - .bmpr
 - .bnf
 - .bond
@@ -49,7 +47,6 @@
 - .bz2
 - .bzip2
 - .bzrignore
-- .c
 - .cab
 - .cake
 - .capfile
@@ -57,7 +54,6 @@
 - .cbx
 - .ccss
 - .cd
-- .cer
 - .cfc
 - .cfg
 - .cfignore
@@ -80,21 +76,16 @@
 - .codeclonesettings
 - .coffee
 - .conf
-- .config
 - .conmgr
-- .cpp
 - .cpy
 - .cql
 - .crl
 - .crt
-- .cs
-- .csdef
 - .csdl
 - .csh
 - .csharpierignore
 - .csharpierrc
 - .cson
-- .css
 - .csslintrc
 - .csx
 - .cu
@@ -195,7 +186,6 @@
 - .geojson
 - .geom
 - .gf
-- .gif
 - .gitattributes
 - .gitconfig
 - .gitignore
@@ -211,7 +201,6 @@
 - .groovy
 - .gyp
 - .gz
-- .h
 - .h1s
 - .haml
 - .handlebars
@@ -219,7 +208,6 @@
 - .hbs
 - .hcl
 - .hgignore
-- .hh
 - .hhc
 - .hhk
 - .hhp
@@ -227,15 +215,11 @@
 - .hjson
 - .hlp
 - .hlsl
-- .hpp
 - .hrl
 - .hs
 - .hss
 - .hsx
-- .hta
 - .htaccess
-- .htm
-- .html
 - .htpasswd
 - .hx
 - .hxml
@@ -244,8 +228,6 @@
 - .i
 - .ical
 - .iced
-- .icl
-- .ico
 - .ics
 - .idr
 - .idx
@@ -253,7 +235,6 @@
 - .igr
 - .imagemanifest
 - .inc
-- .ini
 - .ino
 - .ipkg
 - .irbrc
@@ -268,24 +249,16 @@
 - .java
 - .jl
 - .job
-- .jpe
-- .jpeg
-- .jpg
 - .jpmignore
-- .js
 - .js.erb
 - .jscsrc
-- .jse
 - .jshintignore
 - .jshintrc
 - .jshtml
-- .json
 - .json5
 - .jsonc
-- .jsonld
 - .jsp
 - .jss
-- .jsx
 - .jws
 - .keystore
 - .kit
@@ -322,18 +295,15 @@
 - .lua
 - .lucee
 - .m
-- .m4v
 - .mailmap
 - .mak
 - .makefile
 - .man
-- .manifest
 - .map
 - .markdown
 - .marko
 - .mat
 - .mc
-- .md
 - .mdb
 - .mde
 - .mdf
@@ -346,10 +316,8 @@
 - .mexrs6
 - .mgcb
 - .midi
-- .mjs
 - .mk
 - .mkfile
-- .mkv
 - .ml
 - .mli
 - .mll
@@ -360,11 +328,7 @@
 - .mn
 - .mo
 - .mod
-- .mov
 - .mp3
-- .mp4
-- .mpeg
-- .mpg
 - .mq4
 - .mq5
 - .mqh
@@ -375,7 +339,6 @@
 - .msl
 - .mst
 - .mtn-ignore
-- .mts
 - .mud
 - .mum
 - .mustache
@@ -411,7 +374,6 @@
 - .ocamlmakefile
 - .odb
 - .ogg
-- .ogv
 - .opml
 - .otf
 - .p
@@ -431,7 +393,6 @@
 - .pex
 - .pfa
 - .pfb
-- .pfx
 - .php
 - .php2
 - .php3
@@ -449,13 +410,11 @@
 - .plist
 - .pm
 - .pm6
-- .png
 - .po
 - .pod
 - .post
 - .postcss
 - .postcssrc
-- .potx
 - .pp
 - .pq
 - .prawn
@@ -495,7 +454,6 @@
 - .razortemplate
 - .rb
 - .rbx
-- .rc
 - .rdb
 - .rdl
 - .rds
@@ -531,7 +489,6 @@
 - .scm
 - .scmp
 - .scss
-- .sdf
 - .sfd
 - .sh
 - .shader
@@ -549,7 +506,6 @@
 - .slx
 - .smarty
 - .smv
-- .snippet
 - .so
 - .sol
 - .spark
@@ -581,7 +537,6 @@
 - .t4
 - .tag
 - .tar
-- .targets
 - .tcl
 - .tcshcsh
 - .template
@@ -590,7 +545,6 @@
 - .tf
 - .tfignore
 - .tfvars
-- .tga
 - .thrift
 - .tick
 - .tif
@@ -606,9 +560,7 @@
 - .topojson
 - .tpl
 - .tpp
-- .ts
 - .tsl
-- .tsx
 - .tt
 - .ttcn
 - .ttcn3
@@ -620,11 +572,9 @@
 - .ui
 - .uml
 - .uplugin
-- .uproject
 - .usql
 - .vars
 - .vash
-- .vb
 - .vbs
 - .vcf
 - .vcl
@@ -645,13 +595,11 @@
 - .vue
 - .wav
 - .wax
-- .webm
 - .webmanifest
 - .webp
 - .webtest
 - .wfdef
 - .wma
-- .wmv
 - .wof
 - .woff
 - .woff2
@@ -659,7 +607,6 @@
 - .wxi
 - .wxs
 - .xafml
-- .xaml
 - .xap
 - .xdt
 - .xdtpx
@@ -678,12 +625,10 @@
 - .xsjs
 - .xz
 - .y
-- .yaml
 - .yarn-integrity
 - .yarnclean
 - .yarnignore
 - .yarnrc
-- .yml
 - .zip
 - .zpl
 - .zsh

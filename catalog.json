@@ -327,13 +327,6 @@
       "size": 32
     },
     {
-      "name": "proto",
-      "id": 46,
-      "file": "proto.png",
-      "provenance": "legacy-unverified",
-      "size": 32
-    },
-    {
       "name": "semanticweb",
       "id": 47,
       "file": "semanticweb.png",
@@ -413,23 +406,9 @@
       "size": 32
     },
     {
-      "name": "haxedevelop",
-      "id": 58,
-      "file": "haxedevelop.png",
-      "provenance": "legacy-unverified",
-      "size": 32
-    },
-    {
       "name": "lime",
       "id": 59,
       "file": "lime.png",
-      "provenance": "legacy-unverified",
-      "size": 32
-    },
-    {
-      "name": "m",
-      "id": 60,
-      "file": "m.png",
       "provenance": "legacy-unverified",
       "size": 32
     },
@@ -860,19 +839,9 @@
       "moniker": "KnownMonikers.BinaryFile"
     },
     {
-      "extension": ".c",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CFile"
-    },
-    {
       "extension": ".clh",
       "category": "C/C++",
       "moniker": "KnownMonikers.CPPHeaderFile"
-    },
-    {
-      "extension": ".cpp",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CPPFileNode"
     },
     {
       "extension": ".cu",
@@ -900,24 +869,9 @@
       "moniker": "KnownMonikers.CFile"
     },
     {
-      "extension": ".h",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CPPHeaderFile"
-    },
-    {
-      "extension": ".hh",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CPPHeaderFile"
-    },
-    {
       "extension": ".hint",
       "category": "C/C++",
       "moniker": "KnownMonikers.Lightswitch"
-    },
-    {
-      "extension": ".hpp",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CPPHeaderFile"
     },
     {
       "extension": ".ispc",
@@ -970,16 +924,6 @@
       "moniker": "KnownMonikers.CFile"
     },
     {
-      "extension": ".cs",
-      "category": "C#",
-      "moniker": "KnownMonikers.CSFileNode"
-    },
-    {
-      "extension": ".csdef",
-      "category": "C#",
-      "moniker": "KnownMonikers.CSSourceFile"
-    },
-    {
       "extension": ".csx",
       "category": "C#",
       "moniker": "KnownMonikers.CSFileNode"
@@ -988,11 +932,6 @@
       "extension": ".cake",
       "category": "Cake",
       "moniker": "KnownMonikers.MakeFile"
-    },
-    {
-      "extension": ".cer",
-      "category": "Certificate",
-      "moniker": "KnownMonikers.Certificate"
     },
     {
       "extension": ".crl",
@@ -1021,11 +960,6 @@
     },
     {
       "extension": ".pem",
-      "category": "Certificate",
-      "moniker": "KnownMonikers.Certificate"
-    },
-    {
-      "extension": ".pfx",
       "category": "Certificate",
       "moniker": "KnownMonikers.Certificate"
     },
@@ -1155,11 +1089,6 @@
       "moniker": "KnownMonikers.ConfigurationFile"
     },
     {
-      "extension": ".config",
-      "category": "Config",
-      "moniker": "KnownMonikers.ConfigurationFile"
-    },
-    {
       "extension": ".dotsettings",
       "category": "Config",
       "moniker": "KnownMonikers.ConfigurationFile"
@@ -1178,11 +1107,6 @@
       "extension": ".htpasswd",
       "category": "Config",
       "image": "apache"
-    },
-    {
-      "extension": ".ini",
-      "category": "Config",
-      "moniker": "KnownMonikers.ConfigurationFile"
     },
     {
       "extension": ".ldif",
@@ -1246,11 +1170,6 @@
     },
     {
       "extension": ".ccss",
-      "category": "CSS",
-      "moniker": "KnownMonikers.StyleSheet"
-    },
-    {
-      "extension": ".css",
       "category": "CSS",
       "moniker": "KnownMonikers.StyleSheet"
     },
@@ -1481,11 +1400,6 @@
     },
     {
       "extension": ".s3db",
-      "category": "Databases",
-      "moniker": "KnownMonikers.Database"
-    },
-    {
-      "extension": ".sdf",
       "category": "Databases",
       "moniker": "KnownMonikers.Database"
     },
@@ -2025,21 +1939,6 @@
       "moniker": "KnownMonikers.HTMLFile"
     },
     {
-      "extension": ".hta",
-      "category": "HTML",
-      "moniker": "KnownMonikers.HTMLFile"
-    },
-    {
-      "extension": ".htm",
-      "category": "HTML",
-      "moniker": "KnownMonikers.HTMLFile"
-    },
-    {
-      "extension": ".html",
-      "category": "HTML",
-      "moniker": "KnownMonikers.HTMLFile"
-    },
-    {
       "extension": ".jshtml",
       "category": "HTML",
       "moniker": "KnownMonikers.HTMLFile"
@@ -2225,41 +2124,6 @@
       "moniker": "KnownMonikers.Image"
     },
     {
-      "extension": ".bmp",
-      "category": "Images",
-      "moniker": "KnownMonikers.Image"
-    },
-    {
-      "extension": ".gif",
-      "category": "Images",
-      "moniker": "KnownMonikers.Image"
-    },
-    {
-      "extension": ".icl",
-      "category": "Images",
-      "moniker": "KnownMonikers.Image"
-    },
-    {
-      "extension": ".ico",
-      "category": "Images",
-      "moniker": "KnownMonikers.Image"
-    },
-    {
-      "extension": ".jpe",
-      "category": "Images",
-      "moniker": "KnownMonikers.Image"
-    },
-    {
-      "extension": ".jpeg",
-      "category": "Images",
-      "moniker": "KnownMonikers.Image"
-    },
-    {
-      "extension": ".jpg",
-      "category": "Images",
-      "moniker": "KnownMonikers.Image"
-    },
-    {
       "extension": ".pdf",
       "category": "Images",
       "image": "pdf"
@@ -2270,22 +2134,12 @@
       "moniker": "KnownMonikers.Image"
     },
     {
-      "extension": ".png",
-      "category": "Images",
-      "moniker": "KnownMonikers.Image"
-    },
-    {
       "extension": ".psd",
       "category": "Images",
       "image": "photoshop"
     },
     {
       "extension": ".svg",
-      "category": "Images",
-      "moniker": "KnownMonikers.Image"
-    },
-    {
-      "extension": ".tga",
       "category": "Images",
       "moniker": "KnownMonikers.Image"
     },
@@ -2380,32 +2234,12 @@
       "moniker": "KnownMonikers.JSScript"
     },
     {
-      "extension": ".js",
-      "category": "JavaScript",
-      "moniker": "KnownMonikers.JSScript"
-    },
-    {
       "extension": ".js.erb",
       "category": "JavaScript",
       "moniker": "KnownMonikers.JSScript"
     },
     {
-      "extension": ".jse",
-      "category": "JavaScript",
-      "moniker": "KnownMonikers.JSScript"
-    },
-    {
       "extension": ".jss",
-      "category": "JavaScript",
-      "moniker": "KnownMonikers.JSScript"
-    },
-    {
-      "extension": ".jsx",
-      "category": "JavaScript",
-      "moniker": "KnownMonikers.JSXScript"
-    },
-    {
-      "extension": ".mjs",
       "category": "JavaScript",
       "moniker": "KnownMonikers.JSScript"
     },
@@ -2455,22 +2289,12 @@
       "moniker": "KnownMonikers.JSONScript"
     },
     {
-      "extension": ".json",
-      "category": "JSON",
-      "moniker": "KnownMonikers.JSONScript"
-    },
-    {
       "extension": ".json5",
       "category": "JSON",
       "moniker": "KnownMonikers.JSONScript"
     },
     {
       "extension": ".jsonc",
-      "category": "JSON",
-      "moniker": "KnownMonikers.JSONScript"
-    },
-    {
-      "extension": ".jsonld",
       "category": "JSON",
       "moniker": "KnownMonikers.JSONScript"
     },
@@ -2715,11 +2539,6 @@
       "moniker": "KnownMonikers.ManifestFile"
     },
     {
-      "extension": ".manifest",
-      "category": "Manifest",
-      "moniker": "KnownMonikers.ManifestFile"
-    },
-    {
       "extension": ".webmanifest",
       "category": "Manifest",
       "moniker": "KnownMonikers.ManifestFile"
@@ -2741,11 +2560,6 @@
     },
     {
       "extension": ".markdown",
-      "category": "Markdown",
-      "moniker": "KnownMonikers.MarkdownFile"
-    },
-    {
-      "extension": ".md",
       "category": "Markdown",
       "moniker": "KnownMonikers.MarkdownFile"
     },
@@ -3105,11 +2919,6 @@
       "image": "poedit"
     },
     {
-      "extension": ".potx",
-      "category": "Po Edit",
-      "image": "poedit"
-    },
-    {
       "extension": ".pbix",
       "category": "Power BI",
       "moniker": "KnownMonikers.LineChart"
@@ -3142,7 +2951,7 @@
     {
       "extension": ".proto",
       "category": "Protocol Buffers",
-      "image": "proto"
+      "moniker": "KnownMonikers.Grpc"
     },
     {
       "extension": ".epp",
@@ -3425,11 +3234,6 @@
       "moniker": "KnownMonikers.Console"
     },
     {
-      "extension": ".rc",
-      "category": "Shell files",
-      "moniker": "KnownMonikers.Console"
-    },
-    {
       "extension": ".sh",
       "category": "Shell files",
       "moniker": "KnownMonikers.Console"
@@ -3630,16 +3434,6 @@
       "image": "twig"
     },
     {
-      "extension": ".ts",
-      "category": "TypeScript",
-      "moniker": "KnownMonikers.TSFileNode"
-    },
-    {
-      "extension": ".tsx",
-      "category": "TypeScript",
-      "moniker": "KnownMonikers.TSFileNode"
-    },
-    {
       "extension": ".vhd",
       "category": "VHDL",
       "moniker": "KnownMonikers.FileSystemDriverFile"
@@ -3660,46 +3454,6 @@
       "moniker": "KnownMonikers.Media"
     },
     {
-      "extension": ".avi",
-      "category": "Video",
-      "moniker": "KnownMonikers.Media"
-    },
-    {
-      "extension": ".m4v",
-      "category": "Video",
-      "moniker": "KnownMonikers.Media"
-    },
-    {
-      "extension": ".mkv",
-      "category": "Video",
-      "moniker": "KnownMonikers.Media"
-    },
-    {
-      "extension": ".mov",
-      "category": "Video",
-      "moniker": "KnownMonikers.Media"
-    },
-    {
-      "extension": ".mp4",
-      "category": "Video",
-      "moniker": "KnownMonikers.Media"
-    },
-    {
-      "extension": ".mpeg",
-      "category": "Video",
-      "moniker": "KnownMonikers.Media"
-    },
-    {
-      "extension": ".mpg",
-      "category": "Video",
-      "moniker": "KnownMonikers.Media"
-    },
-    {
-      "extension": ".mts",
-      "category": "Video",
-      "moniker": "KnownMonikers.Media"
-    },
-    {
       "extension": ".nut",
       "category": "Video",
       "moniker": "KnownMonikers.Media"
@@ -3710,29 +3464,9 @@
       "moniker": "KnownMonikers.Media"
     },
     {
-      "extension": ".ogv",
-      "category": "Video",
-      "moniker": "KnownMonikers.Media"
-    },
-    {
       "extension": ".rm",
       "category": "Video",
       "moniker": "KnownMonikers.Media"
-    },
-    {
-      "extension": ".webm",
-      "category": "Video",
-      "moniker": "KnownMonikers.Media"
-    },
-    {
-      "extension": ".wmv",
-      "category": "Video",
-      "moniker": "KnownMonikers.Media"
-    },
-    {
-      "extension": ".vb",
-      "category": "Visual Basic",
-      "moniker": "KnownMonikers.VBFileNode"
     },
     {
       "extension": ".vbs",
@@ -3795,11 +3529,6 @@
       "moniker": "KnownMonikers.WPFFile"
     },
     {
-      "extension": ".xaml",
-      "category": "XAML",
-      "moniker": "KnownMonikers.WPFFile"
-    },
-    {
       "extension": ".aip",
       "category": "XML",
       "moniker": "KnownMonikers.XMLFile"
@@ -3855,19 +3584,9 @@
       "moniker": "KnownMonikers.XMLFile"
     },
     {
-      "extension": ".snippet",
-      "category": "XML",
-      "moniker": "KnownMonikers.XMLFile"
-    },
-    {
       "extension": ".so",
       "category": "XML",
       "moniker": "KnownMonikers.SharedProject"
-    },
-    {
-      "extension": ".targets",
-      "category": "XML",
-      "moniker": "KnownMonikers.XMLFile"
     },
     {
       "extension": ".tmlanguage",
@@ -3883,11 +3602,6 @@
       "extension": ".tmx",
       "category": "XML",
       "moniker": "KnownMonikers.XMLFile"
-    },
-    {
-      "extension": ".uproject",
-      "category": "XML",
-      "moniker": "KnownMonikers.SharedProject"
     },
     {
       "extension": ".vsixlangpack",
@@ -3956,16 +3670,6 @@
     },
     {
       "extension": ".toml",
-      "category": "YAML/TOML",
-      "moniker": "KnownMonikers.JSONScript"
-    },
-    {
-      "extension": ".yaml",
-      "category": "YAML/TOML",
-      "moniker": "KnownMonikers.JSONScript"
-    },
-    {
-      "extension": ".yml",
       "category": "YAML/TOML",
       "moniker": "KnownMonikers.JSONScript"
     },

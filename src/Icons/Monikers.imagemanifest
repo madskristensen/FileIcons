@@ -49,7 +49,6 @@
     <ID Name="scala" Value="43" />
     <ID Name="scheme" Value="44" />
     <ID Name="balsamiq" Value="45" />
-    <ID Name="proto" Value="46" />
     <ID Name="semanticweb" Value="47" />
     <ID Name="delphi" Value="48" />
     <ID Name="qt" Value="49" />
@@ -61,9 +60,7 @@
     <ID Name="coldfusion" Value="55" />
     <ID Name="flow" Value="56" />
     <ID Name="haxe" Value="57" />
-    <ID Name="haxedevelop" Value="58" />
     <ID Name="lime" Value="59" />
-    <ID Name="m" Value="60" />
     <ID Name="fortran" Value="61" />
     <ID Name="marko" Value="62" />
     <ID Name="nim" Value="63" />
@@ -318,11 +315,6 @@
         <Size Value="32" />
       </Source>
     </Image>
-    <Image Guid="$(MonikersGuid)" ID="$(proto)">
-      <Source Uri="$(Resources)/proto.png">
-        <Size Value="32" />
-      </Source>
-    </Image>
     <Image Guid="$(MonikersGuid)" ID="$(semanticweb)">
       <Source Uri="$(Resources)/semanticweb.png">
         <Dimensions Width="32" Height="33" />
@@ -378,18 +370,8 @@
         <Size Value="32" />
       </Source>
     </Image>
-    <Image Guid="$(MonikersGuid)" ID="$(haxedevelop)">
-      <Source Uri="$(Resources)/haxedevelop.png">
-        <Size Value="32" />
-      </Source>
-    </Image>
     <Image Guid="$(MonikersGuid)" ID="$(lime)">
       <Source Uri="$(Resources)/lime.png">
-        <Size Value="32" />
-      </Source>
-    </Image>
-    <Image Guid="$(MonikersGuid)" ID="$(m)">
-      <Source Uri="$(Resources)/m.png">
         <Size Value="32" />
       </Source>
     </Image>
