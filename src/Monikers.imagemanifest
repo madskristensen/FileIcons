@@ -436,9 +436,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(volt)">
-      <Source Uri="$(Resources)/volt.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/volt.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(neo4j)">
       <Source Uri="$(Resources)/neo4j.png">
