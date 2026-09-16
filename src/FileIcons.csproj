@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <EnableDefaultPageItems>false</EnableDefaultPageItems>
     <LangVersion>latest</LangVersion>
     <RootNamespace>FileIcons</RootNamespace>
 
