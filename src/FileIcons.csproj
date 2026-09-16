@@ -67,9 +67,6 @@
     <Content Include="Resources\Icon.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Resources\Preview.png">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Resource Include="Icons\*.png" />
     <Resource Include="Icons\*.xaml" />
   </ItemGroup>
