@@ -590,6 +590,14 @@
       "provenance": "verified",
       "source": "https://github.com/Azure/bicep/blob/main/docs/images/BicepLogoImage.svg",
       "license": "MIT"
+    },
+    {
+      "name": "svelte",
+      "id": 86,
+      "file": "svelte.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/sveltejs/branding/blob/master/svelte-logo.svg",
+      "license": "Svelte Branding Guidelines"
     }
   ],
   "associations": [
@@ -3710,8 +3718,8 @@
     },
     {
       "extension": ".svelte",
-      "category": "Web",
-      "moniker": "KnownMonikers.WebFile"
+      "category": "Svelte",
+      "image": "svelte"
     },
     {
       "extension": ".vtt",

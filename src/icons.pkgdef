@@ -1432,6 +1432,10 @@
 [$RootKey$\ShellFileAssociations\.xap]
 "DefaultIconMoniker"="KnownMonikers.Phone"
 
+; Svelte
+[$RootKey$\ShellFileAssociations\.svelte]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:86"
+
 ; Swagger/OpenAPI/General APIs
 [$RootKey$\ShellFileAssociations\.bdcr]
 "DefaultIconMoniker"="KnownMonikers.Services"
@@ -1555,10 +1559,6 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.vsixmanifest]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
-
-; Web
-[$RootKey$\ShellFileAssociations\.svelte]
-"DefaultIconMoniker"="KnownMonikers.WebFile"
 
 ; WebVTT
 [$RootKey$\ShellFileAssociations\.vtt]
