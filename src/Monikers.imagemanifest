@@ -143,9 +143,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(erb)">
-      <Source Uri="$(Resources)/erb.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/erb.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(erlang)">
       <Source Uri="$(Resources)/erlang.png">
