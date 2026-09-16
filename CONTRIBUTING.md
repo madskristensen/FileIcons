@@ -35,6 +35,8 @@ pwsh -NoProfile -File .\tools\Convert-SvgToXaml.ps1 `
   -Names clojure,erb,terraform
 ```
 
+To replace existing catalog PNGs in one validated operation, also pass `-CatalogPath`, `-SourceBaseUrl`, and `-License`. Catalog mode updates each matching custom image, removes its raster dimensions and old PNG, and records the pinned source URL. It does not modify the catalog unless every requested SVG converts successfully.
+
 Use PNG only when the source cannot be represented faithfully as WPF geometry or when the authoritative artwork is raster-only.
 
 Legacy images are marked `legacy-unverified` and should be audited incrementally.

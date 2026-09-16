@@ -8,11 +8,24 @@ param(
 
     [string[]]$Names,
 
-    [switch]$Force
+    [switch]$Force,
+
+    [string]$CatalogPath,
+
+    [string]$SourceBaseUrl,
+
+    [string]$License
 )
 
 $ErrorActionPreference = "Stop"
 $invariant = [System.Globalization.CultureInfo]::InvariantCulture
+
+if ($CatalogPath -and (-not $SourceBaseUrl -or -not $License)) {
+    throw "Catalog migration requires both -SourceBaseUrl and -License."
+}
+if (($SourceBaseUrl -or $License) -and -not $CatalogPath) {
+    throw "-SourceBaseUrl and -License can only be used with -CatalogPath."
+}
 
 function Get-Style {
     param(
@@ -306,6 +319,7 @@ if (-not $files) {
 }
 
 $converted = 0
+$convertedFiles = [System.Collections.Generic.List[object]]::new()
 $failures = [System.Collections.Generic.List[object]]::new()
 foreach ($file in $files) {
     $name = $file.BaseName -replace "^file_type_", ""
@@ -313,6 +327,11 @@ foreach ($file in $files) {
     try {
         Convert-File $file $destination
         $converted++
+        $convertedFiles.Add([pscustomobject]@{
+            Name = $name
+            SourceFile = $file
+            Destination = $destination
+        })
     }
     catch {
         $failures.Add([pscustomobject]@{
@@ -326,4 +345,54 @@ Write-Host "Converted $converted of $($files.Count) file icons."
 if ($failures.Count) {
     $failures | Format-Table -AutoSize -Wrap
     throw "$($failures.Count) SVG file(s) use unsupported features."
+}
+
+if ($CatalogPath) {
+    $resolvedCatalogPath = (Resolve-Path $CatalogPath).Path
+    $catalog = Get-Content $resolvedCatalogPath -Raw | ConvertFrom-Json
+    $outputRoot = [System.IO.Path]::GetFullPath($OutputDirectory).TrimEnd("\") + "\"
+    $migrations = [System.Collections.Generic.List[object]]::new()
+
+    foreach ($convertedFile in $convertedFiles) {
+        $image = @($catalog.customImages | Where-Object name -eq $convertedFile.Name)
+        if ($image.Count -ne 1) {
+            throw "Catalog must contain exactly one custom image named '$($convertedFile.Name)'."
+        }
+        if ($image[0].file -notlike "*.png") {
+            throw "Catalog image '$($convertedFile.Name)' does not reference a PNG: $($image[0].file)"
+        }
+
+        $oldAsset = [System.IO.Path]::GetFullPath((Join-Path $OutputDirectory $image[0].file))
+        if (-not $oldAsset.StartsWith($outputRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
+            throw "Catalog asset resolves outside the output directory: $oldAsset"
+        }
+        if (-not (Test-Path $oldAsset -PathType Leaf)) {
+            throw "Catalog PNG was not found: $oldAsset"
+        }
+
+        $migrations.Add([pscustomobject]@{
+            Image = $image[0]
+            OldAsset = $oldAsset
+            NewFile = [System.IO.Path]::GetFileName($convertedFile.Destination)
+            Source = "$($SourceBaseUrl.TrimEnd("/"))/$($convertedFile.SourceFile.Name)"
+        })
+    }
+
+    foreach ($migration in $migrations) {
+        $migration.Image.file = $migration.NewFile
+        $migration.Image.provenance = "verified"
+        foreach ($property in "size", "width", "height") {
+            $migration.Image.PSObject.Properties.Remove($property)
+        }
+        $migration.Image | Add-Member -NotePropertyName source -NotePropertyValue $migration.Source -Force
+        $migration.Image | Add-Member -NotePropertyName license -NotePropertyValue $License -Force
+    }
+
+    if ($PSCmdlet.ShouldProcess($resolvedCatalogPath, "Migrate $($migrations.Count) catalog images from PNG to XAML")) {
+        $json = $catalog | ConvertTo-Json -Depth 10
+        [System.IO.File]::WriteAllText($resolvedCatalogPath, $json + [Environment]::NewLine, [System.Text.UTF8Encoding]::new($false))
+        foreach ($migration in $migrations) {
+            Remove-Item $migration.OldAsset
+        }
+    }
 }
