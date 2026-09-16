@@ -1,4 +1,4 @@
-## Supported File Extensions (672)
+## Supported File Extensions (673)
 
 - .7z
 - .aar
@@ -80,6 +80,7 @@
 - .cmd
 - .cob
 - .codeclonesettings
+- .codeql
 - .coffee
 - .conf
 - .conmgr

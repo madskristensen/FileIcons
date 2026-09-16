@@ -1429,6 +1429,8 @@
 "DefaultIconMoniker"="KnownMonikers.DatabaseFile"
 
 ; Static analysis
+[$RootKey$\ShellFileAssociations\.codeql]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:87"
 [$RootKey$\ShellFileAssociations\.stylecop]
 "DefaultIconMoniker"="KnownMonikers.RunQuery"
 

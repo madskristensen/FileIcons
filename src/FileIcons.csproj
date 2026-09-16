@@ -57,6 +57,9 @@
     <Content Include="..\LICENSE" Link="Resources\LICENSE">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="..\THIRD-PARTY-NOTICES.txt" Link="Resources\THIRD-PARTY-NOTICES.txt">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>
