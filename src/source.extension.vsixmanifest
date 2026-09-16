@@ -23,6 +23,7 @@
     <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" DisplayName="Visual Studio core editor" Version="[15.0,)" />
   </Prerequisites>
   <Assets>
+    <Asset Type="Microsoft.VisualStudio.ImageManifest" Path="Monikers.imagemanifest" />
     <Asset Type="Microsoft.VisualStudio.VsPackage" Path="icons.pkgdef" d:Source="File" />
     <Asset Type="Microsoft.VisualStudio.VsPackage" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" d:Source="Project" d:ProjectName="%CurrentProject%" />
   </Assets>
