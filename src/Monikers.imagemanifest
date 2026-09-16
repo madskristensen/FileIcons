@@ -83,6 +83,7 @@
     <ID Name="mqh" Value="80" />
     <ID Name="csharpier" Value="81" />
     <ID Name="solidity" Value="82" />
+    <ID Name="avalonia" Value="83" />
   </Symbols>
   <Images>
     <Image Guid="$(MonikersGuid)" ID="$(dart)">
@@ -484,6 +485,9 @@
       <Source Uri="$(Resources)/solidity.png">
         <Size Value="32" />
       </Source>
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(avalonia)">
+      <Source Uri="$(Resources)/avalonia.xaml" />
     </Image>
   </Images>
 </ImageManifest>

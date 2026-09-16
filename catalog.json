@@ -566,6 +566,14 @@
       "file": "solidity.png",
       "provenance": "legacy-unverified",
       "size": 32
+    },
+    {
+      "name": "avalonia",
+      "id": 83,
+      "file": "avalonia.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/AvaloniaUI/Avalonia/blob/master/build/Assets/icon.svg",
+      "license": "MIT"
     }
   ],
   "associations": [
@@ -822,7 +830,7 @@
     {
       "extension": ".axaml",
       "category": "Avalonia",
-      "moniker": "KnownMonikers.WPFFile"
+      "image": "avalonia"
     },
     {
       "extension": ".bmml",
