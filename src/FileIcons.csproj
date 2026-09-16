@@ -71,6 +71,7 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Resource Include="Icons\*.png" />
+    <Resource Include="Icons\*.xaml" />
   </ItemGroup>
 
   <ItemGroup>

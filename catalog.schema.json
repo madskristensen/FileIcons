@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/madskristensen/FileIcons/catalog.schema.json",
+  "title": "File Icons catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "customMonikerGuid",
+    "customImages",
+    "associations"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "customMonikerGuid": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "customImages": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/customImage"
+      }
+    },
+    "associations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/association"
+      }
+    }
+  },
+  "$defs": {
+    "customImage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "id",
+        "file",
+        "provenance"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$"
+        },
+        "id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "file": {
+          "type": "string",
+          "pattern": "^[^\\\\/]+\\.(png|xaml)$"
+        },
+        "provenance": {
+          "enum": [
+            "legacy-unverified",
+            "verified"
+          ]
+        },
+        "source": {
+          "type": "string",
+          "format": "uri"
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1
+        },
+        "size": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "verified"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "source",
+              "license"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "file": {
+                "pattern": "\\.png$"
+              }
+            }
+          },
+          "then": {
+            "anyOf": [
+              {
+                "required": [
+                  "size"
+                ]
+              },
+              {
+                "required": [
+                  "width",
+                  "height"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "association": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "extension",
+        "category"
+      ],
+      "properties": {
+        "extension": {
+          "type": "string",
+          "pattern": "^\\.[a-z0-9][a-z0-9._+-]*$"
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "moniker": {
+          "type": "string",
+          "pattern": "^KnownMonikers\\.[A-Za-z0-9_]+$"
+        },
+        "image": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$"
+        }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "moniker"
+          ],
+          "not": {
+            "required": [
+              "image"
+            ]
+          }
+        },
+        {
+          "required": [
+            "image"
+          ],
+          "not": {
+            "required": [
+              "moniker"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

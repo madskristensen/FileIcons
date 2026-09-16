@@ -38,7 +38,7 @@ body:
     id: icon
     attributes:
       label: Suggested official icon URL
-      description: Link to an authoritative icon source when one exists.
+      description: Link to an authoritative icon source when one exists. SVG is preferred because it can be converted to size-neutral XAML.
 
   - type: input
     id: license

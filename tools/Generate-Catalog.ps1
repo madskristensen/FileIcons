@@ -216,6 +216,30 @@ foreach ($image in $catalog.customImages) {
         throw "Custom image file is missing: $imagePath"
     }
 
+    $imageExtension = [System.IO.Path]::GetExtension($image.file).ToLowerInvariant()
+    if ($imageExtension -notin ".png", ".xaml") {
+        throw "Custom image '$($image.name)' must use a PNG or XAML file."
+    }
+
+    if ($imageExtension -eq ".png" -and
+        -not $image.size -and
+        (-not $image.width -or -not $image.height)) {
+        throw "PNG image '$($image.name)' must specify size or width and height."
+    }
+
+    if ($imageExtension -eq ".xaml") {
+        if ($image.size -or $image.width -or $image.height) {
+            throw "XAML image '$($image.name)' must be size-neutral and omit raster dimensions."
+        }
+
+        try {
+            $null = [xml](Get-Content $imagePath -Raw)
+        }
+        catch {
+            throw "XAML image '$($image.name)' is not well-formed XML: $($_.Exception.Message)"
+        }
+    }
+
     if (-not $image.provenance) {
         throw "Custom image '$($image.name)' has no provenance."
     }
@@ -229,7 +253,9 @@ foreach ($image in $catalog.customImages) {
 }
 
 $catalogImageFiles = @($catalog.customImages.file | Sort-Object -Unique)
-$diskImageFiles = @(Get-ChildItem (Join-Path $srcRoot "Icons") -Filter *.png -File | Select-Object -ExpandProperty Name)
+$diskImageFiles = @(Get-ChildItem (Join-Path $srcRoot "Icons") -File |
+    Where-Object Extension -in ".png", ".xaml" |
+    Select-Object -ExpandProperty Name)
 $unlistedImageFiles = @($diskImageFiles | Where-Object { $_ -notin $catalogImageFiles })
 if ($unlistedImageFiles) {
     throw "Image files are not listed in the catalog: $($unlistedImageFiles -join ', ')"
@@ -296,14 +322,19 @@ $null = $manifest.AppendLine('  </Symbols>')
 $null = $manifest.AppendLine('  <Images>')
 foreach ($image in $catalog.customImages | Sort-Object id, name) {
     $null = $manifest.AppendLine("    <Image Guid=`"`$(MonikersGuid)`" ID=`"`$($($image.name))`">")
-    $null = $manifest.AppendLine("      <Source Uri=`"`$(Resources)/$($image.file)`">")
     if ($image.size) {
+        $null = $manifest.AppendLine("      <Source Uri=`"`$(Resources)/$($image.file)`">")
         $null = $manifest.AppendLine("        <Size Value=`"$($image.size)`" />")
+        $null = $manifest.AppendLine('      </Source>')
+    }
+    elseif ($image.width -and $image.height) {
+        $null = $manifest.AppendLine("      <Source Uri=`"`$(Resources)/$($image.file)`">")
+        $null = $manifest.AppendLine("        <Dimensions Width=`"$($image.width)`" Height=`"$($image.height)`" />")
+        $null = $manifest.AppendLine('      </Source>')
     }
     else {
-        $null = $manifest.AppendLine("        <Dimensions Width=`"$($image.width)`" Height=`"$($image.height)`" />")
+        $null = $manifest.AppendLine("      <Source Uri=`"`$(Resources)/$($image.file)`" />")
     }
-    $null = $manifest.AppendLine('      </Source>')
     $null = $manifest.AppendLine('    </Image>')
 }
 $null = $manifest.AppendLine('  </Images>')

@@ -14,15 +14,19 @@ The generator rejects duplicate extensions, duplicate custom moniker IDs, invali
 
 ## Custom artwork
 
-Only add custom artwork when the Visual Studio Image Catalog has no suitable image. New custom image records must contain:
+Only add custom artwork when the Visual Studio Image Catalog has no suitable image. Prefer a size-neutral XAML image converted from an official SVG over a raster image. New custom image records must contain:
 
 - a unique name and numeric ID
-- the PNG file name
+- the XAML or PNG file name
 - a source URL
 - an SPDX license identifier or concise redistribution terms
 - `provenance` set to `verified`
 
 Logos can also be protected by trademarks even when their source repository has an open-source license. Use official artwork without altering the brand, and do not add an asset when redistribution rights are unclear.
+
+For SVG artwork, preserve the SVG `viewBox` and translate paths into WPF geometry inside a XAML drawing. Flatten CSS classes and transforms first. SVG filters, scripts, text, external resources, masks, and unsupported paint servers must not be copied into the XAML. Do not add raster dimensions to XAML catalog entries; this lets the Visual Studio image service scale the vector source. Validate the result in Image Library Viewer under light, dark, high-contrast, and multiple-DPI settings.
+
+Use PNG only when the source cannot be represented faithfully as WPF geometry or when the authoritative artwork is raster-only.
 
 Legacy images are marked `legacy-unverified` and should be audited incrementally.
 

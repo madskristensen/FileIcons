@@ -1,4 +1,5 @@
 {
+  "$schema": "catalog.schema.json",
   "schemaVersion": 1,
   "customMonikerGuid": "cb4a8fc6-efe7-424a-b611-23adf22b568e",
   "customImages": [
