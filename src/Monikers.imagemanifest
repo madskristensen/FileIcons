@@ -266,9 +266,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(vue)">
-      <Source Uri="$(Resources)/vue.png">
-        <Size Value="50" />
-      </Source>
+      <Source Uri="$(Resources)/vue.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(zip)">
       <Source Uri="$(Resources)/zip.png">
