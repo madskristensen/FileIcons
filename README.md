@@ -28,6 +28,18 @@ Contributions should prefer a public Visual Studio `KnownMoniker` when one accur
 
 Build the solution with Visual Studio 2022 or later. The SDK-style project restores all required VSSDK packages automatically.
 
+The icon catalog is generated from `catalog.json`. After changing it, run:
+
+```powershell
+pwsh -NoProfile -File .\tools\Generate-Catalog.ps1
+```
+
+Maintainers can rank coverage gaps from an aggregate telemetry export without adding the export to the repository:
+
+```powershell
+pwsh -NoProfile -File .\tools\Get-TelemetryCoverage.ps1 -CsvPath <path-to-csv>
+```
+
 ## Credits
 
 Some original artwork came from the [vscode-icons](https://github.com/vscode-icons-team/vscode-icons) project.
