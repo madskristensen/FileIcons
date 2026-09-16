@@ -1509,6 +1509,8 @@
 ; Text
 [$RootKey$\ShellFileAssociations\.mc]
 "DefaultIconMoniker"="KnownMonikers.TextFile"
+[$RootKey$\ShellFileAssociations\.tsv]
+"DefaultIconMoniker"="KnownMonikers.OfficeExcel2013"
 
 ; Twig
 [$RootKey$\ShellFileAssociations\.twig]

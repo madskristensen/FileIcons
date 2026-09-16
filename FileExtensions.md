@@ -1,4 +1,4 @@
-## Supported File Extensions (669)
+## Supported File Extensions (670)
 
 - .7z
 - .aar
@@ -590,6 +590,7 @@
 - .tpl
 - .tpp
 - .tsl
+- .tsv
 - .tt
 - .ttcn
 - .ttcn3

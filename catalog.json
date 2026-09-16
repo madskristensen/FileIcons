@@ -3627,6 +3627,11 @@
       "moniker": "KnownMonikers.TextFile"
     },
     {
+      "extension": ".tsv",
+      "category": "Text",
+      "moniker": "KnownMonikers.OfficeExcel2013"
+    },
+    {
       "extension": ".twig",
       "category": "Twig",
       "image": "twig"
