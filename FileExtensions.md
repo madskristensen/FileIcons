@@ -1,4 +1,4 @@
-## Supported File Extensions (673)
+## Supported File Extensions (674)
 
 - .7z
 - .aar
@@ -670,6 +670,7 @@
 - .yarnclean
 - .yarnignore
 - .yarnrc
+- .zig
 - .zip
 - .zpl
 - .zsh

@@ -90,6 +90,7 @@
     <ID Name="codeql" Value="87" />
     <ID Name="wasm" Value="88" />
     <ID Name="nix" Value="89" />
+    <ID Name="zig" Value="90" />
   </Symbols>
   <Images>
     <Image Guid="$(MonikersGuid)" ID="$(dart)">
@@ -500,6 +501,9 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(nix)">
       <Source Uri="$(Resources)/nix.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(zig)">
+      <Source Uri="$(Resources)/zig.xaml" />
     </Image>
   </Images>
 </ImageManifest>
