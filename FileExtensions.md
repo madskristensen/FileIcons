@@ -1,4 +1,4 @@
-## Supported File Extensions (670)
+## Supported File Extensions (672)
 
 - .7z
 - .aar
@@ -119,6 +119,7 @@
 - .diff
 - .dml
 - .do
+- .docker
 - .dockerignore
 - .dotsettings
 - .dpr
@@ -479,6 +480,7 @@
 - .razortemplate
 - .rb
 - .rbx
+- .rc
 - .rdb
 - .rdl
 - .rds

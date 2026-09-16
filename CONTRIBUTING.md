@@ -4,7 +4,7 @@
 
 `catalog.json` is the source of truth for file associations and custom images. Do not edit `src\icons.pkgdef`, `src\Monikers.imagemanifest`, or `FileExtensions.md` directly.
 
-1. Check the current Visual Studio Image Catalog and shipped `ShellFileAssociations`.
+1. Check the current Visual Studio Image Catalog and shipped `ShellFileAssociations`. Treat an association as redundant only when it ships in the core shell; workload-specific registrations are not available to every user.
 2. Prefer a public `KnownMonikers.*` value when it accurately represents the format.
 3. Add or update the association in `catalog.json`.
 4. Run `pwsh -NoProfile -File .\tools\Generate-Catalog.ps1`.

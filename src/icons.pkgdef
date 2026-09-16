@@ -509,6 +509,8 @@
 ; Docker
 [$RootKey$\ShellFileAssociations\.dcproj]
 "DefaultIconMoniker"="KnownMonikers.Docker"
+[$RootKey$\ShellFileAssociations\.docker]
+"DefaultIconMoniker"="KnownMonikers.Docker"
 
 ; Elixir
 [$RootKey$\ShellFileAssociations\.eex]
@@ -1392,6 +1394,8 @@
 [$RootKey$\ShellFileAssociations\.post]
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.pre]
+"DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.rc]
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.sh]
 "DefaultIconMoniker"="KnownMonikers.Console"

@@ -1677,6 +1677,11 @@
       "moniker": "KnownMonikers.Docker"
     },
     {
+      "extension": ".docker",
+      "category": "Docker",
+      "moniker": "KnownMonikers.Docker"
+    },
+    {
       "extension": ".eex",
       "category": "Elixir",
       "image": "elixir"
@@ -3423,6 +3428,11 @@
     },
     {
       "extension": ".pre",
+      "category": "Shell files",
+      "moniker": "KnownMonikers.Console"
+    },
+    {
+      "extension": ".rc",
       "category": "Shell files",
       "moniker": "KnownMonikers.Console"
     },
