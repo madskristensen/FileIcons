@@ -276,9 +276,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(qt)">
-      <Source Uri="$(Resources)/qt.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/qt.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(actionscript)">
       <Source Uri="$(Resources)/actionscript.xaml" />
