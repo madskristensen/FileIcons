@@ -296,9 +296,7 @@
       <Source Uri="$(Resources)/cobol.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(coldfusion)">
-      <Source Uri="$(Resources)/coldfusion.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/coldfusion.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(flow)">
       <Source Uri="$(Resources)/flow.png">
