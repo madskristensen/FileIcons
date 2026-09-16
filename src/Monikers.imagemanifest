@@ -443,9 +443,7 @@
       </Source>
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(terraform)">
-      <Source Uri="$(Resources)/terraform.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/terraform.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(tcl)">
       <Source Uri="$(Resources)/tcl.png">
