@@ -582,6 +582,14 @@
       "provenance": "verified",
       "source": "https://github.com/graphql/graphql.github.io/blob/source/public/img/brand/logos/logo.svg",
       "license": "MIT; GraphQL Foundation brand guidelines and LF Projects trademark policy"
+    },
+    {
+      "name": "bicep",
+      "id": 85,
+      "file": "bicep.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/Azure/bicep/blob/main/docs/images/BicepLogoImage.svg",
+      "license": "MIT"
     }
   ],
   "associations": [
@@ -853,12 +861,12 @@
     {
       "extension": ".bicep",
       "category": "Bicep",
-      "moniker": "KnownMonikers.AzureResourceGroup"
+      "image": "bicep"
     },
     {
       "extension": ".bicepparam",
       "category": "Bicep",
-      "moniker": "KnownMonikers.AzureResourceGroup"
+      "image": "bicep"
     },
     {
       "extension": ".ace",
