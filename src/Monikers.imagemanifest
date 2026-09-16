@@ -111,9 +111,7 @@
       <Source Uri="$(Resources)/csslint.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(d)">
-      <Source Uri="$(Resources)/d.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/d.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(editorconfig)">
       <Source Uri="$(Resources)/editorconfig.xaml" />
