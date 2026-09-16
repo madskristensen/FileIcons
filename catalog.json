@@ -678,6 +678,14 @@
       "provenance": "verified",
       "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_zig.svg",
       "license": "MIT; see THIRD-PARTY-NOTICES.txt"
+    },
+    {
+      "name": "excalidraw",
+      "id": 91,
+      "file": "excalidraw.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_excalidraw.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     }
   ],
   "associations": [
@@ -1759,7 +1767,7 @@
     {
       "extension": ".excalidraw",
       "category": "Diagrams",
-      "moniker": "KnownMonikers.Diagram"
+      "image": "excalidraw"
     },
     {
       "extension": ".mdj",

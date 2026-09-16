@@ -91,6 +91,7 @@
     <ID Name="wasm" Value="88" />
     <ID Name="nix" Value="89" />
     <ID Name="zig" Value="90" />
+    <ID Name="excalidraw" Value="91" />
   </Symbols>
   <Images>
     <Image Guid="$(MonikersGuid)" ID="$(dart)">
@@ -416,6 +417,9 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(zig)">
       <Source Uri="$(Resources)/zig.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(excalidraw)">
+      <Source Uri="$(Resources)/excalidraw.xaml" />
     </Image>
   </Images>
 </ImageManifest>
