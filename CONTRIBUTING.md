@@ -26,6 +26,15 @@ Logos can also be protected by trademarks even when their source repository has 
 
 For SVG artwork, preserve the SVG `viewBox` and translate paths into WPF geometry inside XAML with a renderable `Viewbox` or `Canvas` root. A standalone `DrawingImage` can be loaded by WPF but is not rendered by the Visual Studio image service. Flatten CSS classes and transforms first. SVG filters, scripts, text, external resources, masks, and unsupported paint servers must not be copied into the XAML. Do not add raster dimensions to XAML catalog entries; this lets the Visual Studio image service scale the vector source. Validate the result in Image Library Viewer under light, dark, high-contrast, and multiple-DPI settings.
 
+For SVGs containing only solid paths, polygons, rectangles, circles, and groups, use `tools\Convert-SvgToXaml.ps1`. The converter accepts only `file_type_*.svg` inputs and deliberately ignores folder icons. It fails on gradients, transforms, CSS classes, external images, masks, and other unsupported constructs rather than producing an approximate icon:
+
+```powershell
+pwsh -NoProfile -File .\tools\Convert-SvgToXaml.ps1 `
+  -InputPath C:\path\to\icons `
+  -OutputDirectory .\src\Icons `
+  -Names clojure,erb,terraform
+```
+
 Use PNG only when the source cannot be represented faithfully as WPF geometry or when the authoritative artwork is raster-only.
 
 Legacy images are marked `legacy-unverified` and should be audited incrementally.
