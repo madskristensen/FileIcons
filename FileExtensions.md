@@ -1,4 +1,4 @@
-## Supported File Extensions (632)
+## Supported File Extensions (669)
 
 - .7z
 - .aar
@@ -18,21 +18,27 @@
 - .asaql
 - .asf
 - .asm
+- .asmdef
 - .asn
 - .asp
 - .atg
 - .atom
+- .avif
+- .axaml
 - .axml
 - .azurepubxml
 - .babelignore
 - .babelrc
 - .bacpac
+- .bak
 - .bash
 - .bat
 - .bbx
 - .bdcm
 - .bdcr
 - .bib
+- .bicep
+- .bicepparam
 - .bil
 - .bim
 - .bmml
@@ -101,6 +107,7 @@
 - .dbml
 - .dbs
 - .dcmp
+- .dcproj
 - .ddl
 - .delta
 - .dependencies
@@ -108,12 +115,15 @@
 - .dgml
 - .dhtml
 - .diagram
+- .diagsession
 - .diff
 - .dml
 - .do
 - .dockerignore
 - .dotsettings
 - .dpr
+- .drawio
+- .dtproj
 - .dtsx
 - .dxview
 - .ebnf
@@ -139,8 +149,11 @@
 - .es6
 - .eslintignore
 - .eslintrc
+- .esproj
 - .etcjs
 - .ex
+- .example
+- .excalidraw
 - .exclude
 - .exs
 - .eyaml
@@ -156,8 +169,10 @@
 - .fdb
 - .feature
 - .fig
+- .filters
 - .fish
 - .fla
+- .flac
 - .flooignore
 - .flow
 - .flowconfig
@@ -186,6 +201,7 @@
 - .geojson
 - .geom
 - .gf
+- .gguf
 - .gitattributes
 - .gitconfig
 - .gitignore
@@ -207,6 +223,7 @@
 - .has
 - .hbs
 - .hcl
+- .heic
 - .hgignore
 - .hhc
 - .hhk
@@ -215,6 +232,7 @@
 - .hjson
 - .hlp
 - .hlsl
+- .hlsli
 - .hrl
 - .hs
 - .hss
@@ -237,9 +255,11 @@
 - .inc
 - .ino
 - .ipkg
+- .ipynb
 - .irbrc
 - .isl
 - .ispc
+- .iss
 - .issuetracker
 - .iuml
 - .j2
@@ -262,6 +282,7 @@
 - .jws
 - .keystore
 - .kit
+- .kql
 - .l
 - .lava
 - .layout
@@ -310,6 +331,7 @@
 - .mdj
 - .mdn
 - .mdown
+- .mdpuml
 - .merlin
 - .mex
 - .mexn
@@ -335,6 +357,7 @@
 - .mrt
 - .msbuild
 - .msc
+- .msdax
 - .mshc
 - .msl
 - .mst
@@ -352,6 +375,7 @@
 - .nim
 - .nimble
 - .nims
+- .nix
 - .nj
 - .njk
 - .njs
@@ -382,6 +406,7 @@
 - .p6
 - .p7b
 - .par
+- .params
 - .pas
 - .patch
 - .pbix
@@ -482,6 +507,7 @@
 - .rwd
 - .s
 - .s3db
+- .sarif
 - .sass
 - .sbt
 - .scala
@@ -517,6 +543,7 @@
 - .sqlite3
 - .sqlite3-journal
 - .sqlitedb
+- .sqlplan
 - .sqx
 - .ssdl
 - .ssmssln
@@ -527,6 +554,7 @@
 - .styl
 - .stylecop
 - .stylelintrc
+- .svelte
 - .svg
 - .svnignore
 - .swf
@@ -541,6 +569,7 @@
 - .tcshcsh
 - .template
 - .ter
+- .testlog
 - .tex
 - .tf
 - .tfignore
@@ -572,13 +601,17 @@
 - .ui
 - .uml
 - .uplugin
+- .usf
+- .ush
 - .usql
+- .uss
 - .vars
 - .vash
 - .vbs
 - .vcf
 - .vcl
 - .vdb3
+- .vdproj
 - .vert
 - .vhd
 - .vhdl
@@ -593,12 +626,14 @@
 - .vsspell
 - .vtt
 - .vue
+- .wasm
 - .wav
 - .wax
 - .webmanifest
 - .webp
 - .webtest
 - .wfdef
+- .wixproj
 - .wma
 - .wof
 - .woff
@@ -615,8 +650,10 @@
 - .xhtml
 - .xib
 - .xlf
+- .xmla
 - .xnb
 - .xpo
+- .xpp
 - .xq
 - .xql
 - .xqm

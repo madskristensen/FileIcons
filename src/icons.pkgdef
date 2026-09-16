@@ -113,6 +113,8 @@
 "DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; Audio
+[$RootKey$\ShellFileAssociations\.flac]
+"DefaultIconMoniker"="KnownMonikers.Sound"
 [$RootKey$\ShellFileAssociations\.midi]
 "DefaultIconMoniker"="KnownMonikers.Sound"
 [$RootKey$\ShellFileAssociations\.mp3]
@@ -122,18 +124,32 @@
 [$RootKey$\ShellFileAssociations\.wma]
 "DefaultIconMoniker"="KnownMonikers.Sound"
 
+; Avalonia
+[$RootKey$\ShellFileAssociations\.axaml]
+"DefaultIconMoniker"="KnownMonikers.WPFFile"
+
 ; Balsamiq
 [$RootKey$\ShellFileAssociations\.bmml]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:45"
 [$RootKey$\ShellFileAssociations\.bmpr]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:45"
 
+; Bicep
+[$RootKey$\ShellFileAssociations\.bicep]
+"DefaultIconMoniker"="KnownMonikers.AzureResourceGroup"
+[$RootKey$\ShellFileAssociations\.bicepparam]
+"DefaultIconMoniker"="KnownMonikers.AzureResourceGroup"
+
 ; Binary
 [$RootKey$\ShellFileAssociations\.ace]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.bak]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.cab]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.dat]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.wasm]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 
 ; C/C++
@@ -143,6 +159,8 @@
 "DefaultIconMoniker"="KnownMonikers.CPPSourceFile"
 [$RootKey$\ShellFileAssociations\.cuh]
 "DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
+[$RootKey$\ShellFileAssociations\.filters]
+"DefaultIconMoniker"="KnownMonikers.CPPProjectFilterFile"
 [$RootKey$\ShellFileAssociations\.frag]
 "DefaultIconMoniker"="KnownMonikers.CFile"
 [$RootKey$\ShellFileAssociations\.geom]
@@ -246,6 +264,10 @@
 [$RootKey$\ShellFileAssociations\.lucee]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:55"
 
+; Compilable
+[$RootKey$\ShellFileAssociations\.nix]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
 ; Config
 [$RootKey$\ShellFileAssociations\.bundle]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
@@ -283,6 +305,10 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.uplugin]
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+
+; Configuration
+[$RootKey$\ShellFileAssociations\.params]
+"DefaultIconMoniker"="KnownMonikers.Parameter"
 
 ; CSharpier
 [$RootKey$\ShellFileAssociations\.csharpierignore]
@@ -351,6 +377,8 @@
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.dml]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.dtproj]
+"DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.edml]
 "DefaultIconMoniker"="KnownMonikers.EntityDatabase"
 [$RootKey$\ShellFileAssociations\.efmodel]
@@ -371,6 +399,8 @@
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.idx]
 "DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.kql]
+"DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.layout]
 "DefaultIconMoniker"="KnownMonikers.PageLayout"
 [$RootKey$\ShellFileAssociations\.mdb]
@@ -381,6 +411,8 @@
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.mmdb]
 "DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.msdax]
+"DefaultIconMoniker"="KnownMonikers.Analysis"
 [$RootKey$\ShellFileAssociations\.msl]
 "DefaultIconMoniker"="KnownMonikers.BDCModelResource"
 [$RootKey$\ShellFileAssociations\.myd]
@@ -405,6 +437,8 @@
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.sqlitedb]
 "DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.sqlplan]
+"DefaultIconMoniker"="KnownMonikers.Plan"
 [$RootKey$\ShellFileAssociations\.sqx]
 "DefaultIconMoniker"="KnownMonikers.IntellisenseDatabase"
 [$RootKey$\ShellFileAssociations\.ssdl]
@@ -419,6 +453,8 @@
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.vdb3]
 "DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.xmla]
+"DefaultIconMoniker"="KnownMonikers.AnalysisServerConnection"
 [$RootKey$\ShellFileAssociations\.xpo]
 "DefaultIconMoniker"="KnownMonikers.DatabaseScript"
 
@@ -436,6 +472,12 @@
 [$RootKey$\ShellFileAssociations\.dxview]
 "DefaultIconMoniker"="KnownMonikers.PageLayout"
 
+; Diagnostics
+[$RootKey$\ShellFileAssociations\.diagsession]
+"DefaultIconMoniker"="KnownMonikers.Performance"
+[$RootKey$\ShellFileAssociations\.sarif]
+"DefaultIconMoniker"="KnownMonikers.Analysis"
+
 ; Diagrams
 [$RootKey$\ShellFileAssociations\.bdcm]
 "DefaultIconMoniker"="KnownMonikers.Class"
@@ -447,7 +489,13 @@
 "DefaultIconMoniker"="KnownMonikers.Diagram"
 [$RootKey$\ShellFileAssociations\.diagram]
 "DefaultIconMoniker"="KnownMonikers.Diagram"
+[$RootKey$\ShellFileAssociations\.drawio]
+"DefaultIconMoniker"="KnownMonikers.Diagram"
+[$RootKey$\ShellFileAssociations\.excalidraw]
+"DefaultIconMoniker"="KnownMonikers.Diagram"
 [$RootKey$\ShellFileAssociations\.mdj]
+"DefaultIconMoniker"="KnownMonikers.UMLModel"
+[$RootKey$\ShellFileAssociations\.mdpuml]
 "DefaultIconMoniker"="KnownMonikers.UMLModel"
 [$RootKey$\ShellFileAssociations\.uml]
 "DefaultIconMoniker"="KnownMonikers.UMLModel"
@@ -457,6 +505,10 @@
 ; Diff
 [$RootKey$\ShellFileAssociations\.diff]
 "DefaultIconMoniker"="KnownMonikers.ContractArrow"
+
+; Docker
+[$RootKey$\ShellFileAssociations\.dcproj]
+"DefaultIconMoniker"="KnownMonikers.Docker"
 
 ; Elixir
 [$RootKey$\ShellFileAssociations\.eex]
@@ -571,6 +623,10 @@
 ; FoxPro
 [$RootKey$\ShellFileAssociations\.prg]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:74"
+
+; General
+[$RootKey$\ShellFileAssociations\.example]
+"DefaultIconMoniker"="KnownMonikers.Document"
 
 ; GIT
 [$RootKey$\ShellFileAssociations\.gitattributes]
@@ -743,6 +799,10 @@
 "DefaultIconMoniker"="KnownMonikers.ImageIcon"
 [$RootKey$\ShellFileAssociations\.ai]
 "DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.avif]
+"DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.heic]
+"DefaultIconMoniker"="KnownMonikers.Image"
 [$RootKey$\ShellFileAssociations\.pdf]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:38"
 [$RootKey$\ShellFileAssociations\.pdn]
@@ -762,6 +822,14 @@
 [$RootKey$\ShellFileAssociations\.delta]
 "DefaultIconMoniker"="KnownMonikers.PatchPackage"
 [$RootKey$\ShellFileAssociations\.isl]
+"DefaultIconMoniker"="KnownMonikers.InstallerClass"
+
+; Installers
+[$RootKey$\ShellFileAssociations\.iss]
+"DefaultIconMoniker"="KnownMonikers.InstallerClass"
+[$RootKey$\ShellFileAssociations\.vdproj]
+"DefaultIconMoniker"="KnownMonikers.InstallerClass"
+[$RootKey$\ShellFileAssociations\.wixproj]
 "DefaultIconMoniker"="KnownMonikers.InstallerClass"
 
 ; Jade
@@ -923,6 +991,12 @@
 ; Lua
 [$RootKey$\ShellFileAssociations\.lua]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:23"
+
+; Machine Learning
+[$RootKey$\ShellFileAssociations\.gguf]
+"DefaultIconMoniker"="KnownMonikers.MachineLearningModel"
+[$RootKey$\ShellFileAssociations\.ipynb]
+"DefaultIconMoniker"="KnownMonikers.EditNotebook"
 
 ; Makefile
 [$RootKey$\ShellFileAssociations\.cmake]
@@ -1154,6 +1228,10 @@
 [$RootKey$\ShellFileAssociations\.procfile]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:68"
 
+; Projects
+[$RootKey$\ShellFileAssociations\.esproj]
+"DefaultIconMoniker"="KnownMonikers.JSProjectNode"
+
 ; Protocol Buffers
 [$RootKey$\ShellFileAssociations\.proto]
 "DefaultIconMoniker"="KnownMonikers.Grpc"
@@ -1288,6 +1366,14 @@
 [$RootKey$\ShellFileAssociations\.ttl]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:47"
 
+; Shaders
+[$RootKey$\ShellFileAssociations\.hlsli]
+"DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.usf]
+"DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.ush]
+"DefaultIconMoniker"="KnownMonikers.Shader"
+
 ; Shell files
 [$RootKey$\ShellFileAssociations\.bash]
 "DefaultIconMoniker"="KnownMonikers.Console"
@@ -1410,6 +1496,10 @@
 [$RootKey$\ShellFileAssociations\.webtest]
 "DefaultIconMoniker"="KnownMonikers.WebTest"
 
+; Testing
+[$RootKey$\ShellFileAssociations\.testlog]
+"DefaultIconMoniker"="KnownMonikers.TestResult"
+
 ; Text
 [$RootKey$\ShellFileAssociations\.mc]
 "DefaultIconMoniker"="KnownMonikers.TextFile"
@@ -1417,6 +1507,12 @@
 ; Twig
 [$RootKey$\ShellFileAssociations\.twig]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:71"
+
+; Unity
+[$RootKey$\ShellFileAssociations\.asmdef]
+"DefaultIconMoniker"="KnownMonikers.Assembly"
+[$RootKey$\ShellFileAssociations\.uss]
+"DefaultIconMoniker"="KnownMonikers.StyleSheet"
 
 ; VHDL
 [$RootKey$\ShellFileAssociations\.vhd]
@@ -1458,9 +1554,17 @@
 [$RootKey$\ShellFileAssociations\.vsixmanifest]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 
+; Web
+[$RootKey$\ShellFileAssociations\.svelte]
+"DefaultIconMoniker"="KnownMonikers.WebFile"
+
 ; WebVTT
 [$RootKey$\ShellFileAssociations\.vtt]
 "DefaultIconMoniker"="KnownMonikers.ObjectLifetimeView"
+
+; X++
+[$RootKey$\ShellFileAssociations\.xpp]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; Xamarin
 [$RootKey$\ShellFileAssociations\.storyboard]

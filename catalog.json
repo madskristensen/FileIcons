@@ -794,6 +794,11 @@
       "moniker": "KnownMonikers.CompilableFile"
     },
     {
+      "extension": ".flac",
+      "category": "Audio",
+      "moniker": "KnownMonikers.Sound"
+    },
+    {
       "extension": ".midi",
       "category": "Audio",
       "moniker": "KnownMonikers.Sound"
@@ -814,6 +819,11 @@
       "moniker": "KnownMonikers.Sound"
     },
     {
+      "extension": ".axaml",
+      "category": "Avalonia",
+      "moniker": "KnownMonikers.WPFFile"
+    },
+    {
       "extension": ".bmml",
       "category": "Balsamiq",
       "image": "balsamiq"
@@ -824,7 +834,22 @@
       "image": "balsamiq"
     },
     {
+      "extension": ".bicep",
+      "category": "Bicep",
+      "moniker": "KnownMonikers.AzureResourceGroup"
+    },
+    {
+      "extension": ".bicepparam",
+      "category": "Bicep",
+      "moniker": "KnownMonikers.AzureResourceGroup"
+    },
+    {
       "extension": ".ace",
+      "category": "Binary",
+      "moniker": "KnownMonikers.BinaryFile"
+    },
+    {
+      "extension": ".bak",
       "category": "Binary",
       "moniker": "KnownMonikers.BinaryFile"
     },
@@ -835,6 +860,11 @@
     },
     {
       "extension": ".dat",
+      "category": "Binary",
+      "moniker": "KnownMonikers.BinaryFile"
+    },
+    {
+      "extension": ".wasm",
       "category": "Binary",
       "moniker": "KnownMonikers.BinaryFile"
     },
@@ -852,6 +882,11 @@
       "extension": ".cuh",
       "category": "C/C++",
       "moniker": "KnownMonikers.CPPHeaderFile"
+    },
+    {
+      "extension": ".filters",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPProjectFilterFile"
     },
     {
       "extension": ".frag",
@@ -1069,6 +1104,11 @@
       "image": "coldfusion"
     },
     {
+      "extension": ".nix",
+      "category": "Compilable",
+      "moniker": "KnownMonikers.CompilableFile"
+    },
+    {
       "extension": ".bundle",
       "category": "Config",
       "moniker": "KnownMonikers.ConfigurationFile"
@@ -1157,6 +1197,11 @@
       "extension": ".uplugin",
       "category": "Config",
       "moniker": "KnownMonikers.ConfigurationFile"
+    },
+    {
+      "extension": ".params",
+      "category": "Configuration",
+      "moniker": "KnownMonikers.Parameter"
     },
     {
       "extension": ".csharpierignore",
@@ -1299,6 +1344,11 @@
       "moniker": "KnownMonikers.SQLQueryUnchecked"
     },
     {
+      "extension": ".dtproj",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
       "extension": ".edml",
       "category": "Databases",
       "moniker": "KnownMonikers.EntityDatabase"
@@ -1349,6 +1399,11 @@
       "moniker": "KnownMonikers.Database"
     },
     {
+      "extension": ".kql",
+      "category": "Databases",
+      "moniker": "KnownMonikers.SQLQueryUnchecked"
+    },
+    {
       "extension": ".layout",
       "category": "Databases",
       "moniker": "KnownMonikers.PageLayout"
@@ -1372,6 +1427,11 @@
       "extension": ".mmdb",
       "category": "Databases",
       "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".msdax",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Analysis"
     },
     {
       "extension": ".msl",
@@ -1434,6 +1494,11 @@
       "moniker": "KnownMonikers.Database"
     },
     {
+      "extension": ".sqlplan",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Plan"
+    },
+    {
       "extension": ".sqx",
       "category": "Databases",
       "moniker": "KnownMonikers.IntellisenseDatabase"
@@ -1469,6 +1534,11 @@
       "moniker": "KnownMonikers.Database"
     },
     {
+      "extension": ".xmla",
+      "category": "Databases",
+      "moniker": "KnownMonikers.AnalysisServerConnection"
+    },
+    {
       "extension": ".xpo",
       "category": "Databases",
       "moniker": "KnownMonikers.DatabaseScript"
@@ -1499,6 +1569,16 @@
       "moniker": "KnownMonikers.PageLayout"
     },
     {
+      "extension": ".diagsession",
+      "category": "Diagnostics",
+      "moniker": "KnownMonikers.Performance"
+    },
+    {
+      "extension": ".sarif",
+      "category": "Diagnostics",
+      "moniker": "KnownMonikers.Analysis"
+    },
+    {
       "extension": ".bdcm",
       "category": "Diagrams",
       "moniker": "KnownMonikers.Class"
@@ -1524,7 +1604,22 @@
       "moniker": "KnownMonikers.Diagram"
     },
     {
+      "extension": ".drawio",
+      "category": "Diagrams",
+      "moniker": "KnownMonikers.Diagram"
+    },
+    {
+      "extension": ".excalidraw",
+      "category": "Diagrams",
+      "moniker": "KnownMonikers.Diagram"
+    },
+    {
       "extension": ".mdj",
+      "category": "Diagrams",
+      "moniker": "KnownMonikers.UMLModel"
+    },
+    {
+      "extension": ".mdpuml",
       "category": "Diagrams",
       "moniker": "KnownMonikers.UMLModel"
     },
@@ -1542,6 +1637,11 @@
       "extension": ".diff",
       "category": "Diff",
       "moniker": "KnownMonikers.ContractArrow"
+    },
+    {
+      "extension": ".dcproj",
+      "category": "Docker",
+      "moniker": "KnownMonikers.Docker"
     },
     {
       "extension": ".eex",
@@ -1767,6 +1867,11 @@
       "extension": ".prg",
       "category": "FoxPro",
       "image": "foxpro"
+    },
+    {
+      "extension": ".example",
+      "category": "General",
+      "moniker": "KnownMonikers.Document"
     },
     {
       "extension": ".gitattributes",
@@ -2124,6 +2229,16 @@
       "moniker": "KnownMonikers.Image"
     },
     {
+      "extension": ".avif",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".heic",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
       "extension": ".pdf",
       "category": "Images",
       "image": "pdf"
@@ -2166,6 +2281,21 @@
     {
       "extension": ".isl",
       "category": "Inno setup",
+      "moniker": "KnownMonikers.InstallerClass"
+    },
+    {
+      "extension": ".iss",
+      "category": "Installers",
+      "moniker": "KnownMonikers.InstallerClass"
+    },
+    {
+      "extension": ".vdproj",
+      "category": "Installers",
+      "moniker": "KnownMonikers.InstallerClass"
+    },
+    {
+      "extension": ".wixproj",
+      "category": "Installers",
       "moniker": "KnownMonikers.InstallerClass"
     },
     {
@@ -2487,6 +2617,16 @@
       "extension": ".lua",
       "category": "Lua",
       "image": "lua"
+    },
+    {
+      "extension": ".gguf",
+      "category": "Machine Learning",
+      "moniker": "KnownMonikers.MachineLearningModel"
+    },
+    {
+      "extension": ".ipynb",
+      "category": "Machine Learning",
+      "moniker": "KnownMonikers.EditNotebook"
     },
     {
       "extension": ".cmake",
@@ -2949,6 +3089,11 @@
       "image": "procfile"
     },
     {
+      "extension": ".esproj",
+      "category": "Projects",
+      "moniker": "KnownMonikers.JSProjectNode"
+    },
+    {
       "extension": ".proto",
       "category": "Protocol Buffers",
       "moniker": "KnownMonikers.Grpc"
@@ -3194,6 +3339,21 @@
       "image": "semanticweb"
     },
     {
+      "extension": ".hlsli",
+      "category": "Shaders",
+      "moniker": "KnownMonikers.Shader"
+    },
+    {
+      "extension": ".usf",
+      "category": "Shaders",
+      "moniker": "KnownMonikers.Shader"
+    },
+    {
+      "extension": ".ush",
+      "category": "Shaders",
+      "moniker": "KnownMonikers.Shader"
+    },
+    {
       "extension": ".bash",
       "category": "Shell files",
       "moniker": "KnownMonikers.Console"
@@ -3424,6 +3584,11 @@
       "moniker": "KnownMonikers.WebTest"
     },
     {
+      "extension": ".testlog",
+      "category": "Testing",
+      "moniker": "KnownMonikers.TestResult"
+    },
+    {
       "extension": ".mc",
       "category": "Text",
       "moniker": "KnownMonikers.TextFile"
@@ -3432,6 +3597,16 @@
       "extension": ".twig",
       "category": "Twig",
       "image": "twig"
+    },
+    {
+      "extension": ".asmdef",
+      "category": "Unity",
+      "moniker": "KnownMonikers.Assembly"
+    },
+    {
+      "extension": ".uss",
+      "category": "Unity",
+      "moniker": "KnownMonikers.StyleSheet"
     },
     {
       "extension": ".vhd",
@@ -3509,9 +3684,19 @@
       "moniker": "KnownMonikers.XMLFile"
     },
     {
+      "extension": ".svelte",
+      "category": "Web",
+      "moniker": "KnownMonikers.WebFile"
+    },
+    {
       "extension": ".vtt",
       "category": "WebVTT",
       "moniker": "KnownMonikers.ObjectLifetimeView"
+    },
+    {
+      "extension": ".xpp",
+      "category": "X++",
+      "moniker": "KnownMonikers.CompilableFile"
     },
     {
       "extension": ".storyboard",
