@@ -94,9 +94,7 @@
   </Symbols>
   <Images>
     <Image Guid="$(MonikersGuid)" ID="$(dart)">
-      <Source Uri="$(Resources)/dart.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/dart.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(clojure)">
       <Source Uri="$(Resources)/clojure.xaml" />
