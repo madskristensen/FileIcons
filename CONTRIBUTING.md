@@ -2,7 +2,7 @@
 
 ## File associations
 
-`catalog.json` is the source of truth for file associations and custom images. Do not edit `src\icons.pkgdef`, `src\Icons\Monikers.imagemanifest`, or `FileExtensions.md` directly.
+`catalog.json` is the source of truth for file associations and custom images. Do not edit `src\icons.pkgdef`, `src\Monikers.imagemanifest`, or `FileExtensions.md` directly.
 
 1. Check the current Visual Studio Image Catalog and shipped `ShellFileAssociations`.
 2. Prefer a public `KnownMonikers.*` value when it accurately represents the format.

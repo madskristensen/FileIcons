@@ -11,7 +11,7 @@ $repoRoot = Split-Path $PSScriptRoot
 $srcRoot = Join-Path $repoRoot "src"
 $catalogPath = Join-Path $repoRoot "catalog.json"
 $pkgdefPath = Join-Path $srcRoot "icons.pkgdef"
-$manifestPath = Join-Path $srcRoot "Icons\Monikers.imagemanifest"
+$manifestPath = Join-Path $srcRoot "Monikers.imagemanifest"
 $extensionsPath = Join-Path $repoRoot "FileExtensions.md"
 $utf8 = [System.Text.UTF8Encoding]::new($false)
 
