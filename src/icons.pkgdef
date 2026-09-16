@@ -852,7 +852,7 @@
 
 ; Installers
 [$RootKey$\ShellFileAssociations\.iss]
-"DefaultIconMoniker"="KnownMonikers.InstallerClass"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:92"
 [$RootKey$\ShellFileAssociations\.vdproj]
 "DefaultIconMoniker"="KnownMonikers.InstallerClass"
 [$RootKey$\ShellFileAssociations\.wixproj]
