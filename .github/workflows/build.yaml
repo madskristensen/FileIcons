@@ -1,0 +1,97 @@
+# yaml-language-server: $schema=https://www.schemastore.org/github-workflow.json
+name: Build
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: windows-latest
+    permissions:
+      contents: read
+    outputs:
+      version: ${{ steps.vsix_version.outputs.version-number }}
+    env:
+      Configuration: Release
+      DeployExtension: false
+      Solution: FileIcons.slnx
+      VsixManifestPath: src\source.extension.vsixmanifest
+      VsixManifestSourcePath: src\source.extension.cs
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v3
+
+      - name: Cache NuGet packages
+        uses: actions/cache@v5
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.slnx', '**/*.csproj', '**/packages.lock.json', '**/nuget.config') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
+
+      - name: Increment VSIX version
+        id: vsix_version
+        uses: madskristensen/vsix-version-stamp@v2
+        with:
+          manifest-file: ${{ env.VsixManifestPath }}
+          vsix-token-source-file: ${{ env.VsixManifestSourcePath }}
+
+      - name: Restore NuGet packages
+        run: msbuild ${{ env.Solution }} /v:m -restore /t:Restore
+
+      - name: Build
+        run: msbuild ${{ env.Solution }} /v:m /m /p:Configuration=${{ env.Configuration }} /p:DeployExtension=${{ env.DeployExtension }}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ github.event.repository.name }}.vsix
+          path: src\bin\${{ env.Configuration }}\net48\FileIcons.vsix
+
+  publish:
+    name: Publish
+    if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
+    needs: build
+    runs-on: windows-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Download package artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: ${{ github.event.repository.name }}.vsix
+
+      - name: Upload to Open VSIX
+        uses: madskristensen/publish-vsixgallery@v1
+        with:
+          vsix-file: ${{ github.event.repository.name }}.vsix
+
+      - name: Publish extension to Marketplace
+        if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[release]') }}
+        uses: madskristensen/publish-marketplace@v2
+        with:
+          extension-file: ${{ github.event.repository.name }}.vsix
+          publish-manifest-file: vs-publish.json
+          personal-access-code: ${{ secrets.VS_PUBLISHER_ACCESS_TOKEN }}
+
+      - name: Tag and release
+        if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[release]') }}
+        uses: softprops/action-gh-release@v3
+        with:
+          body: Release ${{ needs.build.outputs.version }}
+          generate_release_notes: true
+          tag_name: ${{ needs.build.outputs.version }}
+          files: '*.vsix'

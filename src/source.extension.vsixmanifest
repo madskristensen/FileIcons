@@ -4,7 +4,7 @@
         <Identity Id="3a7b4930-a5fb-46ec-a9b8-9610c8f953b8" Version="2.8" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>File Icons</DisplayName>
         <Description xml:space="preserve">Adds icons for files that are not recognized by Solution Explorer</Description>
-        <MoreInfo>http://github.com/madskristensen/FileIcons</MoreInfo>
+        <MoreInfo>https://github.com/madskristensen/FileIcons</MoreInfo>
         <License>Resources\LICENSE</License>
         <ReleaseNotes>https://github.com/madskristensen/FileIcons/blob/master/CHANGELOG.md</ReleaseNotes>
         <Icon>Resources\Icon.png</Icon>
@@ -12,7 +12,6 @@
         <Tags>icon, file, image</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,17.0)" />
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,19.0)">
             <ProductArchitecture>amd64</ProductArchitecture>
         </InstallationTarget>

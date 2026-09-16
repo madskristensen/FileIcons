@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "categories": [ "coding" ],
+  "identity": {
+    "internalName": "FileIcons",
+    "tags": [ "icon", "file", "solution explorer" ]
+  },
+  "assetFiles": [
+    {
+      "pathOnDisk": "art/before-after.png",
+      "targetPath": "art/before-after.png"
+    },
+    {
+      "pathOnDisk": "art/context-menu.png",
+      "targetPath": "art/context-menu.png"
+    }
+  ],
+  "overview": "README.md",
+  "publisher": "MadsKristensen",
+  "repo": "https://github.com/madskristensen/FileIcons"
+}
