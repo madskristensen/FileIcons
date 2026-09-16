@@ -159,9 +159,7 @@
       <Source Uri="$(Resources)/haskell.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(jade)">
-      <Source Uri="$(Resources)/jade.png">
-        <Size Value="32" />
-      </Source>
+      <Source Uri="$(Resources)/jade.xaml" />
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(jshint)">
       <Source Uri="$(Resources)/jshint.xaml" />
