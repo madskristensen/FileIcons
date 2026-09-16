@@ -972,9 +972,19 @@
       "moniker": "KnownMonikers.BinaryFile"
     },
     {
+      "extension": ".cso",
+      "category": "Binary",
+      "moniker": "KnownMonikers.BinaryFile"
+    },
+    {
       "extension": ".dat",
       "category": "Binary",
       "moniker": "KnownMonikers.BinaryFile"
+    },
+    {
+      "extension": ".lib",
+      "category": "Binary",
+      "moniker": "KnownMonikers.Library"
     },
     {
       "extension": ".wasm",
@@ -1092,6 +1102,16 @@
       "moniker": "KnownMonikers.Certificate"
     },
     {
+      "extension": ".der",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.Certificate"
+    },
+    {
+      "extension": ".jwk",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.SigningKey"
+    },
+    {
       "extension": ".keystore",
       "category": "Certificate",
       "moniker": "KnownMonikers.SigningKey"
@@ -1102,7 +1122,17 @@
       "moniker": "KnownMonikers.Certificate"
     },
     {
+      "extension": ".p7",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.Certificate"
+    },
+    {
       "extension": ".p7b",
+      "category": "Certificate",
+      "moniker": "KnownMonikers.Certificate"
+    },
+    {
+      "extension": ".p7c",
       "category": "Certificate",
       "moniker": "KnownMonikers.Certificate"
     },
@@ -2552,6 +2582,11 @@
       "moniker": "KnownMonikers.JSONScript"
     },
     {
+      "extension": ".npcproj",
+      "category": "JSON",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
       "extension": ".npmrc",
       "category": "JSON",
       "moniker": "KnownMonikers.JSONScript"
@@ -3562,6 +3597,11 @@
       "image": "sqlite"
     },
     {
+      "extension": ".db-journal",
+      "category": "Sqlite",
+      "image": "sqlite"
+    },
+    {
       "extension": ".sqlite",
       "category": "Sqlite",
       "image": "sqlite"
@@ -3883,6 +3923,11 @@
     },
     {
       "extension": ".proj",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".ps1xml",
       "category": "XML",
       "moniker": "KnownMonikers.XMLFile"
     },

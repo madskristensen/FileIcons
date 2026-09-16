@@ -1,4 +1,4 @@
-## Supported File Extensions (674)
+## Supported File Extensions (683)
 
 - .7z
 - .aar
@@ -92,6 +92,7 @@
 - .csh
 - .csharpierignore
 - .csharpierrc
+- .cso
 - .cson
 - .csslintrc
 - .csx
@@ -103,6 +104,7 @@
 - .dart
 - .dat
 - .db
+- .db-journal
 - .db3
 - .dbc
 - .dbml
@@ -112,6 +114,7 @@
 - .ddl
 - .delta
 - .dependencies
+- .der
 - .dfm
 - .dgml
 - .dhtml
@@ -281,6 +284,7 @@
 - .jsonc
 - .jsp
 - .jss
+- .jwk
 - .jws
 - .keystore
 - .kit
@@ -293,6 +297,7 @@
 - .less
 - .lfsconfig
 - .lhs
+- .lib
 - .lic
 - .licenseheader
 - .licenses
@@ -384,6 +389,7 @@
 - .nlog
 - .nodemonignore
 - .nomad
+- .npcproj
 - .npmignore
 - .npmrc
 - .nqp
@@ -406,7 +412,9 @@
 - .p12
 - .p4ignore
 - .p6
+- .p7
 - .p7b
+- .p7c
 - .par
 - .params
 - .pas
@@ -455,6 +463,7 @@
 - .properties
 - .proto
 - .ps1
+- .ps1xml
 - .psd
 - .psd1
 - .psgi

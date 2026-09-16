@@ -147,8 +147,12 @@
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.cab]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.cso]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.dat]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.lib]
+"DefaultIconMoniker"="KnownMonikers.Library"
 [$RootKey$\ShellFileAssociations\.wasm]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:88"
 
@@ -203,11 +207,19 @@
 "DefaultIconMoniker"="KnownMonikers.Certificate"
 [$RootKey$\ShellFileAssociations\.crt]
 "DefaultIconMoniker"="KnownMonikers.Certificate"
+[$RootKey$\ShellFileAssociations\.der]
+"DefaultIconMoniker"="KnownMonikers.Certificate"
+[$RootKey$\ShellFileAssociations\.jwk]
+"DefaultIconMoniker"="KnownMonikers.SigningKey"
 [$RootKey$\ShellFileAssociations\.keystore]
 "DefaultIconMoniker"="KnownMonikers.SigningKey"
 [$RootKey$\ShellFileAssociations\.p12]
 "DefaultIconMoniker"="KnownMonikers.Certificate"
+[$RootKey$\ShellFileAssociations\.p7]
+"DefaultIconMoniker"="KnownMonikers.Certificate"
 [$RootKey$\ShellFileAssociations\.p7b]
+"DefaultIconMoniker"="KnownMonikers.Certificate"
+[$RootKey$\ShellFileAssociations\.p7c]
 "DefaultIconMoniker"="KnownMonikers.Certificate"
 [$RootKey$\ShellFileAssociations\.pem]
 "DefaultIconMoniker"="KnownMonikers.Certificate"
@@ -897,6 +909,8 @@
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.jsonc]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.npcproj]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.npmrc]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.postcssrc]
@@ -1421,6 +1435,8 @@
 "DefaultIconMoniker"="KnownMonikers.SpellCheck"
 
 ; Sqlite
+[$RootKey$\ShellFileAssociations\.db-journal]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
 [$RootKey$\ShellFileAssociations\.db3]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
 [$RootKey$\ShellFileAssociations\.sqlite]
@@ -1602,6 +1618,8 @@
 [$RootKey$\ShellFileAssociations\.plist]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.proj]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.ps1xml]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.publishsettings]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
