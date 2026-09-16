@@ -84,6 +84,7 @@
     <ID Name="csharpier" Value="81" />
     <ID Name="solidity" Value="82" />
     <ID Name="avalonia" Value="83" />
+    <ID Name="graphql" Value="84" />
   </Symbols>
   <Images>
     <Image Guid="$(MonikersGuid)" ID="$(dart)">
@@ -488,6 +489,9 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(avalonia)">
       <Source Uri="$(Resources)/avalonia.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(graphql)">
+      <Source Uri="$(Resources)/graphql.xaml" />
     </Image>
   </Images>
 </ImageManifest>

@@ -574,6 +574,14 @@
       "provenance": "verified",
       "source": "https://github.com/AvaloniaUI/Avalonia/blob/master/build/Assets/icon.svg",
       "license": "MIT"
+    },
+    {
+      "name": "graphql",
+      "id": 84,
+      "file": "graphql.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/graphql/graphql.github.io/blob/source/public/img/brand/logos/logo.svg",
+      "license": "MIT; GraphQL Foundation brand guidelines and LF Projects trademark policy"
     }
   ],
   "associations": [
@@ -2409,8 +2417,8 @@
     },
     {
       "extension": ".graphql",
-      "category": "JSON",
-      "moniker": "KnownMonikers.JSONScript"
+      "category": "GraphQL",
+      "image": "graphql"
     },
     {
       "extension": ".hjson",

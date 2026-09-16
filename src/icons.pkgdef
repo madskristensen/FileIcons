@@ -652,6 +652,10 @@
 [$RootKey$\ShellFileAssociations\.gradle]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:37"
 
+; GraphQL
+[$RootKey$\ShellFileAssociations\.graphql]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:84"
+
 ; Groovy
 [$RootKey$\ShellFileAssociations\.groovy]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:15"
@@ -878,8 +882,6 @@
 [$RootKey$\ShellFileAssociations\.bowerrc]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.geojson]
-"DefaultIconMoniker"="KnownMonikers.JSONScript"
-[$RootKey$\ShellFileAssociations\.graphql]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.hjson]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
