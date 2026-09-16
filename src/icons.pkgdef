@@ -266,7 +266,7 @@
 
 ; Compilable
 [$RootKey$\ShellFileAssociations\.nix]
-"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:89"
 
 ; Config
 [$RootKey$\ShellFileAssociations\.bundle]
