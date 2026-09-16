@@ -220,7 +220,19 @@ foreach ($image in $catalog.customImages) {
         throw "Custom image '$($image.name)' has no provenance."
     }
 
+    if ($image.provenance -ne "legacy-unverified" -and
+        ([string]::IsNullOrWhiteSpace($image.source) -or [string]::IsNullOrWhiteSpace($image.license))) {
+        throw "Verified custom image '$($image.name)' must specify source and license."
+    }
+
     $imageByName[$image.name] = $image
+}
+
+$catalogImageFiles = @($catalog.customImages.file | Sort-Object -Unique)
+$diskImageFiles = @(Get-ChildItem (Join-Path $srcRoot "Icons") -Filter *.png -File | Select-Object -ExpandProperty Name)
+$unlistedImageFiles = @($diskImageFiles | Where-Object { $_ -notin $catalogImageFiles })
+if ($unlistedImageFiles) {
+    throw "Image files are not listed in the catalog: $($unlistedImageFiles -join ', ')"
 }
 
 foreach ($association in $catalog.associations) {

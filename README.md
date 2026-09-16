@@ -16,7 +16,7 @@ See the [complete list of supported extensions](FileExtensions.md).
 
 ## Suggest an icon
 
-Before opening a request, check whether the extension is already listed and whether the latest Visual Studio release supplies an icon. Then use the repository's icon request issue template.
+Before opening a request, check whether the extension is already listed and whether the latest Visual Studio release supplies an icon. Then use the repository's [icon request form](https://github.com/madskristensen/FileIcons/issues/new?template=icon_request.yml).
 
 The extension also provides a **Report missing icon** command in Solution Explorer when it detects an unregistered file extension.
 
@@ -24,7 +24,7 @@ The extension also provides a **Report missing icon** command in Solution Explor
 
 ## Contributing
 
-Contributions should prefer a public Visual Studio `KnownMoniker` when one accurately represents the file type. Custom artwork must include its source and redistribution license.
+Read the [contribution guidelines](CONTRIBUTING.md) before changing associations or artwork. Contributions should prefer a public Visual Studio `KnownMoniker` when one accurately represents the file type. Custom artwork must include its source and redistribution license.
 
 Build the solution with Visual Studio 2022 or later. The SDK-style project restores all required VSSDK packages automatically.
 

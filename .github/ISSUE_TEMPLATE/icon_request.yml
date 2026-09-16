@@ -1,0 +1,71 @@
+name: Icon request
+description: Request an icon for a file type that Visual Studio does not recognize
+title: "[Icon request] "
+labels:
+  - icon request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        File Icons only registers extensions that Visual Studio does not already handle. Please search existing issues and test the latest Visual Studio release first.
+
+  - type: input
+    id: extensions
+    attributes:
+      label: File extension(s)
+      description: Include the leading dot and list closely related extensions together.
+      placeholder: .example, .exampleconfig
+    validations:
+      required: true
+
+  - type: textarea
+    id: format
+    attributes:
+      label: File format
+      description: Describe what creates and consumes the file.
+    validations:
+      required: true
+
+  - type: input
+    id: product
+    attributes:
+      label: Official product or format URL
+      placeholder: https://example.com/
+    validations:
+      required: true
+
+  - type: input
+    id: icon
+    attributes:
+      label: Suggested official icon URL
+      description: Link to an authoritative icon source when one exists.
+
+  - type: input
+    id: license
+    attributes:
+      label: Icon license or redistribution terms
+      description: Required for custom artwork. A public Visual Studio KnownMoniker does not need an external license.
+
+  - type: input
+    id: visual-studio
+    attributes:
+      label: Visual Studio version
+      placeholder: Visual Studio 2022 17.14
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Current appearance
+      description: Add a screenshot showing the current icon in Solution Explorer.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Preflight checks
+      options:
+        - label: I searched open and closed issues for this extension.
+          required: true
+        - label: I verified that the latest Visual Studio release does not already provide an appropriate icon.
+          required: true
