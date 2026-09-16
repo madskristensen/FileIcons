@@ -150,7 +150,7 @@
 [$RootKey$\ShellFileAssociations\.dat]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.wasm]
-"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:88"
 
 ; C/C++
 [$RootKey$\ShellFileAssociations\.clh]

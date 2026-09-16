@@ -607,6 +607,14 @@
       "provenance": "verified",
       "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_codeql.svg",
       "license": "MIT; see THIRD-PARTY-NOTICES.txt"
+    },
+    {
+      "name": "wasm",
+      "id": 88,
+      "file": "wasm.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_wasm.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     }
   ],
   "associations": [
@@ -908,7 +916,7 @@
     {
       "extension": ".wasm",
       "category": "Binary",
-      "moniker": "KnownMonikers.BinaryFile"
+      "image": "wasm"
     },
     {
       "extension": ".clh",
