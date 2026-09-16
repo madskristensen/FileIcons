@@ -37,6 +37,8 @@ pwsh -NoProfile -File .\tools\Convert-SvgToXaml.ps1 `
 
 To replace existing catalog PNGs in one validated operation, also pass `-CatalogPath`, `-SourceBaseUrl`, and `-License`. Catalog mode updates each matching custom image, removes its raster dimensions and old PNG, and records the pinned source URL. It does not modify the catalog unless every requested SVG converts successfully.
 
+When the upstream filename differs from the catalog image name, pass a source-to-catalog mapping such as `-NameMap @{ dartlang = "dart" }`.
+
 Use PNG only when the source cannot be represented faithfully as WPF geometry or when the authoritative artwork is raster-only.
 
 Legacy images are marked `legacy-unverified` and should be audited incrementally.

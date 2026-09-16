@@ -8,6 +8,8 @@ param(
 
     [string[]]$Names,
 
+    [hashtable]$NameMap = @{},
+
     [switch]$Force,
 
     [string]$CatalogPath,
@@ -322,7 +324,11 @@ $converted = 0
 $convertedFiles = [System.Collections.Generic.List[object]]::new()
 $failures = [System.Collections.Generic.List[object]]::new()
 foreach ($file in $files) {
-    $name = $file.BaseName -replace "^file_type_", ""
+    $sourceName = $file.BaseName -replace "^file_type_", ""
+    $name = if ($NameMap.ContainsKey($sourceName)) { [string]$NameMap[$sourceName] } else { $sourceName }
+    if ($name -notmatch "^[a-z0-9_-]+$") {
+        throw "Mapped icon name contains unsupported characters: $name"
+    }
     $destination = Join-Path $OutputDirectory "$name.xaml"
     try {
         Convert-File $file $destination
