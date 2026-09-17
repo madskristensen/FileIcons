@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.IO;
-using System.Linq;
 using System.Runtime.InteropServices;
+using System.Threading.Tasks;
+using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 
@@ -10,15 +12,17 @@ namespace FileIcons
 {
     internal sealed class ReportMissingIcon
     {
-        private const string _urlFormat = "https://github.com/madskristensen/FileIcons/issues/new?title={0}&body={1}";
+        private const string _urlFormat = "https://github.com/madskristensen/FileIcons/issues/new?template=icon_request.yml&title={0}";
+        private const string _logSource = nameof(FileIcons);
 
         private readonly AsyncPackage _package;
-        private string[] _shellExtensions;
+        private HashSet<string> _shellExtensions;
         private string _ext;
 
         private ReportMissingIcon(AsyncPackage package, OleMenuCommandService commandService)
         {
-            _package = package;
+            _package = package ?? throw new ArgumentNullException(nameof(package));
+            commandService = commandService ?? throw new ArgumentNullException(nameof(commandService));
 
             var id = new CommandID(PackageGuids.guidVSPackageCmdSet, PackageIds.ReportMissingIconId);
             var command = new OleMenuCommand(Execute, id);
@@ -28,9 +32,20 @@ namespace FileIcons
 
         public static ReportMissingIcon Instance { get; private set; }
 
-        public static async System.Threading.Tasks.Task InitializeAsync(AsyncPackage package)
+        public static async Task InitializeAsync(AsyncPackage package)
         {
+            if (package == null)
+            {
+                throw new ArgumentNullException(nameof(package));
+            }
+
+            await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync(package.DisposalToken);
             var commandService = await package.GetServiceAsync(typeof(IMenuCommandService)) as OleMenuCommandService;
+            if (commandService == null)
+            {
+                throw new InvalidOperationException("The Visual Studio command service is unavailable.");
+            }
+
             Instance = new ReportMissingIcon(package, commandService);
         }
 
@@ -40,6 +55,7 @@ namespace FileIcons
 
             var button = (OleMenuCommand)sender;
             button.Enabled = button.Visible = false;
+            _ext = null;
 
             try
             {
@@ -55,17 +71,21 @@ namespace FileIcons
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.Write(ex);
+                ActivityLog.LogError(_logSource, ex.ToString());
             }
         }
 
         private void Execute(object sender, EventArgs e)
         {
-            var title = Uri.EscapeUriString($"Missing icon for {_ext} files");
-            var body = Uri.EscapeUriString("Please describe what the file type is. It makes it much easier to find an appropriate icon.");
-            var url = string.Format(_urlFormat, title, body);
+            ThreadHelper.ThrowIfNotOnUIThread();
 
-            System.Diagnostics.Process.Start(url);
+            if (string.IsNullOrWhiteSpace(_ext))
+            {
+                throw new InvalidOperationException("No file extension is selected.");
+            }
+
+            var title = Uri.EscapeDataString($"Missing icon for {_ext} files");
+            VsShellUtilities.OpenSystemBrowser(string.Format(_urlFormat, title));
         }
 
         private bool IsIconMissing(string fileExtension)
@@ -78,48 +98,66 @@ namespace FileIcons
 
             if (_shellExtensions == null)
             {
-                using (Microsoft.Win32.RegistryKey key = _package.ApplicationRegistryRoot.OpenSubKey("ShellFileAssociations"))
+                using (var key = _package.ApplicationRegistryRoot.OpenSubKey("ShellFileAssociations"))
                 {
-                    _shellExtensions = key.GetSubKeyNames();
+                    if (key == null)
+                    {
+                        throw new InvalidOperationException("The ShellFileAssociations registry key is unavailable.");
+                    }
+
+                    _shellExtensions = new HashSet<string>(key.GetSubKeyNames(), StringComparer.OrdinalIgnoreCase);
                 }
             }
 
-            return !_shellExtensions.Contains(fileExtension, StringComparer.OrdinalIgnoreCase);
+            return !_shellExtensions.Contains(fileExtension);
         }
 
-        public static string GetSelectedFilePath()
+        private static string GetSelectedFilePath()
         {
             ThreadHelper.ThrowIfNotOnUIThread();
 
-            var monitorSelection = (IVsMonitorSelection)Package.GetGlobalService(typeof(SVsShellMonitorSelection));
+            var monitorSelection = Package.GetGlobalService(typeof(SVsShellMonitorSelection)) as IVsMonitorSelection;
+            if (monitorSelection == null)
+            {
+                throw new InvalidOperationException("The Visual Studio selection service is unavailable.");
+            }
+
             IntPtr hierarchyPointer = IntPtr.Zero;
             IntPtr selectionContainerPointer = IntPtr.Zero;
 
             try
             {
-                monitorSelection.GetCurrentSelection(out hierarchyPointer,
-                                                 out var itemId,
-                                                 out IVsMultiItemSelect multiItemSelect,
-                                                 out selectionContainerPointer);
+                ErrorHandler.ThrowOnFailure(monitorSelection.GetCurrentSelection(
+                    out hierarchyPointer,
+                    out var itemId,
+                    out var multiItemSelect,
+                    out selectionContainerPointer));
 
-
-                if (Marshal.GetTypedObjectForIUnknown(hierarchyPointer, typeof(IVsHierarchy)) is IVsHierarchy selectedHierarchy)
+                if (hierarchyPointer == IntPtr.Zero ||
+                    multiItemSelect != null ||
+                    itemId == Microsoft.VisualStudio.VSConstants.VSITEMID_NIL)
                 {
-                    selectedHierarchy.GetCanonicalName(itemId, out var document);
-                    return document;
+                    return null;
                 }
-            }
-            catch (Exception ex)
-            {
-                System.Diagnostics.Debug.Write(ex);
+
+                var selectedHierarchy = (IVsHierarchy)Marshal.GetTypedObjectForIUnknown(
+                    hierarchyPointer,
+                    typeof(IVsHierarchy));
+                ErrorHandler.ThrowOnFailure(selectedHierarchy.GetCanonicalName(itemId, out var document));
+                return document;
             }
             finally
             {
-                Marshal.Release(hierarchyPointer);
-                Marshal.Release(selectionContainerPointer);
-            }
+                if (hierarchyPointer != IntPtr.Zero)
+                {
+                    Marshal.Release(hierarchyPointer);
+                }
 
-            return null;
+                if (selectionContainerPointer != IntPtr.Zero)
+                {
+                    Marshal.Release(selectionContainerPointer);
+                }
+            }
         }
     }
 }
