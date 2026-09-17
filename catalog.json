@@ -1090,33 +1090,33 @@
     },
     {
       "extension": ".prf",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CPPMakeFileApplication"
+      "category": "Qt",
+      "image": "qt"
     },
     {
       "extension": ".pri",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CPPMakeFileApplication"
+      "category": "Qt",
+      "image": "qt"
     },
     {
       "extension": ".pro",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CPPMakeFileApplication"
+      "category": "Qt",
+      "image": "qt"
     },
     {
       "extension": ".qml",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CPPMakeFileApplication"
+      "category": "Qt",
+      "image": "qt"
     },
     {
       "extension": ".qmlproject",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CPPMakeFileApplication"
+      "category": "Qt",
+      "image": "qt"
     },
     {
       "extension": ".qrc",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CPPMakeFileApplication"
+      "category": "Qt",
+      "image": "qt"
     },
     {
       "extension": ".stop",

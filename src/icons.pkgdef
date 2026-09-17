@@ -201,18 +201,6 @@
 "DefaultIconMoniker"="KnownMonikers.Lightswitch"
 [$RootKey$\ShellFileAssociations\.ispc]
 "DefaultIconMoniker"="KnownMonikers.CPPFileNode"
-[$RootKey$\ShellFileAssociations\.prf]
-"DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
-[$RootKey$\ShellFileAssociations\.pri]
-"DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
-[$RootKey$\ShellFileAssociations\.pro]
-"DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
-[$RootKey$\ShellFileAssociations\.qml]
-"DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
-[$RootKey$\ShellFileAssociations\.qmlproject]
-"DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
-[$RootKey$\ShellFileAssociations\.qrc]
-"DefaultIconMoniker"="KnownMonikers.CPPMakeFileApplication"
 [$RootKey$\ShellFileAssociations\.stop]
 "DefaultIconMoniker"="KnownMonikers.Lightswitch"
 [$RootKey$\ShellFileAssociations\.tpp]
@@ -1339,6 +1327,18 @@
 "DefaultIconMoniker"="KnownMonikers.CubeDimension"
 
 ; Qt
+[$RootKey$\ShellFileAssociations\.prf]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
+[$RootKey$\ShellFileAssociations\.pri]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
+[$RootKey$\ShellFileAssociations\.pro]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
+[$RootKey$\ShellFileAssociations\.qml]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
+[$RootKey$\ShellFileAssociations\.qmlproject]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
+[$RootKey$\ShellFileAssociations\.qrc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
 [$RootKey$\ShellFileAssociations\.ui]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
 
