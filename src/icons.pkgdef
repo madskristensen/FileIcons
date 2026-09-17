@@ -197,12 +197,6 @@
 "DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
 [$RootKey$\ShellFileAssociations\.filters]
 "DefaultIconMoniker"="KnownMonikers.CPPProjectFilterFile"
-[$RootKey$\ShellFileAssociations\.frag]
-"DefaultIconMoniker"="KnownMonikers.CFile"
-[$RootKey$\ShellFileAssociations\.geom]
-"DefaultIconMoniker"="KnownMonikers.CFile"
-[$RootKey$\ShellFileAssociations\.glsl]
-"DefaultIconMoniker"="KnownMonikers.CFile"
 [$RootKey$\ShellFileAssociations\.hint]
 "DefaultIconMoniker"="KnownMonikers.Lightswitch"
 [$RootKey$\ShellFileAssociations\.ispc]
@@ -223,8 +217,6 @@
 "DefaultIconMoniker"="KnownMonikers.Lightswitch"
 [$RootKey$\ShellFileAssociations\.tpp]
 "DefaultIconMoniker"="KnownMonikers.CPPFile"
-[$RootKey$\ShellFileAssociations\.vert]
-"DefaultIconMoniker"="KnownMonikers.CFile"
 
 ; C#
 [$RootKey$\ShellFileAssociations\.csx]
@@ -1469,6 +1461,12 @@
 ; Shaders
 [$RootKey$\ShellFileAssociations\.comp]
 "DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.frag]
+"DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.geom]
+"DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.glsl]
+"DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.hlsli]
 "DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.ps]
@@ -1480,6 +1478,8 @@
 [$RootKey$\ShellFileAssociations\.usf]
 "DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.ush]
+"DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.vert]
 "DefaultIconMoniker"="KnownMonikers.Shader"
 
 ; Shell files

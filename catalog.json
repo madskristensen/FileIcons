@@ -1065,18 +1065,18 @@
     },
     {
       "extension": ".frag",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CFile"
+      "category": "Shaders",
+      "moniker": "KnownMonikers.Shader"
     },
     {
       "extension": ".geom",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CFile"
+      "category": "Shaders",
+      "moniker": "KnownMonikers.Shader"
     },
     {
       "extension": ".glsl",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CFile"
+      "category": "Shaders",
+      "moniker": "KnownMonikers.Shader"
     },
     {
       "extension": ".hint",
@@ -1130,8 +1130,8 @@
     },
     {
       "extension": ".vert",
-      "category": "C/C++",
-      "moniker": "KnownMonikers.CFile"
+      "category": "Shaders",
+      "moniker": "KnownMonikers.Shader"
     },
     {
       "extension": ".csx",
