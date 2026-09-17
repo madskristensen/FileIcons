@@ -93,6 +93,9 @@
     <ID Name="zig" Value="90" />
     <ID Name="excalidraw" Value="91" />
     <ID Name="innosetup" Value="92" />
+    <ID Name="asciidoc" Value="93" />
+    <ID Name="browserslist" Value="94" />
+    <ID Name="jenkins" Value="95" />
   </Symbols>
   <Images>
     <Image Guid="$(MonikersGuid)" ID="$(dart)">
@@ -420,6 +423,15 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(innosetup)">
       <Source Uri="$(Resources)/innosetup.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(asciidoc)">
+      <Source Uri="$(Resources)/asciidoc.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(browserslist)">
+      <Source Uri="$(Resources)/browserslist.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(jenkins)">
+      <Source Uri="$(Resources)/jenkins.xaml" />
     </Image>
   </Images>
 </ImageManifest>

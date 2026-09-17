@@ -49,6 +49,8 @@
 ; 3D
 [$RootKey$\ShellFileAssociations\.ply]
 "DefaultIconMoniker"="KnownMonikers.ModelThreeD"
+[$RootKey$\ShellFileAssociations\.rvt]
+"DefaultIconMoniker"="KnownMonikers.ModelThreeD"
 
 ; 3D/Gaming
 [$RootKey$\ShellFileAssociations\.fsh]
@@ -71,6 +73,10 @@
 ; ActionScript
 [$RootKey$\ShellFileAssociations\.as]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:50"
+
+; Android
+[$RootKey$\ShellFileAssociations\.apk]
+"DefaultIconMoniker"="KnownMonikers.Package"
 
 ; Ansible
 [$RootKey$\ShellFileAssociations\.ansible]
@@ -106,13 +112,23 @@
 [$RootKey$\ShellFileAssociations\.ino]
 "DefaultIconMoniker"="KnownMonikers.Motherboard"
 
+; AsciiDoc
+[$RootKey$\ShellFileAssociations\.adoc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:93"
+
 ; ASP
 [$RootKey$\ShellFileAssociations\.asp]
 "DefaultIconMoniker"="KnownMonikers.ASPFile"
 
+; ASP.NET
+[$RootKey$\ShellFileAssociations\.razor]
+"DefaultIconMoniker"="KnownMonikers.ASPRazorFile"
+
 ; Assembly
 [$RootKey$\ShellFileAssociations\.asm]
 "DefaultIconMoniker"="KnownMonikers.CompilableFile"
+[$RootKey$\ShellFileAssociations\.il]
+"DefaultIconMoniker"="KnownMonikers.ASMFile"
 [$RootKey$\ShellFileAssociations\.inc]
 "DefaultIconMoniker"="KnownMonikers.CompilableFile"
 [$RootKey$\ShellFileAssociations\.ll]
@@ -151,6 +167,8 @@
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.bak]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.bin]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.cab]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.cso]
@@ -159,8 +177,16 @@
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.lib]
 "DefaultIconMoniker"="KnownMonikers.Library"
+[$RootKey$\ShellFileAssociations\.suk]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.sys]
+"DefaultIconMoniker"="KnownMonikers.FileSystemDriverFile"
 [$RootKey$\ShellFileAssociations\.wasm]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:88"
+
+; Browserslist
+[$RootKey$\ShellFileAssociations\.browserslistrc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:94"
 
 ; C/C++
 [$RootKey$\ShellFileAssociations\.clh]
@@ -207,6 +233,10 @@
 ; Cake
 [$RootKey$\ShellFileAssociations\.cake]
 "DefaultIconMoniker"="KnownMonikers.MakeFile"
+
+; Candroscript
+[$RootKey$\ShellFileAssociations\.est]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; Certificate
 [$RootKey$\ShellFileAssociations\.crl]
@@ -327,8 +357,12 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 
 ; Configuration
+[$RootKey$\ShellFileAssociations\.kvp]
+"DefaultIconMoniker"="KnownMonikers.SplitKeyValuePair"
 [$RootKey$\ShellFileAssociations\.params]
 "DefaultIconMoniker"="KnownMonikers.Parameter"
+[$RootKey$\ShellFileAssociations\.rules]
+"DefaultIconMoniker"="KnownMonikers.Rule"
 
 ; CSharpier
 [$RootKey$\ShellFileAssociations\.csharpierignore]
@@ -383,6 +417,8 @@
 "DefaultIconMoniker"="KnownMonikers.DatabaseMobileConnection"
 [$RootKey$\ShellFileAssociations\.csdl]
 "DefaultIconMoniker"="KnownMonikers.EntityDatabase"
+[$RootKey$\ShellFileAssociations\.dacpac]
+"DefaultIconMoniker"="KnownMonikers.DatabaseApplication"
 [$RootKey$\ShellFileAssociations\.db]
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.dbc]
@@ -411,6 +447,8 @@
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.fmp]
 "DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.fmp12]
+"DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.fp3]
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.fp5]
@@ -423,6 +461,8 @@
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.layout]
 "DefaultIconMoniker"="KnownMonikers.PageLayout"
+[$RootKey$\ShellFileAssociations\.lqml]
+"DefaultIconMoniker"="KnownMonikers.LinqToSQLFile"
 [$RootKey$\ShellFileAssociations\.mdb]
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.mde]
@@ -455,6 +495,8 @@
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.sqlce]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.sqlgen]
+"DefaultIconMoniker"="KnownMonikers.DatabaseScript"
 [$RootKey$\ShellFileAssociations\.sqlitedb]
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.sqlplan]
@@ -513,6 +555,8 @@
 "DefaultIconMoniker"="KnownMonikers.Diagram"
 [$RootKey$\ShellFileAssociations\.excalidraw]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:91"
+[$RootKey$\ShellFileAssociations\.graphml]
+"DefaultIconMoniker"="KnownMonikers.Diagram"
 [$RootKey$\ShellFileAssociations\.mdj]
 "DefaultIconMoniker"="KnownMonikers.UMLModel"
 [$RootKey$\ShellFileAssociations\.mdpuml]
@@ -531,6 +575,14 @@
 "DefaultIconMoniker"="KnownMonikers.Docker"
 [$RootKey$\ShellFileAssociations\.docker]
 "DefaultIconMoniker"="KnownMonikers.Docker"
+[$RootKey$\ShellFileAssociations\.dockerfile]
+"DefaultIconMoniker"="KnownMonikers.Docker"
+
+; EditorConfig
+[$RootKey$\ShellFileAssociations\.base]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:6"
+[$RootKey$\ShellFileAssociations\.globalconfig]
+"DefaultIconMoniker"="KnownMonikers.EditorConfigFile"
 
 ; Elixir
 [$RootKey$\ShellFileAssociations\.eex]
@@ -680,6 +732,8 @@
 
 ; Groovy
 [$RootKey$\ShellFileAssociations\.groovy]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:15"
+[$RootKey$\ShellFileAssociations\.gvy]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:15"
 
 ; GYP
@@ -833,6 +887,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:38"
 [$RootKey$\ShellFileAssociations\.pdn]
 "DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.ppm]
+"DefaultIconMoniker"="KnownMonikers.Image"
 [$RootKey$\ShellFileAssociations\.psd]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:27"
 [$RootKey$\ShellFileAssociations\.svg]
@@ -842,6 +898,8 @@
 [$RootKey$\ShellFileAssociations\.tiff]
 "DefaultIconMoniker"="KnownMonikers.Image"
 [$RootKey$\ShellFileAssociations\.webp]
+"DefaultIconMoniker"="KnownMonikers.Image"
+[$RootKey$\ShellFileAssociations\.xd]
 "DefaultIconMoniker"="KnownMonikers.Image"
 
 ; Inno setup
@@ -853,6 +911,8 @@
 ; Installers
 [$RootKey$\ShellFileAssociations\.iss]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:92"
+[$RootKey$\ShellFileAssociations\.nsi]
+"DefaultIconMoniker"="KnownMonikers.InstallerClass"
 [$RootKey$\ShellFileAssociations\.vdproj]
 "DefaultIconMoniker"="KnownMonikers.InstallerClass"
 [$RootKey$\ShellFileAssociations\.wixproj]
@@ -893,10 +953,16 @@
 "DefaultIconMoniker"="KnownMonikers.JSScript"
 [$RootKey$\ShellFileAssociations\.jss]
 "DefaultIconMoniker"="KnownMonikers.JSScript"
+[$RootKey$\ShellFileAssociations\.jsxinc]
+"DefaultIconMoniker"="KnownMonikers.JSXScript"
 [$RootKey$\ShellFileAssociations\.rjs]
 "DefaultIconMoniker"="KnownMonikers.JSScript"
 [$RootKey$\ShellFileAssociations\.xsjs]
 "DefaultIconMoniker"="KnownMonikers.JSScript"
+
+; Jenkins
+[$RootKey$\ShellFileAssociations\.jenkinsfile]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:95"
 
 ; JSON
 [$RootKey$\ShellFileAssociations\.bootstraprc]
@@ -1357,6 +1423,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:30"
 
 ; SAP
+[$RootKey$\ShellFileAssociations\.b1f]
+"DefaultIconMoniker"="KnownMonikers.ComponentFile"
 [$RootKey$\ShellFileAssociations\.bo]
 "DefaultIconMoniker"="KnownMonikers.CloudFile"
 
@@ -1399,7 +1467,15 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:47"
 
 ; Shaders
+[$RootKey$\ShellFileAssociations\.comp]
+"DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.hlsli]
+"DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.ps]
+"DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.tesc]
+"DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.tese]
 "DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.usf]
 "DefaultIconMoniker"="KnownMonikers.Shader"
@@ -1443,6 +1519,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:82"
 
 ; Spell check
+[$RootKey$\ShellFileAssociations\.dic]
+"DefaultIconMoniker"="KnownMonikers.SpellCheck"
 [$RootKey$\ShellFileAssociations\.vsspell]
 "DefaultIconMoniker"="KnownMonikers.SpellCheck"
 
@@ -1467,6 +1545,40 @@
 ; Store apps
 [$RootKey$\ShellFileAssociations\.xap]
 "DefaultIconMoniker"="KnownMonikers.Phone"
+
+; Sublime Text
+[$RootKey$\ShellFileAssociations\.hidden-color-scheme]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.hidden-theme]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.sublime-build]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.sublime-color-scheme]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.sublime-commands]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.sublime-completions]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.sublime-keymap]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.sublime-macro]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.sublime-menu]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.sublime-mousemap]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.sublime-project]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.sublime-settings]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.sublime-settings-hints]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.sublime-snippet]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.sublime-syntax]
+"DefaultIconMoniker"="KnownMonikers.YamlFile"
+[$RootKey$\ShellFileAssociations\.sublime-theme]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 
 ; Svelte
 [$RootKey$\ShellFileAssociations\.svelte]
@@ -1545,8 +1657,14 @@
 ; Text
 [$RootKey$\ShellFileAssociations\.mc]
 "DefaultIconMoniker"="KnownMonikers.TextFile"
+[$RootKey$\ShellFileAssociations\.rsp]
+"DefaultIconMoniker"="KnownMonikers.TextFile"
 [$RootKey$\ShellFileAssociations\.tsv]
 "DefaultIconMoniker"="KnownMonikers.OfficeExcel2013"
+
+; Tiled
+[$RootKey$\ShellFileAssociations\.tiled-project]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 
 ; Twig
 [$RootKey$\ShellFileAssociations\.twig]
@@ -1595,6 +1713,8 @@
 "DefaultIconMoniker"="KnownMonikers.ExtensionManifest"
 [$RootKey$\ShellFileAssociations\.tml]
 "DefaultIconMoniker"="KnownMonikers.ManifestFile"
+[$RootKey$\ShellFileAssociations\.vsconfig]
+"DefaultIconMoniker"="KnownMonikers.VisualStudioSettingsFile"
 [$RootKey$\ShellFileAssociations\.vsct]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.vsixmanifest]
@@ -1617,6 +1737,8 @@
 ; XAML
 [$RootKey$\ShellFileAssociations\.axml]
 "DefaultIconMoniker"="KnownMonikers.WPFFile"
+[$RootKey$\ShellFileAssociations\.xamlstyler]
+"DefaultIconMoniker"="KnownMonikers.WPFFile"
 
 ; XML
 [$RootKey$\ShellFileAssociations\.aip]
@@ -1624,6 +1746,8 @@
 [$RootKey$\ShellFileAssociations\.azurepubxml]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.dtsx]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.glade]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.man]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
@@ -1645,6 +1769,8 @@
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.so]
 "DefaultIconMoniker"="KnownMonikers.SharedProject"
+[$RootKey$\ShellFileAssociations\.srf]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.tmlanguage]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.tmsnippet]
@@ -1660,6 +1786,8 @@
 [$RootKey$\ShellFileAssociations\.wxi]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.wxs]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.xdc]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.xdt]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"

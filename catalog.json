@@ -696,6 +696,30 @@
       "provenance": "verified",
       "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_innosetup.svg",
       "license": "MIT; see THIRD-PARTY-NOTICES.txt"
+    },
+    {
+      "name": "asciidoc",
+      "id": 93,
+      "file": "asciidoc.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_asciidoc.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
+    },
+    {
+      "name": "browserslist",
+      "id": 94,
+      "file": "browserslist.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_browserslist.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
+    },
+    {
+      "name": "jenkins",
+      "id": 95,
+      "file": "jenkins.xaml",
+      "provenance": "verified",
+      "source": "https://github.com/vscode-icons/vscode-icons/blob/b507c14551982ffbcf2e687e4bd4c1fbe7a0c9d0/icons/file_type_jenkins.svg",
+      "license": "MIT; see THIRD-PARTY-NOTICES.txt"
     }
   ],
   "associations": [
@@ -4073,6 +4097,281 @@
       "extension": ".xqy",
       "category": "XQuery",
       "moniker": "KnownMonikers.XPath"
+    },
+    {
+      "extension": ".adoc",
+      "category": "AsciiDoc",
+      "image": "asciidoc"
+    },
+    {
+      "extension": ".apk",
+      "category": "Android",
+      "moniker": "KnownMonikers.Package"
+    },
+    {
+      "extension": ".base",
+      "category": "EditorConfig",
+      "image": "editorconfig"
+    },
+    {
+      "extension": ".b1f",
+      "category": "SAP",
+      "moniker": "KnownMonikers.ComponentFile"
+    },
+    {
+      "extension": ".bin",
+      "category": "Binary",
+      "moniker": "KnownMonikers.BinaryFile"
+    },
+    {
+      "extension": ".browserslistrc",
+      "category": "Browserslist",
+      "image": "browserslist"
+    },
+    {
+      "extension": ".comp",
+      "category": "Shaders",
+      "moniker": "KnownMonikers.Shader"
+    },
+    {
+      "extension": ".dacpac",
+      "category": "Databases",
+      "moniker": "KnownMonikers.DatabaseApplication"
+    },
+    {
+      "extension": ".dic",
+      "category": "Spell check",
+      "moniker": "KnownMonikers.SpellCheck"
+    },
+    {
+      "extension": ".dockerfile",
+      "category": "Docker",
+      "moniker": "KnownMonikers.Docker"
+    },
+    {
+      "extension": ".est",
+      "category": "Candroscript",
+      "moniker": "KnownMonikers.CompilableFile"
+    },
+    {
+      "extension": ".fmp12",
+      "category": "Databases",
+      "moniker": "KnownMonikers.Database"
+    },
+    {
+      "extension": ".glade",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".globalconfig",
+      "category": "EditorConfig",
+      "moniker": "KnownMonikers.EditorConfigFile"
+    },
+    {
+      "extension": ".graphml",
+      "category": "Diagrams",
+      "moniker": "KnownMonikers.Diagram"
+    },
+    {
+      "extension": ".gvy",
+      "category": "Groovy",
+      "image": "groovy"
+    },
+    {
+      "extension": ".il",
+      "category": "Assembly",
+      "moniker": "KnownMonikers.ASMFile"
+    },
+    {
+      "extension": ".jenkinsfile",
+      "category": "Jenkins",
+      "image": "jenkins"
+    },
+    {
+      "extension": ".jsxinc",
+      "category": "JavaScript",
+      "moniker": "KnownMonikers.JSXScript"
+    },
+    {
+      "extension": ".kvp",
+      "category": "Configuration",
+      "moniker": "KnownMonikers.SplitKeyValuePair"
+    },
+    {
+      "extension": ".lqml",
+      "category": "Databases",
+      "moniker": "KnownMonikers.LinqToSQLFile"
+    },
+    {
+      "extension": ".nsi",
+      "category": "Installers",
+      "moniker": "KnownMonikers.InstallerClass"
+    },
+    {
+      "extension": ".ppm",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".ps",
+      "category": "Shaders",
+      "moniker": "KnownMonikers.Shader"
+    },
+    {
+      "extension": ".razor",
+      "category": "ASP.NET",
+      "moniker": "KnownMonikers.ASPRazorFile"
+    },
+    {
+      "extension": ".rsp",
+      "category": "Text",
+      "moniker": "KnownMonikers.TextFile"
+    },
+    {
+      "extension": ".rules",
+      "category": "Configuration",
+      "moniker": "KnownMonikers.Rule"
+    },
+    {
+      "extension": ".rvt",
+      "category": "3D",
+      "moniker": "KnownMonikers.ModelThreeD"
+    },
+    {
+      "extension": ".sqlgen",
+      "category": "Databases",
+      "moniker": "KnownMonikers.DatabaseScript"
+    },
+    {
+      "extension": ".srf",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".suk",
+      "category": "Binary",
+      "moniker": "KnownMonikers.BinaryFile"
+    },
+    {
+      "extension": ".sys",
+      "category": "Binary",
+      "moniker": "KnownMonikers.FileSystemDriverFile"
+    },
+    {
+      "extension": ".tesc",
+      "category": "Shaders",
+      "moniker": "KnownMonikers.Shader"
+    },
+    {
+      "extension": ".tese",
+      "category": "Shaders",
+      "moniker": "KnownMonikers.Shader"
+    },
+    {
+      "extension": ".tiled-project",
+      "category": "Tiled",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".vsconfig",
+      "category": "VSSDK",
+      "moniker": "KnownMonikers.VisualStudioSettingsFile"
+    },
+    {
+      "extension": ".xamlstyler",
+      "category": "XAML",
+      "moniker": "KnownMonikers.WPFFile"
+    },
+    {
+      "extension": ".xdc",
+      "category": "XML",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".xd",
+      "category": "Images",
+      "moniker": "KnownMonikers.Image"
+    },
+    {
+      "extension": ".hidden-color-scheme",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".hidden-theme",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".sublime-build",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".sublime-color-scheme",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".sublime-commands",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".sublime-completions",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".sublime-keymap",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".sublime-macro",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".sublime-menu",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".sublime-mousemap",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".sublime-project",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".sublime-settings",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".sublime-settings-hints",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
+    },
+    {
+      "extension": ".sublime-snippet",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.XMLFile"
+    },
+    {
+      "extension": ".sublime-syntax",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.YamlFile"
+    },
+    {
+      "extension": ".sublime-theme",
+      "category": "Sublime Text",
+      "moniker": "KnownMonikers.JSONScript"
     },
     {
       "extension": ".eyaml",

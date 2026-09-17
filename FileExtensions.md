@@ -1,4 +1,4 @@
-## Supported File Extensions (688)
+## Supported File Extensions (743)
 
 - .7z
 - .aar
@@ -6,11 +6,13 @@
 - .accdd
 - .ace
 - .action
+- .adoc
 - .afdesign
 - .ai
 - .aip
 - .ansible
 - .apib
+- .apk
 - .app
 - .appcache
 - .appfile
@@ -27,10 +29,12 @@
 - .axaml
 - .axml
 - .azurepubxml
+- .b1f
 - .babelignore
 - .babelrc
 - .bacpac
 - .bak
+- .base
 - .bash
 - .bat
 - .bbx
@@ -41,6 +45,7 @@
 - .bicepparam
 - .bil
 - .bim
+- .bin
 - .bmml
 - .bmpr
 - .bnf
@@ -50,6 +55,7 @@
 - .boringignore
 - .bowerrc
 - .bpmn
+- .browserslistrc
 - .bundle
 - .bz2
 - .bzip2
@@ -83,6 +89,7 @@
 - .codeclonesettings
 - .codeql
 - .coffee
+- .comp
 - .conf
 - .conmgr
 - .cpy
@@ -102,6 +109,7 @@
 - .cvsignore
 - .cyp
 - .d
+- .dacpac
 - .dart
 - .dat
 - .db
@@ -121,10 +129,12 @@
 - .dhtml
 - .diagram
 - .diagsession
+- .dic
 - .diff
 - .dml
 - .do
 - .docker
+- .dockerfile
 - .dockerignore
 - .dotsettings
 - .dpr
@@ -156,6 +166,7 @@
 - .eslintignore
 - .eslintrc
 - .esproj
+- .est
 - .etcjs
 - .ex
 - .example
@@ -185,6 +196,7 @@
 - .flv
 - .fm
 - .fmp
+- .fmp12
 - .fnt
 - .for
 - .fp3
@@ -213,14 +225,18 @@
 - .gitignore
 - .gitkeep
 - .gitmodules
+- .glade
+- .globalconfig
 - .glsl
 - .gn
 - .gni
 - .go
 - .gold
 - .gradle
+- .graphml
 - .graphql
 - .groovy
+- .gvy
 - .gyp
 - .gz
 - .h1s
@@ -234,6 +250,8 @@
 - .hhc
 - .hhk
 - .hhp
+- .hidden-color-scheme
+- .hidden-theme
 - .hint
 - .hjson
 - .hlp
@@ -257,6 +275,7 @@
 - .idx
 - .ifb
 - .igr
+- .il
 - .imagemanifest
 - .inc
 - .ino
@@ -273,6 +292,7 @@
 - .jade-lintrc
 - .jar
 - .java
+- .jenkinsfile
 - .jl
 - .job
 - .jpmignore
@@ -285,11 +305,13 @@
 - .jsonc
 - .jsp
 - .jss
+- .jsxinc
 - .jwk
 - .jws
 - .keystore
 - .kit
 - .kql
+- .kvp
 - .l
 - .lava
 - .layout
@@ -318,6 +340,7 @@
 - .locstrings
 - .log
 - .log4net
+- .lqml
 - .ls
 - .lsc
 - .lslm
@@ -397,6 +420,7 @@
 - .npmignore
 - .npmrc
 - .nqp
+- .nsi
 - .nswag
 - .nt
 - .nunj
@@ -456,6 +480,7 @@
 - .postcss
 - .postcssrc
 - .pp
+- .ppm
 - .pq
 - .prawn
 - .pre
@@ -467,6 +492,7 @@
 - .proj
 - .properties
 - .proto
+- .ps
 - .ps1
 - .ps1xml
 - .psd
@@ -492,6 +518,7 @@
 - .rakefile
 - .raml
 - .rar
+- .razor
 - .razortemplate
 - .rb
 - .rbx
@@ -515,12 +542,15 @@
 - .rpt
 - .rq
 - .rs
+- .rsp
 - .rss
 - .rst
 - .rt
 - .rtlcssrc
 - .ru
+- .rules
 - .runsettings
+- .rvt
 - .rwd
 - .s
 - .s3db
@@ -556,12 +586,14 @@
 - .sql
 - .sql.erb
 - .sqlce
+- .sqlgen
 - .sqlite
 - .sqlite3
 - .sqlite3-journal
 - .sqlitedb
 - .sqlplan
 - .sqx
+- .srf
 - .ssdl
 - .ssmssln
 - .ssmssqlproj
@@ -571,6 +603,21 @@
 - .styl
 - .stylecop
 - .stylelintrc
+- .sublime-build
+- .sublime-color-scheme
+- .sublime-commands
+- .sublime-completions
+- .sublime-keymap
+- .sublime-macro
+- .sublime-menu
+- .sublime-mousemap
+- .sublime-project
+- .sublime-settings
+- .sublime-settings-hints
+- .sublime-snippet
+- .sublime-syntax
+- .sublime-theme
+- .suk
 - .svelte
 - .svg
 - .svnignore
@@ -578,6 +625,7 @@
 - .swift
 - .swig
 - .swz
+- .sys
 - .t
 - .t4
 - .tag
@@ -586,6 +634,8 @@
 - .tcshcsh
 - .template
 - .ter
+- .tesc
+- .tese
 - .testlog
 - .tex
 - .tf
@@ -596,6 +646,7 @@
 - .tif
 - .tiff
 - .tikz
+- .tiled-project
 - .tml
 - .tmlanguage
 - .tmp
@@ -636,6 +687,7 @@
 - .vho
 - .volt
 - .vscodeignore
+- .vsconfig
 - .vsct
 - .vsdx
 - .vsh
@@ -660,7 +712,10 @@
 - .wxi
 - .wxs
 - .xafml
+- .xamlstyler
 - .xap
+- .xd
+- .xdc
 - .xdt
 - .xdtpx
 - .xht
