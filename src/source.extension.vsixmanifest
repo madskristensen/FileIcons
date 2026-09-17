@@ -6,7 +6,6 @@
     <Description xml:space="preserve">Adds icons for files that are not recognized by Solution Explorer</Description>
     <MoreInfo>https://github.com/madskristensen/FileIcons</MoreInfo>
     <License>Resources\LICENSE</License>
-    <ReleaseNotes>https://github.com/madskristensen/FileIcons/blob/master/CHANGELOG.md</ReleaseNotes>
     <Icon>Resources\Icon.png</Icon>
     <PreviewImage>Resources\Icon.png</PreviewImage>
     <Tags>icon, file, image</Tags>
