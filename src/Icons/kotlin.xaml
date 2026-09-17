@@ -1,0 +1,13 @@
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Width="16" Height="16">
+  <Canvas Width="32" Height="32">
+    <Path Data="F1 M30 30H2V2h28L15.711 15.794z">
+      <Path.Fill>
+        <RadialGradientBrush MappingMode="Absolute" Center="30,2" GradientOrigin="30,2" RadiusX="28" RadiusY="28">
+          <GradientStop Offset="0" Color="#FFE44857" />
+          <GradientStop Offset="0.50449" Color="#FFC711E1" />
+          <GradientStop Offset="1" Color="#FF7F52FF" />
+        </RadialGradientBrush>
+      </Path.Fill>
+    </Path>
+  </Canvas>
+</Viewbox>

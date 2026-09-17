@@ -46,6 +46,12 @@
 [$RootKey$\ShellFileAssociations\.yarnignore]
 "DefaultIconMoniker"="KnownMonikers.DocumentExclude"
 
+; 1C Enterprise
+[$RootKey$\ShellFileAssociations\.bsl]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+[$RootKey$\ShellFileAssociations\.sdbl]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
 ; 3D
 [$RootKey$\ShellFileAssociations\.ply]
 "DefaultIconMoniker"="KnownMonikers.ModelThreeD"
@@ -70,9 +76,17 @@
 [$RootKey$\ShellFileAssociations\.xnb]
 "DefaultIconMoniker"="KnownMonikers.XNA"
 
+; ABAP
+[$RootKey$\ShellFileAssociations\.abap]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
 ; ActionScript
 [$RootKey$\ShellFileAssociations\.as]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:50"
+
+; Ada
+[$RootKey$\ShellFileAssociations\.ada]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; Android
 [$RootKey$\ShellFileAssociations\.apk]
@@ -100,9 +114,17 @@
 [$RootKey$\ShellFileAssociations\.thrift]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:2"
 
+; Apex
+[$RootKey$\ShellFileAssociations\.apex]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:96"
+
 ; Apigee
 [$RootKey$\ShellFileAssociations\.apib]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:52"
+
+; APL
+[$RootKey$\ShellFileAssociations\.apl]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; AppleScript
 [$RootKey$\ShellFileAssociations\.app]
@@ -113,6 +135,8 @@
 "DefaultIconMoniker"="KnownMonikers.Motherboard"
 
 ; AsciiDoc
+[$RootKey$\ShellFileAssociations\.ad]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:93"
 [$RootKey$\ShellFileAssociations\.adoc]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:93"
 
@@ -121,6 +145,10 @@
 "DefaultIconMoniker"="KnownMonikers.ASPFile"
 
 ; ASP.NET
+[$RootKey$\ShellFileAssociations\.asa]
+"DefaultIconMoniker"="KnownMonikers.ASPFile"
+[$RootKey$\ShellFileAssociations\.axd]
+"DefaultIconMoniker"="KnownMonikers.WebFile"
 [$RootKey$\ShellFileAssociations\.razor]
 "DefaultIconMoniker"="KnownMonikers.ASPRazorFile"
 
@@ -133,6 +161,16 @@
 "DefaultIconMoniker"="KnownMonikers.CompilableFile"
 [$RootKey$\ShellFileAssociations\.ll]
 "DefaultIconMoniker"="KnownMonikers.CompilableFile"
+[$RootKey$\ShellFileAssociations\.llvm]
+"DefaultIconMoniker"="KnownMonikers.Assembly"
+[$RootKey$\ShellFileAssociations\.mips]
+"DefaultIconMoniker"="KnownMonikers.Assembly"
+[$RootKey$\ShellFileAssociations\.riscv]
+"DefaultIconMoniker"="KnownMonikers.Assembly"
+
+; Astro
+[$RootKey$\ShellFileAssociations\.astro]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:97"
 
 ; Audio
 [$RootKey$\ShellFileAssociations\.flac]
@@ -149,6 +187,18 @@
 ; Avalonia
 [$RootKey$\ShellFileAssociations\.axaml]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:83"
+
+; Avro
+[$RootKey$\ShellFileAssociations\.avdl]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:98"
+[$RootKey$\ShellFileAssociations\.avpr]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:98"
+[$RootKey$\ShellFileAssociations\.avsc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:98"
+
+; Ballerina
+[$RootKey$\ShellFileAssociations\.bal]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; Balsamiq
 [$RootKey$\ShellFileAssociations\.bmml]
@@ -171,22 +221,38 @@
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.cab]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.core]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.cso]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.dat]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.debug]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
+[$RootKey$\ShellFileAssociations\.imp]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.lib]
 "DefaultIconMoniker"="KnownMonikers.Library"
+[$RootKey$\ShellFileAssociations\.out]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.suk]
 "DefaultIconMoniker"="KnownMonikers.BinaryFile"
 [$RootKey$\ShellFileAssociations\.sys]
 "DefaultIconMoniker"="KnownMonikers.FileSystemDriverFile"
 [$RootKey$\ShellFileAssociations\.wasm]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:88"
+[$RootKey$\ShellFileAssociations\.xbo]
+"DefaultIconMoniker"="KnownMonikers.BinaryFile"
 
 ; Browserslist
 [$RootKey$\ShellFileAssociations\.browserslistrc]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:94"
+
+; Build
+[$RootKey$\ShellFileAssociations\.build]
+"DefaultIconMoniker"="KnownMonikers.BuildDefinition"
+[$RootKey$\ShellFileAssociations\.make]
+"DefaultIconMoniker"="KnownMonikers.MakeFile"
 
 ; C/C++
 [$RootKey$\ShellFileAssociations\.clh]
@@ -207,8 +273,26 @@
 "DefaultIconMoniker"="KnownMonikers.CPPFile"
 
 ; C#
+[$RootKey$\ShellFileAssociations\.csharp]
+"DefaultIconMoniker"="KnownMonikers.CSFileNode"
 [$RootKey$\ShellFileAssociations\.csx]
 "DefaultIconMoniker"="KnownMonikers.CSFileNode"
+
+; C++
+[$RootKey$\ShellFileAssociations\.ipp]
+"DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
+[$RootKey$\ShellFileAssociations\.tlh]
+"DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
+[$RootKey$\ShellFileAssociations\.tli]
+"DefaultIconMoniker"="KnownMonikers.CPPHeaderFile"
+
+; Cadence
+[$RootKey$\ShellFileAssociations\.cadence]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
+; Cairo
+[$RootKey$\ShellFileAssociations\.cairo]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; Cake
 [$RootKey$\ShellFileAssociations\.cake]
@@ -242,6 +326,10 @@
 [$RootKey$\ShellFileAssociations\.pvk]
 "DefaultIconMoniker"="KnownMonikers.SigningKey"
 
+; Clarity
+[$RootKey$\ShellFileAssociations\.clarity]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
 ; Clojure
 [$RootKey$\ShellFileAssociations\.cjm]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:1"
@@ -259,6 +347,8 @@
 ; Cobol
 [$RootKey$\ShellFileAssociations\.cbl]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:54"
+[$RootKey$\ShellFileAssociations\.cblproj]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:54"
 [$RootKey$\ShellFileAssociations\.cob]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:54"
 [$RootKey$\ShellFileAssociations\.cpy]
@@ -267,6 +357,18 @@
 ; Coco/R
 [$RootKey$\ShellFileAssociations\.atg]
 "DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
+; Code
+[$RootKey$\ShellFileAssociations\.jison]
+"DefaultIconMoniker"="KnownMonikers.CodeInformation"
+[$RootKey$\ShellFileAssociations\.jssm]
+"DefaultIconMoniker"="KnownMonikers.CodeInformation"
+[$RootKey$\ShellFileAssociations\.polar]
+"DefaultIconMoniker"="KnownMonikers.CodeInformation"
+[$RootKey$\ShellFileAssociations\.st]
+"DefaultIconMoniker"="KnownMonikers.CodeInformation"
+[$RootKey$\ShellFileAssociations\.token]
+"DefaultIconMoniker"="KnownMonikers.CodeInformation"
 
 ; CoffeeScript
 [$RootKey$\ShellFileAssociations\.cjsx]
@@ -337,12 +439,36 @@
 "DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 
 ; Configuration
+[$RootKey$\ShellFileAssociations\.cfgdef]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.ddf]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.desktop]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.dotenv]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.dtsconfig]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.kvp]
 "DefaultIconMoniker"="KnownMonikers.SplitKeyValuePair"
+[$RootKey$\ShellFileAssociations\.mconfig]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.ngx]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.params]
 "DefaultIconMoniker"="KnownMonikers.Parameter"
+[$RootKey$\ShellFileAssociations\.pc]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
 [$RootKey$\ShellFileAssociations\.rules]
 "DefaultIconMoniker"="KnownMonikers.Rule"
+[$RootKey$\ShellFileAssociations\.ssh_config]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.tdf]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+
+; Crystal
+[$RootKey$\ShellFileAssociations\.cr]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:99"
 
 ; CSharpier
 [$RootKey$\ShellFileAssociations\.csharpierignore]
@@ -368,6 +494,10 @@
 [$RootKey$\ShellFileAssociations\.styl]
 "DefaultIconMoniker"="KnownMonikers.StyleSheet"
 
+; CUE
+[$RootKey$\ShellFileAssociations\.cue]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:100"
+
 ; Cypher Query Language
 [$RootKey$\ShellFileAssociations\.cql]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:73"
@@ -381,6 +511,14 @@
 ; Dart
 [$RootKey$\ShellFileAssociations\.dart]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:0"
+
+; Data
+[$RootKey$\ShellFileAssociations\.beancount]
+"DefaultIconMoniker"="KnownMonikers.Table"
+[$RootKey$\ShellFileAssociations\.plt]
+"DefaultIconMoniker"="KnownMonikers.LineChart"
+[$RootKey$\ShellFileAssociations\.tab]
+"DefaultIconMoniker"="KnownMonikers.Table"
 
 ; Databases
 [$RootKey$\ShellFileAssociations\.accdc]
@@ -397,10 +535,20 @@
 "DefaultIconMoniker"="KnownMonikers.DatabaseMobileConnection"
 [$RootKey$\ShellFileAssociations\.csdl]
 "DefaultIconMoniker"="KnownMonikers.EntityDatabase"
+[$RootKey$\ShellFileAssociations\.ctl]
+"DefaultIconMoniker"="KnownMonikers.DatabaseScript"
+[$RootKey$\ShellFileAssociations\.cube]
+"DefaultIconMoniker"="KnownMonikers.CubeBuilderView"
 [$RootKey$\ShellFileAssociations\.dacpac]
 "DefaultIconMoniker"="KnownMonikers.DatabaseApplication"
+[$RootKey$\ShellFileAssociations\.database]
+"DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.db]
 "DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.db-shm]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
+[$RootKey$\ShellFileAssociations\.db-wal]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
 [$RootKey$\ShellFileAssociations\.dbc]
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.dbml]
@@ -411,8 +559,12 @@
 "DefaultIconMoniker"="KnownMonikers.DataCompare"
 [$RootKey$\ShellFileAssociations\.ddl]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.dim]
+"DefaultIconMoniker"="KnownMonikers.CubeDimension"
 [$RootKey$\ShellFileAssociations\.dml]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
+[$RootKey$\ShellFileAssociations\.dsv]
+"DefaultIconMoniker"="KnownMonikers.DatabaseSchema"
 [$RootKey$\ShellFileAssociations\.dtproj]
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.edml]
@@ -461,14 +613,30 @@
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.odb]
 "DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.osql]
+"DefaultIconMoniker"="KnownMonikers.DatabaseScript"
+[$RootKey$\ShellFileAssociations\.pck]
+"DefaultIconMoniker"="KnownMonikers.DatabaseScript"
+[$RootKey$\ShellFileAssociations\.pgsql]
+"DefaultIconMoniker"="KnownMonikers.DatabaseScript"
+[$RootKey$\ShellFileAssociations\.pkb]
+"DefaultIconMoniker"="KnownMonikers.DatabaseScript"
+[$RootKey$\ShellFileAssociations\.pks]
+"DefaultIconMoniker"="KnownMonikers.DatabaseScript"
+[$RootKey$\ShellFileAssociations\.plsql]
+"DefaultIconMoniker"="KnownMonikers.DatabaseScript"
 [$RootKey$\ShellFileAssociations\.rdb]
 "DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.rel]
+"DefaultIconMoniker"="KnownMonikers.QueryView"
 [$RootKey$\ShellFileAssociations\.s3db]
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.sl2]
 "DefaultIconMoniker"="KnownMonikers.Database"
 [$RootKey$\ShellFileAssociations\.sl3]
 "DefaultIconMoniker"="KnownMonikers.Database"
+[$RootKey$\ShellFileAssociations\.spl]
+"DefaultIconMoniker"="KnownMonikers.QueryView"
 [$RootKey$\ShellFileAssociations\.sql]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
 [$RootKey$\ShellFileAssociations\.sql.erb]
@@ -490,6 +658,8 @@
 [$RootKey$\ShellFileAssociations\.ssmssqlproj]
 "DefaultIconMoniker"="KnownMonikers.CPPATLDatabase"
 [$RootKey$\ShellFileAssociations\.ter]
+"DefaultIconMoniker"="KnownMonikers.DatabaseSchema"
+[$RootKey$\ShellFileAssociations\.tmdl]
 "DefaultIconMoniker"="KnownMonikers.DatabaseSchema"
 [$RootKey$\ShellFileAssociations\.usql]
 "DefaultIconMoniker"="KnownMonikers.SQLQueryUnchecked"
@@ -558,6 +728,10 @@
 [$RootKey$\ShellFileAssociations\.dockerfile]
 "DefaultIconMoniker"="KnownMonikers.Docker"
 
+; Dream Maker
+[$RootKey$\ShellFileAssociations\.dm]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
 ; EditorConfig
 [$RootKey$\ShellFileAssociations\.base]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:6"
@@ -592,6 +766,8 @@
 
 ; F#
 [$RootKey$\ShellFileAssociations\.fs]
+"DefaultIconMoniker"="KnownMonikers.FSFileNode"
+[$RootKey$\ShellFileAssociations\.fsharp]
 "DefaultIconMoniker"="KnownMonikers.FSFileNode"
 [$RootKey$\ShellFileAssociations\.fsharplint]
 "DefaultIconMoniker"="KnownMonikers.FSWorkerTemplateFile"
@@ -654,12 +830,18 @@
 [$RootKey$\ShellFileAssociations\.woff2]
 "DefaultIconMoniker"="KnownMonikers.Font"
 
+; Forms
+[$RootKey$\ShellFileAssociations\.frm]
+"DefaultIconMoniker"="KnownMonikers.WindowsForm"
+
 ; Fortran
 [$RootKey$\ShellFileAssociations\.f]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
 [$RootKey$\ShellFileAssociations\.f03]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
 [$RootKey$\ShellFileAssociations\.f08]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
+[$RootKey$\ShellFileAssociations\.f18]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
 [$RootKey$\ShellFileAssociations\.f77]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:61"
@@ -677,6 +859,12 @@
 ; FoxPro
 [$RootKey$\ShellFileAssociations\.prg]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:74"
+[$RootKey$\ShellFileAssociations\.vfproj]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:74"
+
+; GDScript
+[$RootKey$\ShellFileAssociations\.gd]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:101"
 
 ; General
 [$RootKey$\ShellFileAssociations\.example]
@@ -698,15 +886,29 @@
 [$RootKey$\ShellFileAssociations\.lfsconfig]
 "DefaultIconMoniker"="KnownMonikers.GitNoColor"
 
+; GitHub
+[$RootKey$\ShellFileAssociations\.codeowners]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+
+; Gleam
+[$RootKey$\ShellFileAssociations\.gleam]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:102"
+
 ; Go
 [$RootKey$\ShellFileAssociations\.go]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:14"
+
+; Godot
+[$RootKey$\ShellFileAssociations\.gdresource]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:101"
 
 ; Gradle
 [$RootKey$\ShellFileAssociations\.gradle]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:37"
 
 ; GraphQL
+[$RootKey$\ShellFileAssociations\.gql]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:84"
 [$RootKey$\ShellFileAssociations\.graphql]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:84"
 
@@ -848,6 +1050,10 @@
 [$RootKey$\ShellFileAssociations\.ifb]
 "DefaultIconMoniker"="KnownMonikers.Calendar"
 
+; IDL
+[$RootKey$\ShellFileAssociations\.midl]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
 ; Idris
 [$RootKey$\ShellFileAssociations\.idr]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:77"
@@ -882,6 +1088,10 @@
 [$RootKey$\ShellFileAssociations\.xd]
 "DefaultIconMoniker"="KnownMonikers.Image"
 
+; Imba
+[$RootKey$\ShellFileAssociations\.imba]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
 ; Inno setup
 [$RootKey$\ShellFileAssociations\.delta]
 "DefaultIconMoniker"="KnownMonikers.PatchPackage"
@@ -889,6 +1099,8 @@
 "DefaultIconMoniker"="KnownMonikers.InstallerClass"
 
 ; Installers
+[$RootKey$\ShellFileAssociations\.ism]
+"DefaultIconMoniker"="KnownMonikers.InstallerClass"
 [$RootKey$\ShellFileAssociations\.iss]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:92"
 [$RootKey$\ShellFileAssociations\.nsi]
@@ -961,22 +1173,38 @@
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.jsonc]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.jsonl]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.npcproj]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.npmrc]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.postcssrc]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
+[$RootKey$\ShellFileAssociations\.toon]
+"DefaultIconMoniker"="KnownMonikers.JSONScript"
 [$RootKey$\ShellFileAssociations\.topojson]
 "DefaultIconMoniker"="KnownMonikers.JSONScript"
 
+; Jsonnet
+[$RootKey$\ShellFileAssociations\.jsonnet]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:103"
+
 ; Julia
 [$RootKey$\ShellFileAssociations\.jl]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:21"
+[$RootKey$\ShellFileAssociations\.julia]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:21"
 
 ; Kapacitor Tick
 [$RootKey$\ShellFileAssociations\.tick]
 "DefaultIconMoniker"="KnownMonikers.Time"
+
+; Kotlin
+[$RootKey$\ShellFileAssociations\.kt]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:104"
+[$RootKey$\ShellFileAssociations\.kts]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:104"
 
 ; LaTex
 [$RootKey$\ShellFileAssociations\.bbx]
@@ -991,6 +1219,10 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:39"
 [$RootKey$\ShellFileAssociations\.tex]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:39"
+
+; Lean
+[$RootKey$\ShellFileAssociations\.lean]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; Lime
 [$RootKey$\ShellFileAssociations\.hxp]
@@ -1023,6 +1255,10 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
 [$RootKey$\ShellFileAssociations\.el]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
+[$RootKey$\ShellFileAssociations\.fennel]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
+[$RootKey$\ShellFileAssociations\.hy]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
 [$RootKey$\ShellFileAssociations\.l]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:22"
 [$RootKey$\ShellFileAssociations\.lisp]
@@ -1042,6 +1278,10 @@
 [$RootKey$\ShellFileAssociations\.locstrings]
 "DefaultIconMoniker"="KnownMonikers.Localize"
 
+; Localization
+[$RootKey$\ShellFileAssociations\.fluent]
+"DefaultIconMoniker"="KnownMonikers.LocalResources"
+
 ; Lock files
 [$RootKey$\ShellFileAssociations\.lock]
 "DefaultIconMoniker"="KnownMonikers.Lock"
@@ -1060,8 +1300,16 @@
 [$RootKey$\ShellFileAssociations\.refactorlog]
 "DefaultIconMoniker"="KnownMonikers.Log"
 
+; Logs
+[$RootKey$\ShellFileAssociations\.etl]
+"DefaultIconMoniker"="KnownMonikers.EventLog"
+[$RootKey$\ShellFileAssociations\.xel]
+"DefaultIconMoniker"="KnownMonikers.EventLog"
+
 ; Lua
 [$RootKey$\ShellFileAssociations\.lua]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:23"
+[$RootKey$\ShellFileAssociations\.luau]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:23"
 
 ; Machine Learning
@@ -1113,13 +1361,13 @@
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 [$RootKey$\ShellFileAssociations\.mdown]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
-[$RootKey$\ShellFileAssociations\.mmd]
-"DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 [$RootKey$\ShellFileAssociations\.readme]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 [$RootKey$\ShellFileAssociations\.rmd]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 [$RootKey$\ShellFileAssociations\.rst]
+"DefaultIconMoniker"="KnownMonikers.MarkdownFile"
+[$RootKey$\ShellFileAssociations\.wikitext]
 "DefaultIconMoniker"="KnownMonikers.MarkdownFile"
 
 ; Marko
@@ -1158,6 +1406,26 @@
 [$RootKey$\ShellFileAssociations\.tikz]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:40"
 
+; MDX
+[$RootKey$\ShellFileAssociations\.mdc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:105"
+[$RootKey$\ShellFileAssociations\.mdx]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:105"
+
+; Mermaid
+[$RootKey$\ShellFileAssociations\.mermaid]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:106"
+[$RootKey$\ShellFileAssociations\.mmd]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:106"
+
+; Mojo
+[$RootKey$\ShellFileAssociations\.mojo]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
+; Move
+[$RootKey$\ShellFileAssociations\.move]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
 ; mq4
 [$RootKey$\ShellFileAssociations\.mq4]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:78"
@@ -1186,6 +1454,12 @@
 [$RootKey$\ShellFileAssociations\.psmdcp]
 "DefaultIconMoniker"="KnownMonikers.NuGet"
 
+; Objective-C
+[$RootKey$\ShellFileAssociations\.objective-c]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+[$RootKey$\ShellFileAssociations\.objective-cpp]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
 ; OCaml
 [$RootKey$\ShellFileAssociations\.merlin]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:64"
@@ -1201,12 +1475,20 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:64"
 
 ; Office
+[$RootKey$\ShellFileAssociations\.dax]
+"DefaultIconMoniker"="KnownMonikers.QueryView"
 [$RootKey$\ShellFileAssociations\.pq]
+"DefaultIconMoniker"="KnownMonikers.QueryView"
+[$RootKey$\ShellFileAssociations\.pqm]
 "DefaultIconMoniker"="KnownMonikers.QueryView"
 [$RootKey$\ShellFileAssociations\.vsdx]
 "DefaultIconMoniker"="KnownMonikers.OfficeVisio2013"
 [$RootKey$\ShellFileAssociations\.xdtpx]
 "DefaultIconMoniker"="KnownMonikers.OfficeWord2013"
+
+; Packages
+[$RootKey$\ShellFileAssociations\.spec]
+"DefaultIconMoniker"="KnownMonikers.Package"
 
 ; Paket
 [$RootKey$\ShellFileAssociations\.dependencies]
@@ -1229,6 +1511,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
 [$RootKey$\ShellFileAssociations\.perl]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
+[$RootKey$\ShellFileAssociations\.ph]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
 [$RootKey$\ShellFileAssociations\.pl]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
 [$RootKey$\ShellFileAssociations\.pl6]
@@ -1240,6 +1524,8 @@
 [$RootKey$\ShellFileAssociations\.pod]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
 [$RootKey$\ShellFileAssociations\.psgi]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
+[$RootKey$\ShellFileAssociations\.raku]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
 [$RootKey$\ShellFileAssociations\.t]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:26"
@@ -1298,6 +1584,10 @@
 [$RootKey$\ShellFileAssociations\.zpl]
 "DefaultIconMoniker"="KnownMonikers.PrintDocument"
 
+; Prisma
+[$RootKey$\ShellFileAssociations\.prisma]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:107"
+
 ; Procfile
 [$RootKey$\ShellFileAssociations\.procfile]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:68"
@@ -1305,6 +1595,10 @@
 ; Projects
 [$RootKey$\ShellFileAssociations\.esproj]
 "DefaultIconMoniker"="KnownMonikers.JSProjectNode"
+[$RootKey$\ShellFileAssociations\.projitems]
+"DefaultIconMoniker"="KnownMonikers.SharedProject"
+[$RootKey$\ShellFileAssociations\.wapproj]
+"DefaultIconMoniker"="KnownMonikers.WindowsApplicationPackagingProject"
 
 ; Protocol Buffers
 [$RootKey$\ShellFileAssociations\.proto]
@@ -1316,8 +1610,16 @@
 [$RootKey$\ShellFileAssociations\.pp]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:28"
 
+; PureScript
+[$RootKey$\ShellFileAssociations\.purs]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:108"
+
 ; Python
 [$RootKey$\ShellFileAssociations\.py]
+"DefaultIconMoniker"="KnownMonikers.PYFileNode"
+[$RootKey$\ShellFileAssociations\.pyi]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:109"
+[$RootKey$\ShellFileAssociations\.python]
 "DefaultIconMoniker"="KnownMonikers.PYFileNode"
 [$RootKey$\ShellFileAssociations\.pyw]
 "DefaultIconMoniker"="KnownMonikers.PYFileNode"
@@ -1335,9 +1637,13 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
 [$RootKey$\ShellFileAssociations\.qml]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
+[$RootKey$\ShellFileAssociations\.qmldir]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
 [$RootKey$\ShellFileAssociations\.qmlproject]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
 [$RootKey$\ShellFileAssociations\.qrc]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
+[$RootKey$\ShellFileAssociations\.qss]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
 [$RootKey$\ShellFileAssociations\.ui]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:49"
@@ -1353,6 +1659,10 @@
 ; Raml
 [$RootKey$\ShellFileAssociations\.raml]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:69"
+
+; ReasonML
+[$RootKey$\ShellFileAssociations\.re]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; Refresh
 [$RootKey$\ShellFileAssociations\.refresh]
@@ -1373,6 +1683,18 @@
 "DefaultIconMoniker"="KnownMonikers.Report"
 [$RootKey$\ShellFileAssociations\.rpt]
 "DefaultIconMoniker"="KnownMonikers.CrystalReport"
+[$RootKey$\ShellFileAssociations\.rptproj]
+"DefaultIconMoniker"="KnownMonikers.Report"
+[$RootKey$\ShellFileAssociations\.rpx]
+"DefaultIconMoniker"="KnownMonikers.Report"
+[$RootKey$\ShellFileAssociations\.trdp]
+"DefaultIconMoniker"="KnownMonikers.Report"
+[$RootKey$\ShellFileAssociations\.trdx]
+"DefaultIconMoniker"="KnownMonikers.Report"
+
+; Resources
+[$RootKey$\ShellFileAssociations\.resources]
+"DefaultIconMoniker"="KnownMonikers.ResourceView"
 
 ; Riot
 [$RootKey$\ShellFileAssociations\.tag]
@@ -1415,6 +1737,8 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:30"
 
 ; SAP
+[$RootKey$\ShellFileAssociations\.absl]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 [$RootKey$\ShellFileAssociations\.b1f]
 "DefaultIconMoniker"="KnownMonikers.ComponentFile"
 [$RootKey$\ShellFileAssociations\.bo]
@@ -1435,6 +1759,8 @@
 "DefaultIconMoniker"="KnownMonikers.Schema"
 
 ; Scheme
+[$RootKey$\ShellFileAssociations\.racket]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:44"
 [$RootKey$\ShellFileAssociations\.rkt]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:44"
 [$RootKey$\ShellFileAssociations\.sch]
@@ -1442,11 +1768,45 @@
 [$RootKey$\ShellFileAssociations\.scm]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:44"
 
+; Scripts
+[$RootKey$\ShellFileAssociations\.awk]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.gsc]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.jil]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.narrat]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.nextflow]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.psc]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.recipe]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.rpy]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.sas]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.sc]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.talonscript]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.vim]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.wsf]
+"DefaultIconMoniker"="KnownMonikers.Script"
+[$RootKey$\ShellFileAssociations\.zs]
+"DefaultIconMoniker"="KnownMonikers.Script"
+
 ; Scripts (generic)
 [$RootKey$\ShellFileAssociations\.rtlcssrc]
 "DefaultIconMoniker"="KnownMonikers.Script"
 [$RootKey$\ShellFileAssociations\.sjs]
 "DefaultIconMoniker"="KnownMonikers.Script"
+
+; Security
+[$RootKey$\ShellFileAssociations\.key]
+"DefaultIconMoniker"="KnownMonikers.Key"
 
 ; Semantic Web
 [$RootKey$\ShellFileAssociations\.nt]
@@ -1457,11 +1817,21 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:47"
 [$RootKey$\ShellFileAssociations\.ttl]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:47"
+[$RootKey$\ShellFileAssociations\.turtle]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:47"
 
 ; Shaders
+[$RootKey$\ShellFileAssociations\.cginc]
+"DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.comp]
 "DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.compute]
+"DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.frag]
+"DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.fxh]
+"DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.gdshader]
 "DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.geom]
 "DefaultIconMoniker"="KnownMonikers.Shader"
@@ -1470,6 +1840,8 @@
 [$RootKey$\ShellFileAssociations\.hlsli]
 "DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.ps]
+"DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.slang]
 "DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.tesc]
 "DefaultIconMoniker"="KnownMonikers.Shader"
@@ -1481,6 +1853,8 @@
 "DefaultIconMoniker"="KnownMonikers.Shader"
 [$RootKey$\ShellFileAssociations\.vert]
 "DefaultIconMoniker"="KnownMonikers.Shader"
+[$RootKey$\ShellFileAssociations\.wgsl]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:111"
 
 ; Shell files
 [$RootKey$\ShellFileAssociations\.bash]
@@ -1495,6 +1869,8 @@
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.msc]
 "DefaultIconMoniker"="KnownMonikers.WriteToConsole"
+[$RootKey$\ShellFileAssociations\.nushell]
+"DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.post]
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.pre]
@@ -1502,6 +1878,8 @@
 [$RootKey$\ShellFileAssociations\.rc]
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.sh]
+"DefaultIconMoniker"="KnownMonikers.Console"
+[$RootKey$\ShellFileAssociations\.sh-session]
 "DefaultIconMoniker"="KnownMonikers.Console"
 [$RootKey$\ShellFileAssociations\.tcshcsh]
 "DefaultIconMoniker"="KnownMonikers.Console"
@@ -1535,6 +1913,10 @@
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:32"
 [$RootKey$\ShellFileAssociations\.sqlite3-journal]
 "DefaultIconMoniker"="KnownMonikers.DatabaseFile"
+
+; Stata
+[$RootKey$\ShellFileAssociations\.ado]
+"DefaultIconMoniker"="KnownMonikers.Script"
 
 ; Static analysis
 [$RootKey$\ShellFileAssociations\.codeql]
@@ -1600,6 +1982,18 @@
 [$RootKey$\ShellFileAssociations\.i]
 "DefaultIconMoniker"="KnownMonikers.InterfaceSnippet"
 
+; Synergy DBL
+[$RootKey$\ShellFileAssociations\.dbl]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
+; systemd
+[$RootKey$\ShellFileAssociations\.service]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:110"
+
+; SystemVerilog
+[$RootKey$\ShellFileAssociations\.svh]
+"DefaultIconMoniker"="KnownMonikers.CodeInformation"
+
 ; T4
 [$RootKey$\ShellFileAssociations\.t4]
 "DefaultIconMoniker"="KnownMonikers.GenerateFile"
@@ -1619,6 +2013,22 @@
 ; Temp files
 [$RootKey$\ShellFileAssociations\.tmp]
 "DefaultIconMoniker"="KnownMonikers.BrowseDefinition"
+
+; Templates
+[$RootKey$\ShellFileAssociations\.dust]
+"DefaultIconMoniker"="KnownMonikers.Template"
+[$RootKey$\ShellFileAssociations\.edge]
+"DefaultIconMoniker"="KnownMonikers.Template"
+[$RootKey$\ShellFileAssociations\.in]
+"DefaultIconMoniker"="KnownMonikers.Template"
+[$RootKey$\ShellFileAssociations\.jinja]
+"DefaultIconMoniker"="KnownMonikers.Template"
+[$RootKey$\ShellFileAssociations\.mtpl]
+"DefaultIconMoniker"="KnownMonikers.Template"
+[$RootKey$\ShellFileAssociations\.soy]
+"DefaultIconMoniker"="KnownMonikers.Template"
+[$RootKey$\ShellFileAssociations\.templ]
+"DefaultIconMoniker"="KnownMonikers.Template"
 
 ; Terraform
 [$RootKey$\ShellFileAssociations\.tf]
@@ -1654,13 +2064,29 @@
 [$RootKey$\ShellFileAssociations\.testlog]
 "DefaultIconMoniker"="KnownMonikers.TestResult"
 
+; Tests
+[$RootKey$\ShellFileAssociations\.snap]
+"DefaultIconMoniker"="KnownMonikers.CodeTest"
+[$RootKey$\ShellFileAssociations\.tests]
+"DefaultIconMoniker"="KnownMonikers.Test"
+
 ; Text
+[$RootKey$\ShellFileAssociations\.1]
+"DefaultIconMoniker"="KnownMonikers.TextFile"
+[$RootKey$\ShellFileAssociations\.lst]
+"DefaultIconMoniker"="KnownMonikers.TextFile"
 [$RootKey$\ShellFileAssociations\.mc]
 "DefaultIconMoniker"="KnownMonikers.TextFile"
 [$RootKey$\ShellFileAssociations\.rsp]
 "DefaultIconMoniker"="KnownMonikers.TextFile"
+[$RootKey$\ShellFileAssociations\.rtf]
+"DefaultIconMoniker"="KnownMonikers.RichTextBox"
+[$RootKey$\ShellFileAssociations\.ts-tags]
+"DefaultIconMoniker"="KnownMonikers.TextFile"
 [$RootKey$\ShellFileAssociations\.tsv]
 "DefaultIconMoniker"="KnownMonikers.OfficeExcel2013"
+[$RootKey$\ShellFileAssociations\.version]
+"DefaultIconMoniker"="KnownMonikers.TextFile"
 
 ; Tiled
 [$RootKey$\ShellFileAssociations\.tiled-project]
@@ -1670,11 +2096,37 @@
 [$RootKey$\ShellFileAssociations\.twig]
 "DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:71"
 
+; TypeSpec
+[$RootKey$\ShellFileAssociations\.tsp]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
+; Typst
+[$RootKey$\ShellFileAssociations\.typst]
+"DefaultIconMoniker"="KnownMonikers.Document"
+
 ; Unity
 [$RootKey$\ShellFileAssociations\.asmdef]
 "DefaultIconMoniker"="KnownMonikers.Assembly"
+[$RootKey$\ShellFileAssociations\.asset]
+"DefaultIconMoniker"="KnownMonikers.Document"
+[$RootKey$\ShellFileAssociations\.meta]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationFile"
+[$RootKey$\ShellFileAssociations\.prefab]
+"DefaultIconMoniker"="KnownMonikers.ModelThreeD"
+[$RootKey$\ShellFileAssociations\.unity]
+"DefaultIconMoniker"="KnownMonikers.ThreeDScene"
 [$RootKey$\ShellFileAssociations\.uss]
 "DefaultIconMoniker"="KnownMonikers.StyleSheet"
+[$RootKey$\ShellFileAssociations\.uxml]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+
+; Vala
+[$RootKey$\ShellFileAssociations\.vala]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
+; Verilog
+[$RootKey$\ShellFileAssociations\.vh]
+"DefaultIconMoniker"="KnownMonikers.CodeInformation"
 
 ; VHDL
 [$RootKey$\ShellFileAssociations\.vhd]
@@ -1695,10 +2147,18 @@
 "DefaultIconMoniker"="KnownMonikers.Media"
 
 ; Visual Basic
+[$RootKey$\ShellFileAssociations\.bas]
+"DefaultIconMoniker"="KnownMonikers.VBFileNode"
 [$RootKey$\ShellFileAssociations\.myapp]
 "DefaultIconMoniker"="KnownMonikers.VBApplication"
+[$RootKey$\ShellFileAssociations\.vbp]
+"DefaultIconMoniker"="KnownMonikers.VBProjectNode"
 [$RootKey$\ShellFileAssociations\.vbs]
 "DefaultIconMoniker"="KnownMonikers.VBFileNode"
+
+; Visual Studio
+[$RootKey$\ShellFileAssociations\.slnlaunch]
+"DefaultIconMoniker"="KnownMonikers.VisualStudioSettingsFile"
 
 ; Volt
 [$RootKey$\ShellFileAssociations\.volt]
@@ -1720,9 +2180,37 @@
 [$RootKey$\ShellFileAssociations\.vsixmanifest]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 
+; Vyper
+[$RootKey$\ShellFileAssociations\.vyper]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
+; Web
+[$RootKey$\ShellFileAssociations\.blade]
+"DefaultIconMoniker"="KnownMonikers.WebFile"
+[$RootKey$\ShellFileAssociations\.http]
+"DefaultIconMoniker"="KnownMonikers.WebAPI"
+[$RootKey$\ShellFileAssociations\.webinfo]
+"DefaultIconMoniker"="KnownMonikers.WebConfiguration"
+
+; WebAssembly
+[$RootKey$\ShellFileAssociations\.wit]
+"DefaultIconMoniker"="cb4a8fc6-efe7-424a-b611-23adf22b568e:88"
+
 ; WebVTT
 [$RootKey$\ShellFileAssociations\.vtt]
 "DefaultIconMoniker"="KnownMonikers.ObjectLifetimeView"
+
+; Wenyan
+[$RootKey$\ShellFileAssociations\.wenyan]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
+
+; Wolfram
+[$RootKey$\ShellFileAssociations\.wl]
+"DefaultIconMoniker"="KnownMonikers.Script"
+
+; Wren
+[$RootKey$\ShellFileAssociations\.wren]
+"DefaultIconMoniker"="KnownMonikers.CompilableFile"
 
 ; X++
 [$RootKey$\ShellFileAssociations\.xpp]
@@ -1744,6 +2232,8 @@
 [$RootKey$\ShellFileAssociations\.aip]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.azurepubxml]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.daml]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.dtsx]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
@@ -1771,6 +2261,12 @@
 "DefaultIconMoniker"="KnownMonikers.SharedProject"
 [$RootKey$\ShellFileAssociations\.srf]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.svcinfo]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.svcmap]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.sxl]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.tmlanguage]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.tmsnippet]
@@ -1784,6 +2280,8 @@
 [$RootKey$\ShellFileAssociations\.wfdef]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.wxi]
+"DefaultIconMoniker"="KnownMonikers.XMLFile"
+[$RootKey$\ShellFileAssociations\.wxl]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"
 [$RootKey$\ShellFileAssociations\.wxs]
 "DefaultIconMoniker"="KnownMonikers.XMLFile"

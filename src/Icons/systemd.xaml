@@ -1,0 +1,8 @@
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Width="16" Height="16">
+  <Canvas Width="32" Height="32">
+    <Path Data="F1 M2,12v8H5.256V18.769H3.3V13.231H5.256V12Z" Fill="#d2d2d2" />
+    <Path Data="F1 M26.744,12v1.231H28.7v5.538H26.744V20H30V12Z" Fill="#d2d2d2" />
+    <Path Data="F1 M17.628,16l5.21-2.769v5.538Z" Fill="#30d475" />
+    <Ellipse Width="5.86" Height="5.538" Fill="#30d475" Canvas.Left="9.163" Canvas.Top="13.231" />
+  </Canvas>
+</Viewbox>

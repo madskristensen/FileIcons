@@ -96,6 +96,22 @@
     <ID Name="asciidoc" Value="93" />
     <ID Name="browserslist" Value="94" />
     <ID Name="jenkins" Value="95" />
+    <ID Name="apex" Value="96" />
+    <ID Name="astro" Value="97" />
+    <ID Name="avro" Value="98" />
+    <ID Name="crystal" Value="99" />
+    <ID Name="cue" Value="100" />
+    <ID Name="gdscript" Value="101" />
+    <ID Name="gleam" Value="102" />
+    <ID Name="jsonnet" Value="103" />
+    <ID Name="kotlin" Value="104" />
+    <ID Name="mdx" Value="105" />
+    <ID Name="mermaid" Value="106" />
+    <ID Name="prisma" Value="107" />
+    <ID Name="purescript" Value="108" />
+    <ID Name="pytyped" Value="109" />
+    <ID Name="systemd" Value="110" />
+    <ID Name="wgsl" Value="111" />
   </Symbols>
   <Images>
     <Image Guid="$(MonikersGuid)" ID="$(dart)">
@@ -432,6 +448,54 @@
     </Image>
     <Image Guid="$(MonikersGuid)" ID="$(jenkins)">
       <Source Uri="$(Resources)/jenkins.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(apex)">
+      <Source Uri="$(Resources)/apex.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(astro)">
+      <Source Uri="$(Resources)/astro.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(avro)">
+      <Source Uri="$(Resources)/avro.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(crystal)">
+      <Source Uri="$(Resources)/crystal.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(cue)">
+      <Source Uri="$(Resources)/cue.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(gdscript)">
+      <Source Uri="$(Resources)/gdscript.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(gleam)">
+      <Source Uri="$(Resources)/gleam.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(jsonnet)">
+      <Source Uri="$(Resources)/jsonnet.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(kotlin)">
+      <Source Uri="$(Resources)/kotlin.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(mdx)">
+      <Source Uri="$(Resources)/mdx.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(mermaid)">
+      <Source Uri="$(Resources)/mermaid.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(prisma)">
+      <Source Uri="$(Resources)/prisma.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(purescript)">
+      <Source Uri="$(Resources)/purescript.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(pytyped)">
+      <Source Uri="$(Resources)/pytyped.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(systemd)">
+      <Source Uri="$(Resources)/systemd.xaml" />
+    </Image>
+    <Image Guid="$(MonikersGuid)" ID="$(wgsl)">
+      <Source Uri="$(Resources)/wgsl.xaml" />
     </Image>
   </Images>
 </ImageManifest>
