@@ -62,7 +62,7 @@ namespace FileIcons
                 var filePath = GetSelectedFilePath();
                 if (!string.IsNullOrEmpty(filePath))
                 {
-                    _ext = Path.GetExtension(filePath);
+                    _ext = GetFileExtension(filePath);
                     var isIconMissing = IsIconMissing(_ext);
 
                     button.Text = $"Report missing icon for {_ext} files...";
@@ -110,6 +110,18 @@ namespace FileIcons
             }
 
             return !_shellExtensions.Contains(fileExtension);
+        }
+
+        private static string GetFileExtension(string filePath)
+        {
+            var extension = Path.GetExtension(filePath);
+            if (!string.IsNullOrEmpty(extension))
+            {
+                return extension;
+            }
+
+            var fileName = Path.GetFileName(filePath);
+            return fileName.Length > 1 && fileName[0] == '.' ? fileName : null;
         }
 
         private static string GetSelectedFilePath()
