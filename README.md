@@ -1,8 +1,10 @@
+[ci-build]: <https://www.vsixgallery.com/extension/3a7b4930-a5fb-46ec-a9b8-9610c8f953b8/>
+
 # File Icons for Visual Studio
 
 [![Build](https://github.com/madskristensen/FileIcons/actions/workflows/build.yaml/badge.svg)](https://github.com/madskristensen/FileIcons/actions/workflows/build.yaml)
-[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/MadsKristensen.FileIcons?label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileIcons)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/MadsKristensen.FileIcons)](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileIcons)
+[![Install from VSIX Gallery](https://www.vsixgallery.com/badge/3a7b4930-a5fb-46ec-a9b8-9610c8f953b8.png)][ci-build]
+![GitHub Sponsors](https://img.shields.io/github/sponsors/madskristensen)
 
 Make files easier to recognize in Solution Explorer.
 
