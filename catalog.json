@@ -1192,6 +1192,11 @@
       "moniker": "KnownMonikers.CPPProjectFilterFile"
     },
     {
+      "extension": ".cpp2",
+      "category": "C/C++",
+      "moniker": "KnownMonikers.CPPSourceFile"
+    },
+    {
       "extension": ".frag",
       "category": "Shaders",
       "moniker": "KnownMonikers.Shader"
