@@ -1,4 +1,4 @@
-## Supported File Extensions (933)
+## Supported File Extensions (934)
 
 - .1
 - .7z
@@ -123,6 +123,7 @@
 - .conf
 - .conmgr
 - .core
+- .cpp2
 - .cpy
 - .cql
 - .cr
@@ -152,14 +153,14 @@
 - .database
 - .dax
 - .db
-- .db-journal
-- .db-shm
-- .db-wal
 - .db3
 - .dbc
+- .db-journal
 - .dbl
 - .dbml
 - .dbs
+- .db-shm
+- .db-wal
 - .dcmp
 - .dcproj
 - .ddf
@@ -703,9 +704,9 @@
 - .service
 - .sfd
 - .sh
-- .sh-session
 - .shader
 - .shfbproj
+- .sh-session
 - .sht
 - .shtm
 - .shtml
@@ -821,9 +822,9 @@
 - .tpp
 - .trdp
 - .trdx
-- .ts-tags
 - .tsl
 - .tsp
+- .ts-tags
 - .tsv
 - .tt
 - .ttcn
@@ -924,9 +925,9 @@
 - .xsjs
 - .xz
 - .y
-- .yarn-integrity
 - .yarnclean
 - .yarnignore
+- .yarn-integrity
 - .yarnrc
 - .zig
 - .zip
